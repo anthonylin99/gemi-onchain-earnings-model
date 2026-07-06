@@ -42,13 +42,15 @@ Then visit `http://localhost:8765/dashboard/`.
 ## Main Outputs
 
 - `Q2_PROXY_MODEL.md`: Q2 revenue proxy using Gemini/Coinbase exchange volume, DeFiLlama DEX volume, Robinhood metrics, and Gemini prediction-market API data.
+- `Q2_2026_EARNINGS_ESTIMATE.md`: Q2 earnings estimate with GAAP opex, normalized adjusted opex, IPO/SBC/severance treatment, and scenario table.
 - `ONCHAIN_MODEL.md`: address inventory, explorer metadata, sampled flow model, and trade-relevance read.
 - `ONCHAIN_EARNINGS_REPORT.md`: on-chain earnings bridge, Q1 baseline, Q2 scenarios, and trade implication.
 - `MANAGER_ONCHAIN_FINDINGS.md`: manager-ready summary of the on-chain findings, revenue reconciliation, and August earnings read.
 - `DEEP_RELATIVE_VALUE.md`: GEMI vs BTC/COIN/HOOD/brokerage peers.
 - `data/onchain_address_deep_dive.json`: per-address explorer and sampled-flow diagnostics.
 - `data/onchain_timeseries.json`: daily external/internal/trading-proxy time series.
-- `data/onchain_earnings_model.json`: scenario output using Q1 opex as a percentage of revenue.
+- `data/onchain_earnings_model.json`: scenario output using fixed/semi-fixed GAAP opex and adjusted EBITDA-style expense assumptions.
+- `data/q2_2026_earnings_estimate.json`: machine-readable Q2 earnings scenario and expense-normalization assumptions.
 - `data/onchain_dashboard_data.json`: compact data bundle for `dashboard/index.html`.
 - `dashboard/index.html`: local UI for the address and earnings model.
 

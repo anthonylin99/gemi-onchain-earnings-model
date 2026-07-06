@@ -1,6 +1,6 @@
 # GEMI On-Chain Address Model
 
-As of: 2026-07-06T13:45:06.605Z
+As of: 2026-07-06T15:24:36.320Z
 
 ## Bottom Line
 
@@ -33,46 +33,46 @@ This model uses a provided address list plus public explorer and chain data. It 
 | ethereum | `0xdec0...67fde5` | Gemini old contract 1 | contract | medium | verified_page_loaded |
 | solana | `CtkFWf...brTb2w` |  | provided_wallet_candidate | low | blocked |
 | solana | `E4jre6...JACJ3o` |  | provided_wallet_candidate | low | blocked |
-| solana | `GGdoUH...tdfgkc` |  | provided_wallet_candidate | low | verified_page_loaded |
+| solana | `GGdoUH...tdfgkc` |  | provided_wallet_candidate | low | blocked |
 | solana | `HFWv1r...qAA8Y6` |  | provided_wallet_candidate | low | blocked |
 
 ## Public Explorer Metadata
 
 | Chain | Address | Type | Explorer tx count | Balance across chains | Token price |
 |---|---|---:|---:|---:|---:|
-| base | `0x5f65...f1e932` | unverified_contract | 6812 | $13.48M |  |
-| base | `0xd244...f46853` | eoa | 11293 | $2.12M |  |
+| base | `0x5f65...f1e932` | unverified_contract | 6814 | $11.41M |  |
+| base | `0xd244...f46853` | eoa | 11296 | $2.15M |  |
 | ethereum | `0x056f...b6d5cd` | verified_contract | 252072 |  | $1.00 |
 | ethereum | `0x07ee...513eca` | unverified_contract | 1709 | $2.4K |  |
 | ethereum | `0x4b7e...26deda` | verified_contract | 216 |  | $0.00 |
-| ethereum | `0x4c2f...de5346` | eoa | 67010 | $20.0K |  |
-| ethereum | `0x5f65...f1e932` | unverified_contract | 2763512 | $13.48M |  |
-| ethereum | `0x61ed...a56eea` | unverified_contract | 888 | $1.7K |  |
+| ethereum | `0x4c2f...de5346` | eoa | 67010 | $20.2K |  |
+| ethereum | `0x5f65...f1e932` | unverified_contract | 2763607 | $11.41M |  |
+| ethereum | `0x61ed...a56eea` | unverified_contract | 888 | $1.8K |  |
 | ethereum | `0x6fc8...5263f8` | unverified_contract | 324740 | $0.00 |  |
 | ethereum | `0x8d6f...e045bd` | unverified_contract | 436 | $1.00 |  |
 | ethereum | `0xb302...0dac05` | unverified_contract | 30 | $0.00 |  |
-| ethereum | `0xd244...f46853` | eoa | 4546511 | $2.12M |  |
-| ethereum | `0xd69b...f00303` | unverified_contract | 243 | $61.83M |  |
-| ethereum | `0xdd51...ced9bc` | eoa | 11 | $571.04 |  |
+| ethereum | `0xd244...f46853` | eoa | 4546511 | $2.15M |  |
+| ethereum | `0xd69b...f00303` | unverified_contract | 243 | $62.61M |  |
+| ethereum | `0xdd51...ced9bc` | eoa | 11 | $578.28 |  |
 | ethereum | `0xdec0...67fde5` | unverified_contract | 93 | $0.00 |  |
 
 ## Per-Address Deep Dive
 
 | Chain | Address | Role | Explorer activity | Explorer tx count | Q1 sample tx/external | Q2 sample tx/external | Q2 DEX proxy |
 |---|---|---|---:|---:|---:|---:|---:|
-| base | `0x5f65...f1e932` | contract | low | 6812 | 0/$0.00 | 0/$0.00 | $0.00 |
-| base | `0xd244...f46853` | exchange_wallet_candidate | moderate | 11293 | 0/$0.00 | 0/$0.00 | $0.00 |
+| base | `0x5f65...f1e932` | contract | low | 6814 | 0/$0.00 | 0/$0.00 | $0.00 |
+| base | `0xd244...f46853` | exchange_wallet_candidate | moderate | 11296 | 0/$0.00 | 0/$0.00 | $0.00 |
 | ethereum | `0x056f...b6d5cd` | token_contract | high | 252072 | 1016/$1.00 | 794/$0.00 | $0.00 |
-| ethereum | `0x07ee...513eca` | contract | low | 1709 | 17/$0.00 | 4/$0.02 | $0.00 |
-| ethereum | `0x4b7e...26deda` | token_contract | low | 216 | 1/$0.00 | 4/$0.00 | $0.00 |
-| ethereum | `0x4c2f...de5346` | deployer | moderate | 67010 | 4725/$0.00 | 2468/$0.00 | $0.00 |
-| ethereum | `0x5f65...f1e932` | contract | very_high | 2763512 | 20000/$328.94M | 20000/$255.02M | $0.00 |
+| ethereum | `0x07ee...513eca` | contract | low | 1709 | 2/$0.00 | 4/$0.02 | $0.00 |
+| ethereum | `0x4b7e...26deda` | token_contract | low | 216 | 1/$0.00 | 0/$0.00 | $0.00 |
+| ethereum | `0x4c2f...de5346` | deployer | moderate | 67010 | 29/$0.00 | 2468/$0.00 | $0.00 |
+| ethereum | `0x5f65...f1e932` | contract | very_high | 2763607 | 10000/$328.94M | 20000/$255.02M | $0.00 |
 | ethereum | `0x61ed...a56eea` | contract | low | 888 | 3/$0.00 | 5/$33.97 | $0.00 |
 | ethereum | `0x6fc8...5263f8` | contract | high | 324740 | 1/$0.00 | 0/$0.00 | $0.00 |
 | ethereum | `0x8d6f...e045bd` | contract | low | 436 | 0/$0.00 | 0/$0.00 | $0.00 |
 | ethereum | `0xb302...0dac05` | contract | low | 30 | 0/$0.00 | 0/$0.00 | $0.00 |
 | ethereum | `0xd244...f46853` | exchange_wallet_candidate | very_high | 4546511 | 401/$1.5K | 192/$0.00 | $0.00 |
-| ethereum | `0xd69b...f00303` | contract | low | 243 | 11/$0.03 | 10000/$0.02 | $0.00 |
+| ethereum | `0xd69b...f00303` | contract | low | 243 | 11/$0.03 | 10007/$0.02 | $0.00 |
 | ethereum | `0xdd51...ced9bc` | deployer | low | 11 | 0/$0.00 | 0/$0.00 | $0.00 |
 | ethereum | `0xdec0...67fde5` | contract | low | 93 | 0/$0.00 | 0/$0.00 | $0.00 |
 | solana | `CtkFWf...brTb2w` | provided_wallet_candidate | unknown |  | 0/$0.00 | 8/$0.01 | $0.00 |
@@ -84,9 +84,9 @@ This model uses a provided address list plus public explorer and chain data. It 
 
 | Period | Tx count | Gross transfer | External gross | Net flow | Trading proxy | DEX/router tx | Coverage |
 |---|---:|---:|---:|---:|---:|---:|---|
-| q1_2026 | 26181 | $329.95M | $328.94M | $1.74M | $0.00 | 0 | partial_if_sampled |
-| q2_2026 | 33489 | $257.21M | $255.02M | $-5.92M | $0.00 | 11 | partial_if_sampled |
-| q3_2026_partial | 5386 | $151.45M | $151.45M | $1.07M | $0.00 | 0 | partial_if_sampled |
+| q1_2026 | 11470 | $329.95M | $328.94M | $1.74M | $0.00 | 0 | partial_if_sampled |
+| q2_2026 | 33492 | $257.21M | $255.02M | $-5.92M | $0.00 | 11 | partial_if_sampled |
+| q3_2026_partial | 5579 | $183.95M | $183.95M | $-958.6K | $0.00 | 0 | partial_if_sampled |
 
 ## Collection Status
 
@@ -106,18 +106,18 @@ This model uses a provided address list plus public explorer and chain data. It 
 | base | `0x5f65...f1e932` | partial | 0 | 0 |  to  |
 | base | `0xd244...f46853` | partial | 0 | 0 |  to  |
 | ethereum | `0x056f...b6d5cd` | complete_api_window | 1820 | 12 | 2026-01-01 to 2026-07-06 |
-| ethereum | `0x07ee...513eca` | complete_api_window | 17 | 4 | 2026-02-21 to 2026-04-08 |
-| ethereum | `0x4b7e...26deda` | complete_api_window | 6 | 0 | 2026-03-28 to 2026-07-03 |
-| ethereum | `0x4c2f...de5346` | complete_api_window | 7187 | 38 | 2026-01-02 to 2026-07-03 |
-| ethereum | `0x5f65...f1e932` | partial | 22664 | 22648 | 2026-01-01 to 2026-07-06 |
+| ethereum | `0x07ee...513eca` | partial | 2 | 4 | 2026-02-21 to 2026-04-08 |
+| ethereum | `0x4b7e...26deda` | partial | 2 | 0 | 2026-03-28 to 2026-07-03 |
+| ethereum | `0x4c2f...de5346` | partial | 2491 | 38 | 2026-01-02 to 2026-07-03 |
+| ethereum | `0x5f65...f1e932` | partial | 12760 | 22745 | 2026-01-01 to 2026-07-06 |
 | ethereum | `0x61ed...a56eea` | complete_api_window | 3 | 5 | 2026-02-21 to 2026-04-09 |
-| ethereum | `0x6fc8...5263f8` | partial | 0 | 1 | 2026-03-29 to 2026-03-29 |
-| ethereum | `0x8d6f...e045bd` | partial | 0 | 0 |  to  |
-| ethereum | `0xb302...0dac05` | partial | 0 | 0 |  to  |
+| ethereum | `0x6fc8...5263f8` | complete_api_window | 0 | 1 | 2026-03-29 to 2026-03-29 |
+| ethereum | `0x8d6f...e045bd` | complete_api_window | 0 | 0 |  to  |
+| ethereum | `0xb302...0dac05` | complete_api_window | 0 | 0 |  to  |
 | ethereum | `0xd244...f46853` | complete_api_window | 472 | 127 | 2026-01-02 to 2026-07-02 |
-| ethereum | `0xd69b...f00303` | partial | 4 | 10008 | 2026-01-03 to 2026-07-01 |
-| ethereum | `0xdd51...ced9bc` | partial | 0 | 0 |  to  |
-| ethereum | `0xdec0...67fde5` | partial | 0 | 0 |  to  |
+| ethereum | `0xd69b...f00303` | partial | 11 | 10008 | 2026-01-03 to 2026-07-01 |
+| ethereum | `0xdd51...ced9bc` | complete_api_window | 0 | 0 |  to  |
+| ethereum | `0xdec0...67fde5` | complete_api_window | 0 | 0 |  to  |
 
 ## Interpretation
 

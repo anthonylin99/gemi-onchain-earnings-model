@@ -7,7 +7,7 @@ As of: July 6, 2026
 - We analyzed 19 Gemini-linked address records across Ethereum, Base, and Solana using public explorer metadata plus Etherscan V2 history for Q1 2026, Q2 2026, and partial Q3 through July 6, 2026.
 - The key read is **neutral to slightly negative for August earnings**: the address set shows real on-chain activity, but it does **not** show evidence of a hidden trading-volume acceleration that would change the fundamental earnings setup.
 - Q2 external gross flow was **$255.0M**, down from **$328.9M in Q1**, a decline of roughly **22.5% QoQ**. That suggests less dollar activity moving through the observed Gemini-linked cluster heading into Q2 earnings.
-- Transaction count increased from **26,181 in Q1** to **33,489 in Q2**, but dollar flow declined. That means there were more movements, but they were smaller or lower-value on average. I would not interpret this as stronger monetizable activity.
+- Transaction count increased from **11,470 in Q1** to **33,492 in Q2** in the latest indexed run, but dollar flow declined. That means there were more movements, but they were smaller or lower-value on average. I would not interpret this as stronger monetizable activity. Because high-volume EVM windows are API-capped, I put more weight on the dollar-flow direction than on exact transaction count.
 - Net flow turned negative: **+$1.7M in Q1** versus **-$5.9M in Q2**. Directionally, this points to more net outflow than inflow across the priced transfer buckets we captured.
 
 ## What Happened Last Quarter
@@ -25,7 +25,7 @@ As of: July 6, 2026
 - The best earnings interpretation is that these addresses are useful for monitoring custody/liquidity conditions, not for estimating Gemini exchange trading revenue directly. Gemini spot and prediction-market activity are primarily venue-internal, so they will not reliably appear on-chain.
 - For Q2 earnings, the address data slightly supports the view that exchange/spot activity remained weak. It does **not** support a major upside surprise from on-chain volume.
 - Our on-chain earnings bridge estimates Q2 revenue at roughly **$44.5M**, compared with Q1 reported revenue of **$50.3M**. That is consistent with the broader proxy model showing softer Gemini API volume, Coinbase volume, Robinhood crypto notional, and DeFiLlama DEX volume in Q2.
-- Expense leverage remains the major issue. Using Q1 operating expense intensity of **287.4% of revenue**, the model estimates Q2 opex around **$127.9M** and net loss before marks around **-$93.4M** in the base case.
+- Expense leverage remains the major issue. After a second-pass analyst review, the repo no longer models opex as a mechanical percentage of revenue. The better base case uses fixed/semi-fixed opex assumptions: **$133.0M** of GAAP opex, **-$60.5M** of adjusted EBITDA, and **-$98.5M** net loss before crypto marks.
 
 ## Revenue Reconciliation Check
 

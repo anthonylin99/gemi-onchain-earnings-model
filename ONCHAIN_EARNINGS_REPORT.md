@@ -1,6 +1,6 @@
 # GEMI On-Chain Earnings Report
 
-As of: 2026-07-06T13:45:06.605Z
+As of: 2026-07-06T15:24:36.321Z
 
 ## Executive Read
 
@@ -11,7 +11,7 @@ Current verdict: **neutral**.
 - External flow proxy is not strong enough to override the existing Q2 proxy model.
 - Existing Gemini exchange API proxy was -39.5% QoQ.
 
-The base earnings bridge estimates Q2 revenue at **$44.5M** and applies Q1 operating expense intensity of **287.4% of revenue**, per your instruction to use last-quarter expense percentage assumptions. The prior non-on-chain proxy base was $45.3M.
+The base earnings bridge estimates Q2 revenue at **$44.5M**, GAAP operating expenses at **$133.0M**, and adjusted EBITDA at **$-60.5M**. The prior non-on-chain proxy base was $45.3M.
 
 ## How The Address Data Feeds Earnings
 
@@ -20,7 +20,7 @@ The base earnings bridge estimates Q2 revenue at **$44.5M** and applies Q1 opera
 3. **Trading proxy**: only DEX/router/program interactions. This is the only bucket that can be described as on-chain trading proxy.
 4. **Explorer activity**: validates whether an address is actually active, labeled, contract-like, or likely infrastructure.
 
-The model gives on-chain flow only a small revenue tilt, capped at +/-5%, because custody transfer volume is not equivalent to exchange fee revenue.
+The model gives on-chain flow only a small revenue tilt, capped at +/-5%, because custody transfer volume is not equivalent to exchange fee revenue. Opex is modeled as a fixed/semi-fixed scenario assumption rather than a percentage of revenue, because Q1 GAAP opex included stock-based compensation, restructuring/severance, legal noise, and platform costs.
 
 ## Previous Earnings Baseline
 
@@ -32,9 +32,9 @@ The model gives on-chain flow only a small revenue tilt, capped at +/-5%, becaus
 
 | Period | Tx count | Gross transfer | External gross | Internal gross | Net flow | Trading proxy | Coverage |
 |---|---:|---:|---:|---:|---:|---:|---|
-| q1_2026 | 26181 | $329.95M | $328.94M | $1.01M | $1.74M | $0.00 | partial_if_sampled |
-| q2_2026 | 33489 | $257.21M | $255.02M | $2.19M | $-5.92M | $0.00 | partial_if_sampled |
-| q3_2026_partial | 5386 | $151.45M | $151.45M | $0.00 | $1.07M | $0.00 | partial_if_sampled |
+| q1_2026 | 11470 | $329.95M | $328.94M | $1.01M | $1.74M | $0.00 | partial_if_sampled |
+| q2_2026 | 33492 | $257.21M | $255.02M | $2.19M | $-5.92M | $0.00 | partial_if_sampled |
+| q3_2026_partial | 5579 | $183.95M | $183.95M | $0.00 | $-958.6K | $0.00 | partial_if_sampled |
 
 Q2 external gross flow vs Q1: **-22.5%**. Q1 external gross was $328.94M and Q2 external gross was $255.02M.
 
@@ -45,33 +45,33 @@ Q2 external gross flow vs Q1: **-22.5%**. Q1 external gross was $328.94M and Q2 
 | 2026-06-27 | 1 | $0.00 | $0.00 | $0.00 |
 | 2026-06-28 | 2 | $0.00 | $0.00 | $0.00 |
 | 2026-06-29 | 25 | $0.00 | $0.00 | $0.00 |
-| 2026-06-30 | 34 | $0.00 | $0.00 | $0.00 |
+| 2026-06-30 | 35 | $0.00 | $0.00 | $0.00 |
 | 2026-07-01 | 828 | $36.31M | $0.00 | $0.00 |
 | 2026-07-02 | 1061 | $47.95M | $0.00 | $0.00 |
 | 2026-07-03 | 2734 | $61.77M | $0.00 | $0.00 |
 | 2026-07-04 | 347 | $2.01M | $0.00 | $0.00 |
 | 2026-07-05 | 231 | $376.5K | $0.00 | $0.00 |
-| 2026-07-06 | 185 | $3.02M | $0.00 | $0.00 |
+| 2026-07-06 | 378 | $35.53M | $0.00 | $0.00 |
 
 ## Q2 Earnings Scenarios
 
-| Scenario | Revenue | Exchange | OTC | Prediction | Opex | Operating loss | Net loss before marks |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Bear | $36.2M | $8.5M | $3.5M | $0.5M | $104.1M | $-67.9M | $-77.9M |
-| Base | $44.5M | $13.5M | $5.0M | $0.9M | $127.9M | $-83.4M | $-93.4M |
-| Bull | $54.0M | $17.7M | $7.5M | $1.8M | $155.3M | $-101.3M | $-111.3M |
+| Scenario | Revenue | Exchange | OTC | Prediction | GAAP opex | Adjusted EBITDA | Operating loss | Net loss before marks |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Bear | $36.2M | $8.5M | $3.5M | $0.5M | $132.0M | $-68.8M | $-95.8M | $-107.8M |
+| Base | $44.5M | $13.5M | $5.0M | $0.9M | $133.0M | $-60.5M | $-88.5M | $-98.5M |
+| Bull | $54.0M | $17.7M | $7.5M | $1.8M | $137.0M | $-55.0M | $-83.0M | $-91.0M |
 
 ## Address Depth
 
 | Chain | Address | Role | Confidence | Explorer activity | Explorer tx count | Q2 external | Q2 trading proxy |
 |---|---|---|---|---:|---:|---:|---:|
-| base | `0x5f65...f1e932` | contract | low | low | 6812 | $0.00 | $0.00 |
-| base | `0xd244...f46853` | exchange_wallet_candidate | high | moderate | 11293 | $0.00 | $0.00 |
+| base | `0x5f65...f1e932` | contract | low | low | 6814 | $0.00 | $0.00 |
+| base | `0xd244...f46853` | exchange_wallet_candidate | high | moderate | 11296 | $0.00 | $0.00 |
 | ethereum | `0x056f...b6d5cd` | token_contract | high | high | 252072 | $0.00 | $0.00 |
 | ethereum | `0x07ee...513eca` | contract | medium | low | 1709 | $0.02 | $0.00 |
 | ethereum | `0x4b7e...26deda` | token_contract | high | low | 216 | $0.00 | $0.00 |
 | ethereum | `0x4c2f...de5346` | deployer | high | moderate | 67010 | $0.00 | $0.00 |
-| ethereum | `0x5f65...f1e932` | contract | medium | very_high | 2763512 | $255.02M | $0.00 |
+| ethereum | `0x5f65...f1e932` | contract | medium | very_high | 2763607 | $255.02M | $0.00 |
 | ethereum | `0x61ed...a56eea` | contract | medium | low | 888 | $33.97 | $0.00 |
 | ethereum | `0x6fc8...5263f8` | contract | medium | high | 324740 | $0.00 | $0.00 |
 | ethereum | `0x8d6f...e045bd` | contract | medium | low | 436 | $0.00 | $0.00 |

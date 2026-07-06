@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-06T13:45:06.462Z",
+  "asOf": "2026-07-06T15:24:36.160Z",
   "method": {
     "q1Reported": {
       "totalRevenue": 50.272,
@@ -13,15 +13,39 @@
       "opex": 144.46,
       "netLoss": -108.978
     },
-    "opexRatio": 2.8736,
-    "onchainRevenueTilt": -0.017977836455922002,
+    "q1ExpenseNormalization": {
+      "stockBasedCompensation": 24.178,
+      "restructuringCharges": 7.866,
+      "nonRecurringLegalSettlementCosts": 0.424,
+      "depreciationAndAmortization": 7.482,
+      "cleanerCashAdjustedOpex": 104.51
+    },
+    "q2OpexMethod": "Fixed/semi-fixed scenario assumptions. Q1 opex is not mechanically scaled as a percentage of revenue because GAAP opex includes SBC, restructuring, severance, legal noise, and fixed platform costs.",
+    "opexAssumptions": {
+      "Bear": {
+        "gaapOpex": 132,
+        "adjustedOpex": 105,
+        "otherExpenseBeforeMarks": 12
+      },
+      "Base": {
+        "gaapOpex": 133,
+        "adjustedOpex": 105,
+        "otherExpenseBeforeMarks": 10
+      },
+      "Bull": {
+        "gaapOpex": 137,
+        "adjustedOpex": 109,
+        "otherExpenseBeforeMarks": 8
+      }
+    },
+    "onchainRevenueTilt": -0.01797783645026544,
     "hasUsableExternalSignal": true,
     "sourceInterpretation": "On-chain custody/address flow is used as a small directional deposit-withdrawal and activity proxy. It is not reported Gemini trading volume."
   },
   "onchainSignals": {
-    "q1ExternalGrossUsd": 328939388.68,
+    "q1ExternalGrossUsd": 328939388.65,
     "q2ExternalGrossUsd": 255019157.01,
-    "externalFlowQoq": -0.224722955699025,
+    "externalFlowQoq": -0.224722955628318,
     "q1TradingProxyUsd": 0,
     "q2TradingProxyUsd": 0,
     "tradingProxyQoq": null,
@@ -41,9 +65,13 @@
       "otcRevenue": 3.5,
       "predictionRevenue": 0.533,
       "servicesInterest": 22.5,
-      "opex": 104.149,
-      "operatingLoss": -67.905,
-      "netLossBeforeMarks": -77.905
+      "opex": 132,
+      "gaapOpex": 132,
+      "adjustedOpex": 105,
+      "operatingLoss": -95.756,
+      "adjustedEbitda": -68.756,
+      "otherExpenseBeforeMarks": 12,
+      "netLossBeforeMarks": -107.756
     },
     {
       "name": "Base",
@@ -54,9 +82,13 @@
       "otcRevenue": 5,
       "predictionRevenue": 0.888,
       "servicesInterest": 24,
-      "opex": 127.905,
-      "operatingLoss": -83.394,
-      "netLossBeforeMarks": -93.394
+      "opex": 133,
+      "gaapOpex": 133,
+      "adjustedOpex": 105,
+      "operatingLoss": -88.489,
+      "adjustedEbitda": -60.489,
+      "otherExpenseBeforeMarks": 10,
+      "netLossBeforeMarks": -98.489
     },
     {
       "name": "Bull",
@@ -67,9 +99,13 @@
       "otcRevenue": 7.5,
       "predictionRevenue": 1.8,
       "servicesInterest": 26,
-      "opex": 155.291,
-      "operatingLoss": -101.25,
-      "netLossBeforeMarks": -111.25
+      "opex": 137,
+      "gaapOpex": 137,
+      "adjustedOpex": 109,
+      "operatingLoss": -82.959,
+      "adjustedEbitda": -54.959,
+      "otherExpenseBeforeMarks": 8,
+      "netLossBeforeMarks": -90.959
     }
   ]
 }

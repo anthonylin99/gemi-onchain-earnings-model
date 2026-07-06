@@ -1,0 +1,76 @@
+{
+  "asOf": "2026-07-06",
+  "company": "Gemini Space Station, Inc.",
+  "ticker": "GEMI",
+  "purpose": "Q2 2026 earnings estimate with GAAP opex and normalized adjusted EBITDA-style opex.",
+  "adjustedEbitdaCaveat": "Adjusted EBITDA is a company-definition proxy, not a GAAP substitute. Gemini's official reconciliation excludes SBC, restructuring charges, D&A, interest, tax, impairment, certain non-recurring legal costs, and other fair-value/noise items.",
+  "officialQ1BaselineMillions": {
+    "netRevenue": 48.578,
+    "otherRevenue": 1.694,
+    "totalRevenue": 50.272,
+    "salariesAndCompensation": 65.428,
+    "technology": 22.09,
+    "generalAndAdministrative": 21.68,
+    "transactionLosses": 11.09,
+    "salesAndMarketing": 19.071,
+    "transactionProcessing": 5.101,
+    "totalOperatingExpenses": 144.46,
+    "operatingLoss": -94.188,
+    "netLoss": -108.978,
+    "adjustedEbitda": -59.925
+  },
+  "q1ExpenseNormalizationMillions": {
+    "gaapOpex": 144.46,
+    "stockBasedCompensation": 24.178,
+    "restructuringCharges": 7.866,
+    "nonRecurringLegalSettlementCosts": 0.424,
+    "depreciationAndAmortization": 7.482,
+    "cleanerCashAdjustedOpex": 104.51,
+    "interpretation": "SBC and restructuring make Q1 noisy, but SBC should not be treated as fully one-time. Show both GAAP and adjusted views."
+  },
+  "q2BaseRevenueBridgeMillions": {
+    "exchangeRevenue": 13.5,
+    "otcRevenue": 5.0,
+    "predictionRevenue": 0.9,
+    "servicesAndInterest": 25.4,
+    "otherTransactionRevenue": 0.2,
+    "totalRevenue": 45.0
+  },
+  "q2ScenariosMillions": [
+    {
+      "name": "Bear",
+      "revenue": 37.5,
+      "gaapOpex": 132.0,
+      "adjustedOpex": 105.0,
+      "gaapOperatingLoss": -94.5,
+      "adjustedEbitda": -67.5,
+      "netLossBeforeCryptoMarks": -106.5
+    },
+    {
+      "name": "Base",
+      "revenue": 45.0,
+      "gaapOpex": 133.0,
+      "adjustedOpex": 105.0,
+      "gaapOperatingLoss": -88.0,
+      "adjustedEbitda": -60.0,
+      "netLossBeforeCryptoMarks": -98.0
+    },
+    {
+      "name": "Bull",
+      "revenue": 54.0,
+      "gaapOpex": 137.0,
+      "adjustedOpex": 109.0,
+      "gaapOperatingLoss": -83.0,
+      "adjustedEbitda": -55.0,
+      "netLossBeforeCryptoMarks": -91.0
+    }
+  ],
+  "onchainCrossCheck": {
+    "q1ExternalGrossFlowUsd": 328939388.68,
+    "q2ExternalGrossFlowUsd": 255019157.01,
+    "qoqExternalGrossFlow": -0.225,
+    "q2PricedDexRouterTradingProxyUsd": 0,
+    "interpretation": "On-chain addresses do not support a hidden Q2 trading-volume acceleration. Treat them as custody/liquidity monitoring, not full revenue tape."
+  },
+  "analystConclusion": "Stripping Q1 noise improves the optics but does not make GEMI a fundamental earnings long by itself. Q2 likely remains a large loss quarter. Bull case depends on prediction-market KPI acceleration, cost actions, and forward commentary."
+}

@@ -253,8 +253,8 @@
         options: { responsive: true, maintainAspectRatio: false, indexAxis: "y", scales: { x: { ticks: { callback: money } } } }
       });
       renderTable("earningsTable",
-        [{label:"Scenario"}, {label:"Revenue", num:true}, {label:"Exchange", num:true}, {label:"OTC", num:true}, {label:"Prediction", num:true}, {label:"Opex", num:true}, {label:"Operating loss", num:true}],
-        data.earningsModel.scenarios.map((row) => [row.name, "$" + row.totalRevenue.toFixed(1) + "M", "$" + row.exchangeRevenue.toFixed(1) + "M", "$" + row.otcRevenue.toFixed(1) + "M", "$" + row.predictionRevenue.toFixed(1) + "M", "$" + row.opex.toFixed(1) + "M", "$" + row.operatingLoss.toFixed(1) + "M"])
+        [{label:"Scenario"}, {label:"Revenue", num:true}, {label:"Exchange", num:true}, {label:"OTC", num:true}, {label:"Prediction", num:true}, {label:"GAAP opex", num:true}, {label:"Adj. EBITDA", num:true}, {label:"Operating loss", num:true}],
+        data.earningsModel.scenarios.map((row) => [row.name, "$" + row.totalRevenue.toFixed(1) + "M", "$" + row.exchangeRevenue.toFixed(1) + "M", "$" + row.otcRevenue.toFixed(1) + "M", "$" + row.predictionRevenue.toFixed(1) + "M", "$" + row.gaapOpex.toFixed(1) + "M", "$" + row.adjustedEbitda.toFixed(1) + "M", "$" + row.operatingLoss.toFixed(1) + "M"])
       );
       renderTable("addressTable",
         [{label:"Chain"}, {label:"Address"}, {label:"Role"}, {label:"Conf."}, {label:"Explorer tx", num:true}, {label:"Q2 external", num:true}, {label:"Q2 trading proxy", num:true}, {label:"Notes"}],

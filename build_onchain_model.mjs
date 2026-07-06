@@ -1196,12 +1196,16 @@ function buildOnchainEarningsModel({ periodSummary, q2Proxy, read }) {
   const onchainRevenueTilt = hasUsableExternalSignal && externalFlowQoq !== null
     ? Math.max(-0.05, Math.min(0.05, externalFlowQoq * 0.08))
     : 0;
-  const opexRatio = q1Reported.opex / q1Reported.totalRevenue;
   const scenarioNames = ["Bear", "Base", "Bull"];
   const fallbackRevenue = {
     Bear: q1Reported.totalRevenue * 0.78,
     Base: q1Reported.totalRevenue * 0.9,
     Bull: q1Reported.totalRevenue * 1.04,
+  };
+  const opexAssumptions = {
+    Bear: { gaapOpex: 132, adjustedOpex: 105, otherExpenseBeforeMarks: 12 },
+    Base: { gaapOpex: 133, adjustedOpex: 105, otherExpenseBeforeMarks: 10 },
+    Bull: { gaapOpex: 137, adjustedOpex: 109, otherExpenseBeforeMarks: 8 },
   };
   const scenarios = scenarioNames.map((name) => {
     const proxy = q2ProxyScenario(q2Proxy, name);
@@ -1211,9 +1215,12 @@ function buildOnchainEarningsModel({ periodSummary, q2Proxy, read }) {
     const otcRevenue = proxy?.otc ?? q1Reported.otcRevenue * (name === "Bear" ? 0.55 : name === "Bull" ? 1.15 : 0.8);
     const predictionRevenue = proxy?.predictionRevenue ?? q1Reported.predictionRevenue * (name === "Bear" ? 1.2 : name === "Bull" ? 4 : 2);
     const servicesInterest = proxy?.servicesInterest ?? q1Reported.servicesRevenue + q1Reported.corporateInterest;
-    const opex = totalRevenue * opexRatio;
-    const operatingLoss = totalRevenue - opex;
-    const netLossBeforeMarks = operatingLoss - 10;
+    const assumption = opexAssumptions[name];
+    const gaapOpex = assumption.gaapOpex;
+    const adjustedOpex = assumption.adjustedOpex;
+    const operatingLoss = totalRevenue - gaapOpex;
+    const adjustedEbitda = totalRevenue - adjustedOpex;
+    const netLossBeforeMarks = operatingLoss - assumption.otherExpenseBeforeMarks;
     return {
       name,
       preOnchainRevenue: Number(preOnchainRevenue.toFixed(3)),
@@ -1223,8 +1230,12 @@ function buildOnchainEarningsModel({ periodSummary, q2Proxy, read }) {
       otcRevenue: Number(otcRevenue.toFixed(3)),
       predictionRevenue: Number(predictionRevenue.toFixed(3)),
       servicesInterest: Number(servicesInterest.toFixed(3)),
-      opex: Number(opex.toFixed(3)),
+      opex: Number(gaapOpex.toFixed(3)),
+      gaapOpex: Number(gaapOpex.toFixed(3)),
+      adjustedOpex: Number(adjustedOpex.toFixed(3)),
       operatingLoss: Number(operatingLoss.toFixed(3)),
+      adjustedEbitda: Number(adjustedEbitda.toFixed(3)),
+      otherExpenseBeforeMarks: assumption.otherExpenseBeforeMarks,
       netLossBeforeMarks: Number(netLossBeforeMarks.toFixed(3)),
     };
   });
@@ -1233,7 +1244,15 @@ function buildOnchainEarningsModel({ periodSummary, q2Proxy, read }) {
     asOf: new Date().toISOString(),
     method: {
       q1Reported,
-      opexRatio: Number(opexRatio.toFixed(4)),
+      q1ExpenseNormalization: {
+        stockBasedCompensation: 24.178,
+        restructuringCharges: 7.866,
+        nonRecurringLegalSettlementCosts: 0.424,
+        depreciationAndAmortization: 7.482,
+        cleanerCashAdjustedOpex: 104.51,
+      },
+      q2OpexMethod: "Fixed/semi-fixed scenario assumptions. Q1 opex is not mechanically scaled as a percentage of revenue because GAAP opex includes SBC, restructuring, severance, legal noise, and fixed platform costs.",
+      opexAssumptions,
       onchainRevenueTilt,
       hasUsableExternalSignal,
       sourceInterpretation: "On-chain custody/address flow is used as a small directional deposit-withdrawal and activity proxy. It is not reported Gemini trading volume.",
@@ -1307,7 +1326,7 @@ function stripCollectionEvents(collection) {
 
 function markdownScenarioRows(scenarios) {
   return scenarios.map((row) => (
-    `| ${row.name} | $${row.totalRevenue.toFixed(1)}M | $${row.exchangeRevenue.toFixed(1)}M | $${row.otcRevenue.toFixed(1)}M | $${row.predictionRevenue.toFixed(1)}M | $${row.opex.toFixed(1)}M | $${row.operatingLoss.toFixed(1)}M | $${row.netLossBeforeMarks.toFixed(1)}M |`
+    `| ${row.name} | $${row.totalRevenue.toFixed(1)}M | $${row.exchangeRevenue.toFixed(1)}M | $${row.otcRevenue.toFixed(1)}M | $${row.predictionRevenue.toFixed(1)}M | $${row.gaapOpex.toFixed(1)}M | $${row.adjustedEbitda.toFixed(1)}M | $${row.operatingLoss.toFixed(1)}M | $${row.netLossBeforeMarks.toFixed(1)}M |`
   )).join("\n");
 }
 
@@ -1316,8 +1335,8 @@ function renderEarningsReport({ inventory, flows, timeseries, earningsModel, q2P
   const q2 = flows.periodSummary.find((row) => row.period === "q2_2026") ?? emptyPeriodSummary("q2_2026");
   const latestDays = timeseries.slice(-10).map((row) => `| ${row.date} | ${row.transactionCount} | ${money(row.externalGrossUsd)} | ${money(row.internalGrossUsd)} | ${money(row.tradingProxyUsd)} |`).join("\n");
   const q2Base = q2ProxyScenario(q2Proxy, "Base");
-  const opexPct = (earningsModel.method.opexRatio * 100).toFixed(1);
   const externalQoq = earningsModel.onchainSignals.externalFlowQoq === null ? "n/a" : `${(earningsModel.onchainSignals.externalFlowQoq * 100).toFixed(1)}%`;
+  const baseScenario = earningsModel.scenarios.find((row) => row.name === "Base");
   return `# GEMI On-Chain Earnings Report
 
 As of: ${new Date().toISOString()}
@@ -1330,7 +1349,7 @@ Current verdict: **${read.verdict}**.
 
 ${read.reasons.map((reason) => `- ${reason}`).join("\n")}
 
-The base earnings bridge estimates Q2 revenue at **$${earningsModel.scenarios.find((row) => row.name === "Base").totalRevenue.toFixed(1)}M** and applies Q1 operating expense intensity of **${opexPct}% of revenue**, per your instruction to use last-quarter expense percentage assumptions. The prior non-on-chain proxy base was ${q2Base ? `$${q2Base.totalRevenue.toFixed(1)}M` : "not available"}.
+The base earnings bridge estimates Q2 revenue at **$${baseScenario.totalRevenue.toFixed(1)}M**, GAAP operating expenses at **$${baseScenario.gaapOpex.toFixed(1)}M**, and adjusted EBITDA at **$${baseScenario.adjustedEbitda.toFixed(1)}M**. The prior non-on-chain proxy base was ${q2Base ? `$${q2Base.totalRevenue.toFixed(1)}M` : "not available"}.
 
 ## How The Address Data Feeds Earnings
 
@@ -1339,7 +1358,7 @@ The base earnings bridge estimates Q2 revenue at **$${earningsModel.scenarios.fi
 3. **Trading proxy**: only DEX/router/program interactions. This is the only bucket that can be described as on-chain trading proxy.
 4. **Explorer activity**: validates whether an address is actually active, labeled, contract-like, or likely infrastructure.
 
-The model gives on-chain flow only a small revenue tilt, capped at +/-5%, because custody transfer volume is not equivalent to exchange fee revenue.
+The model gives on-chain flow only a small revenue tilt, capped at +/-5%, because custody transfer volume is not equivalent to exchange fee revenue. Opex is modeled as a fixed/semi-fixed scenario assumption rather than a percentage of revenue, because Q1 GAAP opex included stock-based compensation, restructuring/severance, legal noise, and platform costs.
 
 ## Previous Earnings Baseline
 
@@ -1363,8 +1382,8 @@ ${latestDays || "| n/a | 0 | $0.00 | $0.00 | $0.00 |"}
 
 ## Q2 Earnings Scenarios
 
-| Scenario | Revenue | Exchange | OTC | Prediction | Opex | Operating loss | Net loss before marks |
-|---|---:|---:|---:|---:|---:|---:|---:|
+| Scenario | Revenue | Exchange | OTC | Prediction | GAAP opex | Adjusted EBITDA | Operating loss | Net loss before marks |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
 ${markdownScenarioRows(earningsModel.scenarios)}
 
 ## Address Depth
@@ -1649,8 +1668,8 @@ function renderDashboardHtml() {
         options: { responsive: true, maintainAspectRatio: false, indexAxis: "y", scales: { x: { ticks: { callback: money } } } }
       });
       renderTable("earningsTable",
-        [{label:"Scenario"}, {label:"Revenue", num:true}, {label:"Exchange", num:true}, {label:"OTC", num:true}, {label:"Prediction", num:true}, {label:"Opex", num:true}, {label:"Operating loss", num:true}],
-        data.earningsModel.scenarios.map((row) => [row.name, "$" + row.totalRevenue.toFixed(1) + "M", "$" + row.exchangeRevenue.toFixed(1) + "M", "$" + row.otcRevenue.toFixed(1) + "M", "$" + row.predictionRevenue.toFixed(1) + "M", "$" + row.opex.toFixed(1) + "M", "$" + row.operatingLoss.toFixed(1) + "M"])
+        [{label:"Scenario"}, {label:"Revenue", num:true}, {label:"Exchange", num:true}, {label:"OTC", num:true}, {label:"Prediction", num:true}, {label:"GAAP opex", num:true}, {label:"Adj. EBITDA", num:true}, {label:"Operating loss", num:true}],
+        data.earningsModel.scenarios.map((row) => [row.name, "$" + row.totalRevenue.toFixed(1) + "M", "$" + row.exchangeRevenue.toFixed(1) + "M", "$" + row.otcRevenue.toFixed(1) + "M", "$" + row.predictionRevenue.toFixed(1) + "M", "$" + row.gaapOpex.toFixed(1) + "M", "$" + row.adjustedEbitda.toFixed(1) + "M", "$" + row.operatingLoss.toFixed(1) + "M"])
       );
       renderTable("addressTable",
         [{label:"Chain"}, {label:"Address"}, {label:"Role"}, {label:"Conf."}, {label:"Explorer tx", num:true}, {label:"Q2 external", num:true}, {label:"Q2 trading proxy", num:true}, {label:"Notes"}],
