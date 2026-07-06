@@ -2,6 +2,15 @@
 
 Research tooling for GEMI/Gemini earnings work. The model separates venue-reported exchange activity, public prediction-market activity, public-chain address flow, and relative stock trading behavior.
 
+## AI-Readable Gist
+
+- **Conclusion:** the on-chain address work does **not** support a clean fundamental long on GEMI by itself. It shows real Gemini-linked activity, but Q2 2026 external gross flow fell versus Q1 and there was no meaningful priced DEX/router trading proxy, so the address set looks more like custody/liquidity/infrastructure monitoring than hidden trading-volume evidence.
+- **Q2 earnings estimate:** base case is roughly **$45M revenue**, **$133M GAAP opex**, **-$60M adjusted EBITDA**, and **~-$98M net loss before crypto marks**. Stripping Q1 stock-based compensation, restructuring/severance, non-recurring legal costs, and D&A makes expenses look less bad, but GEMI still likely remains a large-loss business in Q2.
+- **Methodology:** combine Gemini official Q1 financials, Gemini/Coinbase exchange-volume proxies, DeFiLlama DEX volume, Robinhood crypto/event metrics, Gemini prediction-market API data, and public-chain address flows from Etherscan/Solana RPC. Treat on-chain transfer flow as a narrow custody/liquidity proxy, not reported Gemini trading volume.
+- **Key on-chain signal:** Q2 external gross flow was about **$255M** versus about **$329M** in Q1, or roughly **-22.5% QoQ**. Q2 priced trading proxy was effectively **$0**, even though some DEX/router-style interactions appeared.
+- **Bull case to monitor:** prediction-market KPI acceleration, DCO/futures optionality, and cost-cut follow-through. The address data alone does not prove an upcoming earnings beat.
+- **Canonical files for AI readers:** start with `Q2_2026_EARNINGS_ESTIMATE.md`, `MANAGER_ONCHAIN_FINDINGS.md`, `ONCHAIN_EARNINGS_REPORT.md`, and `data/q2_2026_earnings_estimate.json`.
+
 ## Runbook
 
 ```bash
