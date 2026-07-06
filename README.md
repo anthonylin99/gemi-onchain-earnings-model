@@ -44,6 +44,7 @@ Then visit `http://localhost:8765/dashboard/`.
 - `Q2_PROXY_MODEL.md`: Q2 revenue proxy using Gemini/Coinbase exchange volume, DeFiLlama DEX volume, Robinhood metrics, and Gemini prediction-market API data.
 - `ONCHAIN_MODEL.md`: address inventory, explorer metadata, sampled flow model, and trade-relevance read.
 - `ONCHAIN_EARNINGS_REPORT.md`: on-chain earnings bridge, Q1 baseline, Q2 scenarios, and trade implication.
+- `MANAGER_ONCHAIN_FINDINGS.md`: manager-ready summary of the on-chain findings, revenue reconciliation, and August earnings read.
 - `DEEP_RELATIVE_VALUE.md`: GEMI vs BTC/COIN/HOOD/brokerage peers.
 - `data/onchain_address_deep_dive.json`: per-address explorer and sampled-flow diagnostics.
 - `data/onchain_timeseries.json`: daily external/internal/trading-proxy time series.
