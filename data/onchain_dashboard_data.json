@@ -1,0 +1,6848 @@
+{
+  "asOf": "2026-07-06T13:45:06.507Z",
+  "verdict": "neutral",
+  "verdictReasons": [
+    "External flow proxy is not strong enough to override the existing Q2 proxy model.",
+    "Existing Gemini exchange API proxy was -39.5% QoQ."
+  ],
+  "q2ProxyBaseRevenue": 45.3256,
+  "counts": {
+    "addresses": 19,
+    "highConfidenceAddresses": 6,
+    "publicGeminiLabels": 6,
+    "events": 65056
+  },
+  "periods": [
+    {
+      "period": "q1_2026",
+      "grossTransferUsd": 329951641.58,
+      "netFlowUsd": 1737486.59,
+      "externalGrossUsd": 328939388.68,
+      "internalGrossUsd": 1012252.9,
+      "tradingProxyUsd": 0,
+      "transactionCount": 26181,
+      "internalTransferCount": 118,
+      "dexInteractionCount": 0,
+      "unpricedNativeUnits": {
+        "1": 29884021.19502659,
+        "STAR": 1,
+        "MANYU": 1,
+        "DOG": 2,
+        "DOGE": 1,
+        "REKT": 1,
+        "SHIB": -96275072981.00862,
+        "WAR": 13,
+        "B0x": 2,
+        "OBS": 10,
+        "EHORSE": 10,
+        "SUPERDOG": 10,
+        "UniLife": 15,
+        "Elon Air": 6,
+        "TRIA": 10,
+        "ChinaHorse": 12,
+        "SpaceX": 10,
+        "AILife": 12,
+        "CHIMP": 5,
+        "FlashLoan": 10,
+        "POWER": 10,
+        "OpenClaw": 10,
+        "BlackGold": 12,
+        "AVLT": 5,
+        "ARAID": 3618.62,
+        "XChat": 5,
+        "TX": 5,
+        "QCORE": 0.000004,
+        "SN3": 5,
+        "AIG": 16,
+        "QAI": 20,
+        "AFK": 10,
+        "Ainance": 8,
+        "Claude": 10,
+        "NemoClaw": 5,
+        "FAM": 1e-8,
+        "FTM": -293203.74392664,
+        "ANKR": -144180.01283853,
+        "GALA": 2123823.33293327,
+        "MANA": -389472.64823996,
+        "UNI": 41929.06319496,
+        "LINK": -10911.83519335,
+        "DAI": -20805.70641455,
+        "AMP": -33022634.84107119,
+        "GRT": 649381.99358149,
+        "LUNC": -5504025.58409147,
+        "APE": -117259.73370541,
+        "LDO": -9839.47280941,
+        "RLUSD": -1165750.92156311,
+        "RNDR": -35409.68763256,
+        "QNT": 674.71496199,
+        "SAND": -101238.59784656,
+        "ALI": -3922733.47637553,
+        "SKY": -15650768.53799736,
+        "POL": 60521.49728417,
+        "IOTX": -834248.46831009,
+        "BAT": -139863.28234148,
+        "PEPE": -88106473824.2908,
+        "INJ": -11684.7467199,
+        "SKL": -480174.27377413,
+        "EUL": -1165.42,
+        "BNT": -51.70522856,
+        "eFIL": -10.97688756,
+        "BAL": -7.87787571,
+        "1INCH": -10381.24239879,
+        "AXS": -21666.52384822,
+        "ALCX": -20.677271,
+        "RLY": -1276.45259335,
+        "WLFI": -340805.73458943,
+        "PAXG": -65.77738601,
+        "COMP": 2449.87168535,
+        "CRV": 4828.64870156,
+        "SNX": -719.19774355,
+        "SUSHI": 235783.84571924,
+        "CUBE": -23143.03397015,
+        "IMX": -109340.0801522,
+        "STORJ": -106926.88594188,
+        "FET": 2650094.76041669,
+        "RARE": -224921.19244333,
+        "DPI": -3.00264413,
+        "NMR": -16.73221917,
+        "CVC": -19643.9997478,
+        "CTX": -3740.09054473,
+        "ELON": -1184534772771.224,
+        "YFI": 2.91993553,
+        "AAVE": -2570.76208412,
+        "REN": -36736.18021014,
+        "JASMY": 20839.55010507,
+        "LRC": -100870.79506989,
+        "FLOKI": -251232666.65819076,
+        "SPELL": -114809.295693,
+        "ENS": 2658.76567444,
+        "LPT": -21958.20273482,
+        "MC": -361.02303134,
+        "TOKE": -1132.20734303,
+        "OPEN": -548.40478185,
+        "MASK": -2265.70093335,
+        "API3": -9040.0714485,
+        "MATIC": -2477.57039106,
+        "OXT": -1764.44304136,
+        "ZRX": -2715.88553312,
+        "JAM": -827650.3600193,
+        "CHZ": 3553266.65230299,
+        "AUDIO": -4244.70809425,
+        "GAL": -0.92064581,
+        "Mog": 805965667.9944922,
+        "UMA": -18627.10047134,
+        "MKR": -0.37878984,
+        "USTC": -719.46841174,
+        "UCAP": 0.01,
+        "KNC": -28.0882594,
+        "kitties": 27311094.48305716,
+        "ENA": 4464107.07715339,
+        "SLP": -203167,
+        "GFI": -63.37423686,
+        "eHYPER": 95000000000,
+        "ꓴꓢꓓꓔ": -4854814.065479,
+        "USDT": -3597301.911107,
+        "ꓴꓢꓓС": -6090248.036236,
+        "USDC": -1742386.802511,
+        "ENJ": -533.7719209,
+        "LQTY": -131.11362192,
+        "INDEX": -24.34314784,
+        "RAD": -14.18092818,
+        "KP3R": -0.99916858,
+        "ꓦIꓢIꓔ ꓡIꓓꓳꓦ5.ꓚꓳꓟ ꓝꓳR ꓐꓰꓠꓰꓝIꓔꓢ": 8909,
+        "USD1": -9.98448649,
+        "HEX": 3,
+        "BREV": 10,
+        "MD+": 3.1779,
+        "YFTE": 0.01,
+        "PONZU": 3830.43,
+        "FT": 5,
+        "Seedance2": 10,
+        "YIELDX": 95.91075,
+        "KAT": 5,
+        "𝑬𝑻𝑯": -9461.31537171,
+        "MEZO": 5,
+        "MADURO": 419,
+        "DCR": 26988,
+        "TAO": 2458,
+        "XRP": 21242424
+      },
+      "coverage": {
+        "status": "partial_if_sampled",
+        "solanaStatus": "partial_public_rpc_sample",
+        "evmStatus": "api_attempted"
+      }
+    },
+    {
+      "period": "q2_2026",
+      "grossTransferUsd": 257213549.73,
+      "netFlowUsd": -5924133.4,
+      "externalGrossUsd": 255019157.01,
+      "internalGrossUsd": 2194392.71,
+      "tradingProxyUsd": 0,
+      "transactionCount": 33489,
+      "internalTransferCount": 88,
+      "dexInteractionCount": 11,
+      "unpricedNativeUnits": {
+        "HEX": 3,
+        "ZIK": 1554,
+        "ICP": 16,
+        "SPK": 5,
+        "XChat": 15,
+        "DIXT": 0,
+        "KONG": 102.9,
+        "O": 5,
+        "LINK": -88692.44704871,
+        "INJ": 663.01905378,
+        "QNT": 2822.11544532,
+        "SKY": -3559314.68909523,
+        "ZRX": -218250.86748662,
+        "BAT": -194801.10647098,
+        "SHIB": -7419667672.392113,
+        "AMP": -166065953.48730865,
+        "GALA": 1424502.22571152,
+        "MANA": -441246.29069313,
+        "RLUSD": 1320598.38775453,
+        "Claude": 10,
+        "LQTY": -10.36943587,
+        "FTM": -128914.74939333,
+        "LRC": 1367485.07002208,
+        "REN": -41881.38725654,
+        "AAVE": -1010.50924747,
+        "DAI": -3206.17523529,
+        "SKL": 1747468.10666868,
+        "GRT": 139778.09534594,
+        "PEPE": 3802123751.654521,
+        "SNX": -365.68308973,
+        "COMP": 23615.17484698,
+        "APE": -130240.98290417,
+        "ELON": -810954369647.7571,
+        "CRV": -269227.53275954,
+        "UNI": -8677.83713335,
+        "LDO": 531803.6070912,
+        "IOTX": -371849.54084535,
+        "POL": -456484.87022522,
+        "ANKR": 56747504.3440152,
+        "SUSHI": 1385269.26106168,
+        "CUBE": -23106.18955887,
+        "STORJ": 2822404.3864539,
+        "FET": 377976.81009,
+        "ENS": 957.94306596,
+        "Mog": -486803932.9880334,
+        "YFI": -2.60776767,
+        "UMA": 119171.63577018,
+        "SAND": -236300.96644716,
+        "IMX": -63787.53884449,
+        "CVC": -1273.99957002,
+        "SLP": -197722,
+        "USTC": -101.47961606,
+        "RLY": -92743.16692701,
+        "PAXG": 82.03036,
+        "KNC": -1210.25168132,
+        "API3": 327611.17078407,
+        "OXT": -52051.94179542,
+        "AUDIO": -7394.1620385,
+        "RARE": -1715.78414853,
+        "ENJ": -8332.543747,
+        "LPT": 79610.0844608,
+        "SPELL": -234392.1627171,
+        "RNDR": 241185.82888622,
+        "BAL": -135.92584273,
+        "1INCH": -2592.28414574,
+        "ALI": -12451349.80582182,
+        "FLOKI": -72362201.63879369,
+        "USD1": -0.96241853,
+        "AXS": -569.87461189,
+        "wCFG": -1224.96844307,
+        "WLFI": -738191.84771684,
+        "MASK": -2660.19025949,
+        "JAM": -802054.25387936,
+        "RAD": -556.13393513,
+        "CTX": -13388.10063285,
+        "CHZ": -1091997.71078232,
+        "BUSD": -11.97040424,
+        "MCO2": -108.1459511,
+        "ALCX": -8.31479915,
+        "BNT": -81.98784235,
+        "MIR": -514.87113716,
+        "ERN": -77.22865878,
+        "NMR": -28.65439907,
+        "TRU": -543.87645405,
+        "LUNC": -28490182.56040948,
+        "GFI": -108.06694599,
+        "REVV": -584.2959732,
+        "MC": -499.6106539,
+        "ENA": 0.95662218,
+        "ՍՏⅮТ": 458793.460419,
+        "USAT": 1,
+        "MIM": -2.249225,
+        "MATIC": -1099.78102162,
+        "EUL": -578.31,
+        "KPER": 1250.58,
+        "USD͘T͘": 1000000,
+        "BASTEROID": 41670703.27502658,
+        "ARTEMIS": 2550000000,
+        "gas711.com": 0.001,
+        "ASTRPEPE": 28757195.19502749,
+        "eFIL": -264.39025463,
+        "ALIGN": 5,
+        "DeepSeek": 15,
+        "YFIB": 0.03,
+        "KEI": 312492169.1822,
+        "AIFreeUse.cc": -2164000,
+        "CAT": 1,
+        "AIMevBot.com": -1219000,
+        "FiFaAI.cc": -1711000,
+        "AIFreeUse.pro": -768000,
+        "AIMevBot.cc": -1356000,
+        "USDGift.cc": -886000,
+        "FiFaAI.pro": -970000,
+        "WorldCupAI.pro": -922000
+      },
+      "coverage": {
+        "status": "partial_if_sampled",
+        "solanaStatus": "partial_public_rpc_sample",
+        "evmStatus": "api_attempted"
+      }
+    },
+    {
+      "period": "q3_2026_partial",
+      "grossTransferUsd": 151445084.82,
+      "netFlowUsd": 1070510.01,
+      "externalGrossUsd": 151445084.82,
+      "internalGrossUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 5386,
+      "internalTransferCount": 4,
+      "dexInteractionCount": 0,
+      "unpricedNativeUnits": {
+        "SHIB": -7655069907.917587,
+        "SKY": -139802.84237351,
+        "LINK": -9122.22327189,
+        "FLOKI": -1885458.13002145,
+        "AMP": -30560901.50957353,
+        "SUSHI": -194.5315795,
+        "CRV": 738608.87296011,
+        "PAXG": -1.41828236,
+        "UNI": -4073.77541274,
+        "ELON": -221558511690.6209,
+        "AAVE": -1413.97268601,
+        "POL": -18059.56032013,
+        "YFI": -0.53542146,
+        "PEPE": -1520634188.9630175,
+        "CTX": -6156.35,
+        "FET": 466236.31458025,
+        "RLUSD": -62353.05910841,
+        "QNT": -74.96913465,
+        "WLFI": -132793.1790636,
+        "SAND": -49375.12800378,
+        "LDO": -27382.17401715,
+        "COMP": -61.64297391,
+        "LPT": -19.79599591,
+        "OXT": -9170.7260736,
+        "AXS": -112.79384259,
+        "STORJ": -1278.60657466,
+        "LRC": -1511.38553451,
+        "ANKR": -9892.74379279,
+        "GRT": -26233.7654808,
+        "BAT": -205319.39769353,
+        "GALA": -1260032.51949981,
+        "DAI": 5801.85572822,
+        "IMX": -11974.80741561,
+        "SKL": -169585.43,
+        "ENS": -457.74913292,
+        "RNDR": -2536.49778232,
+        "INJ": -91.88359286,
+        "XAUt": -0.003,
+        "MANA": -24769.126785,
+        "REN": -142.78470439,
+        "FTM": -41597.97758547,
+        "SNX": -43.81339745,
+        "wCFG": -445.54520647,
+        "KNC": -589.69827797,
+        "ALI": -2286037.05,
+        "eFIL": -2.99,
+        "ha138com": 12910.78247,
+        "UMA": -27.51554187,
+        "ZRX": -55.02907884,
+        "CUBE": -3507.2860604,
+        "CHZ": -520.81770586,
+        "IOTX": -3729.55302737,
+        "API3": -21.66189723
+      },
+      "coverage": {
+        "status": "partial_if_sampled",
+        "solanaStatus": "partial_public_rpc_sample",
+        "evmStatus": "api_attempted"
+      }
+    }
+  ],
+  "timeseries": [
+    {
+      "date": "2026-01-01",
+      "grossTransferUsd": 7603444.22,
+      "externalGrossUsd": 7603444.22,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 2073907.44,
+      "tradingProxyUsd": 0,
+      "transactionCount": 576,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 7603444.22,
+          "externalGrossUsd": 7603444.22,
+          "transactionCount": 576,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-02",
+      "grossTransferUsd": 34267225.52,
+      "externalGrossUsd": 34267225.52,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -1521388.05,
+      "tradingProxyUsd": 0,
+      "transactionCount": 1274,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 34267225.52,
+          "externalGrossUsd": 34267225.52,
+          "transactionCount": 1274,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-03",
+      "grossTransferUsd": 8758916,
+      "externalGrossUsd": 8758916,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 1381920.72,
+      "tradingProxyUsd": 0,
+      "transactionCount": 793,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 8758916,
+          "externalGrossUsd": 8758916,
+          "transactionCount": 793,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-04",
+      "grossTransferUsd": 927981.16,
+      "externalGrossUsd": 927981.16,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -916642.1,
+      "tradingProxyUsd": 0,
+      "transactionCount": 412,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 927981.16,
+          "externalGrossUsd": 927981.16,
+          "transactionCount": 412,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-05",
+      "grossTransferUsd": 17636518.36,
+      "externalGrossUsd": 17636518.36,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 2996310.29,
+      "tradingProxyUsd": 0,
+      "transactionCount": 1018,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 17636518.36,
+          "externalGrossUsd": 17636518.36,
+          "transactionCount": 1018,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-06",
+      "grossTransferUsd": 15785738.54,
+      "externalGrossUsd": 15785738.54,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -3804433.13,
+      "tradingProxyUsd": 0,
+      "transactionCount": 872,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 15785738.54,
+          "externalGrossUsd": 15785738.54,
+          "transactionCount": 872,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-07",
+      "grossTransferUsd": 23572844.25,
+      "externalGrossUsd": 23572844.25,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 1939449.05,
+      "tradingProxyUsd": 0,
+      "transactionCount": 925,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 23572844.25,
+          "externalGrossUsd": 23572844.25,
+          "transactionCount": 925,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "grossTransferUsd": 19497251.77,
+      "externalGrossUsd": 19497251.77,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -1499204.74,
+      "tradingProxyUsd": 0,
+      "transactionCount": 862,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 19497251.77,
+          "externalGrossUsd": 19497251.77,
+          "transactionCount": 862,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-09",
+      "grossTransferUsd": 23883049.26,
+      "externalGrossUsd": 23883049.26,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 2429601.75,
+      "tradingProxyUsd": 0,
+      "transactionCount": 800,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 23883049.26,
+          "externalGrossUsd": 23883049.26,
+          "transactionCount": 800,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-10",
+      "grossTransferUsd": 5714754.32,
+      "externalGrossUsd": 5714754.32,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 625004,
+      "tradingProxyUsd": 0,
+      "transactionCount": 463,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 5714754.32,
+          "externalGrossUsd": 5714754.32,
+          "transactionCount": 463,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-11",
+      "grossTransferUsd": 292564.13,
+      "externalGrossUsd": 292564.13,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -291066.65,
+      "tradingProxyUsd": 0,
+      "transactionCount": 366,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 292564.13,
+          "externalGrossUsd": 292564.13,
+          "transactionCount": 366,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-12",
+      "grossTransferUsd": 17700282.64,
+      "externalGrossUsd": 17700282.64,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -693560.18,
+      "tradingProxyUsd": 0,
+      "transactionCount": 843,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 17700282.64,
+          "externalGrossUsd": 17700282.64,
+          "transactionCount": 843,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-13",
+      "grossTransferUsd": 23138122.37,
+      "externalGrossUsd": 23138122.37,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 1772167.86,
+      "tradingProxyUsd": 0,
+      "transactionCount": 776,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 23138122.37,
+          "externalGrossUsd": 23138122.37,
+          "transactionCount": 776,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-14",
+      "grossTransferUsd": 21058096.47,
+      "externalGrossUsd": 21058096.47,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -2675340.5,
+      "tradingProxyUsd": 0,
+      "transactionCount": 1387,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 21058096.47,
+          "externalGrossUsd": 21058096.47,
+          "transactionCount": 1387,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-15",
+      "grossTransferUsd": 13571820.53,
+      "externalGrossUsd": 13571820.53,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 4214677.07,
+      "tradingProxyUsd": 0,
+      "transactionCount": 774,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 13571820.53,
+          "externalGrossUsd": 13571820.53,
+          "transactionCount": 774,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-16",
+      "grossTransferUsd": 16239326.12,
+      "externalGrossUsd": 16239326.12,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -2192261.69,
+      "tradingProxyUsd": 0,
+      "transactionCount": 762,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 16239326.12,
+          "externalGrossUsd": 16239326.12,
+          "transactionCount": 762,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-17",
+      "grossTransferUsd": 2798099.1,
+      "externalGrossUsd": 2798099.1,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -361885.35,
+      "tradingProxyUsd": 0,
+      "transactionCount": 381,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 2798099.1,
+          "externalGrossUsd": 2798099.1,
+          "transactionCount": 381,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-18",
+      "grossTransferUsd": 387637.06,
+      "externalGrossUsd": 387637.06,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -118826.77,
+      "tradingProxyUsd": 0,
+      "transactionCount": 508,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 387637.06,
+          "externalGrossUsd": 387637.06,
+          "transactionCount": 508,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-19",
+      "grossTransferUsd": 2216035.28,
+      "externalGrossUsd": 2216035.28,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -746423.41,
+      "tradingProxyUsd": 0,
+      "transactionCount": 1114,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 2216035.28,
+          "externalGrossUsd": 2216035.28,
+          "transactionCount": 1114,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "grossTransferUsd": 22501249.22,
+      "externalGrossUsd": 22501249.22,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 92233.1,
+      "tradingProxyUsd": 0,
+      "transactionCount": 1604,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 22501249.22,
+          "externalGrossUsd": 22501249.22,
+          "transactionCount": 1604,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-21",
+      "grossTransferUsd": 14198901.47,
+      "externalGrossUsd": 14198901.47,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -1190527.97,
+      "tradingProxyUsd": 0,
+      "transactionCount": 1145,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 14198901.47,
+          "externalGrossUsd": 14198901.47,
+          "transactionCount": 1145,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-22",
+      "grossTransferUsd": 15542890.15,
+      "externalGrossUsd": 15542890.15,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 1829491.99,
+      "tradingProxyUsd": 0,
+      "transactionCount": 858,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 15542890.15,
+          "externalGrossUsd": 15542890.15,
+          "transactionCount": 858,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-23",
+      "grossTransferUsd": 15885081.54,
+      "externalGrossUsd": 15885081.54,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -1374423.89,
+      "tradingProxyUsd": 0,
+      "transactionCount": 761,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 15885081.54,
+          "externalGrossUsd": 15885081.54,
+          "transactionCount": 761,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-24",
+      "grossTransferUsd": 5484122.01,
+      "externalGrossUsd": 5484122.01,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -102671.38,
+      "tradingProxyUsd": 0,
+      "transactionCount": 643,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 5484122.01,
+          "externalGrossUsd": 5484122.01,
+          "transactionCount": 643,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-25",
+      "grossTransferUsd": 275977.14,
+      "externalGrossUsd": 275977.14,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -130080.9,
+      "tradingProxyUsd": 0,
+      "transactionCount": 485,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 275977.14,
+          "externalGrossUsd": 275977.14,
+          "transactionCount": 485,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-26",
+      "grossTransferUsd": 0.03,
+      "externalGrossUsd": 0.03,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0.03,
+      "tradingProxyUsd": 0,
+      "transactionCount": 581,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0.03,
+          "externalGrossUsd": 0.03,
+          "transactionCount": 581,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-27",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 70,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 70,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-28",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 28,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 28,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-29",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 64,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 64,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-30",
+      "grossTransferUsd": 1459.01,
+      "externalGrossUsd": 1459.01,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 1459.01,
+      "tradingProxyUsd": 0,
+      "transactionCount": 32,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 1459.01,
+          "externalGrossUsd": 1459.01,
+          "transactionCount": 32,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-01-31",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 16,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 16,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-01",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 16,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 16,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-02",
+      "grossTransferUsd": 1,
+      "externalGrossUsd": 1,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 1,
+      "tradingProxyUsd": 0,
+      "transactionCount": 226,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 1,
+          "externalGrossUsd": 1,
+          "transactionCount": 226,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 51,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 51,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-04",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 45,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 45,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-05",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 181,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 181,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-06",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 127,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 127,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-07",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 19,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 19,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-08",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 12,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 12,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-09",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 67,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 67,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 40,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 40,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-11",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 33,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 33,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-12",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 18,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 18,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 28,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 28,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-14",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 9,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 9,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-15",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 5,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 5,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-16",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 13,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 13,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-17",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 64,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 64,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-18",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 40,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 40,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-19",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 337,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 337,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-20",
+      "grossTransferUsd": 90620.06,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 90620.06,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 832,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 90620.06,
+          "externalGrossUsd": 0,
+          "transactionCount": 1,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 831,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-21",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 12,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 12,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-22",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 6,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 6,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-23",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 44,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 44,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-24",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 61,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 61,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-25",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 19,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 19,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-26",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 64,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 64,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 45,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 45,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-28",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 5,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 5,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-01",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 9,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 9,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-02",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 61,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 1,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 60,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-03",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 29,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 29,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-04",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 118,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 118,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-05",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 503,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 503,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-06",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 113,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 1,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 112,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-07",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 12,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 12,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-08",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 14,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 14,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-09",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 128,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 128,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-10",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 236,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 1,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 235,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 28,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 28,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 60,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 60,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 44,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 44,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-14",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 9,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 9,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-15",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 10,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 10,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "grossTransferUsd": 921632.84,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 921632.84,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 43,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 921632.84,
+          "externalGrossUsd": 0,
+          "transactionCount": 1,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 42,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-17",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 545,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 545,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-18",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 229,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 229,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-19",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 23,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 23,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-20",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 28,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 28,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-21",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 50,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 50,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-22",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 43,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 43,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-23",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 31,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 31,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-24",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 45,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 45,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-25",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 45,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 45,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-26",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 27,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 27,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-27",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 30,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 30,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-28",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 8,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 8,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-29",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 7,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 7,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-30",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 15,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 15,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-31",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 26,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 1,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 25,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-01",
+      "grossTransferUsd": 13243886.31,
+      "externalGrossUsd": 13243886.31,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -4062900.31,
+      "tradingProxyUsd": 0,
+      "transactionCount": 1086,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 13243886.31,
+          "externalGrossUsd": 13243886.31,
+          "transactionCount": 1086,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-02",
+      "grossTransferUsd": 12467357.01,
+      "externalGrossUsd": 12467357.01,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 760671.28,
+      "tradingProxyUsd": 0,
+      "transactionCount": 955,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 12467357.01,
+          "externalGrossUsd": 12467357.01,
+          "transactionCount": 955,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "grossTransferUsd": 7927126.72,
+      "externalGrossUsd": 7927126.72,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -894721.8,
+      "tradingProxyUsd": 0,
+      "transactionCount": 1120,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 7927126.72,
+          "externalGrossUsd": 7927126.72,
+          "transactionCount": 1120,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-04",
+      "grossTransferUsd": 1696279.99,
+      "externalGrossUsd": 1696279.99,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 639994.09,
+      "tradingProxyUsd": 0,
+      "transactionCount": 812,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 1696279.99,
+          "externalGrossUsd": 1696279.99,
+          "transactionCount": 812,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "grossTransferUsd": 360320.92,
+      "externalGrossUsd": 360296.92,
+      "internalGrossUsd": 24,
+      "netFlowUsd": -328453.66,
+      "tradingProxyUsd": 0,
+      "transactionCount": 1024,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 360320.92,
+          "externalGrossUsd": 360296.92,
+          "transactionCount": 1024,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-06",
+      "grossTransferUsd": 7711261.41,
+      "externalGrossUsd": 7711261.41,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -196904.73,
+      "tradingProxyUsd": 0,
+      "transactionCount": 1140,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 7711261.41,
+          "externalGrossUsd": 7711261.41,
+          "transactionCount": 1140,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-07",
+      "grossTransferUsd": 11109457.43,
+      "externalGrossUsd": 11109457.43,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -430929.95,
+      "tradingProxyUsd": 0,
+      "transactionCount": 860,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 11109457.43,
+          "externalGrossUsd": 11109457.43,
+          "transactionCount": 860,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-08",
+      "grossTransferUsd": 16485275.98,
+      "externalGrossUsd": 16485275.98,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 1276214.51,
+      "tradingProxyUsd": 0,
+      "transactionCount": 2439,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 16485275.98,
+          "externalGrossUsd": 16485275.98,
+          "transactionCount": 2439,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-09",
+      "grossTransferUsd": 15014748.42,
+      "externalGrossUsd": 15014748.42,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 141827.81,
+      "tradingProxyUsd": 0,
+      "transactionCount": 1040,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 15014748.42,
+          "externalGrossUsd": 15014748.42,
+          "transactionCount": 1040,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "grossTransferUsd": 8293489.64,
+      "externalGrossUsd": 8293489.64,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -944509.4,
+      "tradingProxyUsd": 0,
+      "transactionCount": 717,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 8293489.64,
+          "externalGrossUsd": 8293489.64,
+          "transactionCount": 717,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "grossTransferUsd": 10002273.26,
+      "externalGrossUsd": 10002273.26,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 309288.22,
+      "tradingProxyUsd": 0,
+      "transactionCount": 566,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 10002273.26,
+          "externalGrossUsd": 10002273.26,
+          "transactionCount": 566,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "grossTransferUsd": 1364589.71,
+      "externalGrossUsd": 1364589.71,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -17959.61,
+      "tradingProxyUsd": 0,
+      "transactionCount": 404,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 1364589.71,
+          "externalGrossUsd": 1364589.71,
+          "transactionCount": 404,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-13",
+      "grossTransferUsd": 33694150.56,
+      "externalGrossUsd": 33694150.56,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 1411603.84,
+      "tradingProxyUsd": 0,
+      "transactionCount": 972,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 33694150.56,
+          "externalGrossUsd": 33694150.56,
+          "transactionCount": 972,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "grossTransferUsd": 17322541.3,
+      "externalGrossUsd": 17322541.3,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -1240297.71,
+      "tradingProxyUsd": 0,
+      "transactionCount": 996,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 17322541.3,
+          "externalGrossUsd": 17322541.3,
+          "transactionCount": 996,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-15",
+      "grossTransferUsd": 33962820.42,
+      "externalGrossUsd": 33962820.42,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 57603.43,
+      "tradingProxyUsd": 0,
+      "transactionCount": 1444,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 33962820.42,
+          "externalGrossUsd": 33962820.42,
+          "transactionCount": 1444,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-16",
+      "grossTransferUsd": 19261598.73,
+      "externalGrossUsd": 19261598.73,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 833303.71,
+      "tradingProxyUsd": 0,
+      "transactionCount": 832,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 19261598.73,
+          "externalGrossUsd": 19261598.73,
+          "transactionCount": 832,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "grossTransferUsd": 4119280.49,
+      "externalGrossUsd": 4119280.49,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -959553.3,
+      "tradingProxyUsd": 0,
+      "transactionCount": 788,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 4119280.49,
+          "externalGrossUsd": 4119280.49,
+          "transactionCount": 788,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "grossTransferUsd": 1037227.73,
+      "externalGrossUsd": 1037227.73,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -1037227.73,
+      "tradingProxyUsd": 0,
+      "transactionCount": 479,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 1037227.73,
+          "externalGrossUsd": 1037227.73,
+          "transactionCount": 479,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "grossTransferUsd": 1733583.01,
+      "externalGrossUsd": 1733583.01,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -101374.85,
+      "tradingProxyUsd": 0,
+      "transactionCount": 387,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 1733583.01,
+          "externalGrossUsd": 1733583.01,
+          "transactionCount": 387,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-20",
+      "grossTransferUsd": 13048426.78,
+      "externalGrossUsd": 13048426.78,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 51264.47,
+      "tradingProxyUsd": 0,
+      "transactionCount": 844,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 13048426.78,
+          "externalGrossUsd": 13048426.78,
+          "transactionCount": 844,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "grossTransferUsd": 12524251.62,
+      "externalGrossUsd": 12524251.62,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -1386004.99,
+      "tradingProxyUsd": 0,
+      "transactionCount": 909,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 12524251.62,
+          "externalGrossUsd": 12524251.62,
+          "transactionCount": 909,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "grossTransferUsd": 12303685.78,
+      "externalGrossUsd": 12303685.78,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 527949.25,
+      "tradingProxyUsd": 0,
+      "transactionCount": 816,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 12303685.78,
+          "externalGrossUsd": 12303685.78,
+          "transactionCount": 816,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "grossTransferUsd": 335547.79,
+      "externalGrossUsd": 335547.79,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -333015.95,
+      "tradingProxyUsd": 0,
+      "transactionCount": 299,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 335547.79,
+          "externalGrossUsd": 335547.79,
+          "transactionCount": 299,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 34,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 34,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 2,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 2,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 6,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 6,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-27",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 33,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 33,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-28",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 38,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 38,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-29",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 50,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 50,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-04-30",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 32,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 32,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-01",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 30,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 30,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 6,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 6,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 9,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 9,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-04",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 14,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 14,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-05",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 41,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 41,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-06",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 26,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 26,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-07",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 231,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 231,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-08",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 36,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 36,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 6,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 6,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 8,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 8,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-11",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 28,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 28,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 28,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 28,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 21,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 21,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 20,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 20,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-15",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 79,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 79,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 6,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 6,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 8,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 8,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-18",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 106,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 106,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 25,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 25,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-20",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 19,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 19,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-21",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 920,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 920,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-22",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 9124,
+      "dexInteractionCount": 11,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 9124,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 8,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 8,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 8,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 8,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-25",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 13,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 13,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-26",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 44,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 44,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-27",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 22,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 22,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-28",
+      "grossTransferUsd": 823006.41,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 823006.41,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 26,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 823006.41,
+          "externalGrossUsd": 0,
+          "transactionCount": 1,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 25,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-29",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 16,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 16,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-30",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 4,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 4,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-05-31",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 13,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 13,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-01",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 53,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 53,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 33,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 33,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 60,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 60,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 170,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 170,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 206,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 206,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-06",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 11,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 11,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-07",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 8,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 8,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 74,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 74,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-09",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 46,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 46,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 28,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 16,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 12,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "grossTransferUsd": 631717.77,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 631717.77,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 14,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 631717.77,
+          "externalGrossUsd": 0,
+          "transactionCount": 1,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 13,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 25,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 25,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 6,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 6,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-14",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 8,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 8,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 13,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 13,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "grossTransferUsd": 739644.53,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 739644.53,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 37,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 739644.53,
+          "externalGrossUsd": 0,
+          "transactionCount": 3,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 34,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 51,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 51,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 40,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 40,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 128,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 128,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 5,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 5,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-21",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 2,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 2,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 29,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 29,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 25,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 25,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 207,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 207,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 16,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 16,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 63,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 1,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 62,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-27",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 1,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 1,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 2,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 2,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 25,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 25,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 34,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 34,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "grossTransferUsd": 36309792.84,
+      "externalGrossUsd": 36309792.84,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -1592042.03,
+      "tradingProxyUsd": 0,
+      "transactionCount": 828,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 1,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 36309792.83,
+          "externalGrossUsd": 36309792.83,
+          "transactionCount": 827,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "grossTransferUsd": 47953133.72,
+      "externalGrossUsd": 47953133.72,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 2053835.63,
+      "tradingProxyUsd": 0,
+      "transactionCount": 1061,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 1,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 47953133.71,
+          "externalGrossUsd": 47953133.71,
+          "transactionCount": 1060,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-07-03",
+      "grossTransferUsd": 61771441.76,
+      "externalGrossUsd": 61771441.76,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 1605260,
+      "tradingProxyUsd": 0,
+      "transactionCount": 2734,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 61771441.76,
+          "externalGrossUsd": 61771441.76,
+          "transactionCount": 2734,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-07-04",
+      "grossTransferUsd": 2010210.54,
+      "externalGrossUsd": 2010210.54,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 398104.71,
+      "tradingProxyUsd": 0,
+      "transactionCount": 347,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 2010210.54,
+          "externalGrossUsd": 2010210.54,
+          "transactionCount": 347,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-07-05",
+      "grossTransferUsd": 376468.86,
+      "externalGrossUsd": 376468.86,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -362479.62,
+      "tradingProxyUsd": 0,
+      "transactionCount": 231,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 376468.86,
+          "externalGrossUsd": 376468.86,
+          "transactionCount": 231,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-07-06",
+      "grossTransferUsd": 3024037.11,
+      "externalGrossUsd": 3024037.11,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -1032168.68,
+      "tradingProxyUsd": 0,
+      "transactionCount": 185,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 128659.84,
+          "externalGrossUsd": 128659.84,
+          "transactionCount": 10,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 2895377.26,
+          "externalGrossUsd": 2895377.26,
+          "transactionCount": 175,
+          "tradingProxyUsd": 0
+        }
+      }
+    }
+  ],
+  "earningsModel": {
+    "asOf": "2026-07-06T13:45:06.462Z",
+    "method": {
+      "q1Reported": {
+        "totalRevenue": 50.272,
+        "transactionRevenue": 24.128,
+        "exchangeRevenue": 17.172,
+        "otcRevenue": 6.325,
+        "predictionRevenue": 0.444,
+        "servicesRevenue": 21.815,
+        "corporateInterest": 1.612,
+        "tradingVolume": 6.3,
+        "opex": 144.46,
+        "netLoss": -108.978
+      },
+      "opexRatio": 2.8736,
+      "onchainRevenueTilt": -0.017977836455922002,
+      "hasUsableExternalSignal": true,
+      "sourceInterpretation": "On-chain custody/address flow is used as a small directional deposit-withdrawal and activity proxy. It is not reported Gemini trading volume."
+    },
+    "onchainSignals": {
+      "q1ExternalGrossUsd": 328939388.68,
+      "q2ExternalGrossUsd": 255019157.01,
+      "externalFlowQoq": -0.224722955699025,
+      "q1TradingProxyUsd": 0,
+      "q2TradingProxyUsd": 0,
+      "tradingProxyQoq": null,
+      "verdict": "neutral",
+      "reasons": [
+        "External flow proxy is not strong enough to override the existing Q2 proxy model.",
+        "Existing Gemini exchange API proxy was -39.5% QoQ."
+      ]
+    },
+    "scenarios": [
+      {
+        "name": "Bear",
+        "preOnchainRevenue": 36.907,
+        "onchainRevenueTilt": -0.018,
+        "totalRevenue": 36.244,
+        "exchangeRevenue": 8.518,
+        "otcRevenue": 3.5,
+        "predictionRevenue": 0.533,
+        "servicesInterest": 22.5,
+        "opex": 104.149,
+        "operatingLoss": -67.905,
+        "netLossBeforeMarks": -77.905
+      },
+      {
+        "name": "Base",
+        "preOnchainRevenue": 45.326,
+        "onchainRevenueTilt": -0.018,
+        "totalRevenue": 44.511,
+        "exchangeRevenue": 13.491,
+        "otcRevenue": 5,
+        "predictionRevenue": 0.888,
+        "servicesInterest": 24,
+        "opex": 127.905,
+        "operatingLoss": -83.394,
+        "netLossBeforeMarks": -93.394
+      },
+      {
+        "name": "Bull",
+        "preOnchainRevenue": 55.031,
+        "onchainRevenueTilt": -0.018,
+        "totalRevenue": 54.041,
+        "exchangeRevenue": 17.706,
+        "otcRevenue": 7.5,
+        "predictionRevenue": 1.8,
+        "servicesInterest": 26,
+        "opex": 155.291,
+        "operatingLoss": -101.25,
+        "netLossBeforeMarks": -111.25
+      }
+    ]
+  },
+  "topExplorerAddresses": [
+    {
+      "chain": "ethereum",
+      "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+      "label": "Gemini",
+      "role": "exchange_wallet_candidate",
+      "txCount": 4546511,
+      "balanceUsdAcrossChains": 2116586.17,
+      "publicGeminiLabel": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "label": "Gemini 4",
+      "role": "contract",
+      "txCount": 2763512,
+      "balanceUsdAcrossChains": 13476135.44,
+      "publicGeminiLabel": false
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6fc82a5fe25a5cdb58bc74600a40a69c065263f8",
+      "label": "Gemini 2",
+      "role": "contract",
+      "txCount": 324740,
+      "balanceUsdAcrossChains": 0,
+      "publicGeminiLabel": false
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+      "label": "Gemini dollar token",
+      "role": "token_contract",
+      "txCount": 252072,
+      "balanceUsdAcrossChains": null,
+      "publicGeminiLabel": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4c2f150fc90fed3d8281114c2349f1906cde5346",
+      "label": "Gemini deployer 2",
+      "role": "deployer",
+      "txCount": 67010,
+      "balanceUsdAcrossChains": 19956.21,
+      "publicGeminiLabel": true
+    },
+    {
+      "chain": "base",
+      "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+      "label": null,
+      "role": "exchange_wallet_candidate",
+      "txCount": 11293,
+      "balanceUsdAcrossChains": 2116586.17,
+      "publicGeminiLabel": true
+    },
+    {
+      "chain": "base",
+      "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "label": null,
+      "role": "contract",
+      "txCount": 6812,
+      "balanceUsdAcrossChains": 13476135.44,
+      "publicGeminiLabel": false
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x07ee55aa48bb72dcc6e9d78256648910de513eca",
+      "label": "Gemini contract 1",
+      "role": "contract",
+      "txCount": 1709,
+      "balanceUsdAcrossChains": 2419.59,
+      "publicGeminiLabel": false
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x61edcdf5bb737adffe5043706e7c5bb1f1a56eea",
+      "label": "Gemini 3",
+      "role": "contract",
+      "txCount": 888,
+      "balanceUsdAcrossChains": 1746.54,
+      "publicGeminiLabel": false
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8d6f396d210d385033b348bcae9e4f9ea4e045bd",
+      "label": "Gemini 6",
+      "role": "contract",
+      "txCount": 436,
+      "balanceUsdAcrossChains": 1,
+      "publicGeminiLabel": false
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+      "label": "Gemini 7",
+      "role": "contract",
+      "txCount": 243,
+      "balanceUsdAcrossChains": 61833196.63,
+      "publicGeminiLabel": false
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4b7ee45f30767f36f06f79b32bf1fca6f726deda",
+      "label": "Gemini eFIL token",
+      "role": "token_contract",
+      "txCount": 216,
+      "balanceUsdAcrossChains": null,
+      "publicGeminiLabel": true
+    }
+  ],
+  "topFlowAddresses": [
+    {
+      "chain": "ethereum",
+      "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "role": "contract",
+      "q1ExternalGrossUsd": 328937928.63,
+      "q2ExternalGrossUsd": 255019122.99,
+      "q2TradingProxyUsd": 0,
+      "sampledEvents": 45312
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x61edcdf5bb737adffe5043706e7c5bb1f1a56eea",
+      "role": "contract",
+      "q1ExternalGrossUsd": 0,
+      "q2ExternalGrossUsd": 33.97,
+      "q2TradingProxyUsd": 0,
+      "sampledEvents": 8
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x07ee55aa48bb72dcc6e9d78256648910de513eca",
+      "role": "contract",
+      "q1ExternalGrossUsd": 0,
+      "q2ExternalGrossUsd": 0.02,
+      "q2TradingProxyUsd": 0,
+      "sampledEvents": 21
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+      "role": "contract",
+      "q1ExternalGrossUsd": 0.03,
+      "q2ExternalGrossUsd": 0.02,
+      "q2TradingProxyUsd": 0,
+      "sampledEvents": 10012
+    },
+    {
+      "chain": "solana",
+      "address": "CtkFWfGS7ZmZF1DjSqePheGAUPGqtg9AoiCXCmbrTb2w",
+      "role": "provided_wallet_candidate",
+      "q1ExternalGrossUsd": 0,
+      "q2ExternalGrossUsd": 0.01,
+      "q2TradingProxyUsd": 0,
+      "sampledEvents": 10
+    },
+    {
+      "chain": "base",
+      "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "role": "contract",
+      "q1ExternalGrossUsd": 0,
+      "q2ExternalGrossUsd": 0,
+      "q2TradingProxyUsd": 0,
+      "sampledEvents": 0
+    },
+    {
+      "chain": "base",
+      "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+      "role": "exchange_wallet_candidate",
+      "q1ExternalGrossUsd": 0,
+      "q2ExternalGrossUsd": 0,
+      "q2TradingProxyUsd": 0,
+      "sampledEvents": 0
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+      "role": "token_contract",
+      "q1ExternalGrossUsd": 1,
+      "q2ExternalGrossUsd": 0,
+      "q2TradingProxyUsd": 0,
+      "sampledEvents": 1832
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4b7ee45f30767f36f06f79b32bf1fca6f726deda",
+      "role": "token_contract",
+      "q1ExternalGrossUsd": 0,
+      "q2ExternalGrossUsd": 0,
+      "q2TradingProxyUsd": 0,
+      "sampledEvents": 6
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4c2f150fc90fed3d8281114c2349f1906cde5346",
+      "role": "deployer",
+      "q1ExternalGrossUsd": 0,
+      "q2ExternalGrossUsd": 0,
+      "q2TradingProxyUsd": 0,
+      "sampledEvents": 7225
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6fc82a5fe25a5cdb58bc74600a40a69c065263f8",
+      "role": "contract",
+      "q1ExternalGrossUsd": 0,
+      "q2ExternalGrossUsd": 0,
+      "q2TradingProxyUsd": 0,
+      "sampledEvents": 1
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8d6f396d210d385033b348bcae9e4f9ea4e045bd",
+      "role": "contract",
+      "q1ExternalGrossUsd": 0,
+      "q2ExternalGrossUsd": 0,
+      "q2TradingProxyUsd": 0,
+      "sampledEvents": 0
+    }
+  ],
+  "addressDeepDive": [
+    {
+      "chain": "base",
+      "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "label": null,
+      "role": "contract",
+      "confidence": "low",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://basescan.org/address/0x5f65f7b609678448494de4c87521cdf6cef1e932",
+        "title": "Address: 0x5f65f7b6...6cef1e932 | BaseScan",
+        "publicGeminiLabel": false,
+        "metadata": {
+          "balanceUsdAcrossChains": 13476135.44,
+          "transactions": 6812,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:30 PM"
+        },
+        "activityLevel": "low"
+      },
+      "sampled": {
+        "sampledEvents": 0,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": []
+      },
+      "notes": [
+        "Explorer shows 6,812 lifetime transactions.",
+        "Explorer balance across chains is approximately $13.48M.",
+        "Treat as contract/token infrastructure, not a customer trading wallet.",
+        "Historical transfer rows require Etherscan V2 API key."
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+      "label": null,
+      "role": "exchange_wallet_candidate",
+      "confidence": "high",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://basescan.org/address/0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+        "title": "Gemini | Address: 0xd24400ae...49cf46853 | BaseScan",
+        "publicGeminiLabel": true,
+        "metadata": {
+          "balanceUsdAcrossChains": 2116586.17,
+          "transactions": 11293,
+          "contractStatus": "eoa",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:30 PM"
+        },
+        "activityLevel": "moderate"
+      },
+      "sampled": {
+        "sampledEvents": 0,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": []
+      },
+      "notes": [
+        "Explorer shows 11,293 lifetime transactions.",
+        "Explorer balance across chains is approximately $2.12M.",
+        "Historical transfer rows require Etherscan V2 API key."
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+      "label": "Gemini dollar token",
+      "role": "token_contract",
+      "confidence": "high",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+        "title": "Gemini: GUSD Token | Address: 0x056fd409...387b6d5cd | Etherscan",
+        "publicGeminiLabel": true,
+        "metadata": {
+          "balanceUsdAcrossChains": null,
+          "transactions": 252072,
+          "contractStatus": "verified_contract",
+          "tokenPriceUsd": 0.9985,
+          "asAtUtc": "Jul-06-2026 01:43:31 PM"
+        },
+        "activityLevel": "high"
+      },
+      "sampled": {
+        "sampledEvents": 1832,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 1016,
+            "grossTransferUsd": 1,
+            "externalGrossUsd": 1,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 794,
+            "grossTransferUsd": 12,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 12,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 22,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": [
+          {
+            "token": "GUSD",
+            "amount": 13,
+            "grossUsd": 13,
+            "txCount": 2,
+            "priced": true
+          },
+          {
+            "token": "ETH",
+            "amount": 0,
+            "grossUsd": 0,
+            "txCount": 1820,
+            "priced": true
+          },
+          {
+            "token": "DOG",
+            "amount": 2,
+            "grossUsd": 0,
+            "txCount": 2,
+            "priced": false
+          },
+          {
+            "token": "STAR",
+            "amount": 1,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "MANYU",
+            "amount": 1,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "DOGE",
+            "amount": 1,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "REKT",
+            "amount": 1,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "SHIB",
+            "amount": 1,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "WAR",
+            "amount": 1,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "HEX",
+            "amount": 1,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          }
+        ]
+      },
+      "notes": [
+        "Explorer shows 252,072 lifetime transactions.",
+        "Treat as contract/token infrastructure, not a customer trading wallet.",
+        "Sample has no DEX/router trading proxy."
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x07ee55aa48bb72dcc6e9d78256648910de513eca",
+      "label": "Gemini contract 1",
+      "role": "contract",
+      "confidence": "medium",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x07ee55aa48bb72dcc6e9d78256648910de513eca",
+        "title": "Address: 0x07ee55aa...0de513eca | Etherscan",
+        "publicGeminiLabel": false,
+        "metadata": {
+          "balanceUsdAcrossChains": 2419.59,
+          "transactions": 1709,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:31 PM"
+        },
+        "activityLevel": "low"
+      },
+      "sampled": {
+        "sampledEvents": 21,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 17,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 4,
+            "grossTransferUsd": 0.02,
+            "externalGrossUsd": 0.02,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": [
+          {
+            "token": "USDT",
+            "amount": 0.02,
+            "grossUsd": 0.02,
+            "txCount": 2,
+            "priced": true
+          },
+          {
+            "token": "ETH",
+            "amount": 2e-7,
+            "grossUsd": 0,
+            "txCount": 17,
+            "priced": true
+          },
+          {
+            "token": "B0x",
+            "amount": 1,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "OBS",
+            "amount": 3.33333333,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          }
+        ]
+      },
+      "notes": [
+        "Explorer shows 1,709 lifetime transactions.",
+        "Explorer balance across chains is approximately $2.4K.",
+        "Treat as contract/token infrastructure, not a customer trading wallet.",
+        "Sample has no DEX/router trading proxy."
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4b7ee45f30767f36f06f79b32bf1fca6f726deda",
+      "label": "Gemini eFIL token",
+      "role": "token_contract",
+      "confidence": "high",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x4b7ee45f30767f36f06f79b32bf1fca6f726deda",
+        "title": "Gemini: eFIL Token | Address: 0x4b7ee45f...6f726deda | Etherscan",
+        "publicGeminiLabel": true,
+        "metadata": {
+          "balanceUsdAcrossChains": null,
+          "transactions": 216,
+          "contractStatus": "verified_contract",
+          "tokenPriceUsd": 0,
+          "asAtUtc": "Jul-06-2026 01:43:32 PM"
+        },
+        "activityLevel": "low"
+      },
+      "sampled": {
+        "sampledEvents": 6,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 1,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 4,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 1,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": [
+          {
+            "token": "ETH",
+            "amount": 0,
+            "grossUsd": 0,
+            "txCount": 6,
+            "priced": true
+          }
+        ]
+      },
+      "notes": [
+        "Explorer shows 216 lifetime transactions.",
+        "Treat as contract/token infrastructure, not a customer trading wallet.",
+        "Sample has no DEX/router trading proxy."
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4c2f150fc90fed3d8281114c2349f1906cde5346",
+      "label": "Gemini deployer 2",
+      "role": "deployer",
+      "confidence": "high",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x4c2f150fc90fed3d8281114c2349f1906cde5346",
+        "title": "Gemini: Deployer 2 | Address: 0x4c2f150f...06cde5346 | Etherscan",
+        "publicGeminiLabel": true,
+        "metadata": {
+          "balanceUsdAcrossChains": 19956.21,
+          "transactions": 67010,
+          "contractStatus": "eoa",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:32 PM"
+        },
+        "activityLevel": "moderate"
+      },
+      "sampled": {
+        "sampledEvents": 7225,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 4725,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 2468,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 32,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": [
+          {
+            "token": "ETH",
+            "amount": 0,
+            "grossUsd": 0,
+            "txCount": 7187,
+            "priced": true
+          },
+          {
+            "token": "XChat",
+            "amount": 20,
+            "grossUsd": 0,
+            "txCount": 4,
+            "priced": false
+          },
+          {
+            "token": "TRIA",
+            "amount": 10,
+            "grossUsd": 0,
+            "txCount": 2,
+            "priced": false
+          },
+          {
+            "token": "SpaceX",
+            "amount": 10,
+            "grossUsd": 0,
+            "txCount": 2,
+            "priced": false
+          },
+          {
+            "token": "EHORSE",
+            "amount": 5,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "SUPERDOG",
+            "amount": 5,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "UniLife",
+            "amount": 5,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "Elon Air",
+            "amount": 2,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "ChinaHorse",
+            "amount": 6,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "AILife",
+            "amount": 6,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          }
+        ]
+      },
+      "notes": [
+        "Explorer shows 67,010 lifetime transactions.",
+        "Explorer balance across chains is approximately $20.0K.",
+        "Sample has no DEX/router trading proxy."
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "label": "Gemini 4",
+      "role": "contract",
+      "confidence": "medium",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x5f65f7b609678448494de4c87521cdf6cef1e932",
+        "title": "Address: 0x5f65f7b6...6cef1e932 | Etherscan",
+        "publicGeminiLabel": false,
+        "metadata": {
+          "balanceUsdAcrossChains": 13476135.44,
+          "transactions": 2763512,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:33 PM"
+        },
+        "activityLevel": "very_high"
+      },
+      "sampled": {
+        "sampledEvents": 45312,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 20000,
+            "grossTransferUsd": 328937928.63,
+            "externalGrossUsd": 328937928.63,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 20000,
+            "grossTransferUsd": 255019134.99,
+            "externalGrossUsd": 255019122.99,
+            "internalGrossUsd": 12,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 5312,
+            "grossTransferUsd": 151316424.98,
+            "externalGrossUsd": 151316424.98,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": [
+          {
+            "token": "USDT",
+            "amount": -4420818.23583699,
+            "grossUsd": 327783048.66,
+            "txCount": 7736,
+            "priced": true
+          },
+          {
+            "token": "USDC",
+            "amount": -3751209.35476499,
+            "grossUsd": 322371700.74,
+            "txCount": 5295,
+            "priced": true
+          },
+          {
+            "token": "GUSD",
+            "amount": -156201.28,
+            "grossUsd": 85118296.3,
+            "txCount": 1522,
+            "priced": true
+          },
+          {
+            "token": "WETH",
+            "amount": -0.15016904,
+            "grossUsd": 442.88,
+            "txCount": 1,
+            "priced": true
+          },
+          {
+            "token": "ETH",
+            "amount": 0.00001101,
+            "grossUsd": 0.03,
+            "txCount": 22664,
+            "priced": true
+          },
+          {
+            "token": "AMP",
+            "amount": -229649489.8379535,
+            "grossUsd": 0,
+            "txCount": 1127,
+            "priced": false
+          },
+          {
+            "token": "LINK",
+            "amount": -108726.50691394,
+            "grossUsd": 0,
+            "txCount": 786,
+            "priced": false
+          },
+          {
+            "token": "PAXG",
+            "amount": 14.83469163,
+            "grossUsd": 0,
+            "txCount": 433,
+            "priced": false
+          },
+          {
+            "token": "BAT",
+            "amount": -539983.78650599,
+            "grossUsd": 0,
+            "txCount": 410,
+            "priced": false
+          },
+          {
+            "token": "SHIB",
+            "amount": -111349810562.31833,
+            "grossUsd": 0,
+            "txCount": 377,
+            "priced": false
+          }
+        ]
+      },
+      "notes": [
+        "Explorer shows 2,763,512 lifetime transactions.",
+        "Explorer balance across chains is approximately $13.48M.",
+        "Treat as contract/token infrastructure, not a customer trading wallet.",
+        "Sample has no DEX/router trading proxy."
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x61edcdf5bb737adffe5043706e7c5bb1f1a56eea",
+      "label": "Gemini 3",
+      "role": "contract",
+      "confidence": "medium",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x61edcdf5bb737adffe5043706e7c5bb1f1a56eea",
+        "title": "Address: 0x61edcdf5...1f1a56eea | Etherscan",
+        "publicGeminiLabel": false,
+        "metadata": {
+          "balanceUsdAcrossChains": 1746.54,
+          "transactions": 888,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:33 PM"
+        },
+        "activityLevel": "low"
+      },
+      "sampled": {
+        "sampledEvents": 8,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 3,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 5,
+            "grossTransferUsd": 33.97,
+            "externalGrossUsd": 33.97,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": [
+          {
+            "token": "ETH",
+            "amount": 0.0155002,
+            "grossUsd": 33.95,
+            "txCount": 3,
+            "priced": true
+          },
+          {
+            "token": "USDT",
+            "amount": 0.02,
+            "grossUsd": 0.02,
+            "txCount": 2,
+            "priced": true
+          },
+          {
+            "token": "B0x",
+            "amount": 1,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "OBS",
+            "amount": 3.33333333,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "HEX",
+            "amount": 1,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          }
+        ]
+      },
+      "notes": [
+        "Explorer shows 888 lifetime transactions.",
+        "Explorer balance across chains is approximately $1.7K.",
+        "Treat as contract/token infrastructure, not a customer trading wallet.",
+        "Sample has no DEX/router trading proxy."
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6fc82a5fe25a5cdb58bc74600a40a69c065263f8",
+      "label": "Gemini 2",
+      "role": "contract",
+      "confidence": "medium",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x6fc82a5fe25a5cdb58bc74600a40a69c065263f8",
+        "title": "Address: 0x6fc82a5f...c065263f8 | Etherscan",
+        "publicGeminiLabel": false,
+        "metadata": {
+          "balanceUsdAcrossChains": 0,
+          "transactions": 324740,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:34 PM"
+        },
+        "activityLevel": "high"
+      },
+      "sampled": {
+        "sampledEvents": 1,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 1,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": [
+          {
+            "token": "HEX",
+            "amount": 1,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          }
+        ]
+      },
+      "notes": [
+        "Explorer shows 324,740 lifetime transactions.",
+        "Treat as contract/token infrastructure, not a customer trading wallet.",
+        "Sample has no DEX/router trading proxy."
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8d6f396d210d385033b348bcae9e4f9ea4e045bd",
+      "label": "Gemini 6",
+      "role": "contract",
+      "confidence": "medium",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x8d6f396d210d385033b348bcae9e4f9ea4e045bd",
+        "title": "Address: 0x8d6f396d...ea4e045bd | Etherscan",
+        "publicGeminiLabel": false,
+        "metadata": {
+          "balanceUsdAcrossChains": 1,
+          "transactions": 436,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:34 PM"
+        },
+        "activityLevel": "low"
+      },
+      "sampled": {
+        "sampledEvents": 0,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": []
+      },
+      "notes": [
+        "Explorer shows 436 lifetime transactions.",
+        "Explorer balance across chains is approximately $1.00.",
+        "Treat as contract/token infrastructure, not a customer trading wallet.",
+        "Historical transfer rows require Etherscan V2 API key."
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb302bfe9c246c6e150af70b1caaa5e3df60dac05",
+      "label": "Gemini 5",
+      "role": "contract",
+      "confidence": "medium",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0xb302bfe9c246c6e150af70b1caaa5e3df60dac05",
+        "title": "Address: 0xb302bfe9...df60dac05 | Etherscan",
+        "publicGeminiLabel": false,
+        "metadata": {
+          "balanceUsdAcrossChains": 0,
+          "transactions": 30,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:35 PM"
+        },
+        "activityLevel": "low"
+      },
+      "sampled": {
+        "sampledEvents": 0,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": []
+      },
+      "notes": [
+        "Explorer shows 30 lifetime transactions.",
+        "Treat as contract/token infrastructure, not a customer trading wallet.",
+        "Historical transfer rows require Etherscan V2 API key."
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+      "label": "Gemini",
+      "role": "exchange_wallet_candidate",
+      "confidence": "high",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+        "title": "Gemini | Address: 0xd24400ae...49cf46853 | Etherscan",
+        "publicGeminiLabel": true,
+        "metadata": {
+          "balanceUsdAcrossChains": 2116586.17,
+          "transactions": 4546511,
+          "contractStatus": "eoa",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:36 PM"
+        },
+        "activityLevel": "very_high"
+      },
+      "sampled": {
+        "sampledEvents": 599,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 401,
+            "grossTransferUsd": 1459.01,
+            "externalGrossUsd": 1459.01,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 192,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 6,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": [
+          {
+            "token": "ETH",
+            "amount": 0.51759739,
+            "grossUsd": 1459.01,
+            "txCount": 472,
+            "priced": true
+          },
+          {
+            "token": "𝑬𝑻𝑯",
+            "amount": -9461.31537171,
+            "grossUsd": 0,
+            "txCount": 89,
+            "priced": false
+          },
+          {
+            "token": "DeepSeek",
+            "amount": 15,
+            "grossUsd": 0,
+            "txCount": 3,
+            "priced": false
+          },
+          {
+            "token": "BREV",
+            "amount": 10,
+            "grossUsd": 0,
+            "txCount": 2,
+            "priced": false
+          },
+          {
+            "token": "Seedance2",
+            "amount": 10,
+            "grossUsd": 0,
+            "txCount": 2,
+            "priced": false
+          },
+          {
+            "token": "EHORSE",
+            "amount": 5,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "SUPERDOG",
+            "amount": 5,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "UniLife",
+            "amount": 5,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "Elon Air",
+            "amount": 2,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          },
+          {
+            "token": "ChinaHorse",
+            "amount": 6,
+            "grossUsd": 0,
+            "txCount": 1,
+            "priced": false
+          }
+        ]
+      },
+      "notes": [
+        "Explorer shows 4,546,511 lifetime transactions.",
+        "Explorer balance across chains is approximately $2.12M.",
+        "Sample has no DEX/router trading proxy."
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+      "label": "Gemini 7",
+      "role": "contract",
+      "confidence": "medium",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+        "title": "Address: 0xd69b0089...965f00303 | Etherscan",
+        "publicGeminiLabel": false,
+        "metadata": {
+          "balanceUsdAcrossChains": 61833196.63,
+          "transactions": 243,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:36 PM"
+        },
+        "activityLevel": "low"
+      },
+      "sampled": {
+        "sampledEvents": 10012,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 11,
+            "grossTransferUsd": 0.03,
+            "externalGrossUsd": 0.03,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 10000,
+            "grossTransferUsd": 0.02,
+            "externalGrossUsd": 0.02,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 11
+          },
+          "q3_2026_partial": {
+            "txCount": 1,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": [
+          {
+            "token": "ETH",
+            "amount": 0.00001,
+            "grossUsd": 0.03,
+            "txCount": 4,
+            "priced": true
+          },
+          {
+            "token": "USDT",
+            "amount": 0.02,
+            "grossUsd": 0.02,
+            "txCount": 2,
+            "priced": true
+          },
+          {
+            "token": "AIFreeUse.cc",
+            "amount": -2164000,
+            "grossUsd": 0,
+            "txCount": 2164,
+            "priced": false
+          },
+          {
+            "token": "FiFaAI.cc",
+            "amount": -1711000,
+            "grossUsd": 0,
+            "txCount": 1711,
+            "priced": false
+          },
+          {
+            "token": "AIMevBot.cc",
+            "amount": -1356000,
+            "grossUsd": 0,
+            "txCount": 1356,
+            "priced": false
+          },
+          {
+            "token": "AIMevBot.com",
+            "amount": -1219000,
+            "grossUsd": 0,
+            "txCount": 1219,
+            "priced": false
+          },
+          {
+            "token": "FiFaAI.pro",
+            "amount": -970000,
+            "grossUsd": 0,
+            "txCount": 970,
+            "priced": false
+          },
+          {
+            "token": "WorldCupAI.pro",
+            "amount": -922000,
+            "grossUsd": 0,
+            "txCount": 922,
+            "priced": false
+          },
+          {
+            "token": "USDGift.cc",
+            "amount": -886000,
+            "grossUsd": 0,
+            "txCount": 886,
+            "priced": false
+          },
+          {
+            "token": "AIFreeUse.pro",
+            "amount": -768000,
+            "grossUsd": 0,
+            "txCount": 768,
+            "priced": false
+          }
+        ]
+      },
+      "notes": [
+        "Explorer shows 243 lifetime transactions.",
+        "Explorer balance across chains is approximately $61.83M.",
+        "Treat as contract/token infrastructure, not a customer trading wallet.",
+        "Sample has no DEX/router trading proxy."
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xdd51f01d9fc0fd084c1a4737bbfa5becb6ced9bc",
+      "label": "Gemini deployer 1",
+      "role": "deployer",
+      "confidence": "high",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0xdd51f01d9fc0fd084c1a4737bbfa5becb6ced9bc",
+        "title": "Gemini: Deployer 1 | Address: 0xdd51f01d...cb6ced9bc | Etherscan",
+        "publicGeminiLabel": true,
+        "metadata": {
+          "balanceUsdAcrossChains": 571.04,
+          "transactions": 11,
+          "contractStatus": "eoa",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:36 PM"
+        },
+        "activityLevel": "low"
+      },
+      "sampled": {
+        "sampledEvents": 0,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": []
+      },
+      "notes": [
+        "Explorer shows 11 lifetime transactions.",
+        "Explorer balance across chains is approximately $571.04.",
+        "Historical transfer rows require Etherscan V2 API key."
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xdec042a90de005b22754e94a8a979c4b8c67fde5",
+      "label": "Gemini old contract 1",
+      "role": "contract",
+      "confidence": "medium",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0xdec042a90de005b22754e94a8a979c4b8c67fde5",
+        "title": "Address: 0xdec042a9...b8c67fde5 | Etherscan",
+        "publicGeminiLabel": false,
+        "metadata": {
+          "balanceUsdAcrossChains": 0,
+          "transactions": 93,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:37 PM"
+        },
+        "activityLevel": "low"
+      },
+      "sampled": {
+        "sampledEvents": 0,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": []
+      },
+      "notes": [
+        "Explorer shows 93 lifetime transactions.",
+        "Treat as contract/token infrastructure, not a customer trading wallet.",
+        "Historical transfer rows require Etherscan V2 API key."
+      ]
+    },
+    {
+      "chain": "solana",
+      "address": "CtkFWfGS7ZmZF1DjSqePheGAUPGqtg9AoiCXCmbrTb2w",
+      "label": null,
+      "role": "provided_wallet_candidate",
+      "confidence": "low",
+      "explorer": {
+        "status": "blocked",
+        "url": "https://solscan.io/account/CtkFWfGS7ZmZF1DjSqePheGAUPGqtg9AoiCXCmbrTb2w",
+        "title": null,
+        "publicGeminiLabel": false,
+        "metadata": {},
+        "activityLevel": "unknown"
+      },
+      "sampled": {
+        "sampledEvents": 10,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 8,
+            "grossTransferUsd": 0.01,
+            "externalGrossUsd": 0.01,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 2,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": []
+      },
+      "notes": [
+        "Sample has no DEX/router trading proxy."
+      ]
+    },
+    {
+      "chain": "solana",
+      "address": "E4jre6GEgWebmMD463Cum8Xk5KASVcpZvm8kFJACJ3o",
+      "label": null,
+      "role": "provided_wallet_candidate",
+      "confidence": "low",
+      "explorer": {
+        "status": "blocked",
+        "url": "https://solscan.io/account/E4jre6GEgWebmMD463Cum8Xk5KASVcpZvm8kFJACJ3o",
+        "title": null,
+        "publicGeminiLabel": false,
+        "metadata": {},
+        "activityLevel": "unknown"
+      },
+      "sampled": {
+        "sampledEvents": 10,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 6,
+            "grossTransferUsd": 1012252.9,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 1012252.9,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 4,
+            "grossTransferUsd": 2194368.71,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 2194368.71,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [
+          {
+            "chain": "solana",
+            "address": "HFWv1riXSRJ3nVnnLZ9xi1K4r3zppRvcfVuiAGqAA8Y6",
+            "txCount": 5,
+            "grossTransferUsd": 3206621.62
+          },
+          {
+            "chain": "solana",
+            "address": "HFWvhrGqXngh6Ujheiucmsf7xxhRTaPHuhiimrh7xTY6",
+            "txCount": 1,
+            "grossTransferUsd": 0
+          },
+          {
+            "chain": "solana",
+            "address": "HymsJDmCHXbz1GU5gGzG3pPyM6PKC1dpi6cEbcyA22MG",
+            "txCount": 1,
+            "grossTransferUsd": 0
+          },
+          {
+            "chain": "solana",
+            "address": "DgNZFksaFKk36wd6STnHEGqeXSYTdd4LKyK71e6BFsDH",
+            "txCount": 1,
+            "grossTransferUsd": 0
+          },
+          {
+            "chain": "solana",
+            "address": "CCyYKtnsnkkktZw9KuUrdRWZ4qv9rn3pcNB3LouFMY5Q",
+            "txCount": 1,
+            "grossTransferUsd": 0
+          }
+        ],
+        "topTokens": []
+      },
+      "notes": [
+        "Sample has no DEX/router trading proxy."
+      ]
+    },
+    {
+      "chain": "solana",
+      "address": "GGdoUHw7f9SLaZBfYnWfA9D1ZsvzKQPwQ8VEyDtdfgkc",
+      "label": null,
+      "role": "provided_wallet_candidate",
+      "confidence": "low",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://solscan.io/account/GGdoUHw7f9SLaZBfYnWfA9D1ZsvzKQPwQ8VEyDtdfgkc",
+        "title": "Account GGdoUHw7f9SLaZBfYnWfA9D1ZsvzKQPwQ8VEyDtdfgkc | Solscan",
+        "publicGeminiLabel": false,
+        "metadata": {
+          "balanceUsdAcrossChains": null,
+          "transactions": null,
+          "contractStatus": null,
+          "tokenPriceUsd": null,
+          "asAtUtc": null
+        },
+        "activityLevel": "unknown"
+      },
+      "sampled": {
+        "sampledEvents": 10,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 10,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [],
+        "topTokens": []
+      },
+      "notes": [
+        "Sample has no DEX/router trading proxy."
+      ]
+    },
+    {
+      "chain": "solana",
+      "address": "HFWv1riXSRJ3nVnnLZ9xi1K4r3zppRvcfVuiAGqAA8Y6",
+      "label": null,
+      "role": "provided_wallet_candidate",
+      "confidence": "low",
+      "explorer": {
+        "status": "blocked",
+        "url": "https://solscan.io/account/HFWv1riXSRJ3nVnnLZ9xi1K4r3zppRvcfVuiAGqAA8Y6",
+        "title": null,
+        "publicGeminiLabel": false,
+        "metadata": {},
+        "activityLevel": "unknown"
+      },
+      "sampled": {
+        "sampledEvents": 10,
+        "sampledPeriods": {
+          "q1_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q2_2026": {
+            "txCount": 0,
+            "grossTransferUsd": 0,
+            "externalGrossUsd": 0,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          },
+          "q3_2026_partial": {
+            "txCount": 10,
+            "grossTransferUsd": 128659.84,
+            "externalGrossUsd": 128659.84,
+            "internalGrossUsd": 0,
+            "tradingProxyUsd": 0,
+            "dexInteractionCount": 0
+          }
+        },
+        "topCounterparties": [
+          {
+            "chain": "solana",
+            "address": "8G78heYVNEwvpDs3T2Ev2d1RA17zvGafonqoPELDqKYK",
+            "txCount": 3,
+            "grossTransferUsd": 111098.13
+          },
+          {
+            "chain": "solana",
+            "address": "5eQ3Yipc4aaGxaz7SvoZzzfauNnUxyfhmL4rcVbmDLYC",
+            "txCount": 1,
+            "grossTransferUsd": 17034.05
+          },
+          {
+            "chain": "solana",
+            "address": "5Cbgxcz5PC4F7hYUFKWBJtcUktWQWv3u5YzXqoYUvkym",
+            "txCount": 1,
+            "grossTransferUsd": 136.83
+          },
+          {
+            "chain": "solana",
+            "address": "8WWQHEPkJwGeMktgqYLiT5291HPBtbbabWhVum9qBQG8",
+            "txCount": 1,
+            "grossTransferUsd": 130.33
+          },
+          {
+            "chain": "solana",
+            "address": "DzUdveqJMY7CSJq85Bm6sHGh7sCcpP9rXZBtvE9HjUy7",
+            "txCount": 1,
+            "grossTransferUsd": 97.75
+          },
+          {
+            "chain": "solana",
+            "address": "FY57pfUMdgXvm28Fycm4RAiHDR4QBy96V2FkjiUeZeAj",
+            "txCount": 1,
+            "grossTransferUsd": 79.1
+          },
+          {
+            "chain": "solana",
+            "address": "4woeaa7Gjr1RHi1A3iuDYrBjj1Arntb4RZxx6FVL3iTB",
+            "txCount": 1,
+            "grossTransferUsd": 73.18
+          },
+          {
+            "chain": "solana",
+            "address": "8TQ8btESZcq1HzBnfhA1CQv1nBhD3xn2ZRbVkSwnjHfJ",
+            "txCount": 1,
+            "grossTransferUsd": 10.48
+          }
+        ],
+        "topTokens": [
+          {
+            "token": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "amount": -111098.13,
+            "grossUsd": 111098.13,
+            "txCount": 3,
+            "priced": true
+          }
+        ]
+      },
+      "notes": [
+        "Sample has no DEX/router trading proxy."
+      ]
+    }
+  ],
+  "collectionStatus": {
+    "solana": {
+      "status": "partial_public_rpc_sample",
+      "byAddress": [
+        {
+          "chain": "solana",
+          "address": "CtkFWfGS7ZmZF1DjSqePheGAUPGqtg9AoiCXCmbrTb2w",
+          "status": "partial_bounded_sample",
+          "accountInfo": {
+            "error": "solana account CtkFWfGS7ZmZF1DjSqePheGAUPGqtg9AoiCXCmbrTb2w: {\"code\":-32601,\"message\":\"Method not found\"}"
+          },
+          "signaturesFetched": 60,
+          "transactionsFetched": 10,
+          "coverage": {
+            "status": "sample_window",
+            "newestDate": "2026-07-02",
+            "oldestDate": "2026-06-10",
+            "datedSignatures": 60
+          },
+          "sampledEvents": 10
+        },
+        {
+          "chain": "solana",
+          "address": "E4jre6GEgWebmMD463Cum8Xk5KASVcpZvm8kFJACJ3o",
+          "status": "partial_bounded_sample",
+          "accountInfo": {
+            "error": "solana account E4jre6GEgWebmMD463Cum8Xk5KASVcpZvm8kFJACJ3o: {\"code\":-32601,\"message\":\"Method not found\"}"
+          },
+          "signaturesFetched": 60,
+          "transactionsFetched": 10,
+          "coverage": {
+            "status": "sample_window",
+            "newestDate": "2026-06-16",
+            "oldestDate": "2026-02-20",
+            "datedSignatures": 60
+          },
+          "sampledEvents": 10
+        },
+        {
+          "chain": "solana",
+          "address": "GGdoUHw7f9SLaZBfYnWfA9D1ZsvzKQPwQ8VEyDtdfgkc",
+          "status": "partial_bounded_sample",
+          "accountInfo": {
+            "error": "solana account GGdoUHw7f9SLaZBfYnWfA9D1ZsvzKQPwQ8VEyDtdfgkc: {\"code\":-32601,\"message\":\"Method not found\"}"
+          },
+          "signaturesFetched": 60,
+          "transactionsFetched": 10,
+          "coverage": {
+            "status": "sample_window",
+            "newestDate": "2026-06-10",
+            "oldestDate": "2026-06-10",
+            "datedSignatures": 60
+          },
+          "sampledEvents": 10
+        },
+        {
+          "chain": "solana",
+          "address": "HFWv1riXSRJ3nVnnLZ9xi1K4r3zppRvcfVuiAGqAA8Y6",
+          "status": "partial_bounded_sample",
+          "accountInfo": {
+            "error": "solana account HFWv1riXSRJ3nVnnLZ9xi1K4r3zppRvcfVuiAGqAA8Y6: {\"code\":-32601,\"message\":\"Method not found\"}"
+          },
+          "signaturesFetched": 60,
+          "transactionsFetched": 10,
+          "coverage": {
+            "status": "sample_window",
+            "newestDate": "2026-07-06",
+            "oldestDate": "2026-07-06",
+            "datedSignatures": 60
+          },
+          "sampledEvents": 10
+        }
+      ]
+    },
+    "evm": {
+      "status": "api_attempted",
+      "byAddress": [
+        {
+          "chain": "base",
+          "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+          "status": "partial",
+          "normalRows": 0,
+          "tokenRows": 0,
+          "reason": "missing block window",
+          "coverage": {
+            "status": "no_dated_rows"
+          },
+          "periodStatuses": {
+            "q1_2026": {
+              "blockWindow": {
+                "period": "q1_2026",
+                "status": "partial_or_blocked",
+                "startTimestamp": 1767225600,
+                "endTimestamp": 1775001599,
+                "startBlock": null,
+                "endBlock": null,
+                "reason": "NOTOK"
+              },
+              "status": "partial_or_blocked",
+              "normalStatus": "blocked_missing_block_window",
+              "tokenStatus": "blocked_missing_block_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": "missing block window"
+            },
+            "q2_2026": {
+              "blockWindow": {
+                "period": "q2_2026",
+                "status": "partial_or_blocked",
+                "startTimestamp": 1775001600,
+                "endTimestamp": 1782863999,
+                "startBlock": null,
+                "endBlock": null,
+                "reason": "NOTOK"
+              },
+              "status": "partial_or_blocked",
+              "normalStatus": "blocked_missing_block_window",
+              "tokenStatus": "blocked_missing_block_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": "missing block window"
+            },
+            "q3_2026_partial": {
+              "blockWindow": {
+                "period": "q3_2026_partial",
+                "status": "partial_or_blocked",
+                "startTimestamp": 1782864000,
+                "endTimestamp": 1783345424,
+                "startBlock": null,
+                "endBlock": null,
+                "reason": "NOTOK"
+              },
+              "status": "partial_or_blocked",
+              "normalStatus": "blocked_missing_block_window",
+              "tokenStatus": "blocked_missing_block_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": "missing block window"
+            }
+          }
+        },
+        {
+          "chain": "base",
+          "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+          "status": "partial",
+          "normalRows": 0,
+          "tokenRows": 0,
+          "reason": "missing block window",
+          "coverage": {
+            "status": "no_dated_rows"
+          },
+          "periodStatuses": {
+            "q1_2026": {
+              "blockWindow": {
+                "period": "q1_2026",
+                "status": "partial_or_blocked",
+                "startTimestamp": 1767225600,
+                "endTimestamp": 1775001599,
+                "startBlock": null,
+                "endBlock": null,
+                "reason": "NOTOK"
+              },
+              "status": "partial_or_blocked",
+              "normalStatus": "blocked_missing_block_window",
+              "tokenStatus": "blocked_missing_block_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": "missing block window"
+            },
+            "q2_2026": {
+              "blockWindow": {
+                "period": "q2_2026",
+                "status": "partial_or_blocked",
+                "startTimestamp": 1775001600,
+                "endTimestamp": 1782863999,
+                "startBlock": null,
+                "endBlock": null,
+                "reason": "NOTOK"
+              },
+              "status": "partial_or_blocked",
+              "normalStatus": "blocked_missing_block_window",
+              "tokenStatus": "blocked_missing_block_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": "missing block window"
+            },
+            "q3_2026_partial": {
+              "blockWindow": {
+                "period": "q3_2026_partial",
+                "status": "partial_or_blocked",
+                "startTimestamp": 1782864000,
+                "endTimestamp": 1783345424,
+                "startBlock": null,
+                "endBlock": null,
+                "reason": "NOTOK"
+              },
+              "status": "partial_or_blocked",
+              "normalStatus": "blocked_missing_block_window",
+              "tokenStatus": "blocked_missing_block_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": "missing block window"
+            }
+          }
+        },
+        {
+          "chain": "ethereum",
+          "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+          "status": "complete_api_window",
+          "normalRows": 1820,
+          "tokenRows": 12,
+          "reason": null,
+          "coverage": {
+            "status": "api_window",
+            "oldestDate": "2026-01-01",
+            "newestDate": "2026-07-06",
+            "datedRows": 1832
+          },
+          "periodStatuses": {
+            "q1_2026": {
+              "blockWindow": {
+                "period": "q1_2026",
+                "status": "complete",
+                "startTimestamp": 1767225600,
+                "endTimestamp": 1775001599,
+                "startBlock": 24136053,
+                "endBlock": 24781026,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 1007,
+              "tokenRows": 9,
+              "reason": null
+            },
+            "q2_2026": {
+              "blockWindow": {
+                "period": "q2_2026",
+                "status": "complete",
+                "startTimestamp": 1775001600,
+                "endTimestamp": 1782863999,
+                "startBlock": 24781027,
+                "endBlock": 25433938,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 791,
+              "tokenRows": 3,
+              "reason": null
+            },
+            "q3_2026_partial": {
+              "blockWindow": {
+                "period": "q3_2026_partial",
+                "status": "complete",
+                "startTimestamp": 1782864000,
+                "endTimestamp": 1783345427,
+                "startBlock": 25433939,
+                "endBlock": 25473870,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 22,
+              "tokenRows": 0,
+              "reason": null
+            }
+          }
+        },
+        {
+          "chain": "ethereum",
+          "address": "0x07ee55aa48bb72dcc6e9d78256648910de513eca",
+          "status": "complete_api_window",
+          "normalRows": 17,
+          "tokenRows": 4,
+          "reason": null,
+          "coverage": {
+            "status": "api_window",
+            "oldestDate": "2026-02-21",
+            "newestDate": "2026-04-08",
+            "datedRows": 21
+          },
+          "periodStatuses": {
+            "q1_2026": {
+              "blockWindow": {
+                "period": "q1_2026",
+                "status": "complete",
+                "startTimestamp": 1767225600,
+                "endTimestamp": 1775001599,
+                "startBlock": 24136053,
+                "endBlock": 24781026,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 15,
+              "tokenRows": 2,
+              "reason": null
+            },
+            "q2_2026": {
+              "blockWindow": {
+                "period": "q2_2026",
+                "status": "complete",
+                "startTimestamp": 1775001600,
+                "endTimestamp": 1782863999,
+                "startBlock": 24781027,
+                "endBlock": 25433938,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 2,
+              "tokenRows": 2,
+              "reason": null
+            },
+            "q3_2026_partial": {
+              "blockWindow": {
+                "period": "q3_2026_partial",
+                "status": "complete",
+                "startTimestamp": 1782864000,
+                "endTimestamp": 1783345427,
+                "startBlock": 25433939,
+                "endBlock": 25473870,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": null
+            }
+          }
+        },
+        {
+          "chain": "ethereum",
+          "address": "0x4b7ee45f30767f36f06f79b32bf1fca6f726deda",
+          "status": "complete_api_window",
+          "normalRows": 6,
+          "tokenRows": 0,
+          "reason": null,
+          "coverage": {
+            "status": "api_window",
+            "oldestDate": "2026-03-28",
+            "newestDate": "2026-07-03",
+            "datedRows": 6
+          },
+          "periodStatuses": {
+            "q1_2026": {
+              "blockWindow": {
+                "period": "q1_2026",
+                "status": "complete",
+                "startTimestamp": 1767225600,
+                "endTimestamp": 1775001599,
+                "startBlock": 24136053,
+                "endBlock": 24781026,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 1,
+              "tokenRows": 0,
+              "reason": null
+            },
+            "q2_2026": {
+              "blockWindow": {
+                "period": "q2_2026",
+                "status": "complete",
+                "startTimestamp": 1775001600,
+                "endTimestamp": 1782863999,
+                "startBlock": 24781027,
+                "endBlock": 25433938,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 4,
+              "tokenRows": 0,
+              "reason": null
+            },
+            "q3_2026_partial": {
+              "blockWindow": {
+                "period": "q3_2026_partial",
+                "status": "complete",
+                "startTimestamp": 1782864000,
+                "endTimestamp": 1783345427,
+                "startBlock": 25433939,
+                "endBlock": 25473870,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 1,
+              "tokenRows": 0,
+              "reason": null
+            }
+          }
+        },
+        {
+          "chain": "ethereum",
+          "address": "0x4c2f150fc90fed3d8281114c2349f1906cde5346",
+          "status": "complete_api_window",
+          "normalRows": 7187,
+          "tokenRows": 38,
+          "reason": null,
+          "coverage": {
+            "status": "api_window",
+            "oldestDate": "2026-01-02",
+            "newestDate": "2026-07-03",
+            "datedRows": 7225
+          },
+          "periodStatuses": {
+            "q1_2026": {
+              "blockWindow": {
+                "period": "q1_2026",
+                "status": "complete",
+                "startTimestamp": 1767225600,
+                "endTimestamp": 1775001599,
+                "startBlock": 24136053,
+                "endBlock": 24781026,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 4696,
+              "tokenRows": 29,
+              "reason": null
+            },
+            "q2_2026": {
+              "blockWindow": {
+                "period": "q2_2026",
+                "status": "complete",
+                "startTimestamp": 1775001600,
+                "endTimestamp": 1782863999,
+                "startBlock": 24781027,
+                "endBlock": 25433938,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 2459,
+              "tokenRows": 9,
+              "reason": null
+            },
+            "q3_2026_partial": {
+              "blockWindow": {
+                "period": "q3_2026_partial",
+                "status": "complete",
+                "startTimestamp": 1782864000,
+                "endTimestamp": 1783345427,
+                "startBlock": 25433939,
+                "endBlock": 25473870,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 32,
+              "tokenRows": 0,
+              "reason": null
+            }
+          }
+        },
+        {
+          "chain": "ethereum",
+          "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+          "status": "partial",
+          "normalRows": 22664,
+          "tokenRows": 22648,
+          "reason": "Result window is too large, PageNo x Offset size must be less than or equal to 10000",
+          "coverage": {
+            "status": "api_window",
+            "oldestDate": "2026-01-01",
+            "newestDate": "2026-07-06",
+            "datedRows": 45312
+          },
+          "periodStatuses": {
+            "q1_2026": {
+              "blockWindow": {
+                "period": "q1_2026",
+                "status": "complete",
+                "startTimestamp": 1767225600,
+                "endTimestamp": 1775001599,
+                "startBlock": 24136053,
+                "endBlock": 24781026,
+                "reason": null
+              },
+              "status": "partial",
+              "normalStatus": "partial_or_blocked",
+              "tokenStatus": "partial_or_blocked",
+              "normalRows": 10000,
+              "tokenRows": 10000,
+              "reason": "Result window is too large, PageNo x Offset size must be less than or equal to 10000"
+            },
+            "q2_2026": {
+              "blockWindow": {
+                "period": "q2_2026",
+                "status": "complete",
+                "startTimestamp": 1775001600,
+                "endTimestamp": 1782863999,
+                "startBlock": 24781027,
+                "endBlock": 25433938,
+                "reason": null
+              },
+              "status": "partial",
+              "normalStatus": "partial_or_blocked",
+              "tokenStatus": "partial_or_blocked",
+              "normalRows": 10000,
+              "tokenRows": 10000,
+              "reason": "Result window is too large, PageNo x Offset size must be less than or equal to 10000"
+            },
+            "q3_2026_partial": {
+              "blockWindow": {
+                "period": "q3_2026_partial",
+                "status": "complete",
+                "startTimestamp": 1782864000,
+                "endTimestamp": 1783345427,
+                "startBlock": 25433939,
+                "endBlock": 25473870,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 2664,
+              "tokenRows": 2648,
+              "reason": null
+            }
+          }
+        },
+        {
+          "chain": "ethereum",
+          "address": "0x61edcdf5bb737adffe5043706e7c5bb1f1a56eea",
+          "status": "complete_api_window",
+          "normalRows": 3,
+          "tokenRows": 5,
+          "reason": null,
+          "coverage": {
+            "status": "api_window",
+            "oldestDate": "2026-02-21",
+            "newestDate": "2026-04-09",
+            "datedRows": 8
+          },
+          "periodStatuses": {
+            "q1_2026": {
+              "blockWindow": {
+                "period": "q1_2026",
+                "status": "complete",
+                "startTimestamp": 1767225600,
+                "endTimestamp": 1775001599,
+                "startBlock": 24136053,
+                "endBlock": 24781026,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 3,
+              "reason": null
+            },
+            "q2_2026": {
+              "blockWindow": {
+                "period": "q2_2026",
+                "status": "complete",
+                "startTimestamp": 1775001600,
+                "endTimestamp": 1782863999,
+                "startBlock": 24781027,
+                "endBlock": 25433938,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 3,
+              "tokenRows": 2,
+              "reason": null
+            },
+            "q3_2026_partial": {
+              "blockWindow": {
+                "period": "q3_2026_partial",
+                "status": "complete",
+                "startTimestamp": 1782864000,
+                "endTimestamp": 1783345427,
+                "startBlock": 25433939,
+                "endBlock": 25473870,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": null
+            }
+          }
+        },
+        {
+          "chain": "ethereum",
+          "address": "0x6fc82a5fe25a5cdb58bc74600a40a69c065263f8",
+          "status": "partial",
+          "normalRows": 0,
+          "tokenRows": 1,
+          "reason": "NOTOK",
+          "coverage": {
+            "status": "api_window",
+            "oldestDate": "2026-03-29",
+            "newestDate": "2026-03-29",
+            "datedRows": 1
+          },
+          "periodStatuses": {
+            "q1_2026": {
+              "blockWindow": {
+                "period": "q1_2026",
+                "status": "complete",
+                "startTimestamp": 1767225600,
+                "endTimestamp": 1775001599,
+                "startBlock": 24136053,
+                "endBlock": 24781026,
+                "reason": null
+              },
+              "status": "partial_or_blocked",
+              "normalStatus": "blocked_or_empty",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 1,
+              "reason": "NOTOK"
+            },
+            "q2_2026": {
+              "blockWindow": {
+                "period": "q2_2026",
+                "status": "complete",
+                "startTimestamp": 1775001600,
+                "endTimestamp": 1782863999,
+                "startBlock": 24781027,
+                "endBlock": 25433938,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": null
+            },
+            "q3_2026_partial": {
+              "blockWindow": {
+                "period": "q3_2026_partial",
+                "status": "complete",
+                "startTimestamp": 1782864000,
+                "endTimestamp": 1783345427,
+                "startBlock": 25433939,
+                "endBlock": 25473870,
+                "reason": null
+              },
+              "status": "partial_or_blocked",
+              "normalStatus": "blocked_or_empty",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": "NOTOK"
+            }
+          }
+        },
+        {
+          "chain": "ethereum",
+          "address": "0x8d6f396d210d385033b348bcae9e4f9ea4e045bd",
+          "status": "partial",
+          "normalRows": 0,
+          "tokenRows": 0,
+          "reason": "NOTOK",
+          "coverage": {
+            "status": "no_dated_rows"
+          },
+          "periodStatuses": {
+            "q1_2026": {
+              "blockWindow": {
+                "period": "q1_2026",
+                "status": "complete",
+                "startTimestamp": 1767225600,
+                "endTimestamp": 1775001599,
+                "startBlock": 24136053,
+                "endBlock": 24781026,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": null
+            },
+            "q2_2026": {
+              "blockWindow": {
+                "period": "q2_2026",
+                "status": "complete",
+                "startTimestamp": 1775001600,
+                "endTimestamp": 1782863999,
+                "startBlock": 24781027,
+                "endBlock": 25433938,
+                "reason": null
+              },
+              "status": "partial_or_blocked",
+              "normalStatus": "blocked_or_empty",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": "NOTOK"
+            },
+            "q3_2026_partial": {
+              "blockWindow": {
+                "period": "q3_2026_partial",
+                "status": "complete",
+                "startTimestamp": 1782864000,
+                "endTimestamp": 1783345427,
+                "startBlock": 25433939,
+                "endBlock": 25473870,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": null
+            }
+          }
+        },
+        {
+          "chain": "ethereum",
+          "address": "0xb302bfe9c246c6e150af70b1caaa5e3df60dac05",
+          "status": "partial",
+          "normalRows": 0,
+          "tokenRows": 0,
+          "reason": "NOTOK",
+          "coverage": {
+            "status": "no_dated_rows"
+          },
+          "periodStatuses": {
+            "q1_2026": {
+              "blockWindow": {
+                "period": "q1_2026",
+                "status": "complete",
+                "startTimestamp": 1767225600,
+                "endTimestamp": 1775001599,
+                "startBlock": 24136053,
+                "endBlock": 24781026,
+                "reason": null
+              },
+              "status": "partial_or_blocked",
+              "normalStatus": "blocked_or_empty",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": "NOTOK"
+            },
+            "q2_2026": {
+              "blockWindow": {
+                "period": "q2_2026",
+                "status": "complete",
+                "startTimestamp": 1775001600,
+                "endTimestamp": 1782863999,
+                "startBlock": 24781027,
+                "endBlock": 25433938,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": null
+            },
+            "q3_2026_partial": {
+              "blockWindow": {
+                "period": "q3_2026_partial",
+                "status": "complete",
+                "startTimestamp": 1782864000,
+                "endTimestamp": 1783345427,
+                "startBlock": 25433939,
+                "endBlock": 25473870,
+                "reason": null
+              },
+              "status": "partial_or_blocked",
+              "normalStatus": "blocked_or_empty",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": "NOTOK"
+            }
+          }
+        },
+        {
+          "chain": "ethereum",
+          "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+          "status": "complete_api_window",
+          "normalRows": 472,
+          "tokenRows": 127,
+          "reason": null,
+          "coverage": {
+            "status": "api_window",
+            "oldestDate": "2026-01-02",
+            "newestDate": "2026-07-02",
+            "datedRows": 599
+          },
+          "periodStatuses": {
+            "q1_2026": {
+              "blockWindow": {
+                "period": "q1_2026",
+                "status": "complete",
+                "startTimestamp": 1767225600,
+                "endTimestamp": 1775001599,
+                "startBlock": 24136053,
+                "endBlock": 24781026,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 285,
+              "tokenRows": 116,
+              "reason": null
+            },
+            "q2_2026": {
+              "blockWindow": {
+                "period": "q2_2026",
+                "status": "complete",
+                "startTimestamp": 1775001600,
+                "endTimestamp": 1782863999,
+                "startBlock": 24781027,
+                "endBlock": 25433938,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 181,
+              "tokenRows": 11,
+              "reason": null
+            },
+            "q3_2026_partial": {
+              "blockWindow": {
+                "period": "q3_2026_partial",
+                "status": "complete",
+                "startTimestamp": 1782864000,
+                "endTimestamp": 1783345427,
+                "startBlock": 25433939,
+                "endBlock": 25473870,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 6,
+              "tokenRows": 0,
+              "reason": null
+            }
+          }
+        },
+        {
+          "chain": "ethereum",
+          "address": "0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+          "status": "partial",
+          "normalRows": 4,
+          "tokenRows": 10008,
+          "reason": "NOTOK",
+          "coverage": {
+            "status": "api_window",
+            "oldestDate": "2026-01-03",
+            "newestDate": "2026-07-01",
+            "datedRows": 10012
+          },
+          "periodStatuses": {
+            "q1_2026": {
+              "blockWindow": {
+                "period": "q1_2026",
+                "status": "complete",
+                "startTimestamp": 1767225600,
+                "endTimestamp": 1775001599,
+                "startBlock": 24136053,
+                "endBlock": 24781026,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 3,
+              "tokenRows": 8,
+              "reason": null
+            },
+            "q2_2026": {
+              "blockWindow": {
+                "period": "q2_2026",
+                "status": "complete",
+                "startTimestamp": 1775001600,
+                "endTimestamp": 1782863999,
+                "startBlock": 24781027,
+                "endBlock": 25433938,
+                "reason": null
+              },
+              "status": "partial",
+              "normalStatus": "blocked_or_empty",
+              "tokenStatus": "partial_or_blocked",
+              "normalRows": 0,
+              "tokenRows": 10000,
+              "reason": "NOTOK"
+            },
+            "q3_2026_partial": {
+              "blockWindow": {
+                "period": "q3_2026_partial",
+                "status": "complete",
+                "startTimestamp": 1782864000,
+                "endTimestamp": 1783345427,
+                "startBlock": 25433939,
+                "endBlock": 25473870,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 1,
+              "tokenRows": 0,
+              "reason": null
+            }
+          }
+        },
+        {
+          "chain": "ethereum",
+          "address": "0xdd51f01d9fc0fd084c1a4737bbfa5becb6ced9bc",
+          "status": "partial",
+          "normalRows": 0,
+          "tokenRows": 0,
+          "reason": "NOTOK",
+          "coverage": {
+            "status": "no_dated_rows"
+          },
+          "periodStatuses": {
+            "q1_2026": {
+              "blockWindow": {
+                "period": "q1_2026",
+                "status": "complete",
+                "startTimestamp": 1767225600,
+                "endTimestamp": 1775001599,
+                "startBlock": 24136053,
+                "endBlock": 24781026,
+                "reason": null
+              },
+              "status": "partial_or_blocked",
+              "normalStatus": "blocked_or_empty",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": "NOTOK"
+            },
+            "q2_2026": {
+              "blockWindow": {
+                "period": "q2_2026",
+                "status": "complete",
+                "startTimestamp": 1775001600,
+                "endTimestamp": 1782863999,
+                "startBlock": 24781027,
+                "endBlock": 25433938,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": null
+            },
+            "q3_2026_partial": {
+              "blockWindow": {
+                "period": "q3_2026_partial",
+                "status": "complete",
+                "startTimestamp": 1782864000,
+                "endTimestamp": 1783345427,
+                "startBlock": 25433939,
+                "endBlock": 25473870,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": null
+            }
+          }
+        },
+        {
+          "chain": "ethereum",
+          "address": "0xdec042a90de005b22754e94a8a979c4b8c67fde5",
+          "status": "partial",
+          "normalRows": 0,
+          "tokenRows": 0,
+          "reason": "NOTOK",
+          "coverage": {
+            "status": "no_dated_rows"
+          },
+          "periodStatuses": {
+            "q1_2026": {
+              "blockWindow": {
+                "period": "q1_2026",
+                "status": "complete",
+                "startTimestamp": 1767225600,
+                "endTimestamp": 1775001599,
+                "startBlock": 24136053,
+                "endBlock": 24781026,
+                "reason": null
+              },
+              "status": "partial_or_blocked",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "blocked_or_empty",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": "NOTOK"
+            },
+            "q2_2026": {
+              "blockWindow": {
+                "period": "q2_2026",
+                "status": "complete",
+                "startTimestamp": 1775001600,
+                "endTimestamp": 1782863999,
+                "startBlock": 24781027,
+                "endBlock": 25433938,
+                "reason": null
+              },
+              "status": "complete_api_window",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "complete_api_window",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": null
+            },
+            "q3_2026_partial": {
+              "blockWindow": {
+                "period": "q3_2026_partial",
+                "status": "complete",
+                "startTimestamp": 1782864000,
+                "endTimestamp": 1783345427,
+                "startBlock": 25433939,
+                "endBlock": 25473870,
+                "reason": null
+              },
+              "status": "partial_or_blocked",
+              "normalStatus": "complete_api_window",
+              "tokenStatus": "blocked_or_empty",
+              "normalRows": 0,
+              "tokenRows": 0,
+              "reason": "NOTOK"
+            }
+          }
+        }
+      ],
+      "blockWindows": {
+        "base": {
+          "q1_2026": {
+            "period": "q1_2026",
+            "status": "partial_or_blocked",
+            "startTimestamp": 1767225600,
+            "endTimestamp": 1775001599,
+            "startBlock": null,
+            "endBlock": null,
+            "reason": "NOTOK"
+          },
+          "q2_2026": {
+            "period": "q2_2026",
+            "status": "partial_or_blocked",
+            "startTimestamp": 1775001600,
+            "endTimestamp": 1782863999,
+            "startBlock": null,
+            "endBlock": null,
+            "reason": "NOTOK"
+          },
+          "q3_2026_partial": {
+            "period": "q3_2026_partial",
+            "status": "partial_or_blocked",
+            "startTimestamp": 1782864000,
+            "endTimestamp": 1783345424,
+            "startBlock": null,
+            "endBlock": null,
+            "reason": "NOTOK"
+          }
+        },
+        "ethereum": {
+          "q1_2026": {
+            "period": "q1_2026",
+            "status": "complete",
+            "startTimestamp": 1767225600,
+            "endTimestamp": 1775001599,
+            "startBlock": 24136053,
+            "endBlock": 24781026,
+            "reason": null
+          },
+          "q2_2026": {
+            "period": "q2_2026",
+            "status": "complete",
+            "startTimestamp": 1775001600,
+            "endTimestamp": 1782863999,
+            "startBlock": 24781027,
+            "endBlock": 25433938,
+            "reason": null
+          },
+          "q3_2026_partial": {
+            "period": "q3_2026_partial",
+            "status": "complete",
+            "startTimestamp": 1782864000,
+            "endTimestamp": 1783345427,
+            "startBlock": 25433939,
+            "endBlock": 25473870,
+            "reason": null
+          }
+        }
+      }
+    }
+  },
+  "caveats": [
+    "Transfer volume is not trading volume.",
+    "Public-only Solana RPC is a bounded sample and may not reach Q1/Q2 for high-velocity wallets.",
+    "EVM windows can be partial when high-volume addresses hit Etherscan row caps."
+  ]
+}

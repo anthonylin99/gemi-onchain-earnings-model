@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GEMI On-Chain Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --ink: #15171a;
+      --muted: #636b74;
+      --line: #d9dee5;
+      --blue: #2563eb;
+      --green: #16835b;
+      --red: #c2410c;
+      --amber: #b7791f;
+      --purple: #6d28d9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      padding: 20px 24px 12px;
+      border-bottom: 1px solid var(--line);
+      background: var(--panel);
+      position: sticky;
+      top: 0;
+      z-index: 3;
+    }
+    h1 { font-size: 22px; margin: 0 0 4px; font-weight: 750; }
+    h2 { font-size: 15px; margin: 0 0 12px; font-weight: 720; }
+    p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.45; }
+    main { padding: 18px 24px 32px; }
+    .status { text-align: right; min-width: 230px; }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: #fff4db;
+      border: 1px solid #f3d899;
+      color: #774800;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .grid { display: grid; gap: 14px; }
+    .kpis { grid-template-columns: repeat(5, minmax(140px, 1fr)); margin-bottom: 14px; }
+    .charts { grid-template-columns: repeat(2, minmax(280px, 1fr)); }
+    .wide { grid-column: 1 / -1; }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      min-width: 0;
+    }
+    .kpi .label { color: var(--muted); font-size: 12px; margin-bottom: 6px; }
+    .kpi .value { font-size: 21px; font-weight: 760; white-space: nowrap; }
+    .kpi .sub { color: var(--muted); font-size: 12px; margin-top: 4px; min-height: 18px; }
+    .chartBox { height: 320px; }
+    .chartBox.compact { height: 260px; }
+    canvas { width: 100% !important; height: 100% !important; }
+    table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    th, td { border-bottom: 1px solid var(--line); padding: 8px 7px; text-align: left; vertical-align: top; }
+    th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0; background: #fbfcfd; position: sticky; top: 71px; }
+    td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+    code { font-family: "SFMono-Regular", Consolas, monospace; font-size: 11px; }
+    .tableScroll { overflow: auto; max-height: 520px; border: 1px solid var(--line); border-radius: 6px; }
+    .controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 12px; }
+    .controls button {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      min-height: 32px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 650;
+      color: var(--ink);
+    }
+    .controls button.active { border-color: var(--blue); color: var(--blue); background: #eff6ff; }
+    @media (max-width: 1050px) {
+      .kpis, .charts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      header { position: static; flex-direction: column; }
+      .status { text-align: left; }
+      th { position: static; }
+    }
+    @media (max-width: 680px) {
+      main, header { padding-left: 12px; padding-right: 12px; }
+      .kpis, .charts { grid-template-columns: 1fr; }
+      .chartBox { height: 280px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>GEMI On-Chain Earnings Dashboard</h1>
+      <p id="subtitle">Loading address model...</p>
+    </div>
+    <div class="status">
+      <span id="verdict" class="badge">Loading</span>
+      <p id="asOf"></p>
+    </div>
+  </header>
+  <main>
+    <section class="grid kpis" id="kpis"></section>
+
+    <section class="grid charts">
+      <div class="panel wide">
+        <div class="controls">
+          <button data-series="externalGrossUsd" class="active">External Flow</button>
+          <button data-series="internalGrossUsd">Internal Flow</button>
+          <button data-series="tradingProxyUsd">Trading Proxy</button>
+          <button data-series="transactionCount">Tx Count</button>
+        </div>
+        <div class="chartBox"><canvas id="dailyChart"></canvas></div>
+      </div>
+      <div class="panel">
+        <h2>Quarterly Flow Buckets</h2>
+        <div class="chartBox compact"><canvas id="quarterChart"></canvas></div>
+      </div>
+      <div class="panel">
+        <h2>Top Explorer Tx Counts</h2>
+        <div class="chartBox compact"><canvas id="topExplorerChart"></canvas></div>
+      </div>
+      <div class="panel">
+        <h2>Q2 Earnings Bridge</h2>
+        <div class="chartBox compact"><canvas id="earningsChart"></canvas></div>
+      </div>
+      <div class="panel">
+        <h2>Top Q2 External Flow Addresses</h2>
+        <div class="chartBox compact"><canvas id="topFlowChart"></canvas></div>
+      </div>
+    </section>
+
+    <section class="grid" style="margin-top:14px;">
+      <div class="panel">
+        <h2>Earnings Scenarios</h2>
+        <div class="tableScroll"><table id="earningsTable"></table></div>
+      </div>
+      <div class="panel">
+        <h2>Address Deep Dive</h2>
+        <div class="tableScroll"><table id="addressTable"></table></div>
+      </div>
+    </section>
+  </main>
+  <script>
+    const money = (value) => {
+      const n = Number(value) || 0;
+      const abs = Math.abs(n);
+      if (abs >= 1e9) return "$" + (n / 1e9).toFixed(2) + "B";
+      if (abs >= 1e6) return "$" + (n / 1e6).toFixed(2) + "M";
+      if (abs >= 1e3) return "$" + (n / 1e3).toFixed(1) + "K";
+      return "$" + n.toFixed(0);
+    };
+    const shortAddr = (address) => address.length > 16 ? address.slice(0, 7) + "..." + address.slice(-6) : address;
+    const fmtPct = (value) => value === null || value === undefined ? "n/a" : (value * 100).toFixed(1) + "%";
+    const charts = {};
+    const colors = {
+      externalGrossUsd: "#2563eb",
+      internalGrossUsd: "#6d28d9",
+      tradingProxyUsd: "#16835b",
+      transactionCount: "#c2410c"
+    };
+    function buildChart(id, config) {
+      if (charts[id]) charts[id].destroy();
+      charts[id] = new Chart(document.getElementById(id), config);
+    }
+    function lineChart(data, series) {
+      buildChart("dailyChart", {
+        type: "line",
+        data: {
+          labels: data.timeseries.map((row) => row.date),
+          datasets: [{
+            label: series,
+            data: data.timeseries.map((row) => row[series] || 0),
+            borderColor: colors[series],
+            backgroundColor: colors[series] + "22",
+            tension: 0.25,
+            pointRadius: 0,
+            fill: true
+          }]
+        },
+        options: { responsive: true, maintainAspectRatio: false, scales: { y: { ticks: { callback: series === "transactionCount" ? undefined : money } } } }
+      });
+    }
+    function renderTable(id, headers, rows) {
+      document.getElementById(id).innerHTML = "<thead><tr>" + headers.map((h) => "<th" + (h.num ? " class='num'" : "") + ">" + h.label + "</th>").join("") + "</tr></thead><tbody>" + rows.map((row) => "<tr>" + row.map((cell, i) => "<td" + (headers[i].num ? " class='num'" : "") + ">" + cell + "</td>").join("") + "</tr>").join("") + "</tbody>";
+    }
+    async function main() {
+      const data = await fetch("../data/onchain_dashboard_data.json").then((r) => r.json());
+      document.getElementById("subtitle").textContent = data.counts.addresses + " addresses, " + data.counts.events.toLocaleString() + " modeled events. Transfer flow is separated from true trading proxy.";
+      document.getElementById("verdict").textContent = data.verdict;
+      document.getElementById("asOf").textContent = "As of " + new Date(data.asOf).toLocaleString();
+      const q1 = data.periods.find((row) => row.period === "q1_2026") || {};
+      const q2 = data.periods.find((row) => row.period === "q2_2026") || {};
+      const base = data.earningsModel.scenarios.find((row) => row.name === "Base");
+      document.getElementById("kpis").innerHTML = [
+        ["Q2 External", money(q2.externalGrossUsd), "Q1 " + money(q1.externalGrossUsd)],
+        ["Q2 Trading Proxy", money(q2.tradingProxyUsd), "DEX/router only"],
+        ["Base Revenue", "$" + base.totalRevenue.toFixed(1) + "M", "Opex " + "$" + base.opex.toFixed(1) + "M"],
+        ["Public Labels", data.counts.publicGeminiLabels, data.counts.highConfidenceAddresses + " high confidence"],
+        ["On-Chain Tilt", fmtPct(data.earningsModel.method.onchainRevenueTilt), data.earningsModel.method.hasUsableExternalSignal ? "active" : "monitor only"]
+      ].map(([label, value, sub]) => "<div class='panel kpi'><div class='label'>" + label + "</div><div class='value'>" + value + "</div><div class='sub'>" + sub + "</div></div>").join("");
+
+      lineChart(data, "externalGrossUsd");
+      document.querySelectorAll(".controls button").forEach((button) => button.addEventListener("click", () => {
+        document.querySelectorAll(".controls button").forEach((b) => b.classList.remove("active"));
+        button.classList.add("active");
+        lineChart(data, button.dataset.series);
+      }));
+      buildChart("quarterChart", {
+        type: "bar",
+        data: {
+          labels: data.periods.map((row) => row.period),
+          datasets: [
+            { label: "External", data: data.periods.map((row) => row.externalGrossUsd), backgroundColor: "#2563eb" },
+            { label: "Internal", data: data.periods.map((row) => row.internalGrossUsd), backgroundColor: "#6d28d9" },
+            { label: "Trading proxy", data: data.periods.map((row) => row.tradingProxyUsd), backgroundColor: "#16835b" }
+          ]
+        },
+        options: { responsive: true, maintainAspectRatio: false, scales: { y: { ticks: { callback: money } } } }
+      });
+      buildChart("topExplorerChart", {
+        type: "bar",
+        data: { labels: data.topExplorerAddresses.map((row) => shortAddr(row.address)), datasets: [{ label: "Explorer tx count", data: data.topExplorerAddresses.map((row) => row.txCount), backgroundColor: "#b7791f" }] },
+        options: { responsive: true, maintainAspectRatio: false, indexAxis: "y" }
+      });
+      buildChart("earningsChart", {
+        type: "bar",
+        data: { labels: data.earningsModel.scenarios.map((row) => row.name), datasets: [
+          { label: "Revenue", data: data.earningsModel.scenarios.map((row) => row.totalRevenue), backgroundColor: "#2563eb" },
+          { label: "Opex", data: data.earningsModel.scenarios.map((row) => row.opex), backgroundColor: "#c2410c" }
+        ] },
+        options: { responsive: true, maintainAspectRatio: false, scales: { y: { ticks: { callback: (v) => "$" + v + "M" } } } }
+      });
+      buildChart("topFlowChart", {
+        type: "bar",
+        data: { labels: data.topFlowAddresses.map((row) => shortAddr(row.address)), datasets: [{ label: "Q2 external gross", data: data.topFlowAddresses.map((row) => row.q2ExternalGrossUsd), backgroundColor: "#16835b" }] },
+        options: { responsive: true, maintainAspectRatio: false, indexAxis: "y", scales: { x: { ticks: { callback: money } } } }
+      });
+      renderTable("earningsTable",
+        [{label:"Scenario"}, {label:"Revenue", num:true}, {label:"Exchange", num:true}, {label:"OTC", num:true}, {label:"Prediction", num:true}, {label:"Opex", num:true}, {label:"Operating loss", num:true}],
+        data.earningsModel.scenarios.map((row) => [row.name, "$" + row.totalRevenue.toFixed(1) + "M", "$" + row.exchangeRevenue.toFixed(1) + "M", "$" + row.otcRevenue.toFixed(1) + "M", "$" + row.predictionRevenue.toFixed(1) + "M", "$" + row.opex.toFixed(1) + "M", "$" + row.operatingLoss.toFixed(1) + "M"])
+      );
+      renderTable("addressTable",
+        [{label:"Chain"}, {label:"Address"}, {label:"Role"}, {label:"Conf."}, {label:"Explorer tx", num:true}, {label:"Q2 external", num:true}, {label:"Q2 trading proxy", num:true}, {label:"Notes"}],
+        data.addressDeepDive.map((row) => [row.chain, "<code>" + shortAddr(row.address) + "</code>", row.role, row.confidence, (row.explorer.metadata.transactions || 0).toLocaleString(), money(row.sampled.sampledPeriods.q2_2026.externalGrossUsd), money(row.sampled.sampledPeriods.q2_2026.tradingProxyUsd), row.notes.join(" ")])
+      );
+    }
+    main().catch((error) => {
+      document.body.innerHTML = "<main><div class='panel'><h1>Dashboard failed to load</h1><p>" + error.message + "</p></div></main>";
+    });
+  </script>
+</body>
+</html>

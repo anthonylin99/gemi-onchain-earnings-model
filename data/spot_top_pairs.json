@@ -1,0 +1,202 @@
+[
+  {
+    "symbol": "btcusd",
+    "base": "BTC",
+    "quote": "USD",
+    "last": 62650.6,
+    "quoteVolume": 4292278.081466592,
+    "approxUsdVolume": 4292278.081466592
+  },
+  {
+    "symbol": "ethusd",
+    "base": "ETH",
+    "quote": "USD",
+    "last": 1778.49,
+    "quoteVolume": 1383193.01667708,
+    "approxUsdVolume": 1383193.01667708
+  },
+  {
+    "symbol": "solusd",
+    "base": "SOL",
+    "quote": "USD",
+    "last": 81.01,
+    "quoteVolume": 841025.33702655,
+    "approxUsdVolume": 841025.33702655
+  },
+  {
+    "symbol": "xrpusd",
+    "base": "XRP",
+    "quote": "USD",
+    "last": 1.13469,
+    "quoteVolume": 720685.5387491303,
+    "approxUsdVolume": 720685.5387491303
+  },
+  {
+    "symbol": "usdcusd",
+    "base": "USDC",
+    "quote": "USD",
+    "last": 0.99975,
+    "quoteVolume": 579094.457491173,
+    "approxUsdVolume": 579094.457491173
+  },
+  {
+    "symbol": "zecusd",
+    "base": "ZEC",
+    "quote": "USD",
+    "last": 461.74,
+    "quoteVolume": 401354.36265266,
+    "approxUsdVolume": 401354.36265266
+  },
+  {
+    "symbol": "linkusd",
+    "base": "LINK",
+    "quote": "USD",
+    "last": 7.96856,
+    "quoteVolume": 257700.0274771508,
+    "approxUsdVolume": 257700.0274771508
+  },
+  {
+    "symbol": "usdtusd",
+    "base": "USDT",
+    "quote": "USD",
+    "last": 0.9991,
+    "quoteVolume": 170461.2364452196,
+    "approxUsdVolume": 170461.2364452196
+  },
+  {
+    "symbol": "bonkusd",
+    "base": "BONK",
+    "quote": "USD",
+    "last": 0.000004814,
+    "quoteVolume": 168033.30924437632,
+    "approxUsdVolume": 168033.30924437632
+  },
+  {
+    "symbol": "bnbusd",
+    "base": "BNB",
+    "quote": "USD",
+    "last": 588.945,
+    "quoteVolume": 67474.907433675,
+    "approxUsdVolume": 67474.907433675
+  },
+  {
+    "symbol": "dogeusd",
+    "base": "DOGE",
+    "quote": "USD",
+    "last": 0.07742,
+    "quoteVolume": 63445.4681107961,
+    "approxUsdVolume": 63445.4681107961
+  },
+  {
+    "symbol": "wlfiusd",
+    "base": "WLFI",
+    "quote": "USD",
+    "last": 0.059802,
+    "quoteVolume": 53618.57590186173,
+    "approxUsdVolume": 53618.57590186173
+  },
+  {
+    "symbol": "hypeusd",
+    "base": "HYPE",
+    "quote": "USD",
+    "last": 69.6704,
+    "quoteVolume": 53057.414044096,
+    "approxUsdVolume": 53057.414044096
+  },
+  {
+    "symbol": "aaveusd",
+    "base": "AAVE",
+    "quote": "USD",
+    "last": 89.2618,
+    "quoteVolume": 40130.1587479274,
+    "approxUsdVolume": 40130.1587479274
+  },
+  {
+    "symbol": "wifusd",
+    "base": "WIF",
+    "quote": "USD",
+    "last": 0.1745,
+    "quoteVolume": 37796.9839744945,
+    "approxUsdVolume": 37796.9839744945
+  },
+  {
+    "symbol": "popcatusd",
+    "base": "POPCAT",
+    "quote": "USD",
+    "last": 0.0508,
+    "quoteVolume": 32961.9348711724,
+    "approxUsdVolume": 32961.9348711724
+  },
+  {
+    "symbol": "fetusd",
+    "base": "FET",
+    "quote": "USD",
+    "last": 0.17559,
+    "quoteVolume": 28427.47266175353,
+    "approxUsdVolume": 28427.47266175353
+  },
+  {
+    "symbol": "ltcusd",
+    "base": "LTC",
+    "quote": "USD",
+    "last": 45.31,
+    "quoteVolume": 22231.9210467,
+    "approxUsdVolume": 22231.9210467
+  },
+  {
+    "symbol": "avaxusd",
+    "base": "AVAX",
+    "quote": "USD",
+    "last": 6.964,
+    "quoteVolume": 21436.172022828,
+    "approxUsdVolume": 21436.172022828
+  },
+  {
+    "symbol": "bchusd",
+    "base": "BCH",
+    "quote": "USD",
+    "last": 240.15,
+    "quoteVolume": 21399.32966715,
+    "approxUsdVolume": 21399.32966715
+  },
+  {
+    "symbol": "pepeusd",
+    "base": "PEPE",
+    "quote": "USD",
+    "last": 0.000002704,
+    "quoteVolume": 19467.575706137584,
+    "approxUsdVolume": 19467.575706137584
+  },
+  {
+    "symbol": "yfiusd",
+    "base": "YFI",
+    "quote": "USD",
+    "last": 1821.65,
+    "quoteVolume": 16758.58432045,
+    "approxUsdVolume": 16758.58432045
+  },
+  {
+    "symbol": "wldusd",
+    "base": "WLD",
+    "quote": "USD",
+    "last": 0.403207,
+    "quoteVolume": 16652.544649978827,
+    "approxUsdVolume": 16652.544649978827
+  },
+  {
+    "symbol": "shibusd",
+    "base": "SHIB",
+    "quote": "USD",
+    "last": 0.000004364,
+    "quoteVolume": 16107.85915744225,
+    "approxUsdVolume": 16107.85915744225
+  },
+  {
+    "symbol": "pumpusd",
+    "base": "PUMP",
+    "quote": "USD",
+    "last": 0.00160882,
+    "quoteVolume": 11790.181568866621,
+    "approxUsdVolume": 11790.181568866621
+  }
+]

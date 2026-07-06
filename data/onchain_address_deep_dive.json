@@ -1,0 +1,1589 @@
+[
+  {
+    "chain": "base",
+    "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+    "label": null,
+    "role": "contract",
+    "confidence": "low",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://basescan.org/address/0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "title": "Address: 0x5f65f7b6...6cef1e932 | BaseScan",
+      "publicGeminiLabel": false,
+      "metadata": {
+        "balanceUsdAcrossChains": 13476135.44,
+        "transactions": 6812,
+        "contractStatus": "unverified_contract",
+        "tokenPriceUsd": null,
+        "asAtUtc": "Jul-06-2026 01:43:30 PM"
+      },
+      "activityLevel": "low"
+    },
+    "sampled": {
+      "sampledEvents": 0,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": []
+    },
+    "notes": [
+      "Explorer shows 6,812 lifetime transactions.",
+      "Explorer balance across chains is approximately $13.48M.",
+      "Treat as contract/token infrastructure, not a customer trading wallet.",
+      "Historical transfer rows require Etherscan V2 API key."
+    ]
+  },
+  {
+    "chain": "base",
+    "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+    "label": null,
+    "role": "exchange_wallet_candidate",
+    "confidence": "high",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://basescan.org/address/0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+      "title": "Gemini | Address: 0xd24400ae...49cf46853 | BaseScan",
+      "publicGeminiLabel": true,
+      "metadata": {
+        "balanceUsdAcrossChains": 2116586.17,
+        "transactions": 11293,
+        "contractStatus": "eoa",
+        "tokenPriceUsd": null,
+        "asAtUtc": "Jul-06-2026 01:43:30 PM"
+      },
+      "activityLevel": "moderate"
+    },
+    "sampled": {
+      "sampledEvents": 0,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": []
+    },
+    "notes": [
+      "Explorer shows 11,293 lifetime transactions.",
+      "Explorer balance across chains is approximately $2.12M.",
+      "Historical transfer rows require Etherscan V2 API key."
+    ]
+  },
+  {
+    "chain": "ethereum",
+    "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+    "label": "Gemini dollar token",
+    "role": "token_contract",
+    "confidence": "high",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://etherscan.io/address/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+      "title": "Gemini: GUSD Token | Address: 0x056fd409...387b6d5cd | Etherscan",
+      "publicGeminiLabel": true,
+      "metadata": {
+        "balanceUsdAcrossChains": null,
+        "transactions": 252072,
+        "contractStatus": "verified_contract",
+        "tokenPriceUsd": 0.9985,
+        "asAtUtc": "Jul-06-2026 01:43:31 PM"
+      },
+      "activityLevel": "high"
+    },
+    "sampled": {
+      "sampledEvents": 1832,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 1016,
+          "grossTransferUsd": 1,
+          "externalGrossUsd": 1,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 794,
+          "grossTransferUsd": 12,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 12,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 22,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": [
+        {
+          "token": "GUSD",
+          "amount": 13,
+          "grossUsd": 13,
+          "txCount": 2,
+          "priced": true
+        },
+        {
+          "token": "ETH",
+          "amount": 0,
+          "grossUsd": 0,
+          "txCount": 1820,
+          "priced": true
+        },
+        {
+          "token": "DOG",
+          "amount": 2,
+          "grossUsd": 0,
+          "txCount": 2,
+          "priced": false
+        },
+        {
+          "token": "STAR",
+          "amount": 1,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "MANYU",
+          "amount": 1,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "DOGE",
+          "amount": 1,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "REKT",
+          "amount": 1,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "SHIB",
+          "amount": 1,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "WAR",
+          "amount": 1,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "HEX",
+          "amount": 1,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        }
+      ]
+    },
+    "notes": [
+      "Explorer shows 252,072 lifetime transactions.",
+      "Treat as contract/token infrastructure, not a customer trading wallet.",
+      "Sample has no DEX/router trading proxy."
+    ]
+  },
+  {
+    "chain": "ethereum",
+    "address": "0x07ee55aa48bb72dcc6e9d78256648910de513eca",
+    "label": "Gemini contract 1",
+    "role": "contract",
+    "confidence": "medium",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://etherscan.io/address/0x07ee55aa48bb72dcc6e9d78256648910de513eca",
+      "title": "Address: 0x07ee55aa...0de513eca | Etherscan",
+      "publicGeminiLabel": false,
+      "metadata": {
+        "balanceUsdAcrossChains": 2419.59,
+        "transactions": 1709,
+        "contractStatus": "unverified_contract",
+        "tokenPriceUsd": null,
+        "asAtUtc": "Jul-06-2026 01:43:31 PM"
+      },
+      "activityLevel": "low"
+    },
+    "sampled": {
+      "sampledEvents": 21,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 17,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 4,
+          "grossTransferUsd": 0.02,
+          "externalGrossUsd": 0.02,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": [
+        {
+          "token": "USDT",
+          "amount": 0.02,
+          "grossUsd": 0.02,
+          "txCount": 2,
+          "priced": true
+        },
+        {
+          "token": "ETH",
+          "amount": 2e-7,
+          "grossUsd": 0,
+          "txCount": 17,
+          "priced": true
+        },
+        {
+          "token": "B0x",
+          "amount": 1,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "OBS",
+          "amount": 3.33333333,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        }
+      ]
+    },
+    "notes": [
+      "Explorer shows 1,709 lifetime transactions.",
+      "Explorer balance across chains is approximately $2.4K.",
+      "Treat as contract/token infrastructure, not a customer trading wallet.",
+      "Sample has no DEX/router trading proxy."
+    ]
+  },
+  {
+    "chain": "ethereum",
+    "address": "0x4b7ee45f30767f36f06f79b32bf1fca6f726deda",
+    "label": "Gemini eFIL token",
+    "role": "token_contract",
+    "confidence": "high",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://etherscan.io/address/0x4b7ee45f30767f36f06f79b32bf1fca6f726deda",
+      "title": "Gemini: eFIL Token | Address: 0x4b7ee45f...6f726deda | Etherscan",
+      "publicGeminiLabel": true,
+      "metadata": {
+        "balanceUsdAcrossChains": null,
+        "transactions": 216,
+        "contractStatus": "verified_contract",
+        "tokenPriceUsd": 0,
+        "asAtUtc": "Jul-06-2026 01:43:32 PM"
+      },
+      "activityLevel": "low"
+    },
+    "sampled": {
+      "sampledEvents": 6,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 1,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 4,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 1,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": [
+        {
+          "token": "ETH",
+          "amount": 0,
+          "grossUsd": 0,
+          "txCount": 6,
+          "priced": true
+        }
+      ]
+    },
+    "notes": [
+      "Explorer shows 216 lifetime transactions.",
+      "Treat as contract/token infrastructure, not a customer trading wallet.",
+      "Sample has no DEX/router trading proxy."
+    ]
+  },
+  {
+    "chain": "ethereum",
+    "address": "0x4c2f150fc90fed3d8281114c2349f1906cde5346",
+    "label": "Gemini deployer 2",
+    "role": "deployer",
+    "confidence": "high",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://etherscan.io/address/0x4c2f150fc90fed3d8281114c2349f1906cde5346",
+      "title": "Gemini: Deployer 2 | Address: 0x4c2f150f...06cde5346 | Etherscan",
+      "publicGeminiLabel": true,
+      "metadata": {
+        "balanceUsdAcrossChains": 19956.21,
+        "transactions": 67010,
+        "contractStatus": "eoa",
+        "tokenPriceUsd": null,
+        "asAtUtc": "Jul-06-2026 01:43:32 PM"
+      },
+      "activityLevel": "moderate"
+    },
+    "sampled": {
+      "sampledEvents": 7225,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 4725,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 2468,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 32,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": [
+        {
+          "token": "ETH",
+          "amount": 0,
+          "grossUsd": 0,
+          "txCount": 7187,
+          "priced": true
+        },
+        {
+          "token": "XChat",
+          "amount": 20,
+          "grossUsd": 0,
+          "txCount": 4,
+          "priced": false
+        },
+        {
+          "token": "TRIA",
+          "amount": 10,
+          "grossUsd": 0,
+          "txCount": 2,
+          "priced": false
+        },
+        {
+          "token": "SpaceX",
+          "amount": 10,
+          "grossUsd": 0,
+          "txCount": 2,
+          "priced": false
+        },
+        {
+          "token": "EHORSE",
+          "amount": 5,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "SUPERDOG",
+          "amount": 5,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "UniLife",
+          "amount": 5,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "Elon Air",
+          "amount": 2,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "ChinaHorse",
+          "amount": 6,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "AILife",
+          "amount": 6,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        }
+      ]
+    },
+    "notes": [
+      "Explorer shows 67,010 lifetime transactions.",
+      "Explorer balance across chains is approximately $20.0K.",
+      "Sample has no DEX/router trading proxy."
+    ]
+  },
+  {
+    "chain": "ethereum",
+    "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+    "label": "Gemini 4",
+    "role": "contract",
+    "confidence": "medium",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://etherscan.io/address/0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "title": "Address: 0x5f65f7b6...6cef1e932 | Etherscan",
+      "publicGeminiLabel": false,
+      "metadata": {
+        "balanceUsdAcrossChains": 13476135.44,
+        "transactions": 2763512,
+        "contractStatus": "unverified_contract",
+        "tokenPriceUsd": null,
+        "asAtUtc": "Jul-06-2026 01:43:33 PM"
+      },
+      "activityLevel": "very_high"
+    },
+    "sampled": {
+      "sampledEvents": 45312,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 20000,
+          "grossTransferUsd": 328937928.63,
+          "externalGrossUsd": 328937928.63,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 20000,
+          "grossTransferUsd": 255019134.99,
+          "externalGrossUsd": 255019122.99,
+          "internalGrossUsd": 12,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 5312,
+          "grossTransferUsd": 151316424.98,
+          "externalGrossUsd": 151316424.98,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": [
+        {
+          "token": "USDT",
+          "amount": -4420818.23583699,
+          "grossUsd": 327783048.66,
+          "txCount": 7736,
+          "priced": true
+        },
+        {
+          "token": "USDC",
+          "amount": -3751209.35476499,
+          "grossUsd": 322371700.74,
+          "txCount": 5295,
+          "priced": true
+        },
+        {
+          "token": "GUSD",
+          "amount": -156201.28,
+          "grossUsd": 85118296.3,
+          "txCount": 1522,
+          "priced": true
+        },
+        {
+          "token": "WETH",
+          "amount": -0.15016904,
+          "grossUsd": 442.88,
+          "txCount": 1,
+          "priced": true
+        },
+        {
+          "token": "ETH",
+          "amount": 0.00001101,
+          "grossUsd": 0.03,
+          "txCount": 22664,
+          "priced": true
+        },
+        {
+          "token": "AMP",
+          "amount": -229649489.8379535,
+          "grossUsd": 0,
+          "txCount": 1127,
+          "priced": false
+        },
+        {
+          "token": "LINK",
+          "amount": -108726.50691394,
+          "grossUsd": 0,
+          "txCount": 786,
+          "priced": false
+        },
+        {
+          "token": "PAXG",
+          "amount": 14.83469163,
+          "grossUsd": 0,
+          "txCount": 433,
+          "priced": false
+        },
+        {
+          "token": "BAT",
+          "amount": -539983.78650599,
+          "grossUsd": 0,
+          "txCount": 410,
+          "priced": false
+        },
+        {
+          "token": "SHIB",
+          "amount": -111349810562.31833,
+          "grossUsd": 0,
+          "txCount": 377,
+          "priced": false
+        }
+      ]
+    },
+    "notes": [
+      "Explorer shows 2,763,512 lifetime transactions.",
+      "Explorer balance across chains is approximately $13.48M.",
+      "Treat as contract/token infrastructure, not a customer trading wallet.",
+      "Sample has no DEX/router trading proxy."
+    ]
+  },
+  {
+    "chain": "ethereum",
+    "address": "0x61edcdf5bb737adffe5043706e7c5bb1f1a56eea",
+    "label": "Gemini 3",
+    "role": "contract",
+    "confidence": "medium",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://etherscan.io/address/0x61edcdf5bb737adffe5043706e7c5bb1f1a56eea",
+      "title": "Address: 0x61edcdf5...1f1a56eea | Etherscan",
+      "publicGeminiLabel": false,
+      "metadata": {
+        "balanceUsdAcrossChains": 1746.54,
+        "transactions": 888,
+        "contractStatus": "unverified_contract",
+        "tokenPriceUsd": null,
+        "asAtUtc": "Jul-06-2026 01:43:33 PM"
+      },
+      "activityLevel": "low"
+    },
+    "sampled": {
+      "sampledEvents": 8,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 3,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 5,
+          "grossTransferUsd": 33.97,
+          "externalGrossUsd": 33.97,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": [
+        {
+          "token": "ETH",
+          "amount": 0.0155002,
+          "grossUsd": 33.95,
+          "txCount": 3,
+          "priced": true
+        },
+        {
+          "token": "USDT",
+          "amount": 0.02,
+          "grossUsd": 0.02,
+          "txCount": 2,
+          "priced": true
+        },
+        {
+          "token": "B0x",
+          "amount": 1,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "OBS",
+          "amount": 3.33333333,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "HEX",
+          "amount": 1,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        }
+      ]
+    },
+    "notes": [
+      "Explorer shows 888 lifetime transactions.",
+      "Explorer balance across chains is approximately $1.7K.",
+      "Treat as contract/token infrastructure, not a customer trading wallet.",
+      "Sample has no DEX/router trading proxy."
+    ]
+  },
+  {
+    "chain": "ethereum",
+    "address": "0x6fc82a5fe25a5cdb58bc74600a40a69c065263f8",
+    "label": "Gemini 2",
+    "role": "contract",
+    "confidence": "medium",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://etherscan.io/address/0x6fc82a5fe25a5cdb58bc74600a40a69c065263f8",
+      "title": "Address: 0x6fc82a5f...c065263f8 | Etherscan",
+      "publicGeminiLabel": false,
+      "metadata": {
+        "balanceUsdAcrossChains": 0,
+        "transactions": 324740,
+        "contractStatus": "unverified_contract",
+        "tokenPriceUsd": null,
+        "asAtUtc": "Jul-06-2026 01:43:34 PM"
+      },
+      "activityLevel": "high"
+    },
+    "sampled": {
+      "sampledEvents": 1,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 1,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": [
+        {
+          "token": "HEX",
+          "amount": 1,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        }
+      ]
+    },
+    "notes": [
+      "Explorer shows 324,740 lifetime transactions.",
+      "Treat as contract/token infrastructure, not a customer trading wallet.",
+      "Sample has no DEX/router trading proxy."
+    ]
+  },
+  {
+    "chain": "ethereum",
+    "address": "0x8d6f396d210d385033b348bcae9e4f9ea4e045bd",
+    "label": "Gemini 6",
+    "role": "contract",
+    "confidence": "medium",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://etherscan.io/address/0x8d6f396d210d385033b348bcae9e4f9ea4e045bd",
+      "title": "Address: 0x8d6f396d...ea4e045bd | Etherscan",
+      "publicGeminiLabel": false,
+      "metadata": {
+        "balanceUsdAcrossChains": 1,
+        "transactions": 436,
+        "contractStatus": "unverified_contract",
+        "tokenPriceUsd": null,
+        "asAtUtc": "Jul-06-2026 01:43:34 PM"
+      },
+      "activityLevel": "low"
+    },
+    "sampled": {
+      "sampledEvents": 0,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": []
+    },
+    "notes": [
+      "Explorer shows 436 lifetime transactions.",
+      "Explorer balance across chains is approximately $1.00.",
+      "Treat as contract/token infrastructure, not a customer trading wallet.",
+      "Historical transfer rows require Etherscan V2 API key."
+    ]
+  },
+  {
+    "chain": "ethereum",
+    "address": "0xb302bfe9c246c6e150af70b1caaa5e3df60dac05",
+    "label": "Gemini 5",
+    "role": "contract",
+    "confidence": "medium",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://etherscan.io/address/0xb302bfe9c246c6e150af70b1caaa5e3df60dac05",
+      "title": "Address: 0xb302bfe9...df60dac05 | Etherscan",
+      "publicGeminiLabel": false,
+      "metadata": {
+        "balanceUsdAcrossChains": 0,
+        "transactions": 30,
+        "contractStatus": "unverified_contract",
+        "tokenPriceUsd": null,
+        "asAtUtc": "Jul-06-2026 01:43:35 PM"
+      },
+      "activityLevel": "low"
+    },
+    "sampled": {
+      "sampledEvents": 0,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": []
+    },
+    "notes": [
+      "Explorer shows 30 lifetime transactions.",
+      "Treat as contract/token infrastructure, not a customer trading wallet.",
+      "Historical transfer rows require Etherscan V2 API key."
+    ]
+  },
+  {
+    "chain": "ethereum",
+    "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+    "label": "Gemini",
+    "role": "exchange_wallet_candidate",
+    "confidence": "high",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://etherscan.io/address/0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+      "title": "Gemini | Address: 0xd24400ae...49cf46853 | Etherscan",
+      "publicGeminiLabel": true,
+      "metadata": {
+        "balanceUsdAcrossChains": 2116586.17,
+        "transactions": 4546511,
+        "contractStatus": "eoa",
+        "tokenPriceUsd": null,
+        "asAtUtc": "Jul-06-2026 01:43:36 PM"
+      },
+      "activityLevel": "very_high"
+    },
+    "sampled": {
+      "sampledEvents": 599,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 401,
+          "grossTransferUsd": 1459.01,
+          "externalGrossUsd": 1459.01,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 192,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 6,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": [
+        {
+          "token": "ETH",
+          "amount": 0.51759739,
+          "grossUsd": 1459.01,
+          "txCount": 472,
+          "priced": true
+        },
+        {
+          "token": "𝑬𝑻𝑯",
+          "amount": -9461.31537171,
+          "grossUsd": 0,
+          "txCount": 89,
+          "priced": false
+        },
+        {
+          "token": "DeepSeek",
+          "amount": 15,
+          "grossUsd": 0,
+          "txCount": 3,
+          "priced": false
+        },
+        {
+          "token": "BREV",
+          "amount": 10,
+          "grossUsd": 0,
+          "txCount": 2,
+          "priced": false
+        },
+        {
+          "token": "Seedance2",
+          "amount": 10,
+          "grossUsd": 0,
+          "txCount": 2,
+          "priced": false
+        },
+        {
+          "token": "EHORSE",
+          "amount": 5,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "SUPERDOG",
+          "amount": 5,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "UniLife",
+          "amount": 5,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "Elon Air",
+          "amount": 2,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        },
+        {
+          "token": "ChinaHorse",
+          "amount": 6,
+          "grossUsd": 0,
+          "txCount": 1,
+          "priced": false
+        }
+      ]
+    },
+    "notes": [
+      "Explorer shows 4,546,511 lifetime transactions.",
+      "Explorer balance across chains is approximately $2.12M.",
+      "Sample has no DEX/router trading proxy."
+    ]
+  },
+  {
+    "chain": "ethereum",
+    "address": "0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+    "label": "Gemini 7",
+    "role": "contract",
+    "confidence": "medium",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://etherscan.io/address/0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+      "title": "Address: 0xd69b0089...965f00303 | Etherscan",
+      "publicGeminiLabel": false,
+      "metadata": {
+        "balanceUsdAcrossChains": 61833196.63,
+        "transactions": 243,
+        "contractStatus": "unverified_contract",
+        "tokenPriceUsd": null,
+        "asAtUtc": "Jul-06-2026 01:43:36 PM"
+      },
+      "activityLevel": "low"
+    },
+    "sampled": {
+      "sampledEvents": 10012,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 11,
+          "grossTransferUsd": 0.03,
+          "externalGrossUsd": 0.03,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 10000,
+          "grossTransferUsd": 0.02,
+          "externalGrossUsd": 0.02,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 11
+        },
+        "q3_2026_partial": {
+          "txCount": 1,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": [
+        {
+          "token": "ETH",
+          "amount": 0.00001,
+          "grossUsd": 0.03,
+          "txCount": 4,
+          "priced": true
+        },
+        {
+          "token": "USDT",
+          "amount": 0.02,
+          "grossUsd": 0.02,
+          "txCount": 2,
+          "priced": true
+        },
+        {
+          "token": "AIFreeUse.cc",
+          "amount": -2164000,
+          "grossUsd": 0,
+          "txCount": 2164,
+          "priced": false
+        },
+        {
+          "token": "FiFaAI.cc",
+          "amount": -1711000,
+          "grossUsd": 0,
+          "txCount": 1711,
+          "priced": false
+        },
+        {
+          "token": "AIMevBot.cc",
+          "amount": -1356000,
+          "grossUsd": 0,
+          "txCount": 1356,
+          "priced": false
+        },
+        {
+          "token": "AIMevBot.com",
+          "amount": -1219000,
+          "grossUsd": 0,
+          "txCount": 1219,
+          "priced": false
+        },
+        {
+          "token": "FiFaAI.pro",
+          "amount": -970000,
+          "grossUsd": 0,
+          "txCount": 970,
+          "priced": false
+        },
+        {
+          "token": "WorldCupAI.pro",
+          "amount": -922000,
+          "grossUsd": 0,
+          "txCount": 922,
+          "priced": false
+        },
+        {
+          "token": "USDGift.cc",
+          "amount": -886000,
+          "grossUsd": 0,
+          "txCount": 886,
+          "priced": false
+        },
+        {
+          "token": "AIFreeUse.pro",
+          "amount": -768000,
+          "grossUsd": 0,
+          "txCount": 768,
+          "priced": false
+        }
+      ]
+    },
+    "notes": [
+      "Explorer shows 243 lifetime transactions.",
+      "Explorer balance across chains is approximately $61.83M.",
+      "Treat as contract/token infrastructure, not a customer trading wallet.",
+      "Sample has no DEX/router trading proxy."
+    ]
+  },
+  {
+    "chain": "ethereum",
+    "address": "0xdd51f01d9fc0fd084c1a4737bbfa5becb6ced9bc",
+    "label": "Gemini deployer 1",
+    "role": "deployer",
+    "confidence": "high",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://etherscan.io/address/0xdd51f01d9fc0fd084c1a4737bbfa5becb6ced9bc",
+      "title": "Gemini: Deployer 1 | Address: 0xdd51f01d...cb6ced9bc | Etherscan",
+      "publicGeminiLabel": true,
+      "metadata": {
+        "balanceUsdAcrossChains": 571.04,
+        "transactions": 11,
+        "contractStatus": "eoa",
+        "tokenPriceUsd": null,
+        "asAtUtc": "Jul-06-2026 01:43:36 PM"
+      },
+      "activityLevel": "low"
+    },
+    "sampled": {
+      "sampledEvents": 0,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": []
+    },
+    "notes": [
+      "Explorer shows 11 lifetime transactions.",
+      "Explorer balance across chains is approximately $571.04.",
+      "Historical transfer rows require Etherscan V2 API key."
+    ]
+  },
+  {
+    "chain": "ethereum",
+    "address": "0xdec042a90de005b22754e94a8a979c4b8c67fde5",
+    "label": "Gemini old contract 1",
+    "role": "contract",
+    "confidence": "medium",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://etherscan.io/address/0xdec042a90de005b22754e94a8a979c4b8c67fde5",
+      "title": "Address: 0xdec042a9...b8c67fde5 | Etherscan",
+      "publicGeminiLabel": false,
+      "metadata": {
+        "balanceUsdAcrossChains": 0,
+        "transactions": 93,
+        "contractStatus": "unverified_contract",
+        "tokenPriceUsd": null,
+        "asAtUtc": "Jul-06-2026 01:43:37 PM"
+      },
+      "activityLevel": "low"
+    },
+    "sampled": {
+      "sampledEvents": 0,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": []
+    },
+    "notes": [
+      "Explorer shows 93 lifetime transactions.",
+      "Treat as contract/token infrastructure, not a customer trading wallet.",
+      "Historical transfer rows require Etherscan V2 API key."
+    ]
+  },
+  {
+    "chain": "solana",
+    "address": "CtkFWfGS7ZmZF1DjSqePheGAUPGqtg9AoiCXCmbrTb2w",
+    "label": null,
+    "role": "provided_wallet_candidate",
+    "confidence": "low",
+    "explorer": {
+      "status": "blocked",
+      "url": "https://solscan.io/account/CtkFWfGS7ZmZF1DjSqePheGAUPGqtg9AoiCXCmbrTb2w",
+      "title": null,
+      "publicGeminiLabel": false,
+      "metadata": {},
+      "activityLevel": "unknown"
+    },
+    "sampled": {
+      "sampledEvents": 10,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 8,
+          "grossTransferUsd": 0.01,
+          "externalGrossUsd": 0.01,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 2,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": []
+    },
+    "notes": [
+      "Sample has no DEX/router trading proxy."
+    ]
+  },
+  {
+    "chain": "solana",
+    "address": "E4jre6GEgWebmMD463Cum8Xk5KASVcpZvm8kFJACJ3o",
+    "label": null,
+    "role": "provided_wallet_candidate",
+    "confidence": "low",
+    "explorer": {
+      "status": "blocked",
+      "url": "https://solscan.io/account/E4jre6GEgWebmMD463Cum8Xk5KASVcpZvm8kFJACJ3o",
+      "title": null,
+      "publicGeminiLabel": false,
+      "metadata": {},
+      "activityLevel": "unknown"
+    },
+    "sampled": {
+      "sampledEvents": 10,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 6,
+          "grossTransferUsd": 1012252.9,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 1012252.9,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 4,
+          "grossTransferUsd": 2194368.71,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 2194368.71,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [
+        {
+          "chain": "solana",
+          "address": "HFWv1riXSRJ3nVnnLZ9xi1K4r3zppRvcfVuiAGqAA8Y6",
+          "txCount": 5,
+          "grossTransferUsd": 3206621.62
+        },
+        {
+          "chain": "solana",
+          "address": "HFWvhrGqXngh6Ujheiucmsf7xxhRTaPHuhiimrh7xTY6",
+          "txCount": 1,
+          "grossTransferUsd": 0
+        },
+        {
+          "chain": "solana",
+          "address": "HymsJDmCHXbz1GU5gGzG3pPyM6PKC1dpi6cEbcyA22MG",
+          "txCount": 1,
+          "grossTransferUsd": 0
+        },
+        {
+          "chain": "solana",
+          "address": "DgNZFksaFKk36wd6STnHEGqeXSYTdd4LKyK71e6BFsDH",
+          "txCount": 1,
+          "grossTransferUsd": 0
+        },
+        {
+          "chain": "solana",
+          "address": "CCyYKtnsnkkktZw9KuUrdRWZ4qv9rn3pcNB3LouFMY5Q",
+          "txCount": 1,
+          "grossTransferUsd": 0
+        }
+      ],
+      "topTokens": []
+    },
+    "notes": [
+      "Sample has no DEX/router trading proxy."
+    ]
+  },
+  {
+    "chain": "solana",
+    "address": "GGdoUHw7f9SLaZBfYnWfA9D1ZsvzKQPwQ8VEyDtdfgkc",
+    "label": null,
+    "role": "provided_wallet_candidate",
+    "confidence": "low",
+    "explorer": {
+      "status": "verified_page_loaded",
+      "url": "https://solscan.io/account/GGdoUHw7f9SLaZBfYnWfA9D1ZsvzKQPwQ8VEyDtdfgkc",
+      "title": "Account GGdoUHw7f9SLaZBfYnWfA9D1ZsvzKQPwQ8VEyDtdfgkc | Solscan",
+      "publicGeminiLabel": false,
+      "metadata": {
+        "balanceUsdAcrossChains": null,
+        "transactions": null,
+        "contractStatus": null,
+        "tokenPriceUsd": null,
+        "asAtUtc": null
+      },
+      "activityLevel": "unknown"
+    },
+    "sampled": {
+      "sampledEvents": 10,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 10,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [],
+      "topTokens": []
+    },
+    "notes": [
+      "Sample has no DEX/router trading proxy."
+    ]
+  },
+  {
+    "chain": "solana",
+    "address": "HFWv1riXSRJ3nVnnLZ9xi1K4r3zppRvcfVuiAGqAA8Y6",
+    "label": null,
+    "role": "provided_wallet_candidate",
+    "confidence": "low",
+    "explorer": {
+      "status": "blocked",
+      "url": "https://solscan.io/account/HFWv1riXSRJ3nVnnLZ9xi1K4r3zppRvcfVuiAGqAA8Y6",
+      "title": null,
+      "publicGeminiLabel": false,
+      "metadata": {},
+      "activityLevel": "unknown"
+    },
+    "sampled": {
+      "sampledEvents": 10,
+      "sampledPeriods": {
+        "q1_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q2_2026": {
+          "txCount": 0,
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        },
+        "q3_2026_partial": {
+          "txCount": 10,
+          "grossTransferUsd": 128659.84,
+          "externalGrossUsd": 128659.84,
+          "internalGrossUsd": 0,
+          "tradingProxyUsd": 0,
+          "dexInteractionCount": 0
+        }
+      },
+      "topCounterparties": [
+        {
+          "chain": "solana",
+          "address": "8G78heYVNEwvpDs3T2Ev2d1RA17zvGafonqoPELDqKYK",
+          "txCount": 3,
+          "grossTransferUsd": 111098.13
+        },
+        {
+          "chain": "solana",
+          "address": "5eQ3Yipc4aaGxaz7SvoZzzfauNnUxyfhmL4rcVbmDLYC",
+          "txCount": 1,
+          "grossTransferUsd": 17034.05
+        },
+        {
+          "chain": "solana",
+          "address": "5Cbgxcz5PC4F7hYUFKWBJtcUktWQWv3u5YzXqoYUvkym",
+          "txCount": 1,
+          "grossTransferUsd": 136.83
+        },
+        {
+          "chain": "solana",
+          "address": "8WWQHEPkJwGeMktgqYLiT5291HPBtbbabWhVum9qBQG8",
+          "txCount": 1,
+          "grossTransferUsd": 130.33
+        },
+        {
+          "chain": "solana",
+          "address": "DzUdveqJMY7CSJq85Bm6sHGh7sCcpP9rXZBtvE9HjUy7",
+          "txCount": 1,
+          "grossTransferUsd": 97.75
+        },
+        {
+          "chain": "solana",
+          "address": "FY57pfUMdgXvm28Fycm4RAiHDR4QBy96V2FkjiUeZeAj",
+          "txCount": 1,
+          "grossTransferUsd": 79.1
+        },
+        {
+          "chain": "solana",
+          "address": "4woeaa7Gjr1RHi1A3iuDYrBjj1Arntb4RZxx6FVL3iTB",
+          "txCount": 1,
+          "grossTransferUsd": 73.18
+        },
+        {
+          "chain": "solana",
+          "address": "8TQ8btESZcq1HzBnfhA1CQv1nBhD3xn2ZRbVkSwnjHfJ",
+          "txCount": 1,
+          "grossTransferUsd": 10.48
+        }
+      ],
+      "topTokens": [
+        {
+          "token": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "amount": -111098.13,
+          "grossUsd": 111098.13,
+          "txCount": 3,
+          "priced": true
+        }
+      ]
+    },
+    "notes": [
+      "Sample has no DEX/router trading proxy."
+    ]
+  }
+]

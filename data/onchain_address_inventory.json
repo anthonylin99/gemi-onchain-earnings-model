@@ -1,0 +1,437 @@
+{
+  "asOf": "2026-07-06T13:43:40.731Z",
+  "notes": [
+    {
+      "type": "labelcloud",
+      "chain": "solana",
+      "url": "https://solscan.io/labelcloud/gemini#accounts",
+      "status": "discovered"
+    }
+  ],
+  "addresses": [
+    {
+      "chain": "base",
+      "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "label": null,
+      "source": "provided_address_list",
+      "sourceUrls": [
+        "https://basescan.org/address/0x5f65f7b609678448494de4c87521cdf6cef1e932"
+      ],
+      "confidence": "low",
+      "role": "contract",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://basescan.org/address/0x5f65f7b609678448494de4c87521cdf6cef1e932",
+        "title": "Address: 0x5f65f7b6...6cef1e932 | BaseScan",
+        "description": "Contract: Unverified | Balance: $13,476,135.44 across 9 Chains | Transactions: 6,812 | As at Jul-06-2026 01:43:30 PM (UTC)",
+        "metadata": {
+          "balanceUsdAcrossChains": 13476135.44,
+          "transactions": 6812,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:30 PM"
+        },
+        "publicGeminiLabel": false
+      }
+    },
+    {
+      "chain": "base",
+      "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+      "label": null,
+      "source": "provided_address_list",
+      "sourceUrls": [
+        "https://basescan.org/address/0xd24400ae8bfebb18ca49be86258a3c749cf46853"
+      ],
+      "confidence": "high",
+      "role": "exchange_wallet_candidate",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://basescan.org/address/0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+        "title": "Gemini | Address: 0xd24400ae...49cf46853 | BaseScan",
+        "description": "Address (EOA) | Balance: $2,116,586.17 across 10 Chains | Transactions: 11,293 | As at Jul-06-2026 01:43:30 PM (UTC)",
+        "metadata": {
+          "balanceUsdAcrossChains": 2116586.17,
+          "transactions": 11293,
+          "contractStatus": "eoa",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:30 PM"
+        },
+        "publicGeminiLabel": true
+      }
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+      "label": "Gemini dollar token",
+      "source": "hop_airdrop_blacklist_etherscan_label_seed",
+      "sourceUrls": [],
+      "confidence": "high",
+      "role": "token_contract",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+        "title": "Gemini: GUSD Token | Address: 0x056fd409...387b6d5cd | Etherscan",
+        "description": "Contract: Verified | Token Rep: OK | Price: $0.9985 | Transactions: 252,072 | As at Jul-06-2026 01:43:31 PM (UTC)",
+        "metadata": {
+          "balanceUsdAcrossChains": null,
+          "transactions": 252072,
+          "contractStatus": "verified_contract",
+          "tokenPriceUsd": 0.9985,
+          "asAtUtc": "Jul-06-2026 01:43:31 PM"
+        },
+        "publicGeminiLabel": true
+      }
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x07ee55aa48bb72dcc6e9d78256648910de513eca",
+      "label": "Gemini contract 1",
+      "source": "hop_airdrop_blacklist_etherscan_label_seed",
+      "sourceUrls": [],
+      "confidence": "medium",
+      "role": "contract",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x07ee55aa48bb72dcc6e9d78256648910de513eca",
+        "title": "Address: 0x07ee55aa...0de513eca | Etherscan",
+        "description": "Contract: Unverified | Balance: $2,419.59 across 2 Chains | Transactions: 1,709 | As at Jul-06-2026 01:43:31 PM (UTC)",
+        "metadata": {
+          "balanceUsdAcrossChains": 2419.59,
+          "transactions": 1709,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:31 PM"
+        },
+        "publicGeminiLabel": false
+      }
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4b7ee45f30767f36f06f79b32bf1fca6f726deda",
+      "label": "Gemini eFIL token",
+      "source": "hop_airdrop_blacklist_etherscan_label_seed",
+      "sourceUrls": [],
+      "confidence": "high",
+      "role": "token_contract",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x4b7ee45f30767f36f06f79b32bf1fca6f726deda",
+        "title": "Gemini: eFIL Token | Address: 0x4b7ee45f...6f726deda | Etherscan",
+        "description": "Contract: Verified | Token Rep: Neutral | Price: $0.00 | Transactions: 216 | As at Jul-06-2026 01:43:32 PM (UTC)",
+        "metadata": {
+          "balanceUsdAcrossChains": null,
+          "transactions": 216,
+          "contractStatus": "verified_contract",
+          "tokenPriceUsd": 0,
+          "asAtUtc": "Jul-06-2026 01:43:32 PM"
+        },
+        "publicGeminiLabel": true
+      }
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4c2f150fc90fed3d8281114c2349f1906cde5346",
+      "label": "Gemini deployer 2",
+      "source": "hop_airdrop_blacklist_etherscan_label_seed",
+      "sourceUrls": [],
+      "confidence": "high",
+      "role": "deployer",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x4c2f150fc90fed3d8281114c2349f1906cde5346",
+        "title": "Gemini: Deployer 2 | Address: 0x4c2f150f...06cde5346 | Etherscan",
+        "description": "Address (EOA) | Balance: $19,956.21 across 11 Chains | Transactions: 67,010 | As at Jul-06-2026 01:43:32 PM (UTC)",
+        "metadata": {
+          "balanceUsdAcrossChains": 19956.21,
+          "transactions": 67010,
+          "contractStatus": "eoa",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:32 PM"
+        },
+        "publicGeminiLabel": true
+      }
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "label": "Gemini 4",
+      "source": "hop_airdrop_blacklist_etherscan_label_seed",
+      "sourceUrls": [],
+      "confidence": "medium",
+      "role": "contract",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x5f65f7b609678448494de4c87521cdf6cef1e932",
+        "title": "Address: 0x5f65f7b6...6cef1e932 | Etherscan",
+        "description": "Contract: Unverified | Balance: $13,476,135.44 across 9 Chains | Transactions: 2,763,512 | As at Jul-06-2026 01:43:33 PM (UTC)",
+        "metadata": {
+          "balanceUsdAcrossChains": 13476135.44,
+          "transactions": 2763512,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:33 PM"
+        },
+        "publicGeminiLabel": false
+      }
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x61edcdf5bb737adffe5043706e7c5bb1f1a56eea",
+      "label": "Gemini 3",
+      "source": "hop_airdrop_blacklist_etherscan_label_seed",
+      "sourceUrls": [],
+      "confidence": "medium",
+      "role": "contract",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x61edcdf5bb737adffe5043706e7c5bb1f1a56eea",
+        "title": "Address: 0x61edcdf5...1f1a56eea | Etherscan",
+        "description": "Contract: Unverified | Balance: $1,746.54 across 2 Chains | Transactions: 888 | As at Jul-06-2026 01:43:33 PM (UTC)",
+        "metadata": {
+          "balanceUsdAcrossChains": 1746.54,
+          "transactions": 888,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:33 PM"
+        },
+        "publicGeminiLabel": false
+      }
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6fc82a5fe25a5cdb58bc74600a40a69c065263f8",
+      "label": "Gemini 2",
+      "source": "hop_airdrop_blacklist_etherscan_label_seed",
+      "sourceUrls": [],
+      "confidence": "medium",
+      "role": "contract",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x6fc82a5fe25a5cdb58bc74600a40a69c065263f8",
+        "title": "Address: 0x6fc82a5f...c065263f8 | Etherscan",
+        "description": "Contract: Unverified | Balance: $0 across 0 Chain | Transactions: 324,740 | As at Jul-06-2026 01:43:34 PM (UTC)",
+        "metadata": {
+          "balanceUsdAcrossChains": 0,
+          "transactions": 324740,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:34 PM"
+        },
+        "publicGeminiLabel": false
+      }
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8d6f396d210d385033b348bcae9e4f9ea4e045bd",
+      "label": "Gemini 6",
+      "source": "hop_airdrop_blacklist_etherscan_label_seed",
+      "sourceUrls": [],
+      "confidence": "medium",
+      "role": "contract",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0x8d6f396d210d385033b348bcae9e4f9ea4e045bd",
+        "title": "Address: 0x8d6f396d...ea4e045bd | Etherscan",
+        "description": "Contract: Unverified | Balance: &lt;$1 across 1 Chain | Transactions: 436 | As at Jul-06-2026 01:43:34 PM (UTC)",
+        "metadata": {
+          "balanceUsdAcrossChains": 1,
+          "transactions": 436,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:34 PM"
+        },
+        "publicGeminiLabel": false
+      }
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb302bfe9c246c6e150af70b1caaa5e3df60dac05",
+      "label": "Gemini 5",
+      "source": "hop_airdrop_blacklist_etherscan_label_seed",
+      "sourceUrls": [],
+      "confidence": "medium",
+      "role": "contract",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0xb302bfe9c246c6e150af70b1caaa5e3df60dac05",
+        "title": "Address: 0xb302bfe9...df60dac05 | Etherscan",
+        "description": "Contract: Unverified | Balance: $0 across 0 Chain | Transactions: 30 | As at Jul-06-2026 01:43:35 PM (UTC)",
+        "metadata": {
+          "balanceUsdAcrossChains": 0,
+          "transactions": 30,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:35 PM"
+        },
+        "publicGeminiLabel": false
+      }
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+      "label": "Gemini",
+      "source": "provided_address_list; hop_airdrop_blacklist_etherscan_label_seed",
+      "sourceUrls": [
+        "https://etherscan.io/address/0xd24400ae8bfebb18ca49be86258a3c749cf46853"
+      ],
+      "confidence": "high",
+      "role": "exchange_wallet_candidate",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0xd24400ae8bfebb18ca49be86258a3c749cf46853",
+        "title": "Gemini | Address: 0xd24400ae...49cf46853 | Etherscan",
+        "description": "Address (EOA) | Balance: $2,116,586.17 across 10 Chains | Transactions: 4,546,511 | As at Jul-06-2026 01:43:36 PM (UTC)",
+        "metadata": {
+          "balanceUsdAcrossChains": 2116586.17,
+          "transactions": 4546511,
+          "contractStatus": "eoa",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:36 PM"
+        },
+        "publicGeminiLabel": true
+      }
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+      "label": "Gemini 7",
+      "source": "hop_airdrop_blacklist_etherscan_label_seed",
+      "sourceUrls": [],
+      "confidence": "medium",
+      "role": "contract",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+        "title": "Address: 0xd69b0089...965f00303 | Etherscan",
+        "description": "Contract: Unverified | Balance: $61,833,196.63 across 1 Chain | Transactions: 243 | As at Jul-06-2026 01:43:36 PM (UTC)",
+        "metadata": {
+          "balanceUsdAcrossChains": 61833196.63,
+          "transactions": 243,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:36 PM"
+        },
+        "publicGeminiLabel": false
+      }
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xdd51f01d9fc0fd084c1a4737bbfa5becb6ced9bc",
+      "label": "Gemini deployer 1",
+      "source": "hop_airdrop_blacklist_etherscan_label_seed",
+      "sourceUrls": [],
+      "confidence": "high",
+      "role": "deployer",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0xdd51f01d9fc0fd084c1a4737bbfa5becb6ced9bc",
+        "title": "Gemini: Deployer 1 | Address: 0xdd51f01d...cb6ced9bc | Etherscan",
+        "description": "Address (EOA) | Balance: $571.04 across 1 Chain | Transactions: 11 | As at Jul-06-2026 01:43:36 PM (UTC)",
+        "metadata": {
+          "balanceUsdAcrossChains": 571.04,
+          "transactions": 11,
+          "contractStatus": "eoa",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:36 PM"
+        },
+        "publicGeminiLabel": true
+      }
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xdec042a90de005b22754e94a8a979c4b8c67fde5",
+      "label": "Gemini old contract 1",
+      "source": "hop_airdrop_blacklist_etherscan_label_seed",
+      "sourceUrls": [],
+      "confidence": "medium",
+      "role": "contract",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://etherscan.io/address/0xdec042a90de005b22754e94a8a979c4b8c67fde5",
+        "title": "Address: 0xdec042a9...b8c67fde5 | Etherscan",
+        "description": "Contract: Unverified | Balance: $0 across 0 Chain | Transactions: 93 | As at Jul-06-2026 01:43:37 PM (UTC)",
+        "metadata": {
+          "balanceUsdAcrossChains": 0,
+          "transactions": 93,
+          "contractStatus": "unverified_contract",
+          "tokenPriceUsd": null,
+          "asAtUtc": "Jul-06-2026 01:43:37 PM"
+        },
+        "publicGeminiLabel": false
+      }
+    },
+    {
+      "chain": "solana",
+      "address": "CtkFWfGS7ZmZF1DjSqePheGAUPGqtg9AoiCXCmbrTb2w",
+      "label": null,
+      "source": "provided_address_list",
+      "sourceUrls": [
+        "https://solscan.io/account/CtkFWfGS7ZmZF1DjSqePheGAUPGqtg9AoiCXCmbrTb2w"
+      ],
+      "confidence": "low",
+      "role": "provided_wallet_candidate",
+      "explorer": {
+        "status": "blocked",
+        "url": "https://solscan.io/account/CtkFWfGS7ZmZF1DjSqePheGAUPGqtg9AoiCXCmbrTb2w",
+        "reason": "solana explorer CtkFWfGS7ZmZF1DjSqePheGAUPGqtg9AoiCXCmbrTb2w: HTTP 403: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA"
+      }
+    },
+    {
+      "chain": "solana",
+      "address": "E4jre6GEgWebmMD463Cum8Xk5KASVcpZvm8kFJACJ3o",
+      "label": null,
+      "source": "provided_address_list",
+      "sourceUrls": [
+        "https://solscan.io/account/E4jre6GEgWebmMD463Cum8Xk5KASVcpZvm8kFJACJ3o"
+      ],
+      "confidence": "low",
+      "role": "provided_wallet_candidate",
+      "explorer": {
+        "status": "blocked",
+        "url": "https://solscan.io/account/E4jre6GEgWebmMD463Cum8Xk5KASVcpZvm8kFJACJ3o",
+        "reason": "solana explorer E4jre6GEgWebmMD463Cum8Xk5KASVcpZvm8kFJACJ3o: HTTP 403: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA"
+      }
+    },
+    {
+      "chain": "solana",
+      "address": "GGdoUHw7f9SLaZBfYnWfA9D1ZsvzKQPwQ8VEyDtdfgkc",
+      "label": null,
+      "source": "provided_address_list",
+      "sourceUrls": [
+        "https://solscan.io/account/GGdoUHw7f9SLaZBfYnWfA9D1ZsvzKQPwQ8VEyDtdfgkc"
+      ],
+      "confidence": "low",
+      "role": "provided_wallet_candidate",
+      "explorer": {
+        "status": "verified_page_loaded",
+        "url": "https://solscan.io/account/GGdoUHw7f9SLaZBfYnWfA9D1ZsvzKQPwQ8VEyDtdfgkc",
+        "title": "Account GGdoUHw7f9SLaZBfYnWfA9D1ZsvzKQPwQ8VEyDtdfgkc | Solscan",
+        "description": "View account details on Solana blockchain",
+        "metadata": {
+          "balanceUsdAcrossChains": null,
+          "transactions": null,
+          "contractStatus": null,
+          "tokenPriceUsd": null,
+          "asAtUtc": null
+        },
+        "publicGeminiLabel": false
+      }
+    },
+    {
+      "chain": "solana",
+      "address": "HFWv1riXSRJ3nVnnLZ9xi1K4r3zppRvcfVuiAGqAA8Y6",
+      "label": null,
+      "source": "provided_address_list",
+      "sourceUrls": [
+        "https://solscan.io/account/HFWv1riXSRJ3nVnnLZ9xi1K4r3zppRvcfVuiAGqAA8Y6"
+      ],
+      "confidence": "low",
+      "role": "provided_wallet_candidate",
+      "explorer": {
+        "status": "blocked",
+        "url": "https://solscan.io/account/HFWv1riXSRJ3nVnnLZ9xi1K4r3zppRvcfVuiAGqAA8Y6",
+        "reason": "solana explorer HFWv1riXSRJ3nVnnLZ9xi1K4r3zppRvcfVuiAGqAA8Y6: HTTP 403: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA"
+      }
+    }
+  ]
+}
