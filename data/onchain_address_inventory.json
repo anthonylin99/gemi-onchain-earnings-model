@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-06T15:23:16.221Z",
+  "asOf": "2026-07-14T01:43:28.169Z",
   "notes": [
     {
       "type": "labelcloud",
@@ -23,13 +23,13 @@
         "status": "verified_page_loaded",
         "url": "https://basescan.org/address/0x5f65f7b609678448494de4c87521cdf6cef1e932",
         "title": "Address: 0x5f65f7b6...6cef1e932 | BaseScan",
-        "description": "Contract: Unverified | Balance: $11,411,058.06 across 9 Chains | Transactions: 6,814 | As at Jul-06-2026 03:23:03 PM (UTC)",
+        "description": "Contract: Unverified | Balance: $12,243,271.98 across 9 Chains | Transactions: 6,911 | As at Jul-14-2026 01:43:13 AM (UTC)",
         "metadata": {
-          "balanceUsdAcrossChains": 11411058.06,
-          "transactions": 6814,
+          "balanceUsdAcrossChains": 12243271.98,
+          "transactions": 6911,
           "contractStatus": "unverified_contract",
           "tokenPriceUsd": null,
-          "asAtUtc": "Jul-06-2026 03:23:03 PM"
+          "asAtUtc": "Jul-14-2026 01:43:13 AM"
         },
         "publicGeminiLabel": false
       }
@@ -48,13 +48,13 @@
         "status": "verified_page_loaded",
         "url": "https://basescan.org/address/0xd24400ae8bfebb18ca49be86258a3c749cf46853",
         "title": "Gemini | Address: 0xd24400ae...49cf46853 | BaseScan",
-        "description": "Address (EOA) | Balance: $2,147,546.91 across 10 Chains | Transactions: 11,296 | As at Jul-06-2026 03:23:04 PM (UTC)",
+        "description": "Address (EOA) | Balance: $1,680,717.77 across 10 Chains | Transactions: 11,438 | As at Jul-14-2026 01:43:14 AM (UTC)",
         "metadata": {
-          "balanceUsdAcrossChains": 2147546.91,
-          "transactions": 11296,
+          "balanceUsdAcrossChains": 1680717.77,
+          "transactions": 11438,
           "contractStatus": "eoa",
           "tokenPriceUsd": null,
-          "asAtUtc": "Jul-06-2026 03:23:04 PM"
+          "asAtUtc": "Jul-14-2026 01:43:14 AM"
         },
         "publicGeminiLabel": true
       }
@@ -71,13 +71,13 @@
         "status": "verified_page_loaded",
         "url": "https://etherscan.io/address/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
         "title": "Gemini: GUSD Token | Address: 0x056fd409...387b6d5cd | Etherscan",
-        "description": "Contract: Verified | Token Rep: OK | Price: $0.9986 | Transactions: 252,072 | As at Jul-06-2026 03:23:04 PM (UTC)",
+        "description": "Contract: Verified | Token Rep: OK | Price: $0.9989 | Transactions: 252,134 | As at Jul-14-2026 01:43:15 AM (UTC)",
         "metadata": {
           "balanceUsdAcrossChains": null,
-          "transactions": 252072,
+          "transactions": 252134,
           "contractStatus": "verified_contract",
-          "tokenPriceUsd": 0.9986,
-          "asAtUtc": "Jul-06-2026 03:23:04 PM"
+          "tokenPriceUsd": 0.9989,
+          "asAtUtc": "Jul-14-2026 01:43:15 AM"
         },
         "publicGeminiLabel": true
       }
@@ -94,13 +94,13 @@
         "status": "verified_page_loaded",
         "url": "https://etherscan.io/address/0x07ee55aa48bb72dcc6e9d78256648910de513eca",
         "title": "Address: 0x07ee55aa...0de513eca | Etherscan",
-        "description": "Contract: Unverified | Balance: $2,436.75 across 2 Chains | Transactions: 1,709 | As at Jul-06-2026 03:23:05 PM (UTC)",
+        "description": "Contract: Unverified | Balance: $2,401.72 across 2 Chains | Transactions: 1,709 | As at Jul-14-2026 01:43:16 AM (UTC)",
         "metadata": {
-          "balanceUsdAcrossChains": 2436.75,
+          "balanceUsdAcrossChains": 2401.72,
           "transactions": 1709,
           "contractStatus": "unverified_contract",
           "tokenPriceUsd": null,
-          "asAtUtc": "Jul-06-2026 03:23:05 PM"
+          "asAtUtc": "Jul-14-2026 01:43:16 AM"
         },
         "publicGeminiLabel": false
       }
@@ -117,13 +117,13 @@
         "status": "verified_page_loaded",
         "url": "https://etherscan.io/address/0x4b7ee45f30767f36f06f79b32bf1fca6f726deda",
         "title": "Gemini: eFIL Token | Address: 0x4b7ee45f...6f726deda | Etherscan",
-        "description": "Contract: Verified | Token Rep: Neutral | Price: $0.00 | Transactions: 216 | As at Jul-06-2026 03:23:05 PM (UTC)",
+        "description": "Contract: Verified | Token Rep: Neutral | Price: $0.00 | Transactions: 216 | As at Jul-14-2026 01:43:16 AM (UTC)",
         "metadata": {
           "balanceUsdAcrossChains": null,
           "transactions": 216,
           "contractStatus": "verified_contract",
           "tokenPriceUsd": 0,
-          "asAtUtc": "Jul-06-2026 03:23:05 PM"
+          "asAtUtc": "Jul-14-2026 01:43:16 AM"
         },
         "publicGeminiLabel": true
       }
@@ -140,13 +140,13 @@
         "status": "verified_page_loaded",
         "url": "https://etherscan.io/address/0x4c2f150fc90fed3d8281114c2349f1906cde5346",
         "title": "Gemini: Deployer 2 | Address: 0x4c2f150f...06cde5346 | Etherscan",
-        "description": "Address (EOA) | Balance: $20,207.56 across 11 Chains | Transactions: 67,010 | As at Jul-06-2026 03:23:06 PM (UTC)",
+        "description": "Address (EOA) | Balance: $20,369.89 across 10 Chains | Transactions: 67,245 | As at Jul-14-2026 01:43:17 AM (UTC)",
         "metadata": {
-          "balanceUsdAcrossChains": 20207.56,
-          "transactions": 67010,
+          "balanceUsdAcrossChains": 20369.89,
+          "transactions": 67245,
           "contractStatus": "eoa",
           "tokenPriceUsd": null,
-          "asAtUtc": "Jul-06-2026 03:23:06 PM"
+          "asAtUtc": "Jul-14-2026 01:43:17 AM"
         },
         "publicGeminiLabel": true
       }
@@ -163,13 +163,13 @@
         "status": "verified_page_loaded",
         "url": "https://etherscan.io/address/0x5f65f7b609678448494de4c87521cdf6cef1e932",
         "title": "Address: 0x5f65f7b6...6cef1e932 | Etherscan",
-        "description": "Contract: Unverified | Balance: $11,411,058.06 across 9 Chains | Transactions: 2,763,607 | As at Jul-06-2026 03:23:07 PM (UTC)",
+        "description": "Contract: Unverified | Balance: $12,243,271.98 across 9 Chains | Transactions: 2,765,755 | As at Jul-14-2026 01:43:18 AM (UTC)",
         "metadata": {
-          "balanceUsdAcrossChains": 11411058.06,
-          "transactions": 2763607,
+          "balanceUsdAcrossChains": 12243271.98,
+          "transactions": 2765755,
           "contractStatus": "unverified_contract",
           "tokenPriceUsd": null,
-          "asAtUtc": "Jul-06-2026 03:23:07 PM"
+          "asAtUtc": "Jul-14-2026 01:43:18 AM"
         },
         "publicGeminiLabel": false
       }
@@ -186,13 +186,13 @@
         "status": "verified_page_loaded",
         "url": "https://etherscan.io/address/0x61edcdf5bb737adffe5043706e7c5bb1f1a56eea",
         "title": "Address: 0x61edcdf5...1f1a56eea | Etherscan",
-        "description": "Contract: Unverified | Balance: $1,758.51 across 2 Chains | Transactions: 888 | As at Jul-06-2026 03:23:07 PM (UTC)",
+        "description": "Contract: Unverified | Balance: $1,735.46 across 2 Chains | Transactions: 888 | As at Jul-14-2026 01:43:19 AM (UTC)",
         "metadata": {
-          "balanceUsdAcrossChains": 1758.51,
+          "balanceUsdAcrossChains": 1735.46,
           "transactions": 888,
           "contractStatus": "unverified_contract",
           "tokenPriceUsd": null,
-          "asAtUtc": "Jul-06-2026 03:23:07 PM"
+          "asAtUtc": "Jul-14-2026 01:43:19 AM"
         },
         "publicGeminiLabel": false
       }
@@ -209,13 +209,13 @@
         "status": "verified_page_loaded",
         "url": "https://etherscan.io/address/0x6fc82a5fe25a5cdb58bc74600a40a69c065263f8",
         "title": "Address: 0x6fc82a5f...c065263f8 | Etherscan",
-        "description": "Contract: Unverified | Balance: $0 across 0 Chain | Transactions: 324,740 | As at Jul-06-2026 03:23:08 PM (UTC)",
+        "description": "Contract: Unverified | Balance: $0 across 0 Chain | Transactions: 324,740 | As at Jul-14-2026 01:43:20 AM (UTC)",
         "metadata": {
           "balanceUsdAcrossChains": 0,
           "transactions": 324740,
           "contractStatus": "unverified_contract",
           "tokenPriceUsd": null,
-          "asAtUtc": "Jul-06-2026 03:23:08 PM"
+          "asAtUtc": "Jul-14-2026 01:43:20 AM"
         },
         "publicGeminiLabel": false
       }
@@ -232,13 +232,13 @@
         "status": "verified_page_loaded",
         "url": "https://etherscan.io/address/0x8d6f396d210d385033b348bcae9e4f9ea4e045bd",
         "title": "Address: 0x8d6f396d...ea4e045bd | Etherscan",
-        "description": "Contract: Unverified | Balance: &lt;$1 across 1 Chain | Transactions: 436 | As at Jul-06-2026 03:23:08 PM (UTC)",
+        "description": "Contract: Unverified | Balance: &lt;$1 across 1 Chain | Transactions: 436 | As at Jul-14-2026 01:43:20 AM (UTC)",
         "metadata": {
           "balanceUsdAcrossChains": 1,
           "transactions": 436,
           "contractStatus": "unverified_contract",
           "tokenPriceUsd": null,
-          "asAtUtc": "Jul-06-2026 03:23:08 PM"
+          "asAtUtc": "Jul-14-2026 01:43:20 AM"
         },
         "publicGeminiLabel": false
       }
@@ -255,13 +255,13 @@
         "status": "verified_page_loaded",
         "url": "https://etherscan.io/address/0xb302bfe9c246c6e150af70b1caaa5e3df60dac05",
         "title": "Address: 0xb302bfe9...df60dac05 | Etherscan",
-        "description": "Contract: Unverified | Balance: $0 across 0 Chain | Transactions: 30 | As at Jul-06-2026 03:23:09 PM (UTC)",
+        "description": "Contract: Unverified | Balance: $0 across 0 Chain | Transactions: 30 | As at Jul-14-2026 01:43:21 AM (UTC)",
         "metadata": {
           "balanceUsdAcrossChains": 0,
           "transactions": 30,
           "contractStatus": "unverified_contract",
           "tokenPriceUsd": null,
-          "asAtUtc": "Jul-06-2026 03:23:09 PM"
+          "asAtUtc": "Jul-14-2026 01:43:21 AM"
         },
         "publicGeminiLabel": false
       }
@@ -280,13 +280,13 @@
         "status": "verified_page_loaded",
         "url": "https://etherscan.io/address/0xd24400ae8bfebb18ca49be86258a3c749cf46853",
         "title": "Gemini | Address: 0xd24400ae...49cf46853 | Etherscan",
-        "description": "Address (EOA) | Balance: $2,147,546.91 across 10 Chains | Transactions: 4,546,511 | As at Jul-06-2026 03:23:10 PM (UTC)",
+        "description": "Address (EOA) | Balance: $1,680,717.77 across 10 Chains | Transactions: 4,546,519 | As at Jul-14-2026 01:43:21 AM (UTC)",
         "metadata": {
-          "balanceUsdAcrossChains": 2147546.91,
-          "transactions": 4546511,
+          "balanceUsdAcrossChains": 1680717.77,
+          "transactions": 4546519,
           "contractStatus": "eoa",
           "tokenPriceUsd": null,
-          "asAtUtc": "Jul-06-2026 03:23:10 PM"
+          "asAtUtc": "Jul-14-2026 01:43:21 AM"
         },
         "publicGeminiLabel": true
       }
@@ -303,13 +303,13 @@
         "status": "verified_page_loaded",
         "url": "https://etherscan.io/address/0xd69b0089d9ca950640f5dc9931a41a5965f00303",
         "title": "Address: 0xd69b0089...965f00303 | Etherscan",
-        "description": "Contract: Unverified | Balance: $62,612,138.51 across 1 Chain | Transactions: 243 | As at Jul-06-2026 03:23:10 PM (UTC)",
+        "description": "Contract: Unverified | Balance: $63,407,449.22 across 1 Chain | Transactions: 243 | As at Jul-14-2026 01:43:22 AM (UTC)",
         "metadata": {
-          "balanceUsdAcrossChains": 62612138.51,
+          "balanceUsdAcrossChains": 63407449.22,
           "transactions": 243,
           "contractStatus": "unverified_contract",
           "tokenPriceUsd": null,
-          "asAtUtc": "Jul-06-2026 03:23:10 PM"
+          "asAtUtc": "Jul-14-2026 01:43:22 AM"
         },
         "publicGeminiLabel": false
       }
@@ -326,13 +326,13 @@
         "status": "verified_page_loaded",
         "url": "https://etherscan.io/address/0xdd51f01d9fc0fd084c1a4737bbfa5becb6ced9bc",
         "title": "Gemini: Deployer 1 | Address: 0xdd51f01d...cb6ced9bc | Etherscan",
-        "description": "Address (EOA) | Balance: $578.28 across 1 Chain | Transactions: 11 | As at Jul-06-2026 03:23:11 PM (UTC)",
+        "description": "Address (EOA) | Balance: $585.37 across 1 Chain | Transactions: 11 | As at Jul-14-2026 01:43:22 AM (UTC)",
         "metadata": {
-          "balanceUsdAcrossChains": 578.28,
+          "balanceUsdAcrossChains": 585.37,
           "transactions": 11,
           "contractStatus": "eoa",
           "tokenPriceUsd": null,
-          "asAtUtc": "Jul-06-2026 03:23:11 PM"
+          "asAtUtc": "Jul-14-2026 01:43:22 AM"
         },
         "publicGeminiLabel": true
       }
@@ -349,13 +349,13 @@
         "status": "verified_page_loaded",
         "url": "https://etherscan.io/address/0xdec042a90de005b22754e94a8a979c4b8c67fde5",
         "title": "Address: 0xdec042a9...b8c67fde5 | Etherscan",
-        "description": "Contract: Unverified | Balance: $0 across 0 Chain | Transactions: 93 | As at Jul-06-2026 03:23:11 PM (UTC)",
+        "description": "Contract: Unverified | Balance: $0 across 0 Chain | Transactions: 93 | As at Jul-14-2026 01:43:23 AM (UTC)",
         "metadata": {
           "balanceUsdAcrossChains": 0,
           "transactions": 93,
           "contractStatus": "unverified_contract",
           "tokenPriceUsd": null,
-          "asAtUtc": "Jul-06-2026 03:23:11 PM"
+          "asAtUtc": "Jul-14-2026 01:43:23 AM"
         },
         "publicGeminiLabel": false
       }

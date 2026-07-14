@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-06",
+  "asOf": "2026-07-13",
   "company": "Gemini Space Station, Inc.",
   "ticker": "GEMI",
   "purpose": "Q2 2026 earnings estimate with GAAP opex and normalized adjusted EBITDA-style opex.",
@@ -69,8 +69,11 @@
     "q1ExternalGrossFlowUsd": 328939388.68,
     "q2ExternalGrossFlowUsd": 255019157.01,
     "qoqExternalGrossFlow": -0.225,
+    "q3PartialExternalGrossFlowUsd": 343372370.17,
+    "q3PartialExternalGrossFlowVsQ2": 0.346,
     "q2PricedDexRouterTradingProxyUsd": 0,
-    "interpretation": "On-chain addresses do not support a hidden Q2 trading-volume acceleration. Treat them as custody/liquidity monitoring, not full revenue tape."
+    "q3PartialPricedDexRouterTradingProxyUsd": 0,
+    "interpretation": "On-chain addresses do not support a hidden Q2 trading-volume acceleration. Partial Q3 flow is higher and worth monitoring for July/Q3 momentum, but it is post-quarter custody/liquidity activity, not full revenue tape."
   },
   "analystConclusion": "Stripping Q1 noise improves the optics but does not make GEMI a fundamental earnings long by itself. Q2 likely remains a large loss quarter. Bull case depends on prediction-market KPI acceleration, cost actions, and forward commentary."
 }

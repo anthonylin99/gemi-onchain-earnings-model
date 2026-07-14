@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-06T15:24:36.318Z",
+  "asOf": "2026-07-14T01:44:43.298Z",
   "timeseries": [
     {
       "date": "2026-01-01",
@@ -8,13 +8,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 2073907.44,
       "tradingProxyUsd": 0,
-      "transactionCount": 304,
+      "transactionCount": 576,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 7603444.22,
           "externalGrossUsd": 7603444.22,
-          "transactionCount": 304,
+          "transactionCount": 576,
           "tradingProxyUsd": 0
         }
       }
@@ -26,13 +26,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": -1521388.05,
       "tradingProxyUsd": 0,
-      "transactionCount": 641,
+      "transactionCount": 1274,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 34267225.52,
           "externalGrossUsd": 34267225.52,
-          "transactionCount": 641,
+          "transactionCount": 1274,
           "tradingProxyUsd": 0
         }
       }
@@ -44,13 +44,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 1381920.72,
       "tradingProxyUsd": 0,
-      "transactionCount": 400,
+      "transactionCount": 793,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 8758916,
           "externalGrossUsd": 8758916,
-          "transactionCount": 400,
+          "transactionCount": 793,
           "tradingProxyUsd": 0
         }
       }
@@ -62,13 +62,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": -916642.1,
       "tradingProxyUsd": 0,
-      "transactionCount": 212,
+      "transactionCount": 412,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 927981.16,
           "externalGrossUsd": 927981.16,
-          "transactionCount": 212,
+          "transactionCount": 412,
           "tradingProxyUsd": 0
         }
       }
@@ -80,13 +80,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 2996310.29,
       "tradingProxyUsd": 0,
-      "transactionCount": 485,
+      "transactionCount": 1018,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 17636518.36,
           "externalGrossUsd": 17636518.36,
-          "transactionCount": 485,
+          "transactionCount": 1018,
           "tradingProxyUsd": 0
         }
       }
@@ -98,13 +98,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": -3804433.13,
       "tradingProxyUsd": 0,
-      "transactionCount": 438,
+      "transactionCount": 872,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 15785738.54,
           "externalGrossUsd": 15785738.54,
-          "transactionCount": 438,
+          "transactionCount": 872,
           "tradingProxyUsd": 0
         }
       }
@@ -116,13 +116,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 1939449.05,
       "tradingProxyUsd": 0,
-      "transactionCount": 461,
+      "transactionCount": 925,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 23572844.25,
           "externalGrossUsd": 23572844.25,
-          "transactionCount": 461,
+          "transactionCount": 925,
           "tradingProxyUsd": 0
         }
       }
@@ -134,13 +134,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": -1499204.74,
       "tradingProxyUsd": 0,
-      "transactionCount": 426,
+      "transactionCount": 862,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 19497251.77,
           "externalGrossUsd": 19497251.77,
-          "transactionCount": 426,
+          "transactionCount": 862,
           "tradingProxyUsd": 0
         }
       }
@@ -152,13 +152,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 2429601.75,
       "tradingProxyUsd": 0,
-      "transactionCount": 400,
+      "transactionCount": 800,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 23883049.26,
           "externalGrossUsd": 23883049.26,
-          "transactionCount": 400,
+          "transactionCount": 800,
           "tradingProxyUsd": 0
         }
       }
@@ -170,13 +170,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 625004,
       "tradingProxyUsd": 0,
-      "transactionCount": 240,
+      "transactionCount": 463,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 5714754.32,
           "externalGrossUsd": 5714754.32,
-          "transactionCount": 240,
+          "transactionCount": 463,
           "tradingProxyUsd": 0
         }
       }
@@ -188,13 +188,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": -291066.65,
       "tradingProxyUsd": 0,
-      "transactionCount": 188,
+      "transactionCount": 366,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 292564.13,
           "externalGrossUsd": 292564.13,
-          "transactionCount": 188,
+          "transactionCount": 366,
           "tradingProxyUsd": 0
         }
       }
@@ -206,13 +206,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": -693560.18,
       "tradingProxyUsd": 0,
-      "transactionCount": 424,
+      "transactionCount": 843,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 17700282.64,
           "externalGrossUsd": 17700282.64,
-          "transactionCount": 424,
+          "transactionCount": 843,
           "tradingProxyUsd": 0
         }
       }
@@ -224,13 +224,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 1772167.86,
       "tradingProxyUsd": 0,
-      "transactionCount": 386,
+      "transactionCount": 776,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 23138122.37,
           "externalGrossUsd": 23138122.37,
-          "transactionCount": 386,
+          "transactionCount": 776,
           "tradingProxyUsd": 0
         }
       }
@@ -242,13 +242,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": -2675340.5,
       "tradingProxyUsd": 0,
-      "transactionCount": 604,
+      "transactionCount": 1387,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 21058096.47,
           "externalGrossUsd": 21058096.47,
-          "transactionCount": 604,
+          "transactionCount": 1387,
           "tradingProxyUsd": 0
         }
       }
@@ -260,13 +260,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 4214677.07,
       "tradingProxyUsd": 0,
-      "transactionCount": 389,
+      "transactionCount": 774,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 13571820.53,
           "externalGrossUsd": 13571820.53,
-          "transactionCount": 389,
+          "transactionCount": 774,
           "tradingProxyUsd": 0
         }
       }
@@ -278,13 +278,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": -2192261.69,
       "tradingProxyUsd": 0,
-      "transactionCount": 373,
+      "transactionCount": 762,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 16239326.12,
           "externalGrossUsd": 16239326.12,
-          "transactionCount": 373,
+          "transactionCount": 762,
           "tradingProxyUsd": 0
         }
       }
@@ -296,31 +296,31 @@
       "internalGrossUsd": 0,
       "netFlowUsd": -361885.35,
       "tradingProxyUsd": 0,
-      "transactionCount": 195,
+      "transactionCount": 381,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 2798099.1,
           "externalGrossUsd": 2798099.1,
-          "transactionCount": 195,
+          "transactionCount": 381,
           "tradingProxyUsd": 0
         }
       }
     },
     {
       "date": "2026-01-18",
-      "grossTransferUsd": 387637.06,
-      "externalGrossUsd": 387637.06,
+      "grossTransferUsd": 387637.03,
+      "externalGrossUsd": 387637.03,
       "internalGrossUsd": 0,
-      "netFlowUsd": -118826.77,
+      "netFlowUsd": -118826.81,
       "tradingProxyUsd": 0,
-      "transactionCount": 294,
+      "transactionCount": 506,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
-          "grossTransferUsd": 387637.06,
-          "externalGrossUsd": 387637.06,
-          "transactionCount": 294,
+          "grossTransferUsd": 387637.03,
+          "externalGrossUsd": 387637.03,
+          "transactionCount": 506,
           "tradingProxyUsd": 0
         }
       }
@@ -332,13 +332,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": -746423.41,
       "tradingProxyUsd": 0,
-      "transactionCount": 689,
+      "transactionCount": 1114,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 2216035.28,
           "externalGrossUsd": 2216035.28,
-          "transactionCount": 689,
+          "transactionCount": 1114,
           "tradingProxyUsd": 0
         }
       }
@@ -350,13 +350,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 92233.1,
       "tradingProxyUsd": 0,
-      "transactionCount": 990,
+      "transactionCount": 1604,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 22501249.22,
           "externalGrossUsd": 22501249.22,
-          "transactionCount": 990,
+          "transactionCount": 1604,
           "tradingProxyUsd": 0
         }
       }
@@ -368,13 +368,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": -1190527.97,
       "tradingProxyUsd": 0,
-      "transactionCount": 659,
+      "transactionCount": 1145,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 14198901.47,
           "externalGrossUsd": 14198901.47,
-          "transactionCount": 659,
+          "transactionCount": 1145,
           "tradingProxyUsd": 0
         }
       }
@@ -386,13 +386,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 1829491.99,
       "tradingProxyUsd": 0,
-      "transactionCount": 360,
+      "transactionCount": 858,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 15542890.15,
           "externalGrossUsd": 15542890.15,
-          "transactionCount": 360,
+          "transactionCount": 858,
           "tradingProxyUsd": 0
         }
       }
@@ -404,13 +404,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": -1374423.89,
       "tradingProxyUsd": 0,
-      "transactionCount": 380,
+      "transactionCount": 761,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 15885081.54,
           "externalGrossUsd": 15885081.54,
-          "transactionCount": 380,
+          "transactionCount": 761,
           "tradingProxyUsd": 0
         }
       }
@@ -422,13 +422,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": -102671.38,
       "tradingProxyUsd": 0,
-      "transactionCount": 331,
+      "transactionCount": 643,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 5484122.01,
           "externalGrossUsd": 5484122.01,
-          "transactionCount": 331,
+          "transactionCount": 643,
           "tradingProxyUsd": 0
         }
       }
@@ -440,31 +440,31 @@
       "internalGrossUsd": 0,
       "netFlowUsd": -130080.9,
       "tradingProxyUsd": 0,
-      "transactionCount": 180,
+      "transactionCount": 485,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 275977.14,
           "externalGrossUsd": 275977.14,
-          "transactionCount": 180,
+          "transactionCount": 485,
           "tradingProxyUsd": 0
         }
       }
     },
     {
       "date": "2026-01-26",
-      "grossTransferUsd": 0,
-      "externalGrossUsd": 0,
+      "grossTransferUsd": 0.03,
+      "externalGrossUsd": 0.03,
       "internalGrossUsd": 0,
-      "netFlowUsd": 0,
+      "netFlowUsd": 0.03,
       "tradingProxyUsd": 0,
-      "transactionCount": 15,
+      "transactionCount": 581,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
-          "grossTransferUsd": 0,
-          "externalGrossUsd": 0,
-          "transactionCount": 15,
+          "grossTransferUsd": 0.03,
+          "externalGrossUsd": 0.03,
+          "transactionCount": 581,
           "tradingProxyUsd": 0
         }
       }
@@ -476,13 +476,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 15,
+      "transactionCount": 70,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 15,
+          "transactionCount": 70,
           "tradingProxyUsd": 0
         }
       }
@@ -494,13 +494,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 13,
+      "transactionCount": 28,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 13,
+          "transactionCount": 28,
           "tradingProxyUsd": 0
         }
       }
@@ -512,13 +512,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 21,
+      "transactionCount": 64,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 21,
+          "transactionCount": 64,
           "tradingProxyUsd": 0
         }
       }
@@ -530,13 +530,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 1459.01,
       "tradingProxyUsd": 0,
-      "transactionCount": 15,
+      "transactionCount": 32,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 1459.01,
           "externalGrossUsd": 1459.01,
-          "transactionCount": 15,
+          "transactionCount": 32,
           "tradingProxyUsd": 0
         }
       }
@@ -584,13 +584,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 1,
       "tradingProxyUsd": 0,
-      "transactionCount": 16,
+      "transactionCount": 226,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 1,
           "externalGrossUsd": 1,
-          "transactionCount": 16,
+          "transactionCount": 226,
           "tradingProxyUsd": 0
         }
       }
@@ -602,13 +602,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 20,
+      "transactionCount": 51,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 20,
+          "transactionCount": 51,
           "tradingProxyUsd": 0
         }
       }
@@ -620,13 +620,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 10,
+      "transactionCount": 45,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 10,
+          "transactionCount": 45,
           "tradingProxyUsd": 0
         }
       }
@@ -638,13 +638,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 34,
+      "transactionCount": 181,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 34,
+          "transactionCount": 181,
           "tradingProxyUsd": 0
         }
       }
@@ -656,13 +656,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 21,
+      "transactionCount": 127,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 21,
+          "transactionCount": 127,
           "tradingProxyUsd": 0
         }
       }
@@ -674,13 +674,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 18,
+      "transactionCount": 19,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 18,
+          "transactionCount": 19,
           "tradingProxyUsd": 0
         }
       }
@@ -710,13 +710,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 19,
+      "transactionCount": 67,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 19,
+          "transactionCount": 67,
           "tradingProxyUsd": 0
         }
       }
@@ -728,13 +728,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 38,
+      "transactionCount": 40,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 38,
+          "transactionCount": 40,
           "tradingProxyUsd": 0
         }
       }
@@ -746,13 +746,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 26,
+      "transactionCount": 33,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 26,
+          "transactionCount": 33,
           "tradingProxyUsd": 0
         }
       }
@@ -764,13 +764,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 12,
+      "transactionCount": 18,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 12,
+          "transactionCount": 18,
           "tradingProxyUsd": 0
         }
       }
@@ -782,13 +782,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 15,
+      "transactionCount": 28,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 15,
+          "transactionCount": 28,
           "tradingProxyUsd": 0
         }
       }
@@ -854,13 +854,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 18,
+      "transactionCount": 64,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 18,
+          "transactionCount": 64,
           "tradingProxyUsd": 0
         }
       }
@@ -872,13 +872,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 6,
+      "transactionCount": 40,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 6,
+          "transactionCount": 40,
           "tradingProxyUsd": 0
         }
       }
@@ -890,29 +890,29 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 13,
+      "transactionCount": 337,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 13,
+          "transactionCount": 337,
           "tradingProxyUsd": 0
         }
       }
     },
     {
       "date": "2026-02-20",
-      "grossTransferUsd": 90620.06,
+      "grossTransferUsd": 0,
       "externalGrossUsd": 0,
-      "internalGrossUsd": 90620.06,
+      "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 16,
+      "transactionCount": 832,
       "dexInteractionCount": 0,
       "byChain": {
         "solana": {
-          "grossTransferUsd": 90620.06,
+          "grossTransferUsd": 0,
           "externalGrossUsd": 0,
           "transactionCount": 1,
           "tradingProxyUsd": 0
@@ -920,7 +920,7 @@
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 15,
+          "transactionCount": 831,
           "tradingProxyUsd": 0
         }
       }
@@ -950,60 +950,6 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 5,
-      "dexInteractionCount": 0,
-      "byChain": {
-        "ethereum": {
-          "grossTransferUsd": 0,
-          "externalGrossUsd": 0,
-          "transactionCount": 5,
-          "tradingProxyUsd": 0
-        }
-      }
-    },
-    {
-      "date": "2026-02-23",
-      "grossTransferUsd": 0,
-      "externalGrossUsd": 0,
-      "internalGrossUsd": 0,
-      "netFlowUsd": 0,
-      "tradingProxyUsd": 0,
-      "transactionCount": 22,
-      "dexInteractionCount": 0,
-      "byChain": {
-        "ethereum": {
-          "grossTransferUsd": 0,
-          "externalGrossUsd": 0,
-          "transactionCount": 22,
-          "tradingProxyUsd": 0
-        }
-      }
-    },
-    {
-      "date": "2026-02-24",
-      "grossTransferUsd": 0,
-      "externalGrossUsd": 0,
-      "internalGrossUsd": 0,
-      "netFlowUsd": 0,
-      "tradingProxyUsd": 0,
-      "transactionCount": 16,
-      "dexInteractionCount": 0,
-      "byChain": {
-        "ethereum": {
-          "grossTransferUsd": 0,
-          "externalGrossUsd": 0,
-          "transactionCount": 16,
-          "tradingProxyUsd": 0
-        }
-      }
-    },
-    {
-      "date": "2026-02-25",
-      "grossTransferUsd": 0,
-      "externalGrossUsd": 0,
-      "internalGrossUsd": 0,
-      "netFlowUsd": 0,
-      "tradingProxyUsd": 0,
       "transactionCount": 6,
       "dexInteractionCount": 0,
       "byChain": {
@@ -1016,19 +962,73 @@
       }
     },
     {
+      "date": "2026-02-23",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 44,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 44,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-24",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 61,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 61,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-02-25",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 19,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 19,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
       "date": "2026-02-26",
       "grossTransferUsd": 0,
       "externalGrossUsd": 0,
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 17,
+      "transactionCount": 63,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 17,
+          "transactionCount": 63,
           "tradingProxyUsd": 0
         }
       }
@@ -1040,13 +1040,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 17,
+      "transactionCount": 45,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 17,
+          "transactionCount": 45,
           "tradingProxyUsd": 0
         }
       }
@@ -1094,19 +1094,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 25,
+      "transactionCount": 60,
       "dexInteractionCount": 0,
       "byChain": {
-        "solana": {
-          "grossTransferUsd": 0,
-          "externalGrossUsd": 0,
-          "transactionCount": 1,
-          "tradingProxyUsd": 0
-        },
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 24,
+          "transactionCount": 60,
           "tradingProxyUsd": 0
         }
       }
@@ -1118,13 +1112,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 14,
+      "transactionCount": 29,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 14,
+          "transactionCount": 29,
           "tradingProxyUsd": 0
         }
       }
@@ -1136,13 +1130,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 28,
+      "transactionCount": 118,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 28,
+          "transactionCount": 118,
           "tradingProxyUsd": 0
         }
       }
@@ -1154,79 +1148,43 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 26,
+      "transactionCount": 503,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 26,
+          "transactionCount": 503,
           "tradingProxyUsd": 0
         }
       }
     },
     {
       "date": "2026-03-06",
-      "grossTransferUsd": 0,
+      "grossTransferUsd": 1775138.79,
       "externalGrossUsd": 0,
-      "internalGrossUsd": 0,
+      "internalGrossUsd": 1775138.79,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 18,
+      "transactionCount": 114,
       "dexInteractionCount": 0,
       "byChain": {
         "solana": {
-          "grossTransferUsd": 0,
+          "grossTransferUsd": 1775138.79,
           "externalGrossUsd": 0,
-          "transactionCount": 1,
+          "transactionCount": 2,
           "tradingProxyUsd": 0
         },
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 17,
+          "transactionCount": 112,
           "tradingProxyUsd": 0
         }
       }
     },
     {
       "date": "2026-03-07",
-      "grossTransferUsd": 0,
-      "externalGrossUsd": 0,
-      "internalGrossUsd": 0,
-      "netFlowUsd": 0,
-      "tradingProxyUsd": 0,
-      "transactionCount": 10,
-      "dexInteractionCount": 0,
-      "byChain": {
-        "ethereum": {
-          "grossTransferUsd": 0,
-          "externalGrossUsd": 0,
-          "transactionCount": 10,
-          "tradingProxyUsd": 0
-        }
-      }
-    },
-    {
-      "date": "2026-03-08",
-      "grossTransferUsd": 0,
-      "externalGrossUsd": 0,
-      "internalGrossUsd": 0,
-      "netFlowUsd": 0,
-      "tradingProxyUsd": 0,
-      "transactionCount": 8,
-      "dexInteractionCount": 0,
-      "byChain": {
-        "ethereum": {
-          "grossTransferUsd": 0,
-          "externalGrossUsd": 0,
-          "transactionCount": 8,
-          "tradingProxyUsd": 0
-        }
-      }
-    },
-    {
-      "date": "2026-03-09",
       "grossTransferUsd": 0,
       "externalGrossUsd": 0,
       "internalGrossUsd": 0,
@@ -1244,31 +1202,7 @@
       }
     },
     {
-      "date": "2026-03-10",
-      "grossTransferUsd": 0,
-      "externalGrossUsd": 0,
-      "internalGrossUsd": 0,
-      "netFlowUsd": 0,
-      "tradingProxyUsd": 0,
-      "transactionCount": 25,
-      "dexInteractionCount": 0,
-      "byChain": {
-        "solana": {
-          "grossTransferUsd": 0,
-          "externalGrossUsd": 0,
-          "transactionCount": 1,
-          "tradingProxyUsd": 0
-        },
-        "ethereum": {
-          "grossTransferUsd": 0,
-          "externalGrossUsd": 0,
-          "transactionCount": 24,
-          "tradingProxyUsd": 0
-        }
-      }
-    },
-    {
-      "date": "2026-03-11",
+      "date": "2026-03-08",
       "grossTransferUsd": 0,
       "externalGrossUsd": 0,
       "internalGrossUsd": 0,
@@ -1286,19 +1220,79 @@
       }
     },
     {
+      "date": "2026-03-09",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 128,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 128,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-10",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 236,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 1,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 235,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "grossTransferUsd": 0,
+      "externalGrossUsd": 0,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 0,
+      "tradingProxyUsd": 0,
+      "transactionCount": 28,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 28,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
       "date": "2026-03-12",
       "grossTransferUsd": 0,
       "externalGrossUsd": 0,
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 18,
+      "transactionCount": 60,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 18,
+          "transactionCount": 60,
           "tradingProxyUsd": 0
         }
       }
@@ -1310,13 +1304,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 10,
+      "transactionCount": 44,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 10,
+          "transactionCount": 44,
           "tradingProxyUsd": 0
         }
       }
@@ -1364,7 +1358,7 @@
       "internalGrossUsd": 921632.84,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 16,
+      "transactionCount": 43,
       "dexInteractionCount": 0,
       "byChain": {
         "solana": {
@@ -1376,7 +1370,7 @@
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 15,
+          "transactionCount": 42,
           "tradingProxyUsd": 0
         }
       }
@@ -1388,13 +1382,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 7,
+      "transactionCount": 545,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 7,
+          "transactionCount": 545,
           "tradingProxyUsd": 0
         }
       }
@@ -1406,13 +1400,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 6,
+      "transactionCount": 229,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 6,
+          "transactionCount": 229,
           "tradingProxyUsd": 0
         }
       }
@@ -1424,13 +1418,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 8,
+      "transactionCount": 23,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 8,
+          "transactionCount": 23,
           "tradingProxyUsd": 0
         }
       }
@@ -1442,13 +1436,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 7,
+      "transactionCount": 28,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 7,
+          "transactionCount": 28,
           "tradingProxyUsd": 0
         }
       }
@@ -1496,13 +1490,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 16,
+      "transactionCount": 31,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 16,
+          "transactionCount": 31,
           "tradingProxyUsd": 0
         }
       }
@@ -1514,13 +1508,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 22,
+      "transactionCount": 45,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 22,
+          "transactionCount": 45,
           "tradingProxyUsd": 0
         }
       }
@@ -1532,13 +1526,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 12,
+      "transactionCount": 45,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 12,
+          "transactionCount": 45,
           "tradingProxyUsd": 0
         }
       }
@@ -1550,13 +1544,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 15,
+      "transactionCount": 27,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 15,
+          "transactionCount": 27,
           "tradingProxyUsd": 0
         }
       }
@@ -1568,13 +1562,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 11,
+      "transactionCount": 30,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 11,
+          "transactionCount": 30,
           "tradingProxyUsd": 0
         }
       }
@@ -1604,13 +1598,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 7,
+      "transactionCount": 6,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 7,
+          "transactionCount": 6,
           "tradingProxyUsd": 0
         }
       }
@@ -1622,13 +1616,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 12,
+      "transactionCount": 15,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 12,
+          "transactionCount": 15,
           "tradingProxyUsd": 0
         }
       }
@@ -1640,19 +1634,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 14,
+      "transactionCount": 25,
       "dexInteractionCount": 0,
       "byChain": {
-        "solana": {
-          "grossTransferUsd": 0,
-          "externalGrossUsd": 0,
-          "transactionCount": 1,
-          "tradingProxyUsd": 0
-        },
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 13,
+          "transactionCount": 25,
           "tradingProxyUsd": 0
         }
       }
@@ -1767,14 +1755,20 @@
     },
     {
       "date": "2026-04-07",
-      "grossTransferUsd": 11109457.43,
+      "grossTransferUsd": 11909966.46,
       "externalGrossUsd": 11109457.43,
-      "internalGrossUsd": 0,
+      "internalGrossUsd": 800509.04,
       "netFlowUsd": -430929.95,
       "tradingProxyUsd": 0,
-      "transactionCount": 860,
+      "transactionCount": 861,
       "dexInteractionCount": 0,
       "byChain": {
+        "solana": {
+          "grossTransferUsd": 800509.04,
+          "externalGrossUsd": 0,
+          "transactionCount": 1,
+          "tradingProxyUsd": 0
+        },
         "ethereum": {
           "grossTransferUsd": 11109457.43,
           "externalGrossUsd": 11109457.43,
@@ -1785,18 +1779,18 @@
     },
     {
       "date": "2026-04-08",
-      "grossTransferUsd": 16485275.98,
-      "externalGrossUsd": 16485275.98,
+      "grossTransferUsd": 16485275.96,
+      "externalGrossUsd": 16485275.96,
       "internalGrossUsd": 0,
-      "netFlowUsd": 1276214.51,
+      "netFlowUsd": 1276214.49,
       "tradingProxyUsd": 0,
-      "transactionCount": 2439,
+      "transactionCount": 2437,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
-          "grossTransferUsd": 16485275.98,
-          "externalGrossUsd": 16485275.98,
-          "transactionCount": 2439,
+          "grossTransferUsd": 16485275.96,
+          "externalGrossUsd": 16485275.96,
+          "transactionCount": 2437,
           "tradingProxyUsd": 0
         }
       }
@@ -1916,13 +1910,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 57603.43,
       "tradingProxyUsd": 0,
-      "transactionCount": 1443,
+      "transactionCount": 1444,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 33962820.42,
           "externalGrossUsd": 33962820.42,
-          "transactionCount": 1443,
+          "transactionCount": 1444,
           "tradingProxyUsd": 0
         }
       }
@@ -2330,13 +2324,13 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 33,
+      "transactionCount": 36,
       "dexInteractionCount": 0,
       "byChain": {
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 33,
+          "transactionCount": 36,
           "tradingProxyUsd": 0
         }
       }
@@ -2685,20 +2679,14 @@
     },
     {
       "date": "2026-05-28",
-      "grossTransferUsd": 823006.41,
+      "grossTransferUsd": 0,
       "externalGrossUsd": 0,
-      "internalGrossUsd": 823006.41,
+      "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 26,
+      "transactionCount": 25,
       "dexInteractionCount": 0,
       "byChain": {
-        "solana": {
-          "grossTransferUsd": 823006.41,
-          "externalGrossUsd": 0,
-          "transactionCount": 1,
-          "tradingProxyUsd": 0
-        },
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
@@ -2768,9 +2756,15 @@
       "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 53,
+      "transactionCount": 54,
       "dexInteractionCount": 0,
       "byChain": {
+        "solana": {
+          "grossTransferUsd": 0,
+          "externalGrossUsd": 0,
+          "transactionCount": 1,
+          "tradingProxyUsd": 0
+        },
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
@@ -2949,20 +2943,14 @@
     },
     {
       "date": "2026-06-11",
-      "grossTransferUsd": 631717.77,
+      "grossTransferUsd": 0,
       "externalGrossUsd": 0,
-      "internalGrossUsd": 631717.77,
+      "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 14,
+      "transactionCount": 13,
       "dexInteractionCount": 0,
       "byChain": {
-        "solana": {
-          "grossTransferUsd": 631717.77,
-          "externalGrossUsd": 0,
-          "transactionCount": 1,
-          "tradingProxyUsd": 0
-        },
         "ethereum": {
           "grossTransferUsd": 0,
           "externalGrossUsd": 0,
@@ -3045,18 +3033,18 @@
     },
     {
       "date": "2026-06-16",
-      "grossTransferUsd": 739644.53,
+      "grossTransferUsd": 0,
       "externalGrossUsd": 0,
-      "internalGrossUsd": 739644.53,
+      "internalGrossUsd": 0,
       "netFlowUsd": 0,
       "tradingProxyUsd": 0,
-      "transactionCount": 37,
+      "transactionCount": 35,
       "dexInteractionCount": 0,
       "byChain": {
         "solana": {
-          "grossTransferUsd": 739644.53,
+          "grossTransferUsd": 0,
           "externalGrossUsd": 0,
-          "transactionCount": 3,
+          "transactionCount": 1,
           "tradingProxyUsd": 0
         },
         "ethereum": {
@@ -3327,20 +3315,14 @@
     },
     {
       "date": "2026-07-01",
-      "grossTransferUsd": 36309792.84,
-      "externalGrossUsd": 36309792.84,
+      "grossTransferUsd": 36309792.83,
+      "externalGrossUsd": 36309792.83,
       "internalGrossUsd": 0,
-      "netFlowUsd": -1592042.03,
+      "netFlowUsd": -1592042.02,
       "tradingProxyUsd": 0,
-      "transactionCount": 828,
+      "transactionCount": 827,
       "dexInteractionCount": 0,
       "byChain": {
-        "solana": {
-          "grossTransferUsd": 0,
-          "externalGrossUsd": 0,
-          "transactionCount": 1,
-          "tradingProxyUsd": 0
-        },
         "ethereum": {
           "grossTransferUsd": 36309792.83,
           "externalGrossUsd": 36309792.83,
@@ -3351,20 +3333,14 @@
     },
     {
       "date": "2026-07-02",
-      "grossTransferUsd": 47953133.72,
-      "externalGrossUsd": 47953133.72,
+      "grossTransferUsd": 47953133.71,
+      "externalGrossUsd": 47953133.71,
       "internalGrossUsd": 0,
       "netFlowUsd": 2053835.63,
       "tradingProxyUsd": 0,
-      "transactionCount": 1061,
+      "transactionCount": 1060,
       "dexInteractionCount": 0,
       "byChain": {
-        "solana": {
-          "grossTransferUsd": 0,
-          "externalGrossUsd": 0,
-          "transactionCount": 1,
-          "tradingProxyUsd": 0
-        },
         "ethereum": {
           "grossTransferUsd": 47953133.71,
           "externalGrossUsd": 47953133.71,
@@ -3429,24 +3405,174 @@
     },
     {
       "date": "2026-07-06",
-      "grossTransferUsd": 35528079.27,
-      "externalGrossUsd": 35528079.27,
+      "grossTransferUsd": 40033798.77,
+      "externalGrossUsd": 40033798.77,
       "internalGrossUsd": 0,
-      "netFlowUsd": -3061315.5,
+      "netFlowUsd": -2338861.5,
       "tradingProxyUsd": 0,
-      "transactionCount": 378,
+      "transactionCount": 716,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 40033798.77,
+          "externalGrossUsd": 40033798.77,
+          "transactionCount": 716,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "grossTransferUsd": 17171916.1,
+      "externalGrossUsd": 17171916.1,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -952518.49,
+      "tradingProxyUsd": 0,
+      "transactionCount": 640,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 17171916.1,
+          "externalGrossUsd": 17171916.1,
+          "transactionCount": 640,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "grossTransferUsd": 14401280.86,
+      "externalGrossUsd": 14401280.86,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -1175588.37,
+      "tradingProxyUsd": 0,
+      "transactionCount": 549,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 14401280.86,
+          "externalGrossUsd": 14401280.86,
+          "transactionCount": 549,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "grossTransferUsd": 20688567.56,
+      "externalGrossUsd": 20688567.56,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 1957964.38,
+      "tradingProxyUsd": 0,
+      "transactionCount": 501,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 20688567.56,
+          "externalGrossUsd": 20688567.56,
+          "transactionCount": 501,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-07-10",
+      "grossTransferUsd": 21000138.18,
+      "externalGrossUsd": 21000138.18,
+      "internalGrossUsd": 0,
+      "netFlowUsd": 1814538.55,
+      "tradingProxyUsd": 0,
+      "transactionCount": 850,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 21000138.18,
+          "externalGrossUsd": 21000138.18,
+          "transactionCount": 850,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "grossTransferUsd": 2624659.25,
+      "externalGrossUsd": 2624659.25,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -159978.61,
+      "tradingProxyUsd": 0,
+      "transactionCount": 321,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 2624659.25,
+          "externalGrossUsd": 2624659.25,
+          "transactionCount": 321,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-07-12",
+      "grossTransferUsd": 19747845.5,
+      "externalGrossUsd": 19747845.5,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -3049821.38,
+      "tradingProxyUsd": 0,
+      "transactionCount": 207,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "ethereum": {
+          "grossTransferUsd": 19747845.5,
+          "externalGrossUsd": 19747845.5,
+          "transactionCount": 207,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-07-13",
+      "grossTransferUsd": 62837663.64,
+      "externalGrossUsd": 58997915.88,
+      "internalGrossUsd": 3839747.76,
+      "netFlowUsd": 1396995.28,
+      "tradingProxyUsd": 0,
+      "transactionCount": 894,
       "dexInteractionCount": 0,
       "byChain": {
         "solana": {
-          "grossTransferUsd": 55988.32,
-          "externalGrossUsd": 55988.32,
-          "transactionCount": 10,
+          "grossTransferUsd": 3841299.25,
+          "externalGrossUsd": 1551.5,
+          "transactionCount": 9,
           "tradingProxyUsd": 0
         },
         "ethereum": {
-          "grossTransferUsd": 35472090.95,
-          "externalGrossUsd": 35472090.95,
-          "transactionCount": 368,
+          "grossTransferUsd": 58996364.38,
+          "externalGrossUsd": 58996364.38,
+          "transactionCount": 885,
+          "tradingProxyUsd": 0
+        }
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "grossTransferUsd": 285200.36,
+      "externalGrossUsd": 285200.36,
+      "internalGrossUsd": 0,
+      "netFlowUsd": -285200.36,
+      "tradingProxyUsd": 0,
+      "transactionCount": 34,
+      "dexInteractionCount": 0,
+      "byChain": {
+        "solana": {
+          "grossTransferUsd": 85175.1,
+          "externalGrossUsd": 85175.1,
+          "transactionCount": 4,
+          "tradingProxyUsd": 0
+        },
+        "ethereum": {
+          "grossTransferUsd": 200025.25,
+          "externalGrossUsd": 200025.25,
+          "transactionCount": 30,
           "tradingProxyUsd": 0
         }
       }

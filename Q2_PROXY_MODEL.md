@@ -1,6 +1,6 @@
 # GEMI Q2 2026 Proxy Model
 
-As of: 2026-07-06T13:41:12.852Z
+As of: 2026-07-14T01:43:05.834Z
 
 ## Bottom Line
 
@@ -18,24 +18,24 @@ My base-case Q2 revenue estimate is $45.3M versus Q1 reported revenue of $50.3M,
 
 | Proxy | Q1 2026 | Q2 2026 | QoQ |
 |---|---:|---:|---:|
-| Gemini API exchange volume proxy | $5.7B | $3.4B | -39.5% |
-| Coinbase exchange API volume proxy | $186.0B | $143.5B | -22.8% |
-| DeFiLlama DEX/on-chain volume | $916.8B | $628.7B | -31.4% |
+| Gemini API exchange volume proxy | $5.6B | $3.4B | -38.8% |
+| Coinbase exchange API volume proxy | $186.7B | $145.0B | -22.4% |
+| DeFiLlama DEX/on-chain volume | $916.8B | $628.8B | -31.4% |
 | Robinhood crypto notional | $65.8B | $38.1B | -42.1% |
 | BTC average price | $76723 | $71751 | -6.5% |
 
 Robinhood event contracts are the warning shot: Q2 selected/monthly metrics imply roughly 12.3B event contracts in Q2, with May up 22% from April and June month-to-date already above May. That supports the idea that investors may reward a prediction-market KPI even when crypto spot remains soft.
 
 Gemini public prediction snapshot:
-- Active events: 293
-- Active contracts: 2186
-- Active-event lifetime volume: $4.1M
+- Active events: 304
+- Active contracts: 2481
+- Active-event lifetime volume: $4.9M
 
 ## Q2 Scenario Estimate
 
 | Scenario | Total revenue | Exchange | OTC | Prediction | Services + interest | Net loss before crypto marks |
 |---|---:|---:|---:|---:|---:|---:|
-| Bear | $36.9M | $8.7M | $3.5M | $0.5M | $22.5M | $-103.1M |
+| Bear | $37.0M | $8.8M | $3.5M | $0.5M | $22.5M | $-103.0M |
 | Base | $45.3M | $13.7M | $5.0M | $0.9M | $24.0M | $-87.7M |
 | Bull | $55.0M | $18.0M | $7.5M | $1.8M | $26.0M | $-73.0M |
 

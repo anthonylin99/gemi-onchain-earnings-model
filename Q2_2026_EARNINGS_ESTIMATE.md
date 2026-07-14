@@ -1,6 +1,6 @@
 # GEMI Q2 2026 Earnings Estimate
 
-As of: July 6, 2026
+As of: July 13/14, 2026
 
 ## Bottom Line
 
@@ -8,6 +8,7 @@ As of: July 6, 2026
 - Stripping those items makes the business look **less bad**, but not close to profitable. Even on a cleaner adjusted EBITDA-style basis, Q2 likely remains a **large loss quarter** unless revenue materially beats the current proxy work.
 - My base case for Q2 2026 is **$45.0M of revenue**, **$133M of GAAP operating expenses**, and **-$60M of adjusted EBITDA**.
 - The fundamental long case therefore cannot rest on Q2 earnings power alone. It needs prediction-market KPI acceleration, cost-cut evidence, and forward commentary that Q3/Q4 operating leverage is improving.
+- Latest refresh: no official Q2 earnings release was found. The biggest new data is post-quarter, not Q2: Gemini launched commission-free U.S. stock trading on July 7, 2026, prediction-market API breadth/volume improved, and partial Q3 on-chain external flow rose. These matter for Q3 narrative monitoring, not Q2 revenue recognition.
 
 ## Official Q1 Baseline
 
@@ -89,6 +90,7 @@ Notes:
 - The on-chain address model does not support a hidden Q2 trading-volume acceleration.
 - Q2 observed external gross flow was **$255.0M**, down from **$328.9M in Q1**, or roughly **-22.5% QoQ**.
 - Q2 had no meaningful priced DEX/router trading proxy.
+- Partial Q3 external gross flow is now about **$343.4M**, already above full Q2 modeled external flow, but priced trading proxy remains **$0**. Treat this as a July custody/liquidity activity pickup, not proof of exchange trading revenue.
 - Because Gemini spot, OTC, and prediction-market matching are primarily venue-internal, the on-chain address set is a narrow custody/liquidity monitor, not a full revenue tape.
 
 ## What Would Change The Estimate

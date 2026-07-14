@@ -8,6 +8,7 @@ Research tooling for GEMI/Gemini earnings work. The model separates venue-report
 - **Q2 earnings estimate:** base case is roughly **$45M revenue**, **$133M GAAP opex**, **-$60M adjusted EBITDA**, and **~-$98M net loss before crypto marks**. Stripping Q1 stock-based compensation, restructuring/severance, non-recurring legal costs, and D&A makes expenses look less bad, but GEMI still likely remains a large-loss business in Q2.
 - **Methodology:** combine Gemini official Q1 financials, Gemini/Coinbase exchange-volume proxies, DeFiLlama DEX volume, Robinhood crypto/event metrics, Gemini prediction-market API data, and public-chain address flows from Etherscan/Solana RPC. Treat on-chain transfer flow as a narrow custody/liquidity proxy, not reported Gemini trading volume.
 - **Key on-chain signal:** Q2 external gross flow was about **$255M** versus about **$329M** in Q1, or roughly **-22.5% QoQ**. Q2 priced trading proxy was effectively **$0**, even though some DEX/router-style interactions appeared.
+- **Latest refresh, July 13/14, 2026:** Q2 earnings view is unchanged. New data is mostly post-quarter: Q3 partial external gross flow rose to about **$343M**, above the full Q2 modeled external flow, and the Gemini prediction-market API snapshot improved to **304 active events**, **2,481 contracts**, and about **$4.9M** active-event lifetime volume. This helps the July momentum watchlist, but it does not change the Q2 earnings estimate because it is after quarter-end and still not a priced DEX/router trading proxy.
 - **Bull case to monitor:** prediction-market KPI acceleration, DCO/futures optionality, and cost-cut follow-through. The address data alone does not prove an upcoming earnings beat.
 - **Canonical files for AI readers:** start with `Q2_2026_EARNINGS_ESTIMATE.md`, `MANAGER_ONCHAIN_FINDINGS.md`, `ONCHAIN_EARNINGS_REPORT.md`, and `data/q2_2026_earnings_estimate.json`.
 
@@ -71,6 +72,6 @@ Then visit `http://localhost:8765/dashboard/`.
 - Missing API keys must be reported as blocked or partial, not zero.
 - Address labels are leads until public explorer labels or behavior support them.
 
-## Current Public-Only Read
+## Current Read
 
-The explorer metadata shows high lifetime activity on some EVM addresses, especially the labeled Gemini EOA and several contract-like addresses. The bounded Solana RPC sample does not show material external Q1/Q2 flow or DEX/router trading proxy. The current trade relevance verdict is neutral.
+The refreshed model still has a neutral Q2 earnings read. Q2 external gross flow was about **$255M**, down **22.5% QoQ**, and Q2 priced DEX/router trading proxy remained **$0**. The new positive change is post-quarter: partial Q3 external gross flow is now about **$343M**, which makes July address activity worth monitoring for Q3, not a reason to revise Q2 revenue materially higher.

@@ -1,14 +1,16 @@
 # GEMI On-Chain Address Findings For Manager
 
-As of: July 6, 2026
+As of: July 13/14, 2026
 
 ## Executive Takeaway
 
-- We analyzed 19 Gemini-linked address records across Ethereum, Base, and Solana using public explorer metadata plus Etherscan V2 history for Q1 2026, Q2 2026, and partial Q3 through July 6, 2026.
+- We analyzed 19 Gemini-linked address records across Ethereum, Base, and Solana using public explorer metadata plus Etherscan V2 history for Q1 2026, Q2 2026, and partial Q3 through the latest refresh.
 - The key read is **neutral to slightly negative for August earnings**: the address set shows real on-chain activity, but it does **not** show evidence of a hidden trading-volume acceleration that would change the fundamental earnings setup.
 - Q2 external gross flow was **$255.0M**, down from **$328.9M in Q1**, a decline of roughly **22.5% QoQ**. That suggests less dollar activity moving through the observed Gemini-linked cluster heading into Q2 earnings.
 - Transaction count increased from **11,470 in Q1** to **33,492 in Q2** in the latest indexed run, but dollar flow declined. That means there were more movements, but they were smaller or lower-value on average. I would not interpret this as stronger monetizable activity. Because high-volume EVM windows are API-capped, I put more weight on the dollar-flow direction than on exact transaction count.
 - Net flow turned negative: **+$1.7M in Q1** versus **-$5.9M in Q2**. Directionally, this points to more net outflow than inflow across the priced transfer buckets we captured.
+- New since the July 6 run: partial Q3 external gross flow increased to about **$343.4M**, already above the full Q2 modeled external flow. This is useful for the July/Q3 momentum watchlist, but it does not change Q2 earnings because it is post-quarter and still has **$0** priced trading proxy.
+- The Gemini prediction-market API snapshot also improved from roughly **293 events / 2,186 contracts / $4.1M active-event lifetime volume** to **304 events / 2,481 contracts / $4.9M**. That supports the narrative/KPI watchlist more than the current-quarter P&L model.
 
 ## What Happened Last Quarter
 
@@ -33,7 +35,7 @@ As of: July 6, 2026
 - The official Q1 statement of operations also ties: net revenue was **$48.578M**, other revenue was **$1.694M**, and total revenue was **$50.272M**.
 - The on-chain address model is **not capturing the majority of Gemini's business**. Q1 observed external gross flow of **$328.9M** is only about **5.2%** of Gemini's officially reported **$6.3B** Q1 total trading volume, before even considering credit card, staking, custodial, advisory, interest, and other revenue.
 - This means the on-chain model is directionally useful, but it cannot be used as a full revenue tape. It likely captures custody, wallet, token-contract, and operational movements while missing most venue-internal spot trades, OTC trades, prediction-market contracts, card economics, and service revenue.
-- The Q2 revenue number in this repo, **$44.5M**, is a model estimate, not an official reported number. As of July 6, 2026, the upcoming August earnings period has not been reported yet.
+- The Q2 revenue number in this repo, **$44.5M**, is a model estimate, not an official reported number. As of the latest refresh, the upcoming August earnings period has not been reported yet.
 
 ## Trade Implication
 
