@@ -28,7 +28,7 @@ As of: July 13/14, 2026
 
 - The best earnings interpretation is that these addresses are useful for monitoring custody/liquidity conditions, not for estimating Gemini exchange trading revenue directly. Gemini spot and prediction-market activity are primarily venue-internal, so they will not reliably appear on-chain.
 - For Q2 earnings, the address data slightly supports the view that exchange/spot activity remained weak. It does **not** support a major upside surprise from on-chain volume.
-- Our on-chain earnings bridge estimates Q2 revenue at roughly **$44.5M**, compared with Q1 reported revenue of **$50.3M**. That is consistent with the broader proxy model showing softer Gemini API volume, Coinbase volume, Robinhood crypto notional, and DeFiLlama DEX volume in Q2.
+- Our on-chain earnings bridge estimates Q2 revenue at roughly **$44.5M** (superseded; the canonical Q2 figure is the Excel model's **$43.78M** with **$124M** of GAAP opex), compared with Q1 reported revenue of **$50.3M**. That is consistent with the broader proxy model showing softer Gemini API volume, Coinbase volume, Robinhood crypto notional, and DeFiLlama DEX volume in Q2.
 - Expense leverage remains the major issue. After a second-pass analyst review, the repo no longer models opex as a mechanical percentage of revenue. The better base case uses fixed/semi-fixed opex assumptions: **$133.0M** of GAAP opex, **-$60.5M** of adjusted EBITDA, and **-$98.5M** net loss before crypto marks.
 
 ## Revenue Reconciliation Check

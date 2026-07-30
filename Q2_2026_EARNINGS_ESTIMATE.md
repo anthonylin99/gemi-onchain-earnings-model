@@ -1,6 +1,6 @@
 # GEMI Q2 2026 Earnings Estimate
 
-> **CORROBORATING — as of 29 July 2026.** This is one of three independent Q2 estimates and is **not** the published call. Its $45.0M sits above the call of **$43.78M** in `Q2_2026_SCORECARD.md`. The three are reconciled line by line in `METHODOLOGY.md`.
+> **CORROBORATING — as of 29 July 2026.** One of four independent Q2 estimates, and **not** the published call. The Excel model `gemi_consolidated_model_2025a_2030e.xlsx` is the source of truth: canonical Q2 revenue is **$43.78M** with **$124.0M** of GAAP opex and a **$39.4M / $43.8M / $47.7M** band. This document's $45.0M, $133.0M and wider band are superseded. All four are reconciled line by line in `METHODOLOGY.md`.
 
 Originally 13/14 July 2026. Prediction-revenue line and Robinhood read-across refreshed 29 July 2026.
 
@@ -8,7 +8,7 @@ Originally 13/14 July 2026. Prediction-revenue line and Robinhood read-across re
 
 - Q1 operating expenses did include meaningful noisy items, but they were **not simply IPO costs**. The main adjustments are stock-based compensation, restructuring/severance, non-recurring legal costs, and depreciation/amortization.
 - Stripping those items makes the business look **less bad**, but not close to profitable. Even on a cleaner adjusted EBITDA-style basis, Q2 likely remains a **large loss quarter** unless revenue materially beats the current proxy work.
-- My base case for Q2 2026 is **$45.0M of revenue**, **$133M of GAAP operating expenses**, and **-$60M of adjusted EBITDA**.
+- This document's own base case is **$45.0M of revenue**, **$133M of GAAP operating expenses**, and **-$60M of adjusted EBITDA**. The canonical figures are the Excel model's **$43.78M** and **$124M** of GAAP opex; see `Q2_2026_SCORECARD.md`. The gap is $1.2M of revenue, mostly OTC, and $9M of opex.
 - The fundamental long case therefore cannot rest on Q2 earnings power alone. It needs prediction-market KPI acceleration, cost-cut evidence, and forward commentary that Q3/Q4 operating leverage is improving.
 - Latest refresh, July 29, 2026: still no official GEMI Q2 release. The base case is unchanged at $45.0M, but the prediction-revenue line is no longer an assumption. Titan's daily volume publication, required of it as a CFTC-designated contract market, now gives a full daily series back to December 15, 2025, and Q2 volume of 115.25M contracts against Q1's 59.67M implies $0.858M of Q2 prediction revenue at Q1's realized take rate. That lands where the prior estimate already sat, so the estimate survives contact with the data rather than being revised by it.
 - Robinhood's Q2 print on July 29, 2026 is the sharpest read-across so far: event-contract revenue of $156M overtook crypto revenue of $100M for the first time, on 13.6B contracts traded, while crypto notional fell to $40B from $65.8B. Prediction-market economics can inflect violently while crypto spot keeps sliding. GEMI has the same directional setup with roughly two orders of magnitude less prediction volume, which is the whole problem with the bull case: the mix shift is real, the scale is not.
@@ -61,7 +61,7 @@ This compares with official Q1 adjusted EBITDA of **-$59.925M**, which is broadl
 
 ## Q2 Revenue Bridge
 
-Base Q2 revenue estimate is **$45.0M**, modestly below Q1's **$50.3M**.
+This document's base Q2 revenue estimate is **$45.0M**, modestly below Q1's **$50.3M**. The canonical figure is **$43.78M**.
 
 | Segment | Q1 2026 actual | Q2 base estimate | Rationale |
 |---|---:|---:|---|
@@ -73,6 +73,13 @@ Base Q2 revenue estimate is **$45.0M**, modestly below Q1's **$50.3M**.
 | Total revenue | $50.3M | $45.0M | Softer spot/OTC more than offsets early prediction growth. |
 
 ## Q2 Scenario Estimate
+
+> **The Excel model is the source of truth.** Canonical Q2 2026 figures are revenue
+> **$43.78M**, GAAP opex **$124M**, EPS ex-crypto-marks **-$0.68**, scenario band
+> **$39.4M / $43.8M / $47.7M** — see `Q2_2026_SCORECARD.md`. The figures in this section come
+> from an independent earlier build and are retained as a cross-check only. Where they differ,
+> the Excel model governs.
+
 
 | Scenario | Revenue | GAAP opex | Adjusted opex | GAAP operating loss | Adjusted EBITDA | Net loss before crypto marks |
 |---|---:|---:|---:|---:|---:|---:|

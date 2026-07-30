@@ -1337,7 +1337,7 @@ function renderEarningsReport({ inventory, flows, timeseries, earningsModel, q2P
   const q2Base = q2ProxyScenario(q2Proxy, "Base");
   const externalQoq = earningsModel.onchainSignals.externalFlowQoq === null ? "n/a" : `${(earningsModel.onchainSignals.externalFlowQoq * 100).toFixed(1)}%`;
   const baseScenario = earningsModel.scenarios.find((row) => row.name === "Base");
-  return `# GEMI On-Chain Earnings Report
+  return `# GEMI On-Chain Earnings Report\n\n> **STALE — EVM legs last refreshed 14 July 2026.** The Ethereum and Base legs cover 15 of\n> 19 tracked addresses and need ETHERSCAN_API_KEY to update. Figures here are not current.\n\n> **The Excel model is the source of truth.** Canonical Q2 2026 figures are revenue\n> **$43.78M**, GAAP opex **$124M**, EPS ex-crypto-marks **-$0.68**, scenario band\n> **$39.4M / $43.8M / $47.7M** — see Q2_2026_SCORECARD.md. The figures below come from an\n> independent earlier build and are retained as a cross-check only. Where they differ, the\n> Excel model governs.\n
 
 As of: ${new Date().toISOString()}
 
@@ -1719,7 +1719,7 @@ function renderMarkdown({ inventory, flows, q2Proxy, read }) {
   const q2Line = q2Proxy?.model?.scenarios?.[1]?.totalRevenue
     ? `Existing Q2 proxy base revenue estimate remains $${q2Proxy.model.scenarios[1].totalRevenue.toFixed(1)}M.`
     : "Existing Q2 proxy model was not found.";
-  return `# GEMI On-Chain Address Model
+  return `# GEMI On-Chain Address Model\n\n> **STALE — EVM legs last refreshed 14 July 2026.** The Ethereum and Base legs cover 15 of\n> 19 tracked addresses and need ETHERSCAN_API_KEY to update. Solana refreshes on public RPC.\n
 
 As of: ${new Date().toISOString()}
 

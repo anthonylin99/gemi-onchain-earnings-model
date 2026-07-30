@@ -1,11 +1,11 @@
 # GEMI Q2 2026 Proxy Model
 
-> **CORROBORATING — as of 29 July 2026.** Auto-generated. This is one of three independent Q2
+> **CORROBORATING — as of 29 July 2026.** Auto-generated. This is one of four independent Q2
 > estimates and is **not** the published call. Its $45.3M is the least conservative of the
-> three. The call is **$43.78M**, see `Q2_2026_SCORECARD.md`; the three are reconciled line by
-> line in `METHODOLOGY.md`.
+> four. The call is **$43.78M** from the Excel model, which is the source of truth. The four
+> are reconciled line by line in METHODOLOGY.md.
 
-As of: 2026-07-30T01:28:54.388Z
+As of: 2026-07-30T01:34:45.655Z
 
 ## Bottom Line
 
@@ -24,7 +24,7 @@ My base-case Q2 revenue estimate is $45.3M versus Q1 reported revenue of $50.3M,
 | Proxy | Q1 2026 | Q2 2026 | QoQ |
 |---|---:|---:|---:|
 | Gemini API exchange volume proxy | $5.6B | $3.4B | -38.7% |
-| Coinbase exchange API volume proxy | $184.2B | $143.5B | -22.1% |
+| Coinbase exchange API volume proxy | $184.9B | $143.5B | -22.4% |
 | DeFiLlama DEX/on-chain volume | $913.1B | $622.9B | -31.8% |
 | Robinhood crypto notional (Q2 reported) | $65.8B | $40.0B | -39.2% |
 | Titan prediction contract volume | 59,667,196 | 115,249,040 | 93.2% |
@@ -42,11 +42,18 @@ publication, surfaced via the public per-date volume endpoint):
 - Q3 annualized run rate at observed July pace: $4.4M
 
 Live active-event snapshot, retained as a cross-check only:
-- Active events: 470
-- Active contracts: 3311
+- Active events: 466
+- Active contracts: 3282
 - Active-event lifetime volume: $4.3M
 
 ## Q2 Scenario Estimate
+
+> **The Excel model is the source of truth.** Canonical Q2 2026 figures are revenue
+> **$43.78M**, GAAP opex **$124M**, EPS ex-crypto-marks **-$0.68**, scenario band
+> **$39.4M / $43.8M / $47.7M** — see Q2_2026_SCORECARD.md. The figures below come from an
+> independent earlier build and are retained as a cross-check only. Where they differ, the
+> Excel model governs.
+
 
 | Scenario | Total revenue | Exchange | OTC | Prediction | Services + interest | Net loss before crypto marks |
 |---|---:|---:|---:|---:|---:|---:|

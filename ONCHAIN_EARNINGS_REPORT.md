@@ -2,6 +2,12 @@
 
 > **STALE — as of 14 July 2026.** EVM address flows not refreshed since this date. The Q2 revenue view here predates the locked forecast in `Q2_2026_SCORECARD.md`, which is the current number.
 
+> **The Excel model is the source of truth.** Canonical Q2 2026 figures are revenue
+> **$43.78M**, GAAP opex **$124M**, EPS ex-crypto-marks **-$0.68**, scenario band
+> **$39.4M / $43.8M / $47.7M** — see `Q2_2026_SCORECARD.md`. The figures in this document come
+> from an independent earlier build and are retained as a cross-check only. Where they differ,
+> the Excel model governs.
+
 As of: 2026-07-14T01:44:43.301Z
 
 ## Executive Read
@@ -13,7 +19,7 @@ Current verdict: **neutral**.
 - External flow proxy is not strong enough to override the existing Q2 proxy model.
 - Existing Gemini exchange API proxy was -38.8% QoQ.
 
-The base earnings bridge estimates Q2 revenue at **$44.5M**, GAAP operating expenses at **$133.0M**, and adjusted EBITDA at **$-60.5M**. The prior non-on-chain proxy base was $45.3M.
+This document's base earnings bridge estimates Q2 revenue at **$44.5M**, GAAP operating expenses at **$133.0M**, and adjusted EBITDA at **$-60.5M**. The prior non-on-chain proxy base was $45.3M. All three are superseded: the canonical figures are **$43.78M** of revenue and **$124.0M** of GAAP opex from the Excel model.
 
 ## How The Address Data Feeds Earnings
 

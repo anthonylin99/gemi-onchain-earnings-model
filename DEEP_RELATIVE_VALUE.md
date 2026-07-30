@@ -113,7 +113,7 @@ Interpretation:
 
 My Q2 proxy model:
 - Bear revenue: $36.8M
-- Base revenue: $45.3M
+- Base revenue: $45.3M (superseded; the canonical Q2 figure is the Excel model's **$43.78M**)
 - Bull revenue: $55.0M
 
 Consensus-like public estimates I found are around $46M Q2 revenue, so the model is not screaming fundamental upside. The upside case requires:

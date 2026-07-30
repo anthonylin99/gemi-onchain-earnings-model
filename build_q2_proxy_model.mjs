@@ -336,10 +336,10 @@ function renderMarkdown(model, raw) {
 
   return `# GEMI Q2 2026 Proxy Model
 
-> **CORROBORATING — as of 29 July 2026.** Auto-generated. This is one of three independent Q2
+> **CORROBORATING — as of 29 July 2026.** Auto-generated. This is one of four independent Q2
 > estimates and is **not** the published call. Its $45.3M is the least conservative of the
-> three. The call is **$43.78M**, see \`Q2_2026_SCORECARD.md\`; the three are reconciled line by
-> line in \`METHODOLOGY.md\`.
+> four. The call is **$43.78M** from the Excel model, which is the source of truth. The four
+> are reconciled line by line in METHODOLOGY.md.
 
 As of: ${new Date().toISOString()}
 
@@ -382,7 +382,7 @@ Live active-event snapshot, retained as a cross-check only:
 - Active contracts: ${m.predictionSnapshot.contracts}
 - Active-event lifetime volume: ${money(m.predictionSnapshot.activeEventLifetimeVolume / 1e6)}
 
-## Q2 Scenario Estimate
+## Q2 Scenario Estimate\n\n> **The Excel model is the source of truth.** Canonical Q2 2026 figures are revenue\n> **$43.78M**, GAAP opex **$124M**, EPS ex-crypto-marks **-$0.68**, scenario band\n> **$39.4M / $43.8M / $47.7M** — see Q2_2026_SCORECARD.md. The figures below come from an\n> independent earlier build and are retained as a cross-check only. Where they differ, the\n> Excel model governs.\n
 
 | Scenario | Total revenue | Exchange | OTC | Prediction | Services + interest | Net loss before crypto marks |
 |---|---:|---:|---:|---:|---:|---:|

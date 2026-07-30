@@ -10,7 +10,7 @@ Trade relevance verdict: **neutral**.
 
 - External flow proxy is not strong enough to override the existing Q2 proxy model.
 - Existing Gemini exchange API proxy was -38.8% QoQ.
-- Existing Q2 proxy base revenue estimate remains $45.3M.
+- Existing Q2 proxy base revenue estimate remains $45.3M. Superseded: the canonical Q2 figure is **$43.78M** from the Excel model, which is the source of truth.
 
 This model uses a provided address list plus public explorer and chain data. It does not treat custody wallet transfers as Gemini trading volume.
 

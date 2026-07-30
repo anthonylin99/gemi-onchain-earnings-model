@@ -55,7 +55,7 @@ the segment and EPS moves about two cents.
 |---|---|---|
 | 1 | [`Q2_2026_SCORECARD.md`](Q2_2026_SCORECARD.md) | The call and how to score it. **Start here.** |
 | 2 | [`REVIEW_ARTEMIS_MODEL.md`](REVIEW_ARTEMIS_MODEL.md) | Independent verification: 7 items confirmed sound, 5 corrections required, corrected valuation multiples |
-| 3 | [`METHODOLOGY.md`](METHODOLOGY.md) | Scope, data lineage, reconciliation of the three Q2 estimates, known limitations, document status |
+| 3 | [`METHODOLOGY.md`](METHODOLOGY.md) | Scope, data lineage, reconciliation of the four Q2 estimates, known limitations, document status |
 | 4 | [`CONSOLIDATED_MODEL_TABLES.md`](CONSOLIDATED_MODEL_TABLES.md) | Every model sheet as plain-text tables — read this if you have no spreadsheet program, or if you are an AI assistant |
 | 5 | `gemi_consolidated_model_2025a_2030e.xlsx` | The model. Sheets: `Model` (2025A–2030E), `Q2-26 Bridge vs Consensus`, `Prediction Market Comps`, `Sources & Notes` |
 | 6 | [`PREDICTION_VOLUME_SERIES.md`](PREDICTION_VOLUME_SERIES.md) | Gemini Titan daily volume series and the implied take rate |
@@ -93,16 +93,24 @@ data-quality disclosures, and the structural hygiene all check out.
 **None of these affects the Q2 forecast.** C1 and C5 do block the Q3 prediction-market bear
 case as written.
 
-### Three independent Q2 estimates
+### Four independent Q2 estimates — the Excel model governs
 
-| Method | Total revenue | vs consensus |
-|---|---:|---:|
-| Consolidated bottom-up bridge **(the call)** | **$43.78M** | +2.2% |
-| Longer-form earnings estimate | $45.00M | +5.0% |
-| Volume-proxy model | $45.30M | +5.7% |
+**Where any document here disagrees with `gemi_consolidated_model_2025a_2030e.xlsx`, the
+workbook is the source of truth and the document is wrong.**
 
-A $1.52M spread, 3.5% of the midpoint, all above consensus, with the published call the most
-conservative of the three. Reconciled line by line in [`METHODOLOGY.md`](METHODOLOGY.md).
+| Method | Total revenue | GAAP opex | Scenario band | vs consensus |
+|---|---:|---:|---:|---:|
+| **Excel bottom-up bridge (the call)** | **$43.78M** | **$124.0M** | **$39.4 / 43.8 / 47.7M** | +2.2% |
+| On-chain earnings bridge | $44.50M | $133.0M | $36.4 / 44.5 / 54.0M | +3.9% |
+| Longer-form earnings estimate | $45.00M | $133.0M | $37.5 / 45.0 / 54.0M | +5.0% |
+| Volume-proxy model | $45.30M | — | $37.0 / 45.3 / 54.6M | +5.7% |
+
+Revenue converges tightly: a $1.52M spread, 3.5% of the midpoint, all four above consensus,
+with the published call the most conservative. **Opex and the scenario bands do not converge,
+and the Excel figures win.** The three older builds predate the July volume tape that narrowed
+the plausible range, and they model opex as a share of revenue rather than on fixed and
+semi-fixed assumptions. Quote **$39.4M / $43.8M / $47.7M** and **$124.0M**. Reconciled line by
+line in [`METHODOLOGY.md`](METHODOLOGY.md).
 
 ---
 

@@ -3,7 +3,7 @@
 As of **29 July 2026** (all dates US Eastern unless stated). GEMI last close **$4.065**.
 
 This document exists so a reader can audit every number in the repo without taking anything
-on trust. It covers what the estimates are, where the inputs come from, how three independent
+on trust. It covers what the estimates are, where the inputs come from, how four independent
 Q2 estimates reconcile, and what is known to be wrong.
 
 ## Scope
@@ -35,41 +35,57 @@ write the actual disclosure, or state "no position in GEMI or HOOD."]`
 Recorded in `Q2_2026_SCORECARD.md` and `data/q2_2026_prediction.json` with `status: "OPEN"`
 and null `actual` fields, so it cannot be quietly revised after the fact.
 
-## Three Independent Q2 Estimates
+## Four Independent Q2 Estimates
 
-The repo contains three Q2 revenue estimates built by different methods. They are **not**
-competing claims to be reconciled away — they are independent checks, and their convergence
-is the main reason to have any confidence in the number.
+**The Excel model is the source of truth.** Where any document in this repo disagrees with
+`gemi_consolidated_model_2025a_2030e.xlsx`, the workbook governs and the document is wrong.
 
-| Line | Consolidated bridge **(the call)** | Earnings estimate | Proxy model |
-|---|---:|---:|---:|
-| Exchange revenue | $12.60M | $13.50M | $13.74M |
-| OTC revenue | $4.00M | $5.00M | $5.00M |
-| Prediction revenue | $0.78M | $0.90M | $0.86M |
-| Other transaction | $0.20M | $0.20M | — |
-| Service + interest | $24.50M | $25.40M | $25.50M |
-| Other revenue | $1.70M | — | — |
-| **Total revenue** | **$43.78M** | **$45.00M** | **$45.30M** |
-| vs consensus $42.84M | +2.2% | +5.0% | +5.7% |
+The repo contains four Q2 revenue estimates built by different methods. Only the first is the
+published call. The other three are independent checks, and their convergence is the main
+reason to have confidence in the number — but they do not override it.
 
-**Spread: $43.78M to $45.30M**, a range of $1.52M or 3.5% of the midpoint. All three land
-*above* consensus. The published call is the **lowest** of the three.
+| Line | Excel bridge **(the call)** | On-chain bridge | Earnings estimate | Proxy model |
+|---|---:|---:|---:|---:|
+| Exchange revenue | $12.60M | $13.50M | $13.50M | $13.74M |
+| OTC revenue | $4.00M | $5.00M | $5.00M | $5.00M |
+| Prediction revenue | $0.78M | $0.90M | $0.90M | $0.86M |
+| Other transaction | $0.20M | — | $0.20M | — |
+| Service + interest | $24.50M | $25.10M | $25.40M | $25.50M |
+| Other revenue | $1.70M | — | — | — |
+| **Total revenue** | **$43.78M** | **$44.50M** | **$45.00M** | **$45.30M** |
+| vs consensus $42.84M | +2.2% | +3.9% | +5.0% | +5.7% |
+| GAAP opex | **$124.0M** | $133.0M | $133.0M | — |
+| Scenario band | **$39.4 / 43.8 / 47.7M** | $36.4 / 44.5 / 54.0M | $37.5 / 45.0 / 54.0M | $37.0 / 45.3 / 54.6M |
+
+**Spread: $43.78M to $45.30M**, a range of $1.52M or 3.5% of the midpoint. All four land
+*above* consensus. The published call is the **lowest** of the four.
+
+**The scenario bands and opex do not agree, and the Excel model wins both.** The three older
+builds carry a wider band ($36.4M–$54.6M) and $133.0M of GAAP opex against the Excel model's
+$39.4M–$47.7M and $124.0M. The older bands were drawn before the July volume tape narrowed the
+plausible range and before opex was rebuilt on fixed and semi-fixed assumptions rather than as
+a percentage of revenue. Quote **$39.4M / $43.8M / $47.7M** and **$124.0M**. Every document
+carrying the older figures now says so at the point of use.
 
 **Why they differ, line by line:**
 
-- **Exchange ($1.14M spread).** The bridge applies 28 bps to an observed $4.5B of Q2 volume.
-  The other two scale Q1's $17.2M down by a volume proxy — the proxy model using a CoinGecko
-  daily series, the earnings estimate using a blend. Direct observation beats scaling, so the
-  bridge is preferred.
-- **OTC ($1.00M spread).** The bridge cuts OTC to $4.0M on the view that Q1's $6.3M was lumpy
-  block flow. The others hold $5.0M. OTC is the least forecastable line in the model; a $1M
-  miss here is well within normal.
-- **Service + interest ($1.00M spread).** All three assume card growth roughly offsets staking
+- **Exchange ($1.14M spread).** The Excel bridge applies 28 bps to an observed $4.5B of Q2
+  volume. The other three scale Q1's $17.2M down by a volume proxy — the proxy model using a
+  CoinGecko daily series, the other two using a blend. Direct observation beats scaling.
+- **OTC ($1.00M spread).** The Excel bridge cuts OTC to $4.0M on the view that Q1's $6.3M was
+  lumpy block flow. The other three hold $5.0M. OTC is the least forecastable line in the
+  model; a $1M miss here is well within normal.
+- **Service + interest ($1.00M spread).** All four assume card growth roughly offsets staking
   decay, and differ only in rounding and in where interest income is classified.
+- **GAAP opex ($9.0M spread).** The Excel bridge carries $124.0M against $133.0M in the two
+  older bridges, on the view that Q1's restructuring and legal costs fade faster. This is the
+  largest single disagreement in the repo and the one with the biggest EPS consequence: $9M is
+  roughly $0.07 per share on 126M shares.
 
-**Which to use:** the consolidated bridge, `$43.78M`. It is built bottom-up per line from
-observed Q2 data rather than scaled from Q1, it is the only one with a quarterly consensus
-comparison per line, and it is the most conservative. The other two are corroboration.
+**Which to use:** the Excel bridge, **$43.78M**, with **$124.0M** of opex and a
+**$39.4M / $43.8M / $47.7M** band. It is built bottom-up per line from observed Q2 data rather
+than scaled from Q1, it is the only one with a quarterly consensus comparison per line, and it
+is the most conservative on revenue. The other three are corroboration and do not override it.
 
 ## Data Lineage
 

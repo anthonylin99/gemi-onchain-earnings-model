@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-30T01:28:54.386Z",
+  "asOf": "2026-07-30T01:34:45.653Z",
   "reported": {
     "gemi": {
       "quarters": {
@@ -123,14 +123,14 @@
   "model": {
     "marketProxies": {
       "geminiApiVolume": {
-        "q1B": 5.622694488473525,
+        "q1B": 5.623000644170058,
         "q2B": 3.4444807768117993,
-        "qoq": -0.3873967750029892
+        "qoq": -0.387430129430441
       },
       "coinbaseApiVolume": {
-        "q1B": 184.23415463700675,
+        "q1B": 184.9304953699126,
         "q2B": 143.47377635950488,
-        "qoq": -0.22124224662800074
+        "qoq": -0.22417459558242514
       },
       "dexOnchainVolume": {
         "q1B": 913.070592994,
@@ -155,9 +155,9 @@
         "qoq": -0.06473705251595152
       },
       "predictionSnapshot": {
-        "events": 470,
-        "contracts": 3311,
-        "activeEventLifetimeVolume": 4264188
+        "events": 466,
+        "contracts": 3282,
+        "activeEventLifetimeVolume": 4259208
       },
       "titanVolumeSeries": {
         "q1Volume": 59667196,
@@ -167,20 +167,20 @@
         "impliedTakeRate": 0.0074412747667914544,
         "q2ImpliedRevenueM": 0.857599773248939,
         "q3AnnualizedRunRateM": 4.431823214239518,
-        "asOf": "2026-07-30T01:28:52.679Z"
+        "asOf": "2026-07-30T01:34:43.704Z"
       }
     },
     "scenarios": [
       {
         "name": "Bear",
-        "exchange": 8.80242257964867,
+        "exchange": 8.801849817420468,
         "otc": 3.5,
         "predictionRevenue": 0.6003198412742573,
         "servicesInterest": 22.5,
         "corporateInterest": 1.5,
-        "totalRevenue": 37.10274242092293,
+        "totalRevenue": 37.10216965869473,
         "opex": 130,
-        "netLossBeforeMarks": -102.89725757907706
+        "netLossBeforeMarks": -102.89783034130528
       },
       {
         "name": "Base",
@@ -1709,523 +1709,523 @@
       },
       {
         "date": "2025-10-16",
-        "geminiVolumeBtc": 1517.465171532537,
-        "geminiVolumeUsd": 168202522.7899934
+        "geminiVolumeBtc": 1506.249926822232,
+        "geminiVolumeUsd": 166959375.67243862
       },
       {
         "date": "2025-10-17",
-        "geminiVolumeBtc": 1701.1338672398585,
-        "geminiVolumeUsd": 184008543.35679033
+        "geminiVolumeBtc": 1703.0984974743026,
+        "geminiVolumeUsd": 184221053.82092053
       },
       {
         "date": "2025-10-18",
-        "geminiVolumeBtc": 1993.5930511533456,
-        "geminiVolumeUsd": 212285546.0273258
+        "geminiVolumeBtc": 1996.1949256172381,
+        "geminiVolumeUsd": 212562603.74527
       },
       {
         "date": "2025-10-19",
-        "geminiVolumeBtc": 361.101084736756,
-        "geminiVolumeUsd": 38713682.00003766
+        "geminiVolumeBtc": 357.1595210282125,
+        "geminiVolumeUsd": 38291106.576021194
       },
       {
         "date": "2025-10-20",
-        "geminiVolumeBtc": 673.2146858369025,
-        "geminiVolumeUsd": 73148481.83135916
+        "geminiVolumeBtc": 674.185977355785,
+        "geminiVolumeUsd": 73254018.00208843
       },
       {
         "date": "2025-10-21",
-        "geminiVolumeBtc": 860.1175900205344,
-        "geminiVolumeUsd": 95073840.10621525
+        "geminiVolumeBtc": 859.4044817514382,
+        "geminiVolumeUsd": 94995016.06826848
       },
       {
         "date": "2025-10-22",
-        "geminiVolumeBtc": 1354.39062726982,
-        "geminiVolumeUsd": 146682881.38065487
+        "geminiVolumeBtc": 1358.0428671388845,
+        "geminiVolumeUsd": 147078425.36678505
       },
       {
         "date": "2025-10-23",
-        "geminiVolumeBtc": 1145.193713034515,
-        "geminiVolumeUsd": 123213064.15156457
+        "geminiVolumeBtc": 1153.008989169241,
+        "geminiVolumeUsd": 124053921.12518398
       },
       {
         "date": "2025-10-24",
-        "geminiVolumeBtc": 982.1783247610092,
-        "geminiVolumeUsd": 108146972.94664523
+        "geminiVolumeBtc": 973.2704460868807,
+        "geminiVolumeUsd": 107166132.61480694
       },
       {
         "date": "2025-10-25",
-        "geminiVolumeBtc": 1029.7357210891073,
-        "geminiVolumeUsd": 114331745.9440674
+        "geminiVolumeBtc": 1031.8729293200481,
+        "geminiVolumeUsd": 114569040.56586711
       },
       {
         "date": "2025-10-26",
-        "geminiVolumeBtc": 299.826677882241,
-        "geminiVolumeUsd": 33470142.947863124
+        "geminiVolumeBtc": 296.25698115340384,
+        "geminiVolumeUsd": 33071651.857481822
       },
       {
         "date": "2025-10-27",
-        "geminiVolumeBtc": 581.3486059516317,
-        "geminiVolumeUsd": 66517455.027561456
+        "geminiVolumeBtc": 589.0155955601757,
+        "geminiVolumeUsd": 67394706.01132925
       },
       {
         "date": "2025-10-28",
-        "geminiVolumeBtc": 1058.9689992967517,
-        "geminiVolumeUsd": 120812829.05508597
+        "geminiVolumeBtc": 1042.1421780449093,
+        "geminiVolumeUsd": 118893135.57889418
       },
       {
         "date": "2025-10-29",
-        "geminiVolumeBtc": 997.4062381074541,
-        "geminiVolumeUsd": 112601032.26493195
+        "geminiVolumeBtc": 1001.8761068881507,
+        "geminiVolumeUsd": 113105652.96968134
       },
       {
         "date": "2025-10-30",
-        "geminiVolumeBtc": 1371.9403106833718,
-        "geminiVolumeUsd": 150949224.83293855
+        "geminiVolumeBtc": 1372.2388080331045,
+        "geminiVolumeUsd": 150982067.32849464
       },
       {
         "date": "2025-10-31",
-        "geminiVolumeBtc": 1517.568893330602,
-        "geminiVolumeUsd": 164518702.71932974
+        "geminiVolumeBtc": 1524.583190150413,
+        "geminiVolumeUsd": 165279118.28817487
       },
       {
         "date": "2025-11-01",
-        "geminiVolumeBtc": 1129.689500434138,
-        "geminiVolumeUsd": 123776245.09546445
+        "geminiVolumeBtc": 1113.814065460958,
+        "geminiVolumeUsd": 122036827.5568556
       },
       {
         "date": "2025-11-02",
-        "geminiVolumeBtc": 249.08441995464602,
-        "geminiVolumeUsd": 27415960.33961873
+        "geminiVolumeBtc": 245.02119838850157,
+        "geminiVolumeUsd": 26968733.968219094
       },
       {
         "date": "2025-11-03",
-        "geminiVolumeBtc": 370.4542899894646,
-        "geminiVolumeUsd": 40935022.10873828
+        "geminiVolumeBtc": 380.7797329492821,
+        "geminiVolumeUsd": 42075978.62419574
       },
       {
         "date": "2025-11-04",
-        "geminiVolumeBtc": 1569.439400801764,
-        "geminiVolumeUsd": 167069502.5148949
+        "geminiVolumeBtc": 1581.7452732215474,
+        "geminiVolumeUsd": 168379483.63435367
       },
       {
         "date": "2025-11-05",
-        "geminiVolumeBtc": 2411.2626787483946,
-        "geminiVolumeUsd": 244696785.1039437
+        "geminiVolumeBtc": 2425.894116215371,
+        "geminiVolumeUsd": 246181594.59449533
       },
       {
         "date": "2025-11-06",
-        "geminiVolumeBtc": 1345.1893052231308,
-        "geminiVolumeUsd": 139736830.51630393
+        "geminiVolumeBtc": 1316.4457891177751,
+        "geminiVolumeUsd": 136750984.71537372
       },
       {
         "date": "2025-11-07",
-        "geminiVolumeBtc": 546.9759216144748,
-        "geminiVolumeUsd": 55387681.87728276
+        "geminiVolumeBtc": 427.32548829535955,
+        "geminiVolumeUsd": 43271682.11334943
       },
       {
         "date": "2025-11-08",
-        "geminiVolumeBtc": 1428.5982457538134,
-        "geminiVolumeUsd": 147419561.69333276
+        "geminiVolumeBtc": 1421.8784431719043,
+        "geminiVolumeUsd": 146726133.4644831
       },
       {
         "date": "2025-11-09",
-        "geminiVolumeBtc": 417.76782548957766,
-        "geminiVolumeUsd": 42732144.56020364
+        "geminiVolumeBtc": 406.88841086224886,
+        "geminiVolumeUsd": 41619323.77741455
       },
       {
         "date": "2025-11-10",
-        "geminiVolumeBtc": 490.63652442579496,
-        "geminiVolumeUsd": 51325598.94833038
+        "geminiVolumeBtc": 501.4756862157259,
+        "geminiVolumeUsd": 52459486.1403146
       },
       {
         "date": "2025-11-11",
-        "geminiVolumeBtc": 993.3145711153671,
-        "geminiVolumeUsd": 105243164.80815108
+        "geminiVolumeBtc": 1006.08850022239,
+        "geminiVolumeUsd": 106596581.70683655
       },
       {
         "date": "2025-11-12",
-        "geminiVolumeBtc": 848.7092973347505,
-        "geminiVolumeUsd": 87512291.34834573
+        "geminiVolumeBtc": 832.6831339880379,
+        "geminiVolumeUsd": 85859798.2268517
       },
       {
         "date": "2025-11-13",
-        "geminiVolumeBtc": 1111.076855939229,
-        "geminiVolumeUsd": 112922845.53817311
+        "geminiVolumeBtc": 1120.5983561860678,
+        "geminiVolumeUsd": 113890550.78369057
       },
       {
         "date": "2025-11-14",
-        "geminiVolumeBtc": 1560.8452546723402,
-        "geminiVolumeUsd": 155273365.256042
+        "geminiVolumeBtc": 1553.4223042308208,
+        "geminiVolumeUsd": 154534927.86659977
       },
       {
         "date": "2025-11-15",
-        "geminiVolumeBtc": 1973.7091601045345,
-        "geminiVolumeUsd": 187053577.08542693
+        "geminiVolumeBtc": 1977.909512398204,
+        "geminiVolumeUsd": 187451655.4535226
       },
       {
         "date": "2025-11-16",
-        "geminiVolumeBtc": 599.7689901329636,
-        "geminiVolumeUsd": 57206046.148085944
+        "geminiVolumeBtc": 587.6317182623364,
+        "geminiVolumeUsd": 56048391.54078616
       },
       {
         "date": "2025-11-17",
-        "geminiVolumeBtc": 889.2058858195095,
-        "geminiVolumeUsd": 83752770.00727516
+        "geminiVolumeBtc": 901.0462553092605,
+        "geminiVolumeUsd": 84867994.00487874
       },
       {
         "date": "2025-11-18",
-        "geminiVolumeBtc": 1886.4822627963404,
-        "geminiVolumeUsd": 173745704.0708613
+        "geminiVolumeBtc": 1881.906897336462,
+        "geminiVolumeUsd": 173324311.2441778
       },
       {
         "date": "2025-11-19",
-        "geminiVolumeBtc": 2040.7545347904202,
-        "geminiVolumeUsd": 189592586.0551433
+        "geminiVolumeBtc": 2034.0062816574914,
+        "geminiVolumeUsd": 188965651.8790749
       },
       {
         "date": "2025-11-20",
-        "geminiVolumeBtc": 1786.4891578350166,
-        "geminiVolumeUsd": 163300039.313409
+        "geminiVolumeBtc": 1798.6616562513916,
+        "geminiVolumeUsd": 164412707.3983054
       },
       {
         "date": "2025-11-21",
-        "geminiVolumeBtc": 1962.5372006862283,
-        "geminiVolumeUsd": 169991972.70142084
+        "geminiVolumeBtc": 1989.7145200492432,
+        "geminiVolumeUsd": 172346030.56572017
       },
       {
         "date": "2025-11-22",
-        "geminiVolumeBtc": 2848.208219509308,
-        "geminiVolumeUsd": 242348205.8701651
+        "geminiVolumeBtc": 2813.5433573083915,
+        "geminiVolumeUsd": 239398643.71962264
       },
       {
         "date": "2025-11-23",
-        "geminiVolumeBtc": 697.0652403857873,
-        "geminiVolumeUsd": 59024353.09383353
+        "geminiVolumeBtc": 717.7941938416968,
+        "geminiVolumeUsd": 60779587.75073609
       },
       {
         "date": "2025-11-24",
-        "geminiVolumeBtc": 775.6315565361249,
-        "geminiVolumeUsd": 67278372.53584245
+        "geminiVolumeBtc": 780.5521068451814,
+        "geminiVolumeUsd": 67705181.6489895
       },
       {
         "date": "2025-11-25",
-        "geminiVolumeBtc": 1782.9817716098796,
-        "geminiVolumeUsd": 157358917.60801473
+        "geminiVolumeBtc": 1773.9951972949225,
+        "geminiVolumeUsd": 156565798.11025968
       },
       {
         "date": "2025-11-26",
-        "geminiVolumeBtc": 1306.4775367796105,
-        "geminiVolumeUsd": 114077705.02420244
+        "geminiVolumeBtc": 1305.1662425783775,
+        "geminiVolumeUsd": 113963206.74246623
       },
       {
         "date": "2025-11-27",
-        "geminiVolumeBtc": 1101.2578267560832,
-        "geminiVolumeUsd": 99681391.31187105
+        "geminiVolumeBtc": 1098.8861153333344,
+        "geminiVolumeUsd": 99466713.61454539
       },
       {
         "date": "2025-11-28",
-        "geminiVolumeBtc": 707.9463143117738,
-        "geminiVolumeUsd": 64652226.047716096
+        "geminiVolumeBtc": 707.6478520236701,
+        "geminiVolumeUsd": 64624969.38866285
       },
       {
         "date": "2025-11-29",
-        "geminiVolumeBtc": 1106.0646600599928,
-        "geminiVolumeUsd": 100546661.56102964
+        "geminiVolumeBtc": 1100.5250779333305,
+        "geminiVolumeUsd": 100043086.58083922
       },
       {
         "date": "2025-11-30",
-        "geminiVolumeBtc": 381.47489003624696,
-        "geminiVolumeUsd": 34650198.49182573
+        "geminiVolumeBtc": 382.4906563316854,
+        "geminiVolumeUsd": 34742462.76577284
       },
       {
         "date": "2025-12-01",
-        "geminiVolumeBtc": 442.8061530550651,
-        "geminiVolumeUsd": 40011905.863643564
+        "geminiVolumeBtc": 463.30408414889433,
+        "geminiVolumeUsd": 41864096.22655335
       },
       {
         "date": "2025-12-02",
-        "geminiVolumeBtc": 1591.6946854883383,
-        "geminiVolumeUsd": 137369455.24810386
+        "geminiVolumeBtc": 1578.4307653243789,
+        "geminiVolumeUsd": 136224727.23965514
       },
       {
         "date": "2025-12-03",
-        "geminiVolumeBtc": 1170.5505410931917,
-        "geminiVolumeUsd": 106894768.38367404
+        "geminiVolumeBtc": 1171.8199429980873,
+        "geminiVolumeUsd": 107010690.26645143
       },
       {
         "date": "2025-12-04",
-        "geminiVolumeBtc": 1216.1657491605633,
-        "geminiVolumeUsd": 113624656.64109148
+        "geminiVolumeBtc": 1220.9318008313799,
+        "geminiVolumeUsd": 114069942.15008071
       },
       {
         "date": "2025-12-05",
-        "geminiVolumeBtc": 977.6134955396079,
-        "geminiVolumeUsd": 90056963.80978604
+        "geminiVolumeBtc": 971.6012733271236,
+        "geminiVolumeUsd": 89503122.76659623
       },
       {
         "date": "2025-12-06",
-        "geminiVolumeBtc": 853.0246930843515,
-        "geminiVolumeUsd": 76144591.67823271
+        "geminiVolumeBtc": 846.8780997417812,
+        "geminiVolumeUsd": 75595920.76157981
       },
       {
         "date": "2025-12-07",
-        "geminiVolumeBtc": 271.0412816874247,
-        "geminiVolumeUsd": 24184323.15458469
+        "geminiVolumeBtc": 265.56799037678957,
+        "geminiVolumeUsd": 23695955.31278769
       },
       {
         "date": "2025-12-08",
-        "geminiVolumeBtc": 411.529774157859,
-        "geminiVolumeUsd": 37201653.20102211
+        "geminiVolumeBtc": 439.5682781722547,
+        "geminiVolumeUsd": 39736290.46937903
       },
       {
         "date": "2025-12-09",
-        "geminiVolumeBtc": 919.7866789127545,
-        "geminiVolumeUsd": 83356621.91085273
+        "geminiVolumeBtc": 896.2200963344565,
+        "geminiVolumeUsd": 81220875.91806214
       },
       {
         "date": "2025-12-10",
-        "geminiVolumeBtc": 1014.2778682944718,
-        "geminiVolumeUsd": 94009464.006182
+        "geminiVolumeBtc": 1025.7335354909355,
+        "geminiVolumeUsd": 95071245.16757484
       },
       {
         "date": "2025-12-11",
-        "geminiVolumeBtc": 1070.6653992254173,
-        "geminiVolumeUsd": 98486849.54698183
+        "geminiVolumeBtc": 1071.5099639705613,
+        "geminiVolumeUsd": 98564538.1703817
       },
       {
         "date": "2025-12-12",
-        "geminiVolumeBtc": 1028.7169797465465,
-        "geminiVolumeUsd": 95182931.48009275
+        "geminiVolumeBtc": 1015.2824489836779,
+        "geminiVolumeUsd": 93939889.8600503
       },
       {
         "date": "2025-12-13",
-        "geminiVolumeBtc": 876.372051907442,
-        "geminiVolumeUsd": 79101816.76901819
+        "geminiVolumeBtc": 869.9320094725609,
+        "geminiVolumeUsd": 78520535.0456224
       },
       {
         "date": "2025-12-14",
-        "geminiVolumeBtc": 216.83209977438275,
-        "geminiVolumeUsd": 19569773.11605574
+        "geminiVolumeBtc": 216.7496501025627,
+        "geminiVolumeUsd": 19562331.7760849
       },
       {
         "date": "2025-12-15",
-        "geminiVolumeBtc": 468.7269136431973,
-        "geminiVolumeUsd": 41334406.76697665
+        "geminiVolumeBtc": 474.7007239118104,
+        "geminiVolumeUsd": 41861203.706525885
       },
       {
         "date": "2025-12-16",
-        "geminiVolumeBtc": 997.5229898607353,
-        "geminiVolumeUsd": 86199174.95545207
+        "geminiVolumeBtc": 1014.3004882777216,
+        "geminiVolumeUsd": 87648972.64037815
       },
       {
         "date": "2025-12-17",
-        "geminiVolumeBtc": 903.4425087176178,
-        "geminiVolumeUsd": 79249689.02610706
+        "geminiVolumeBtc": 887.0553154420315,
+        "geminiVolumeUsd": 77812209.65296541
       },
       {
         "date": "2025-12-18",
-        "geminiVolumeBtc": 961.3769946870175,
-        "geminiVolumeUsd": 82867641.08348167
+        "geminiVolumeBtc": 955.5441717550862,
+        "geminiVolumeUsd": 82364870.28711562
       },
       {
         "date": "2025-12-19",
-        "geminiVolumeBtc": 1138.9335390780375,
-        "geminiVolumeUsd": 97322075.52124448
+        "geminiVolumeBtc": 1144.0261654599587,
+        "geminiVolumeUsd": 97757241.36045933
       },
       {
         "date": "2025-12-20",
-        "geminiVolumeBtc": 1109.478835163424,
-        "geminiVolumeUsd": 97735871.94630855
+        "geminiVolumeBtc": 1102.6308706030736,
+        "geminiVolumeUsd": 97132623.13601044
       },
       {
         "date": "2025-12-21",
-        "geminiVolumeBtc": 257.8987518268893,
-        "geminiVolumeUsd": 22784910.627454773
+        "geminiVolumeBtc": 257.5027496194047,
+        "geminiVolumeUsd": 22749924.51433133
       },
       {
         "date": "2025-12-22",
-        "geminiVolumeBtc": 356.4291140617539,
-        "geminiVolumeUsd": 31605399.909293786
+        "geminiVolumeBtc": 357.00497409417426,
+        "geminiVolumeUsd": 31656462.759937547
       },
       {
         "date": "2025-12-23",
-        "geminiVolumeBtc": 894.2674185564604,
-        "geminiVolumeUsd": 79133477.08736786
+        "geminiVolumeBtc": 892.2855411479251,
+        "geminiVolumeUsd": 78958101.30240248
       },
       {
         "date": "2025-12-24",
-        "geminiVolumeBtc": 832.6853214489847,
-        "geminiVolumeUsd": 72856757.03410181
+        "geminiVolumeBtc": 837.6163884269627,
+        "geminiVolumeUsd": 73288206.39375699
       },
       {
         "date": "2025-12-25",
-        "geminiVolumeBtc": 709.1588848356482,
-        "geminiVolumeUsd": 62114529.371342726
+        "geminiVolumeBtc": 702.0974454633739,
+        "geminiVolumeUsd": 61496024.84059185
       },
       {
         "date": "2025-12-26",
-        "geminiVolumeBtc": 279.50251750513996,
-        "geminiVolumeUsd": 24370449.115807433
+        "geminiVolumeBtc": 285.5854145402331,
+        "geminiVolumeUsd": 24900830.501970466
       },
       {
         "date": "2025-12-27",
-        "geminiVolumeBtc": 837.5209868947255,
-        "geminiVolumeUsd": 73118131.80460685
+        "geminiVolumeBtc": 838.3575382231246,
+        "geminiVolumeUsd": 73191165.28227288
       },
       {
         "date": "2025-12-28",
-        "geminiVolumeBtc": 252.45996295913054,
-        "geminiVolumeUsd": 22179361.730843596
+        "geminiVolumeBtc": 246.81657894116663,
+        "geminiVolumeUsd": 21683573.590603925
       },
       {
         "date": "2025-12-29",
-        "geminiVolumeBtc": 271.05949955919084,
-        "geminiVolumeUsd": 23817195.736860264
+        "geminiVolumeBtc": 286.6231853215785,
+        "geminiVolumeUsd": 25184730.727489974
       },
       {
         "date": "2025-12-30",
-        "geminiVolumeBtc": 2249.0907240389233,
-        "geminiVolumeUsd": 196018787.75600004
+        "geminiVolumeBtc": 2235.6654926228634,
+        "geminiVolumeUsd": 194848715.97570565
       },
       {
         "date": "2025-12-31",
-        "geminiVolumeBtc": 1126.284311622128,
-        "geminiVolumeUsd": 99522674.07132436
+        "geminiVolumeBtc": 1138.5490315351487,
+        "geminiVolumeUsd": 100606430.37502503
       },
       {
         "date": "2026-01-01",
-        "geminiVolumeBtc": 993.8369539778621,
-        "geminiVolumeUsd": 87035317.11980927
+        "geminiVolumeBtc": 985.3777140985816,
+        "geminiVolumeUsd": 86294498.79690546
       },
       {
         "date": "2026-01-02",
-        "geminiVolumeBtc": 733.58967515725,
-        "geminiVolumeUsd": 65116446.53456987
+        "geminiVolumeBtc": 734.1156538073748,
+        "geminiVolumeUsd": 65163134.56986948
       },
       {
         "date": "2026-01-03",
-        "geminiVolumeBtc": 1460.656674592512,
-        "geminiVolumeUsd": 131428308.90738222
+        "geminiVolumeBtc": 1457.3659759399718,
+        "geminiVolumeUsd": 131132215.39920187
       },
       {
         "date": "2026-01-04",
-        "geminiVolumeBtc": 361.4662013483179,
-        "geminiVolumeUsd": 32754045.4292663
+        "geminiVolumeBtc": 366.1689976036824,
+        "geminiVolumeUsd": 33180186.522453487
       },
       {
         "date": "2026-01-05",
-        "geminiVolumeBtc": 488.8125060051553,
-        "geminiVolumeUsd": 44911886.39438651
+        "geminiVolumeBtc": 522.0904628703901,
+        "geminiVolumeUsd": 47969451.002099216
       },
       {
         "date": "2026-01-06",
-        "geminiVolumeBtc": 1212.4471922248879,
-        "geminiVolumeUsd": 113824479.32662497
+        "geminiVolumeBtc": 1183.8600350949037,
+        "geminiVolumeUsd": 111140718.50255328
       },
       {
         "date": "2026-01-07",
-        "geminiVolumeBtc": 871.0335450974454,
-        "geminiVolumeUsd": 81571970.9374821
+        "geminiVolumeBtc": 863.6255838857118,
+        "geminiVolumeUsd": 80878218.09630772
       },
       {
         "date": "2026-01-08",
-        "geminiVolumeBtc": 628.2152984404341,
-        "geminiVolumeUsd": 57347282.55498683
+        "geminiVolumeBtc": 638.4866158069735,
+        "geminiVolumeUsd": 58284910.37254105
       },
       {
         "date": "2026-01-09",
-        "geminiVolumeBtc": 665.9004846043906,
-        "geminiVolumeUsd": 60615367.01490106
+        "geminiVolumeBtc": 680.4702945888381,
+        "geminiVolumeUsd": 61941622.8143233
       },
       {
         "date": "2026-01-10",
-        "geminiVolumeBtc": 599.0383991335336,
-        "geminiVolumeUsd": 54243953.57275732
+        "geminiVolumeBtc": 571.480422138563,
+        "geminiVolumeUsd": 51748531.53163858
       },
       {
         "date": "2026-01-11",
-        "geminiVolumeBtc": 150.6439579045837,
-        "geminiVolumeUsd": 13621271.558356965
+        "geminiVolumeBtc": 150.62565077083406,
+        "geminiVolumeUsd": 13619616.221868683
       },
       {
         "date": "2026-01-12",
-        "geminiVolumeBtc": 267.38149243234005,
-        "geminiVolumeUsd": 24293362.369832132
+        "geminiVolumeBtc": 278.83325301276574,
+        "geminiVolumeUsd": 25333829.93182406
       },
       {
         "date": "2026-01-13",
-        "geminiVolumeBtc": 670.6139678846728,
-        "geminiVolumeUsd": 61160414.758546084
+        "geminiVolumeBtc": 662.0342695374418,
+        "geminiVolumeUsd": 60377940.88453024
       },
       {
         "date": "2026-01-14",
-        "geminiVolumeBtc": 952.7340833915075,
-        "geminiVolumeUsd": 90918610.73040712
+        "geminiVolumeBtc": 960.3277840320859,
+        "geminiVolumeUsd": 91643271.1834963
       },
       {
         "date": "2026-01-15",
-        "geminiVolumeBtc": 881.1526131377616,
-        "geminiVolumeUsd": 85382596.21014936
+        "geminiVolumeBtc": 880.3731987897519,
+        "geminiVolumeUsd": 85307071.92574699
       },
       {
         "date": "2026-01-16",
-        "geminiVolumeBtc": 926.840787128003,
-        "geminiVolumeUsd": 88599776.6796365
+        "geminiVolumeBtc": 922.8093565041622,
+        "geminiVolumeUsd": 88214398.89098896
       },
       {
         "date": "2026-01-17",
-        "geminiVolumeBtc": 394.1112211378181,
-        "geminiVolumeUsd": 37646759.55956662
+        "geminiVolumeBtc": 390.1772139821369,
+        "geminiVolumeUsd": 37270970.661529236
       },
       {
         "date": "2026-01-18",
-        "geminiVolumeBtc": 152.79338898281225,
-        "geminiVolumeUsd": 14485253.580939144
+        "geminiVolumeBtc": 153.28018834047452,
+        "geminiVolumeUsd": 14531403.562857337
       },
       {
         "date": "2026-01-19",
-        "geminiVolumeBtc": 379.45028289045206,
-        "geminiVolumeUsd": 35419490.48973891
+        "geminiVolumeBtc": 384.5042863638099,
+        "geminiVolumeUsd": 35891252.499233544
       },
       {
         "date": "2026-01-20",
-        "geminiVolumeBtc": 329.9873375510247,
-        "geminiVolumeUsd": 30545612.104828786
+        "geminiVolumeBtc": 324.1363464335141,
+        "geminiVolumeUsd": 30004009.186272427
       },
       {
         "date": "2026-01-21",
-        "geminiVolumeBtc": 896.1304040831891,
-        "geminiVolumeUsd": 79233060.55130424
+        "geminiVolumeBtc": 898.0575525075973,
+        "geminiVolumeUsd": 79403453.01551117
       },
       {
         "date": "2026-01-22",
-        "geminiVolumeBtc": 822.1560581082609,
-        "geminiVolumeUsd": 73545069.70112446
+        "geminiVolumeBtc": 821.9953501475819,
+        "geminiVolumeUsd": 73530693.74651937
       },
       {
         "date": "2026-01-23",
-        "geminiVolumeBtc": 471.9809289754061,
-        "geminiVolumeUsd": 42234577.02450947
+        "geminiVolumeBtc": 472.8197582262386,
+        "geminiVolumeUsd": 42309638.52896815
       },
       {
         "date": "2026-01-24",
-        "geminiVolumeBtc": 748.7999048194414,
-        "geminiVolumeUsd": 67036198.14107127
+        "geminiVolumeBtc": 749.0977795876585,
+        "geminiVolumeUsd": 67062865.33460976
       },
       {
         "date": "2026-01-25",
-        "geminiVolumeBtc": 204.30419236724657,
-        "geminiVolumeUsd": 18213710.51798087
+        "geminiVolumeBtc": 203.47218970891356,
+        "geminiVolumeUsd": 18139537.514512453
       },
       {
         "date": "2026-01-26",
-        "geminiVolumeBtc": 1817.787689378583,
-        "geminiVolumeUsd": 157466460.79167736
+        "geminiVolumeBtc": 2004.2198646300042,
+        "geminiVolumeUsd": 173616209.73434442
       },
       {
         "date": "2026-01-27",
-        "geminiVolumeBtc": 2371.2856241587533,
-        "geminiVolumeUsd": 209265722.56657198
+        "geminiVolumeBtc": 2200.948752040428,
+        "geminiVolumeUsd": 194233510.39423323
       },
       {
         "date": "2026-01-28",
@@ -3144,8 +3144,8 @@
       },
       {
         "date": "2026-07-30",
-        "geminiVolumeBtc": 619.5891780756048,
-        "geminiVolumeUsd": 39088894.08671872
+        "geminiVolumeBtc": 636.5882952104378,
+        "geminiVolumeUsd": 40161341.30297745
       }
     ],
     "coinbaseVolume": [
@@ -3536,103 +3536,103 @@
       },
       {
         "date": "2025-10-16",
-        "coinbaseVolumeBtc": 27884.37783485214,
-        "coinbaseVolumeUsd": 3090827246.805735
+        "coinbaseVolumeBtc": 28136.74969506834,
+        "coinbaseVolumeUsd": 3118801255.281131
       },
       {
         "date": "2025-10-17",
-        "coinbaseVolumeBtc": 38745.13740658851,
-        "coinbaseVolumeUsd": 4190990746.608771
+        "coinbaseVolumeBtc": 38953.468054236495,
+        "coinbaseVolumeUsd": 4213525492.2560854
       },
       {
         "date": "2025-10-18",
-        "coinbaseVolumeBtc": 41945.15152321187,
-        "coinbaseVolumeUsd": 4466482961.080021
+        "coinbaseVolumeBtc": 42271.83759468729,
+        "coinbaseVolumeUsd": 4501269765.248785
       },
       {
         "date": "2025-10-19",
-        "coinbaseVolumeBtc": 12134.226294569871,
-        "coinbaseVolumeUsd": 1300911567.2608142
+        "coinbaseVolumeBtc": 12313.821529383264,
+        "coinbaseVolumeUsd": 1320165989.6460485
       },
       {
         "date": "2025-10-20",
-        "coinbaseVolumeBtc": 19113.127758542683,
-        "coinbaseVolumeUsd": 2076746553.5131214
+        "coinbaseVolumeBtc": 19370.367440343354,
+        "coinbaseVolumeUsd": 2104697061.1095343
       },
       {
         "date": "2025-10-21",
-        "coinbaseVolumeBtc": 19649.266958390253,
-        "coinbaseVolumeUsd": 2171948680.8329706
+        "coinbaseVolumeBtc": 19827.970613345235,
+        "coinbaseVolumeUsd": 2191701843.5571284
       },
       {
         "date": "2025-10-22",
-        "coinbaseVolumeBtc": 34548.53651402235,
-        "coinbaseVolumeUsd": 3741667124.1863127
+        "coinbaseVolumeBtc": 34836.086815245784,
+        "coinbaseVolumeUsd": 3772809326.35169
       },
       {
         "date": "2025-10-23",
-        "coinbaseVolumeBtc": 27821.91037908553,
-        "coinbaseVolumeUsd": 2993399971.847408
+        "coinbaseVolumeBtc": 28195.915585130766,
+        "coinbaseVolumeUsd": 3033639738.2039332
       },
       {
         "date": "2025-10-24",
-        "coinbaseVolumeBtc": 20724.21800175356,
-        "coinbaseVolumeUsd": 2281929245.507816
+        "coinbaseVolumeBtc": 20878.26213875652,
+        "coinbaseVolumeUsd": 2298890938.407221
       },
       {
         "date": "2025-10-25",
-        "coinbaseVolumeBtc": 21080.047664336467,
-        "coinbaseVolumeUsd": 2340521557.801908
+        "coinbaseVolumeBtc": 21394.224247629107,
+        "coinbaseVolumeUsd": 2375404641.4581666
       },
       {
         "date": "2025-10-26",
-        "coinbaseVolumeBtc": 6420.954600701908,
-        "coinbaseVolumeUsd": 716781674.8836465
+        "coinbaseVolumeBtc": 6607.912585972491,
+        "coinbaseVolumeUsd": 737652100.8792565
       },
       {
         "date": "2025-10-27",
-        "coinbaseVolumeBtc": 16630.18055397652,
-        "coinbaseVolumeUsd": 1902812315.6648557
+        "coinbaseVolumeBtc": 16908.613911072625,
+        "coinbaseVolumeUsd": 1934670443.6782463
       },
       {
         "date": "2025-10-28",
-        "coinbaseVolumeBtc": 21335.2968921028,
-        "coinbaseVolumeUsd": 2434044412.987406
+        "coinbaseVolumeBtc": 21463.997514626273,
+        "coinbaseVolumeUsd": 2448727266.1384773
       },
       {
         "date": "2025-10-29",
-        "coinbaseVolumeBtc": 22329.353569624203,
-        "coinbaseVolumeUsd": 2520846737.954182
+        "coinbaseVolumeBtc": 22571.716126170122,
+        "coinbaseVolumeUsd": 2548207980.552004
       },
       {
         "date": "2025-10-30",
-        "coinbaseVolumeBtc": 23374.352850588977,
-        "coinbaseVolumeUsd": 2571788594.8044677
+        "coinbaseVolumeBtc": 23579.194405685088,
+        "coinbaseVolumeUsd": 2594326509.6937313
       },
       {
         "date": "2025-10-31",
-        "coinbaseVolumeBtc": 29328.50053920778,
-        "coinbaseVolumeUsd": 3179484557.5834317
+        "coinbaseVolumeBtc": 29706.860056423637,
+        "coinbaseVolumeUsd": 3220502278.233498
       },
       {
         "date": "2025-11-01",
-        "coinbaseVolumeBtc": 23462.814671828284,
-        "coinbaseVolumeUsd": 2570740985.318197
+        "coinbaseVolumeBtc": 23645.032235549003,
+        "coinbaseVolumeUsd": 2590705945.4414225
       },
       {
         "date": "2025-11-02",
-        "coinbaseVolumeBtc": 10173.589758551303,
-        "coinbaseVolumeUsd": 1119775911.2463963
+        "coinbaseVolumeBtc": 10303.871511741869,
+        "coinbaseVolumeUsd": 1134115625.384675
       },
       {
         "date": "2025-11-03",
-        "coinbaseVolumeBtc": 13392.2637010254,
-        "coinbaseVolumeUsd": 1479838742.5966065
+        "coinbaseVolumeBtc": 13652.193492088532,
+        "coinbaseVolumeUsd": 1508560860.3623142
       },
       {
         "date": "2025-11-04",
-        "coinbaseVolumeBtc": 32674.16107884036,
-        "coinbaseVolumeUsd": 3478220206.364571
+        "coinbaseVolumeBtc": 33121.21050959045,
+        "coinbaseVolumeUsd": 3525809381.1723585
       },
       {
         "date": "2025-11-05",
@@ -3716,343 +3716,343 @@
       },
       {
         "date": "2025-11-21",
-        "coinbaseVolumeBtc": 49394.272475622594,
-        "coinbaseVolumeUsd": 4278456385.614795
+        "coinbaseVolumeBtc": 50021.77434947486,
+        "coinbaseVolumeUsd": 4332809638.828383
       },
       {
         "date": "2025-11-22",
-        "coinbaseVolumeBtc": 73598.96288104853,
-        "coinbaseVolumeUsd": 6262385062.283084
+        "coinbaseVolumeBtc": 74128.1513207217,
+        "coinbaseVolumeUsd": 6307412623.134699
       },
       {
         "date": "2025-11-23",
-        "coinbaseVolumeBtc": 23172.105894005075,
-        "coinbaseVolumeUsd": 1962109829.8611183
+        "coinbaseVolumeBtc": 24130.283844721875,
+        "coinbaseVolumeUsd": 2043244034.2557223
       },
       {
         "date": "2025-11-24",
-        "coinbaseVolumeBtc": 27371.28134058561,
-        "coinbaseVolumeUsd": 2374188166.143166
+        "coinbaseVolumeBtc": 27669.864377167276,
+        "coinbaseVolumeUsd": 2400087293.8910565
       },
       {
         "date": "2025-11-25",
-        "coinbaseVolumeBtc": 42058.28871891012,
-        "coinbaseVolumeUsd": 3711898177.891837
+        "coinbaseVolumeBtc": 42494.65590586399,
+        "coinbaseVolumeUsd": 3750410219.524611
       },
       {
         "date": "2025-11-26",
-        "coinbaseVolumeBtc": 32820.67055692752,
-        "coinbaseVolumeUsd": 2865802640.3719916
+        "coinbaseVolumeBtc": 33212.36634196748,
+        "coinbaseVolumeUsd": 2900004343.016764
       },
       {
         "date": "2025-11-27",
-        "coinbaseVolumeBtc": 30775.97715852459,
-        "coinbaseVolumeUsd": 2785716612.0496306
+        "coinbaseVolumeBtc": 31168.665143160724,
+        "coinbaseVolumeUsd": 2821261135.510851
       },
       {
         "date": "2025-11-28",
-        "coinbaseVolumeBtc": 20297.042573374903,
-        "coinbaseVolumeUsd": 1853599571.0771477
+        "coinbaseVolumeBtc": 20533.589955720734,
+        "coinbaseVolumeUsd": 1875201936.292207
       },
       {
         "date": "2025-11-29",
-        "coinbaseVolumeBtc": 27219.371485629206,
-        "coinbaseVolumeUsd": 2474373363.0555162
+        "coinbaseVolumeBtc": 27365.15825751447,
+        "coinbaseVolumeUsd": 2487626090.262285
       },
       {
         "date": "2025-11-30",
-        "coinbaseVolumeBtc": 11781.208545630761,
-        "coinbaseVolumeUsd": 1070112935.980953
+        "coinbaseVolumeBtc": 11890.769389057066,
+        "coinbaseVolumeUsd": 1080064586.9829168
       },
       {
         "date": "2025-12-01",
-        "coinbaseVolumeBtc": 17640.142713602665,
-        "coinbaseVolumeUsd": 1593960980.0095441
+        "coinbaseVolumeBtc": 18138.675667646083,
+        "coinbaseVolumeUsd": 1639008352.2953327
       },
       {
         "date": "2025-12-02",
-        "coinbaseVolumeBtc": 38088.338500990285,
-        "coinbaseVolumeUsd": 3287172068.166555
+        "coinbaseVolumeBtc": 38253.62815915279,
+        "coinbaseVolumeUsd": 3301437209.9094653
       },
       {
         "date": "2025-12-03",
-        "coinbaseVolumeBtc": 32580.660963649992,
-        "coinbaseVolumeUsd": 2975268546.9213805
+        "coinbaseVolumeBtc": 32881.96690080667,
+        "coinbaseVolumeUsd": 3002783829.0337696
       },
       {
         "date": "2025-12-04",
-        "coinbaseVolumeBtc": 32639.74465899402,
-        "coinbaseVolumeUsd": 3049485468.811258
+        "coinbaseVolumeBtc": 32956.63229979469,
+        "coinbaseVolumeUsd": 3079091835.7103705
       },
       {
         "date": "2025-12-05",
-        "coinbaseVolumeBtc": 22674.01393050604,
-        "coinbaseVolumeUsd": 2088711808.1722896
+        "coinbaseVolumeBtc": 22883.827054065983,
+        "coinbaseVolumeUsd": 2108039623.2663586
       },
       {
         "date": "2025-12-06",
-        "coinbaseVolumeBtc": 25506.309404777498,
-        "coinbaseVolumeUsd": 2276801047.602731
+        "coinbaseVolumeBtc": 25659.810178413474,
+        "coinbaseVolumeUsd": 2290503175.8360205
       },
       {
         "date": "2025-12-07",
-        "coinbaseVolumeBtc": 10290.682114020365,
-        "coinbaseVolumeUsd": 918211352.0758193
+        "coinbaseVolumeBtc": 10419.393788103383,
+        "coinbaseVolumeUsd": 929695966.8932076
       },
       {
         "date": "2025-12-08",
-        "coinbaseVolumeBtc": 16259.3112379696,
-        "coinbaseVolumeUsd": 1469816513.7631154
+        "coinbaseVolumeBtc": 16779.82388761117,
+        "coinbaseVolumeUsd": 1516870049.8488984
       },
       {
         "date": "2025-12-09",
-        "coinbaseVolumeBtc": 20796.609835783063,
-        "coinbaseVolumeUsd": 1884714339.5879977
+        "coinbaseVolumeBtc": 20992.43212034678,
+        "coinbaseVolumeUsd": 1902460937.2614844
       },
       {
         "date": "2025-12-10",
-        "coinbaseVolumeBtc": 28005.30475944274,
-        "coinbaseVolumeUsd": 2595702590.0525994
+        "coinbaseVolumeBtc": 28288.755533133124,
+        "coinbaseVolumeUsd": 2621974537.947488
       },
       {
         "date": "2025-12-11",
-        "coinbaseVolumeBtc": 25709.878551179707,
-        "coinbaseVolumeUsd": 2364963827.7029133
+        "coinbaseVolumeBtc": 26125.16160176072,
+        "coinbaseVolumeUsd": 2403164295.7030687
       },
       {
         "date": "2025-12-12",
-        "coinbaseVolumeBtc": 26563.460918754878,
-        "coinbaseVolumeUsd": 2457807278.661724
+        "coinbaseVolumeBtc": 26895.384681685562,
+        "coinbaseVolumeUsd": 2488518812.9375844
       },
       {
         "date": "2025-12-13",
-        "coinbaseVolumeBtc": 19197.025292336057,
-        "coinbaseVolumeUsd": 1732733915.7832398
+        "coinbaseVolumeBtc": 19312.89026443491,
+        "coinbaseVolumeUsd": 1743191951.0126414
       },
       {
         "date": "2025-12-14",
-        "coinbaseVolumeBtc": 7347.2814539835745,
-        "coinbaseVolumeUsd": 663115061.0258945
+        "coinbaseVolumeBtc": 7449.876677238712,
+        "coinbaseVolumeUsd": 672374599.8302654
       },
       {
         "date": "2025-12-15",
-        "coinbaseVolumeBtc": 12629.269253681217,
-        "coinbaseVolumeUsd": 1113704669.6207078
+        "coinbaseVolumeBtc": 13051.923174679341,
+        "coinbaseVolumeUsd": 1150976156.6714654
       },
       {
         "date": "2025-12-16",
-        "coinbaseVolumeBtc": 28222.379010574325,
-        "coinbaseVolumeUsd": 2438786685.338662
+        "coinbaseVolumeBtc": 28539.282691803808,
+        "coinbaseVolumeUsd": 2466171353.3011928
       },
       {
         "date": "2025-12-17",
-        "coinbaseVolumeBtc": 21613.460113303026,
-        "coinbaseVolumeUsd": 1895925835.0470302
+        "coinbaseVolumeBtc": 21816.355336445245,
+        "coinbaseVolumeUsd": 1913723739.3782392
       },
       {
         "date": "2025-12-18",
-        "coinbaseVolumeBtc": 27582.416672869615,
-        "coinbaseVolumeUsd": 2377516642.99656
+        "coinbaseVolumeBtc": 27749.959654654518,
+        "coinbaseVolumeUsd": 2391958315.4698315
       },
       {
         "date": "2025-12-19",
-        "coinbaseVolumeBtc": 28784.059690433533,
-        "coinbaseVolumeUsd": 2459603071.5436153
+        "coinbaseVolumeBtc": 29034.267184951485,
+        "coinbaseVolumeUsd": 2480983346.899427
       },
       {
         "date": "2025-12-20",
-        "coinbaseVolumeBtc": 23887.99481770262,
-        "coinbaseVolumeUsd": 2104333970.6549397
+        "coinbaseVolumeBtc": 24018.01366306068,
+        "coinbaseVolumeUsd": 2115787551.2170696
       },
       {
         "date": "2025-12-21",
-        "coinbaseVolumeBtc": 7534.421410920692,
-        "coinbaseVolumeUsd": 665653157.5330825
+        "coinbaseVolumeBtc": 7612.942592738513,
+        "coinbaseVolumeUsd": 672590368.734795
       },
       {
         "date": "2025-12-22",
-        "coinbaseVolumeBtc": 10009.319304707029,
-        "coinbaseVolumeUsd": 887549661.2498114
+        "coinbaseVolumeBtc": 10257.514885038281,
+        "coinbaseVolumeUsd": 909557741.5738261
       },
       {
         "date": "2025-12-23",
-        "coinbaseVolumeBtc": 21339.075557673314,
-        "coinbaseVolumeUsd": 1888288907.3992796
+        "coinbaseVolumeBtc": 21450.928098391912,
+        "coinbaseVolumeUsd": 1898186707.8608093
       },
       {
         "date": "2025-12-24",
-        "coinbaseVolumeBtc": 18671.93612952474,
-        "coinbaseVolumeUsd": 1633722462.6198676
+        "coinbaseVolumeBtc": 18825.8039339327,
+        "coinbaseVolumeUsd": 1647185302.605583
       },
       {
         "date": "2025-12-25",
-        "coinbaseVolumeBtc": 14808.38168990529,
-        "coinbaseVolumeUsd": 1297051590.396204
+        "coinbaseVolumeBtc": 14915.361411241156,
+        "coinbaseVolumeUsd": 1306421838.9895
       },
       {
         "date": "2025-12-26",
-        "coinbaseVolumeBtc": 10197.419170737016,
-        "coinbaseVolumeUsd": 889135766.0434508
+        "coinbaseVolumeBtc": 10417.112086123285,
+        "coinbaseVolumeUsd": 908291282.291801
       },
       {
         "date": "2025-12-27",
-        "coinbaseVolumeBtc": 19222.997592544514,
-        "coinbaseVolumeUsd": 1678226210.0233011
+        "coinbaseVolumeBtc": 19331.904091550132,
+        "coinbaseVolumeUsd": 1687734078.9284084
       },
       {
         "date": "2025-12-28",
-        "coinbaseVolumeBtc": 8197.775190449936,
-        "coinbaseVolumeUsd": 720199033.5654075
+        "coinbaseVolumeBtc": 8266.97855430368,
+        "coinbaseVolumeUsd": 726278755.7594246
       },
       {
         "date": "2025-12-29",
-        "coinbaseVolumeBtc": 9076.220740515057,
-        "coinbaseVolumeUsd": 797500645.7229631
+        "coinbaseVolumeBtc": 9270.090202063799,
+        "coinbaseVolumeUsd": 814535381.3460096
       },
       {
         "date": "2025-12-30",
-        "coinbaseVolumeBtc": 24028.139811749523,
-        "coinbaseVolumeUsd": 2094164894.1011386
+        "coinbaseVolumeBtc": 24233.504839598594,
+        "coinbaseVolumeUsd": 2112063417.8806334
       },
       {
         "date": "2025-12-31",
-        "coinbaseVolumeBtc": 21196.108062325922,
-        "coinbaseVolumeUsd": 1872967005.3108006
+        "coinbaseVolumeBtc": 21596.28565389101,
+        "coinbaseVolumeUsd": 1908328186.8570652
       },
       {
         "date": "2026-01-01",
-        "coinbaseVolumeBtc": 21247.30789160851,
-        "coinbaseVolumeUsd": 1860733969.3765962
+        "coinbaseVolumeBtc": 21453.938763340808,
+        "coinbaseVolumeUsd": 1878829677.5065675
       },
       {
         "date": "2026-01-02",
-        "coinbaseVolumeBtc": 12502.259531273041,
-        "coinbaseVolumeUsd": 1109752143.3285563
+        "coinbaseVolumeBtc": 12658.545547355103,
+        "coinbaseVolumeUsd": 1123624734.9897285
       },
       {
         "date": "2026-01-03",
-        "coinbaseVolumeBtc": 31469.866563973785,
-        "coinbaseVolumeUsd": 2831624580.908377
+        "coinbaseVolumeBtc": 31651.61193533164,
+        "coinbaseVolumeUsd": 2847977832.993417
       },
       {
         "date": "2026-01-04",
-        "coinbaseVolumeBtc": 13098.561632073315,
-        "coinbaseVolumeUsd": 1186918392.7975302
+        "coinbaseVolumeBtc": 13384.536449682237,
+        "coinbaseVolumeUsd": 1212831831.267432
       },
       {
         "date": "2026-01-05",
-        "coinbaseVolumeBtc": 16007.780791846679,
-        "coinbaseVolumeUsd": 1470788131.4764853
+        "coinbaseVolumeBtc": 16653.08063632969,
+        "coinbaseVolumeUsd": 1530078008.3713915
       },
       {
         "date": "2026-01-06",
-        "coinbaseVolumeBtc": 31929.21819615384,
-        "coinbaseVolumeUsd": 2997513343.0877757
+        "coinbaseVolumeBtc": 32458.142052001487,
+        "coinbaseVolumeUsd": 3047168687.156668
       },
       {
         "date": "2026-01-07",
-        "coinbaseVolumeBtc": 31739.65004922779,
-        "coinbaseVolumeUsd": 2972406546.170175
+        "coinbaseVolumeBtc": 32129.759258570884,
+        "coinbaseVolumeUsd": 3008940130.0557637
       },
       {
         "date": "2026-01-08",
-        "coinbaseVolumeBtc": 24425.006360199655,
-        "coinbaseVolumeUsd": 2229661940.139033
+        "coinbaseVolumeBtc": 24748.02447261771,
+        "coinbaseVolumeUsd": 2259148982.2553325
       },
       {
         "date": "2026-01-09",
-        "coinbaseVolumeBtc": 28353.58205393925,
-        "coinbaseVolumeUsd": 2580960401.9250593
+        "coinbaseVolumeBtc": 28887.321396088748,
+        "coinbaseVolumeUsd": 2629545448.583952
       },
       {
         "date": "2026-01-10",
-        "coinbaseVolumeBtc": 23902.15955890279,
-        "coinbaseVolumeUsd": 2164381507.5579867
+        "coinbaseVolumeBtc": 24058.995765997843,
+        "coinbaseVolumeUsd": 2178583294.8699465
       },
       {
         "date": "2026-01-11",
-        "coinbaseVolumeBtc": 7271.908441767148,
-        "coinbaseVolumeUsd": 657528127.9821239
+        "coinbaseVolumeBtc": 7363.621924456418,
+        "coinbaseVolumeUsd": 665820888.4130764
       },
       {
         "date": "2026-01-12",
-        "coinbaseVolumeBtc": 12223.120784721326,
-        "coinbaseVolumeUsd": 1110550695.9820783
+        "coinbaseVolumeBtc": 12714.36698234209,
+        "coinbaseVolumeUsd": 1155183635.1696074
       },
       {
         "date": "2026-01-13",
-        "coinbaseVolumeBtc": 23232.90932040951,
-        "coinbaseVolumeUsd": 2118855911.3464491
+        "coinbaseVolumeBtc": 23386.390119968568,
+        "coinbaseVolumeUsd": 2132853456.593105
       },
       {
         "date": "2026-01-14",
-        "coinbaseVolumeBtc": 37064.137859042785,
-        "coinbaseVolumeUsd": 3536999442.7707424
+        "coinbaseVolumeBtc": 37465.252734809066,
+        "coinbaseVolumeUsd": 3575277497.354609
       },
       {
         "date": "2026-01-15",
-        "coinbaseVolumeBtc": 41538.29150737557,
-        "coinbaseVolumeUsd": 4025008969.109456
+        "coinbaseVolumeBtc": 42005.9770817843,
+        "coinbaseVolumeUsd": 4070327121.6719894
       },
       {
         "date": "2026-01-16",
-        "coinbaseVolumeBtc": 25411.915768074454,
-        "coinbaseVolumeUsd": 2429209086.7405734
+        "coinbaseVolumeBtc": 25609.259219916017,
+        "coinbaseVolumeUsd": 2448073800.082042
       },
       {
         "date": "2026-01-17",
-        "coinbaseVolumeBtc": 17797.367975540194,
-        "coinbaseVolumeUsd": 1700061294.9662585
+        "coinbaseVolumeBtc": 17954.63373222872,
+        "coinbaseVolumeUsd": 1715083821.125025
       },
       {
         "date": "2026-01-18",
-        "coinbaseVolumeBtc": 7325.440004937963,
-        "coinbaseVolumeUsd": 694472822.2202003
+        "coinbaseVolumeBtc": 7398.527597458565,
+        "coinbaseVolumeUsd": 701401736.6079842
       },
       {
         "date": "2026-01-19",
-        "coinbaseVolumeBtc": 14296.928447685888,
-        "coinbaseVolumeUsd": 1334535626.9808967
+        "coinbaseVolumeBtc": 14573.205295150907,
+        "coinbaseVolumeUsd": 1360324473.6692712
       },
       {
         "date": "2026-01-20",
-        "coinbaseVolumeBtc": 13967.866624315313,
-        "coinbaseVolumeUsd": 1292949720.4490383
+        "coinbaseVolumeBtc": 14117.376433201456,
+        "coinbaseVolumeUsd": 1306789247.329057
       },
       {
         "date": "2026-01-21",
-        "coinbaseVolumeBtc": 28445.36279063329,
-        "coinbaseVolumeUsd": 2515050423.604241
+        "coinbaseVolumeBtc": 28835.396930621806,
+        "coinbaseVolumeUsd": 2549536028.031872
       },
       {
         "date": "2026-01-22",
-        "coinbaseVolumeBtc": 30672.017341575345,
-        "coinbaseVolumeUsd": 2743731717.3708863
+        "coinbaseVolumeBtc": 30869.4482345929,
+        "coinbaseVolumeUsd": 2761392681.667058
       },
       {
         "date": "2026-01-23",
-        "coinbaseVolumeBtc": 19188.226436784462,
-        "coinbaseVolumeUsd": 1717032569.8696415
+        "coinbaseVolumeBtc": 19340.455001111262,
+        "coinbaseVolumeUsd": 1730654537.6880186
       },
       {
         "date": "2026-01-24",
-        "coinbaseVolumeBtc": 19309.955652923843,
-        "coinbaseVolumeUsd": 1728720857.0850947
+        "coinbaseVolumeBtc": 19411.255424068306,
+        "coinbaseVolumeUsd": 1737789703.764132
       },
       {
         "date": "2026-01-25",
-        "coinbaseVolumeBtc": 7031.740802814474,
-        "coinbaseVolumeUsd": 626879409.257143
+        "coinbaseVolumeBtc": 7162.423282139425,
+        "coinbaseVolumeUsd": 638529747.0236738
       },
       {
         "date": "2026-01-26",
-        "coinbaseVolumeBtc": 20184.51776420449,
-        "coinbaseVolumeUsd": 1748490538.0795944
+        "coinbaseVolumeBtc": 20594.840429254506,
+        "coinbaseVolumeUsd": 1784034874.8718204
       },
       {
         "date": "2026-01-27",
-        "coinbaseVolumeBtc": 21263.557879257085,
-        "coinbaseVolumeUsd": 1876506886.6461263
+        "coinbaseVolumeBtc": 21618.87866569838,
+        "coinbaseVolumeUsd": 1907863911.0214329
       },
       {
         "date": "2026-01-28",
@@ -4971,8 +4971,8 @@
       },
       {
         "date": "2026-07-30",
-        "coinbaseVolumeBtc": 19430.51707193655,
-        "coinbaseVolumeUsd": 1225840364.4720025
+        "coinbaseVolumeBtc": 19700.219184539157,
+        "coinbaseVolumeUsd": 1242855441.054249
       }
     ],
     "dexVolume": [
@@ -19938,9 +19938,9 @@
       }
     ],
     "prediction": {
-      "events": 470,
-      "contracts": 3311,
-      "activeEventLifetimeVolume": 4264188
+      "events": 466,
+      "contracts": 3282,
+      "activeEventLifetimeVolume": 4259208
     }
   }
 }

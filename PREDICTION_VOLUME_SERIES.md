@@ -4,7 +4,7 @@
 > forecast. See `Q2_2026_SCORECARD.md` for the call and `METHODOLOGY.md` for data lineage
 > and the one-sided versus two-sided volume convention.
 
-Generated 2026-07-30T01:28:52.679Z. Window 2025-12-01 → 2026-07-29.
+Generated 2026-07-30T01:34:43.704Z. Window 2025-12-01 → 2026-07-29.
 
 ## What This Is
 
