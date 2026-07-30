@@ -8,7 +8,8 @@ As of: July 13/14, 2026
 - Stripping those items makes the business look **less bad**, but not close to profitable. Even on a cleaner adjusted EBITDA-style basis, Q2 likely remains a **large loss quarter** unless revenue materially beats the current proxy work.
 - My base case for Q2 2026 is **$45.0M of revenue**, **$133M of GAAP operating expenses**, and **-$60M of adjusted EBITDA**.
 - The fundamental long case therefore cannot rest on Q2 earnings power alone. It needs prediction-market KPI acceleration, cost-cut evidence, and forward commentary that Q3/Q4 operating leverage is improving.
-- Latest refresh: no official Q2 earnings release was found. The biggest new data is post-quarter, not Q2: Gemini launched commission-free U.S. stock trading on July 7, 2026, prediction-market API breadth/volume improved, and partial Q3 on-chain external flow rose. These matter for Q3 narrative monitoring, not Q2 revenue recognition.
+- Latest refresh, July 29, 2026: still no official GEMI Q2 release. The base case is unchanged at $45.0M, but the prediction-revenue line is no longer an assumption. Titan's daily volume publication, required of it as a CFTC-designated contract market, now gives a full daily series back to December 15, 2025, and Q2 volume of 115.25M contracts against Q1's 59.67M implies $0.858M of Q2 prediction revenue at Q1's realized take rate. That lands where the prior estimate already sat, so the estimate survives contact with the data rather than being revised by it.
+- Robinhood's Q2 print on July 29, 2026 is the sharpest read-across so far: event-contract revenue of $156M overtook crypto revenue of $100M for the first time, on 13.6B contracts traded, while crypto notional fell to $40B from $65.8B. Prediction-market economics can inflect violently while crypto spot keeps sliding. GEMI has the same directional setup with roughly two orders of magnitude less prediction volume, which is the whole problem with the bull case: the mix shift is real, the scale is not.
 
 ## Official Q1 Baseline
 
@@ -64,7 +65,7 @@ Base Q2 revenue estimate is **$45.0M**, modestly below Q1's **$50.3M**.
 |---|---:|---:|---|
 | Exchange revenue | $17.2M | $13.5M | Gemini API exchange-volume proxy and broader crypto volume proxies declined QoQ. |
 | OTC revenue | $6.3M | $5.0M | Q1 benefited from larger institutional trades. Keep some eOTC traction, but do not extrapolate Q1 strength. |
-| Prediction revenue | $0.4M | $0.9M | Official commentary says prediction volume accelerated into Q2, but revenue base remains small. |
+| Prediction revenue | $0.4M | $0.9M | Now bottom-up rather than assumed. Titan's published daily volume shows Q2 contract volume of 115.25M against 59.67M in Q1, up 93.2%. Applying the take rate implied by Q1's $0.444M reported revenue gives $0.858M. The revenue base stays small despite volume nearly doubling. |
 | Services and interest | $24.5M | $25.4M | Credit card, advisory, custody, staking, and interest provide diversification; assume modest stability. |
 | Other transaction revenue | $0.2M | $0.2M | Small placeholder. |
 | Total revenue | $50.3M | $45.0M | Softer spot/OTC more than offsets early prediction growth. |

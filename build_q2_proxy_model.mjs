@@ -78,12 +78,28 @@ const reported = {
       eventRevenueInOtherTransactionRevenue: 147,
       source: "Robinhood Q1 2026 release; Jan/Feb/Mar crypto volume assembled from monthly metrics",
     },
+    // Reported July 29, 2026. These are actuals; the prior estimates the model
+    // carried are kept alongside so the estimate-versus-actual gap stays visible.
     q2_2026: {
-      cryptoNotionalEstimate: 38.1,
-      appCryptoNotionalEstimate: 17.3,
-      bitstampNotionalEstimate: 20.8,
-      eventContractsEstimate: 12.3,
-      source: "Robinhood Apr 2026, May 2026, and Jun 1-25 2026 selected monthly metrics",
+      reported: true,
+      cryptoNotional: 40.0,
+      appCryptoNotional: 18.0,
+      bitstampNotional: 22.0,
+      eventContracts: 13.6,
+      cryptoRevenue: 100,
+      eventContractsRevenue: 156,
+      transactionRevenue: 776,
+      totalNetRevenue: 1310,
+      netIncome: 573,
+      dilutedEps: 0.62,
+      // What this model projected before the print, for calibration.
+      priorEstimates: {
+        cryptoNotionalEstimate: 38.1,
+        appCryptoNotionalEstimate: 17.3,
+        bitstampNotionalEstimate: 20.8,
+        eventContractsEstimate: 12.3,
+      },
+      source: "Robinhood Q2 2026 results release, July 29 2026",
     },
     monthly: {
       apr: { crypto: 11.9, appCrypto: 5.4, bitstamp: 6.5, eventContracts: 3.2 },
@@ -215,7 +231,7 @@ async function collectPredictionSnapshot() {
   return { events: events.length, contracts, activeEventLifetimeVolume: volume };
 }
 
-function modelQ2({ geminiVolume, coinbaseVolume, dexVolume, btcRows, prediction }) {
+function modelQ2({ geminiVolume, coinbaseVolume, dexVolume, btcRows, prediction, volumeSeries }) {
   const q1GemiApi = sum(geminiVolume, "geminiVolumeUsd", periods.q1_2026) / 1e9;
   const q2GemiApi = sum(geminiVolume, "geminiVolumeUsd", periods.q2_2026) / 1e9;
   const q1CoinbaseApi = sum(coinbaseVolume, "coinbaseVolumeUsd", periods.q1_2026) / 1e9;
@@ -226,14 +242,20 @@ function modelQ2({ geminiVolume, coinbaseVolume, dexVolume, btcRows, prediction 
   const q2BtcAvg = avg(btcRows, "btcPrice", periods.q2_2026);
 
   const q1 = reported.gemi.quarters.q1_2026;
-  const q2VolumeProxy = q2GemiApi > 0 && q1GemiApi > 0 ? pct(q2GemiApi, q1GemiApi) : pct(reported.robinhood.q2_2026.cryptoNotionalEstimate, reported.robinhood.q1_2026.cryptoNotional);
+  const q2VolumeProxy = q2GemiApi > 0 && q1GemiApi > 0 ? pct(q2GemiApi, q1GemiApi) : pct(reported.robinhood.q2_2026.cryptoNotional, reported.robinhood.q1_2026.cryptoNotional);
   const exchangeRevenueBase = q1.exchangeRevenue * (1 + Math.max(-0.2, Math.min(0.4, q2VolumeProxy ?? 0)));
   const exchangeRevenueBear = q1.exchangeRevenue * (1 + Math.min(-0.05, (q2VolumeProxy ?? -0.1) - 0.1));
   const exchangeRevenueBull = q1.exchangeRevenue * (1 + Math.max(0.05, (q2VolumeProxy ?? 0) + 0.15));
 
-  const predictionBase = Math.max(0.8, q1.predictionRevenue * 2.0);
-  const predictionBear = Math.max(0.45, q1.predictionRevenue * 1.2);
-  const predictionBull = Math.max(1.8, q1.predictionRevenue * 4.0);
+  // Prediction revenue is now anchored to the published Titan daily volume
+  // series rather than a multiple of Q1. The take rate is calibrated on Q1
+  // reported revenue, so the base case is Q2 volume at the Q1 rate. The band
+  // reflects take-rate uncertainty (fee mix, maker rebates, category mix), not
+  // volume uncertainty, since Q2 volume is observed at full coverage.
+  const titanQ2 = volumeSeries?.calibration?.projections?.q2_2026 ?? null;
+  const predictionBase = titanQ2 ? titanQ2.impliedRevenueM : Math.max(0.8, q1.predictionRevenue * 2.0);
+  const predictionBear = titanQ2 ? titanQ2.impliedRevenueM * 0.7 : Math.max(0.45, q1.predictionRevenue * 1.2);
+  const predictionBull = titanQ2 ? titanQ2.impliedRevenueM * 1.6 : Math.max(1.8, q1.predictionRevenue * 4.0);
 
   const servicesBase = 24.0;
   const servicesBear = 22.5;
@@ -258,12 +280,30 @@ function modelQ2({ geminiVolume, coinbaseVolume, dexVolume, btcRows, prediction 
       dexOnchainVolume: { q1B: q1Dex, q2B: q2Dex, qoq: pct(q2Dex, q1Dex) },
       robinhoodCryptoNotional: {
         q1B: reported.robinhood.q1_2026.cryptoNotional,
-        q2EstimateB: reported.robinhood.q2_2026.cryptoNotionalEstimate,
-        qoq: pct(reported.robinhood.q2_2026.cryptoNotionalEstimate, reported.robinhood.q1_2026.cryptoNotional),
+        q2B: reported.robinhood.q2_2026.cryptoNotional,
+        q2Reported: true,
+        qoq: pct(reported.robinhood.q2_2026.cryptoNotional, reported.robinhood.q1_2026.cryptoNotional),
       },
-      robinhoodEventContracts: { q2EstimateB: reported.robinhood.q2_2026.eventContractsEstimate },
+      robinhoodEventContracts: {
+        q2B: reported.robinhood.q2_2026.eventContracts,
+        q2RevenueM: reported.robinhood.q2_2026.eventContractsRevenue,
+        q2CryptoRevenueM: reported.robinhood.q2_2026.cryptoRevenue,
+        q2Reported: true,
+      },
       btcAveragePrice: { q1: q1BtcAvg, q2: q2BtcAvg, qoq: pct(q2BtcAvg, q1BtcAvg) },
       predictionSnapshot: prediction,
+      titanVolumeSeries: volumeSeries
+        ? {
+            q1Volume: volumeSeries.quarters?.q1_2026?.totalVolume ?? null,
+            q2Volume: volumeSeries.quarters?.q2_2026?.totalVolume ?? null,
+            q3PartialVolume: volumeSeries.quarters?.q3_2026_partial?.totalVolume ?? null,
+            qoq: pct(volumeSeries.quarters?.q2_2026?.totalVolume, volumeSeries.quarters?.q1_2026?.totalVolume),
+            impliedTakeRate: volumeSeries.calibration?.impliedRevenuePerUnitVolume ?? null,
+            q2ImpliedRevenueM: volumeSeries.calibration?.projections?.q2_2026?.impliedRevenueM ?? null,
+            q3AnnualizedRunRateM: volumeSeries.calibration?.projections?.q3_2026_partial?.annualizedRunRateM ?? null,
+            asOf: volumeSeries.asOf ?? null,
+          }
+        : { status: "blocked_missing_series", hint: "run node build_prediction_volume_series.mjs first" },
     },
     scenarios: [
       scenario("Bear", exchangeRevenueBear, otcBear, predictionBear, servicesBear),
@@ -317,12 +357,22 @@ ${bottomLine} Prediction markets are the story vector, but not yet the P&L drive
 | Gemini API exchange volume proxy | ${bText(m.geminiApiVolume.q1B)} | ${bText(m.geminiApiVolume.q2B)} | ${pctText(m.geminiApiVolume.qoq)} |
 | Coinbase exchange API volume proxy | ${bText(m.coinbaseApiVolume.q1B)} | ${bText(m.coinbaseApiVolume.q2B)} | ${pctText(m.coinbaseApiVolume.qoq)} |
 | DeFiLlama DEX/on-chain volume | ${bText(m.dexOnchainVolume.q1B)} | ${bText(m.dexOnchainVolume.q2B)} | ${pctText(m.dexOnchainVolume.qoq)} |
-| Robinhood crypto notional | ${bText(m.robinhoodCryptoNotional.q1B)} | ${bText(m.robinhoodCryptoNotional.q2EstimateB)} | ${pctText(m.robinhoodCryptoNotional.qoq)} |
+| Robinhood crypto notional (Q2 reported) | ${bText(m.robinhoodCryptoNotional.q1B)} | ${bText(m.robinhoodCryptoNotional.q2B)} | ${pctText(m.robinhoodCryptoNotional.qoq)} |
+| Titan prediction contract volume | ${m.titanVolumeSeries.q1Volume?.toLocaleString("en-US") ?? "blocked"} | ${m.titanVolumeSeries.q2Volume?.toLocaleString("en-US") ?? "blocked"} | ${pctText(m.titanVolumeSeries.qoq)} |
 | BTC average price | $${m.btcAveragePrice.q1.toFixed(0)} | $${m.btcAveragePrice.q2.toFixed(0)} | ${pctText(m.btcAveragePrice.qoq)} |
 
-Robinhood event contracts are the warning shot: Q2 selected/monthly metrics imply roughly ${m.robinhoodEventContracts.q2EstimateB.toFixed(1)}B event contracts in Q2, with May up 22% from April and June month-to-date already above May. That supports the idea that investors may reward a prediction-market KPI even when crypto spot remains soft.
+Robinhood's Q2 print (July 29, 2026) is the read-across, and it is now actual rather than estimated. Event contracts traded hit ${m.robinhoodEventContracts.q2B.toFixed(1)}B, up over 10x year over year, and event-contract revenue of ${money(m.robinhoodEventContracts.q2RevenueM)} exceeded crypto revenue of ${money(m.robinhoodEventContracts.q2CryptoRevenueM)} for the first time. Crypto revenue fell 38% year over year while crypto notional fell to ${bText(m.robinhoodCryptoNotional.q2B)}. The pattern that matters for GEMI is the divergence: prediction-market KPIs can inflect hard while crypto spot revenue keeps deteriorating, and the market rewarded the former.
 
-Gemini public prediction snapshot:
+Gemini Titan published volume series (CFTC DCM Core Principle 8 / Titan Rule 2.17(b) daily
+publication, surfaced via the public per-date volume endpoint):
+- Q1 2026 contract volume: ${m.titanVolumeSeries.q1Volume?.toLocaleString("en-US") ?? "blocked"}
+- Q2 2026 contract volume: ${m.titanVolumeSeries.q2Volume?.toLocaleString("en-US") ?? "blocked"} (${pctText(m.titanVolumeSeries.qoq)} QoQ)
+- Q3 2026 partial contract volume: ${m.titanVolumeSeries.q3PartialVolume?.toLocaleString("en-US") ?? "blocked"}
+- Implied take rate from Q1 reported revenue: ${m.titanVolumeSeries.impliedTakeRate ? `$${m.titanVolumeSeries.impliedTakeRate.toFixed(5)} per contract` : "blocked"}
+- Q2 implied prediction revenue: ${m.titanVolumeSeries.q2ImpliedRevenueM ? money(m.titanVolumeSeries.q2ImpliedRevenueM) : "blocked"}
+- Q3 annualized run rate at observed July pace: ${m.titanVolumeSeries.q3AnnualizedRunRateM ? money(m.titanVolumeSeries.q3AnnualizedRunRateM) : "blocked"}
+
+Live active-event snapshot, retained as a cross-check only:
 - Active events: ${m.predictionSnapshot.events}
 - Active contracts: ${m.predictionSnapshot.contracts}
 - Active-event lifetime volume: ${money(m.predictionSnapshot.activeEventLifetimeVolume / 1e6)}
@@ -362,9 +412,27 @@ If Q2 revenue is only around consensus-ish levels and prediction revenue is belo
 - Gemini prediction events API: https://api.gemini.com/v1/prediction-markets/events
 - CoinGecko exchange volume API: https://api.coingecko.com/api/v3/exchanges/{id}/volume_chart
 - DeFiLlama DEX overview API: https://api.llama.fi/overview/dexs
-- Robinhood April/May/June 2026 operating metrics: https://investors.robinhood.com/news-releases/
+- Robinhood Q2 2026 results release (July 29, 2026): https://investors.robinhood.com/news-releases/
+- Gemini Titan daily volume endpoint: https://api.gemini.com/v1/prediction-markets/volume/{date}
+- Gemini prediction markets volume API spec: https://developer.gemini.com/prediction-markets-spec/volume
+- Gemini Titan rulebook (Rule 2.17 public information): https://www.cftc.gov/filings/orgrules/rules03252641973.pdf
+- 17 CFR 16.01 daily market data publication: https://www.ecfr.gov/current/title-17/chapter-I/part-16/section-16.01
 - Coinbase Q1 2026 release/deck: https://investor.coinbase.com/
 `;
+}
+
+// Reads the Titan daily volume series produced by build_prediction_volume_series.mjs.
+// Absent file is reported as blocked, not treated as zero volume.
+async function loadVolumeSeries() {
+  try {
+    const raw = await fs.readFile(new URL("./data/prediction_volume_series.json", import.meta.url), "utf8");
+    const parsed = JSON.parse(raw);
+    console.log(`  titan volume series loaded, asOf ${parsed.asOf}`);
+    return parsed;
+  } catch (error) {
+    console.warn(`  WARNING: Titan volume series unavailable (${error.code ?? error.message}). Prediction revenue falls back to Q1 multiples.`);
+    return null;
+  }
 }
 
 async function main() {
@@ -384,7 +452,8 @@ async function main() {
   const geminiVolume = normalizeExchangeVolume(geminiRaw, btcRows, "gemini");
   const coinbaseVolume = normalizeExchangeVolume(coinbaseRaw, btcRows, "coinbase");
   const dexVolume = normalizeDexVolume(dexRaw);
-  const model = modelQ2({ geminiVolume, coinbaseVolume, dexVolume, btcRows, prediction });
+  const volumeSeries = await loadVolumeSeries();
+  const model = modelQ2({ geminiVolume, coinbaseVolume, dexVolume, btcRows, prediction, volumeSeries });
   const output = { asOf: new Date().toISOString(), reported, model, raw: { btcRows, geminiVolume, coinbaseVolume, dexVolume, prediction } };
 
   await fs.writeFile(new URL("./q2_proxy_model.json", OUT_DIR), JSON.stringify(output, null, 2));
