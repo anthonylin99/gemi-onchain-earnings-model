@@ -1,0 +1,132 @@
+{
+  "schema": "gemi-quarterly-prediction/1",
+  "ticker": "GEMI",
+  "quarter": "Q2 2026",
+  "period_end": "2026-06-30",
+  "expected_report": "August 2026",
+  "locked_on": "2026-07-29",
+  "price_at_lock": 4.065,
+  "status": "OPEN",
+  "headline": {
+    "total_revenue_usd_m": 43.78,
+    "eps_ex_crypto_marks_usd": -0.68,
+    "consensus_total_revenue_usd_m": 42.84,
+    "consensus_eps_usd": -0.69
+  },
+  "scoring_rules": {
+    "revenue_hit_band_usd_m": 1.0,
+    "eps_hit_band_usd": 0.03,
+    "note": "Score EPS against a figure that excludes crypto mark-to-market. Reported GAAP EPS includes marks and is not forecastable: Q1 2026 carried a -$101M gross swing on crypto assets partly offset by +$90M on crypto loans payable, netting about -$0.09 per share. A GAAP miss driven by marks is not a model miss."
+  },
+  "lines": {
+    "Total Revenue": {
+      "q1_2026_actual": 50.27,
+      "q2_2026_forecast": 43.78,
+      "q2_2026_consensus": 42.84,
+      "actual": null,
+      "basis": "6 analysts, 29-Jul-2026"
+    },
+    "EPS ex-Crypto Marks": {
+      "q1_2026_actual": -0.84,
+      "q2_2026_forecast": -0.68,
+      "q2_2026_consensus": -0.69,
+      "actual": null,
+      "basis": "2 decimals, do not round"
+    },
+    "Net Revenue": {
+      "q1_2026_actual": 48.58,
+      "q2_2026_forecast": 42.08,
+      "q2_2026_consensus": 41.55,
+      "actual": null,
+      "basis": null
+    },
+    "Transaction Revenue": {
+      "q1_2026_actual": 24.13,
+      "q2_2026_forecast": 17.58,
+      "q2_2026_consensus": 16.4,
+      "actual": null,
+      "basis": "Gap is entirely OTC"
+    },
+    "Exchange Revenue": {
+      "q1_2026_actual": 17.2,
+      "q2_2026_forecast": 12.6,
+      "q2_2026_consensus": 12.36,
+      "actual": null,
+      "basis": "$4.5B volume x 28 bps"
+    },
+    "Prediction Revenue": {
+      "q1_2026_actual": 0.44,
+      "q2_2026_forecast": 0.78,
+      "q2_2026_consensus": null,
+      "actual": null,
+      "basis": "Range 0.69 (30 bps) to 0.87 (38 bps)"
+    },
+    "OTC Revenue": {
+      "q1_2026_actual": 6.3,
+      "q2_2026_forecast": 4,
+      "q2_2026_consensus": null,
+      "actual": null,
+      "basis": "Q1 spike was lumpy block flow"
+    },
+    "Service Revenue": {
+      "q1_2026_actual": 21.82,
+      "q2_2026_forecast": 21.9,
+      "q2_2026_consensus": 21.1,
+      "actual": null,
+      "basis": "Card offsets staking decay"
+    },
+    "GAAP Opex": {
+      "q1_2026_actual": 144.46,
+      "q2_2026_forecast": 124,
+      "q2_2026_consensus": null,
+      "actual": null,
+      "basis": "Restructuring and legal fade"
+    },
+    "Operating Income": {
+      "q1_2026_actual": -94.19,
+      "q2_2026_forecast": -80.22,
+      "q2_2026_consensus": null,
+      "actual": null,
+      "basis": null
+    },
+    "Net Loss ex-Crypto Marks": {
+      "q1_2026_actual": -98.06,
+      "q2_2026_forecast": -86.22,
+      "q2_2026_consensus": -86.86,
+      "actual": null,
+      "basis": "Tax held at zero"
+    },
+    "Diluted Shares (M)": {
+      "q1_2026_actual": 116.6,
+      "q2_2026_forecast": 126,
+      "q2_2026_consensus": 125.9,
+      "actual": null,
+      "basis": null
+    }
+  },
+  "scenarios": {
+    "bear": {
+      "revenue": 39.4,
+      "gaap_opex": 128,
+      "net_loss_ex_marks": -95.6,
+      "eps_ex_marks": -0.76
+    },
+    "base": {
+      "revenue": 43.8,
+      "gaap_opex": 124,
+      "net_loss_ex_marks": -86.2,
+      "eps_ex_marks": -0.68
+    },
+    "bull": {
+      "revenue": 47.7,
+      "gaap_opex": 121,
+      "net_loss_ex_marks": -78.3,
+      "eps_ex_marks": -0.62
+    }
+  },
+  "verify_against": [
+    "https://investors.gemini.com/news-releases",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002055592&type=10-Q"
+  ],
+  "source_workbook": "gemi_consolidated_model_2025a_2030e.xlsx"
+}

@@ -2,35 +2,66 @@
 
 Research tooling for GEMI/Gemini earnings work. The model separates venue-reported exchange activity, public prediction-market activity, public-chain address flow, and relative stock trading behavior.
 
+---
+
+## THE CALL — GEMI Q2 2026
+
+> # Revenue $43.8M · EPS ex-crypto-marks -$0.68
+>
+> Quarter ended **30 Jun 2026**, reports **August 2026**.
+> Locked **29 Jul 2026** at **$4.065**. Status: **OPEN — not yet scored.**
+>
+> Consensus at lock: revenue **$42.84M**, EPS **-$0.69**.
+> An **in-line call**: +2.2% revenue, +$0.01 EPS. No edge either direction.
+>
+> Scenario band: bear **$39.4M / -$0.76** · base **$43.8M / -$0.68** · bull **$47.7M / -$0.62**.
+
+**GAAP EPS will not match this, and that is expected.** It includes crypto mark-to-market,
+which is unforecastable: Q1 2026 carried a -$101M gross swing on crypto assets against +$90M
+on crypto loans payable, about -$0.09 per share net. Score against an ex-marks figure. A GAAP
+miss caused by marks is not a model miss.
+
+Full line-by-line scoring table, build basis and post-print checklist:
+**[`Q2_2026_SCORECARD.md`](Q2_2026_SCORECARD.md)**.
+Machine-readable: **[`data/q2_2026_prediction.json`](data/q2_2026_prediction.json)**.
+
+**Q2 is not the trade — Q3 is.** Consensus wants $47.0M of Q3 revenue with $13.7M of exchange
+revenue. The July tape implies roughly **$7.5M**, about half, and that gap verifies against an
+independent source.
+
+---
+
 ## Start Here
 
 New to this repo, whether reading manually or with an AI assistant? Read in this order.
 
-1. **`REVIEW_ARTEMIS_SIMPLE_MODEL.md`** — review of the Artemis GEMI valuation model: what
-   holds, what doesn't, and why. Start here if you want the argument rather than the plumbing.
-2. **`SIMPLE_MODEL_V2_TABLES.md`** — every sheet of the repaired workbook as plain-text
-   tables with formulas already resolved to values. Read this instead of the `.xlsx` if you
-   have no spreadsheet program, or if you are an AI assistant.
-3. **`GEMI_simple_model_v2.xlsx`** — the repaired workbook. Six sheets: `Model`,
-   `EV Bridge`, `Scenarios`, `Prediction Volume`, `Review`, `Sources`. Values are cached, so
-   it opens correctly in Excel, Numbers, Sheets and LibreOffice.
-   `GEMI_simple_model_v1_original.xlsx` is the unmodified original, kept for comparison.
-4. **`PREDICTION_VOLUME_SERIES.md`** — the Gemini Titan daily volume series and how the
+1. **`Q2_2026_SCORECARD.md`** — the Q2 call, the scoring table, and what to check after the
+   print. Start here.
+2. **`REVIEW_ARTEMIS_MODEL.md`** — review of the Artemis consolidated model: what holds, what
+   doesn't, and what changed from the earlier simple model. Read this before trusting any
+   number in the workbook.
+3. **`CONSOLIDATED_MODEL_TABLES.md`** — every sheet of the model as plain-text tables. Read
+   this instead of the `.xlsx` if you have no spreadsheet program, or if you are an AI.
+4. **`gemi_consolidated_model_2025a_2030e.xlsx`** — the model itself. Four sheets: `Model`
+   (2025A-2030E), `Q2-26 Bridge vs Consensus`, `Prediction Market Comps`, `Sources & Notes`.
+   Values are stored rather than computed, so nothing depends on a recalculation.
+5. **`PREDICTION_VOLUME_SERIES.md`** — the Gemini Titan daily volume series and how the
    implied take rate is derived.
-5. **`Q2_2026_EARNINGS_ESTIMATE.md`** — the Q2 earnings estimate itself.
-6. **`MANAGER_ONCHAIN_FINDINGS.md`** and **`ONCHAIN_EARNINGS_REPORT.md`** — the on-chain
+6. **`Q2_2026_EARNINGS_ESTIMATE.md`** — the longer-form Q2 earnings write-up.
+7. **`MANAGER_ONCHAIN_FINDINGS.md`** and **`ONCHAIN_EARNINGS_REPORT.md`** — the on-chain
    address work. Note the caveat in Refresh Status below: the EVM legs are stale.
 
 Every claim in the markdown files carries its source inline. The `Sources` sheet of the v2
-workbook (also rendered in `SIMPLE_MODEL_V2_TABLES.md`) is the consolidated list, including
+workbook (also rendered in `CONSOLIDATED_MODEL_TABLES.md`) is the consolidated list, including
 the Artemis warehouse references from the original file.
 
 Two conventions to know before reading any volume number:
 
 - **Prediction volume is published one-sided** by Gemini's public endpoint and counted
-  **two-sided** in the Artemis warehouse series. The warehouse figures are exactly 2.00x the
-  public ones. Revenue is unaffected; cross-venue share comparisons are not. See M4 in the
-  review.
+  **two-sided** in the Artemis warehouse series, which runs exactly 2.00x the public figures.
+  Revenue is unaffected; cross-venue share comparisons are not. One known exception: the July
+  cell in `Prediction Market Comps` Table C is single-counted, which inverts the sign of the
+  July comparison. See N1 in `REVIEW_ARTEMIS_MODEL.md` before quoting from that table.
 - **Prediction contract volume is not spot exchange volume.** Never add them.
 
 ## AI-Readable Gist
@@ -44,8 +75,8 @@ Two conventions to know before reading any volume number:
 - **Implied prediction revenue:** dividing Q1 reported prediction revenue of **$0.444M** by Q1 published volume gives a take rate of **$0.00744 per unit of volume**, which sits between the all-maker and all-taker ceilings of Gemini's published fee formula. Applied to Q2 volume this implies **$0.858M** of Q2 prediction revenue, and July's pace annualizes to roughly **$4.4M**. Prediction revenue is now derived from published volume rather than a multiple of Q1.
 - **Robinhood Q2 2026 read-across, reported July 29, 2026:** crypto notional **$40B** (app $18B, Bitstamp $22B) against $65.8B in Q1, crypto revenue **$100M** down 38% year over year, while event contracts traded hit **13.6B** and event-contract revenue of **$156M** exceeded crypto revenue for the first time. The divergence is the point: prediction KPIs can inflect hard while crypto spot revenue keeps deteriorating.
 - **Bull case to monitor:** prediction-market KPI acceleration, DCO/futures optionality, and cost-cut follow-through. Titan volume nearly doubled QoQ and is accelerating again in July, but off a base so small that even a doubling adds under $1M of quarterly revenue against a roughly $50M revenue line. Volume momentum is real; materiality is not there yet.
-- **Artemis valuation model review, July 29, 2026:** the parallel Artemis model's Q3 thesis holds and its spreadsheet does not yet support it. Confirmed independently: Gemini spot fell **-38.7%** in July on a CoinGecko series against the note's -42%, so the ~$7.2M implied Q3 exchange revenue versus **$13.7M** consensus is a real gap. Not confirmed: the "$803M of cash" asset-support figure counts **$483.8M of customer custodial funds** offset by a near-identical liability, so unencumbered corporate cash is **$215.6M**; and the "-26% in the first half of July" prediction-volume claim reconciles to the *second* half of July versus the second half of June, when Jul 1-15 was actually **+49.3%** and July was the strongest month since launch. The quoted bps share series cannot be reconciled with either the published Gemini volume or the note's own "Kalshi and Polymarket grew 63%". Full detail in `REVIEW_ARTEMIS_SIMPLE_MODEL.md`.
-- **Canonical files for AI readers:** start with `REVIEW_ARTEMIS_SIMPLE_MODEL.md`, `SIMPLE_MODEL_V2_TABLES.md`, `Q2_2026_EARNINGS_ESTIMATE.md`, `PREDICTION_VOLUME_SERIES.md`, `MANAGER_ONCHAIN_FINDINGS.md`, `ONCHAIN_EARNINGS_REPORT.md`, and `data/q2_2026_earnings_estimate.json`.
+- **Artemis model review, July 29, 2026:** the consolidated model fixes ten of the twelve defects in the earlier simple model and is safe to use for the Q2 call. Two items remain. First, the July cell in `Prediction Market Comps` Table C is **single-counted** while Mar through Jun in the same column are all **exactly 2.00x** the public one-sided endpoint; that one cell produces both the "-26% in the first half of July" and the "9.29 bps" share figure. Corrected, July 1-15 was **+49.2%** versus June and share was **18.80 bps**. Second, `Net Cash / (Debt)` of **-$252.8M** is the related-party loans line alone, omitting $215.6M of cash and three other debt lines; the full balance sheet gives an EV nearer **$644M** than $765.8M, which moves every `EV / Sales` figure about 16%. Separately, the note's "$803M of cash" counts **$483.8M of customer custodial funds** offset by a near-identical liability, so unencumbered corporate cash is **$215.6M**. Confirmed independently: Gemini spot fell **-38.7%** in July on a CoinGecko series against the note's -42%, so the Q3 exchange-revenue gap against **$13.7M** consensus is real and now carries the bear case on its own. Full detail in `REVIEW_ARTEMIS_MODEL.md`.
+- **Canonical files for AI readers:** start with `Q2_2026_SCORECARD.md`, `REVIEW_ARTEMIS_MODEL.md`, `CONSOLIDATED_MODEL_TABLES.md`, `Q2_2026_EARNINGS_ESTIMATE.md`, `PREDICTION_VOLUME_SERIES.md`, `MANAGER_ONCHAIN_FINDINGS.md`, `ONCHAIN_EARNINGS_REPORT.md`, and `data/q2_2026_earnings_estimate.json`.
 
 ## Runbook
 
@@ -53,15 +84,15 @@ Two conventions to know before reading any volume number:
 node gemi_earnings_model/build_prediction_volume_series.mjs
 node gemi_earnings_model/build_q2_proxy_model.mjs
 node gemi_earnings_model/build_onchain_model.mjs
-python3 gemi_earnings_model/build_simple_model_v2.py
+python3 gemi_earnings_model/render_consolidated_model.py
 ```
 
 Run the volume series first. `build_q2_proxy_model.mjs` reads
 `data/prediction_volume_series.json` to anchor prediction revenue; if the file is
-absent it warns and falls back to Q1 multiples. `build_simple_model_v2.py` also reads that
-file, needs `openpyxl`, and recalculates through LibreOffice if `soffice` is on PATH so the
-workbook carries cached values; without it the formulas still work in Excel but the plain-text
-render will be empty.
+absent it warns and falls back to Q1 multiples. `render_consolidated_model.py` needs
+`openpyxl`; it renders the model workbook to markdown and regenerates
+`data/q2_2026_prediction.json`. It reads the workbook only, so it is safe to re-run at any
+time and will not overwrite the model.
 
 Optional deeper on-chain runs:
 
@@ -95,10 +126,11 @@ Then visit `http://localhost:8765/dashboard/`.
 
 ## Main Outputs
 
-- `REVIEW_ARTEMIS_SIMPLE_MODEL.md`: review of the Artemis GEMI valuation model, graded blocking / material / minor / confirmed, with the repaired scenario output.
-- `GEMI_simple_model_v2.xlsx`: repaired workbook (`Model`, `EV Bridge`, `Scenarios`, `Prediction Volume`, `Review`, `Sources`) with cached values.
-- `GEMI_simple_model_v1_original.xlsx`: the original Artemis workbook, unmodified.
-- `SIMPLE_MODEL_V2_TABLES.md`: every v2 sheet as plain-text tables with formulas resolved, for reading without Excel.
+- `Q2_2026_SCORECARD.md`: the Q2 2026 call with a line-by-line scoring table to fill in after the print.
+- `data/q2_2026_prediction.json`: the same forecast, machine-readable, with `status` and null `actual` fields for scoring.
+- `REVIEW_ARTEMIS_MODEL.md`: review of the Artemis consolidated model, what changed from the simple model, and the two outstanding defects.
+- `gemi_consolidated_model_2025a_2030e.xlsx`: the model. Sheets `Model`, `Q2-26 Bridge vs Consensus`, `Prediction Market Comps`, `Sources & Notes`.
+- `CONSOLIDATED_MODEL_TABLES.md`: every model sheet as plain-text tables, for reading without Excel.
 - `PREDICTION_VOLUME_SERIES.md`: daily Gemini Titan prediction-market volume series from the DCM daily-publication endpoint, quarterly aggregates, implied take rate, category mix, and a units cross-check against the published fee schedule.
 - `Q2_PROXY_MODEL.md`: Q2 revenue proxy using Gemini/Coinbase exchange volume, DeFiLlama DEX volume, reported Robinhood metrics, and the Titan published volume series.
 - `Q2_2026_EARNINGS_ESTIMATE.md`: Q2 earnings estimate with GAAP opex, normalized adjusted opex, IPO/SBC/severance treatment, and scenario table.
