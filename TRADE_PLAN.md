@@ -1,5 +1,7 @@
 # GEMI Earnings Trade Model
 
+> **SUPERSEDED — as of 5 July 2026.** Written when GEMI was **$4.23** with a ~$493M market cap, before the July volume tape, before Robinhood's Q2 print, and before the Q2 forecast was locked. GEMI last closed **$4.065**. Retained as a record of what was believed and when. Do not act on the levels or sizing here. Current view: `Q2_2026_SCORECARD.md`.
+
 Snapshot time: 2026-07-05 13:31 ET
 
 This is a research model and trade framework, not a final investment memo or personalized recommendation. A full memo needs the Phase 0 interview: position size, cost basis, risk limit, decision date, horizon, and what loss you are willing to take if the thesis is wrong.

@@ -1,6 +1,10 @@
 # Gemini Titan Prediction-Market Volume Series
 
-Generated 2026-07-30T00:11:06.108Z. Window 2025-12-01 → 2026-07-29.
+> **CURRENT — auto-generated.** Source data leg for the prediction-revenue line in the Q2
+> forecast. See `Q2_2026_SCORECARD.md` for the call and `METHODOLOGY.md` for data lineage
+> and the one-sided versus two-sided volume convention.
+
+Generated 2026-07-30T01:28:52.679Z. Window 2025-12-01 → 2026-07-29.
 
 ## What This Is
 
@@ -30,7 +34,7 @@ Volume arrives as a category hierarchy. `["Sports"]` is the parent of
 | Q4 2025 | 2025-10-01 → 2025-12-31 | 1,387,082 | 81,593 | 17/31 | 54.8% |
 | Q1 2026 | 2026-01-01 → 2026-03-31 | 59,667,196 | 662,969 | 90/90 | 100.0% |
 | Q2 2026 | 2026-04-01 → 2026-06-30 | 115,249,040 | 1,266,473 | 91/91 | 100.0% |
-| Q3 2026 (partial) | 2026-07-01 → 2026-09-30 | 45,646,530 | 1,630,233 | 28/29 | 96.6% |
+| Q3 2026 (partial) | 2026-07-01 → 2026-09-30 | 47,319,508 | 1,631,707 | 29/29 | 100.0% |
 
 Q2 versus Q1 volume: **+93.2%**.
 
@@ -43,7 +47,7 @@ that by summed Q1 volume gives an implied revenue per unit of volume of
 | Quarter | Volume | Coverage | Implied revenue | Annualized run rate |
 |---|---|---|---|---|
 | Q2 2026 | 115,249,040 | 100.0% | $0.858M | $3.440M |
-| Q3 2026 (partial) | 45,646,530 | 96.6% | $0.340M | $4.428M |
+| Q3 2026 (partial) | 47,319,508 | 100.0% | $0.352M | $4.432M |
 
 Caveats:
 - Endpoint volume units are not documented as USD notional or contract count; the calibrated rate absorbs whichever it is.
@@ -79,7 +83,6 @@ Unresolved from public documentation. The contract-count reading fits a mixed ma
 
 | Date | Volume | Largest category |
 |---|---|---|
-| 2026-07-15 | 1,576,213 | Sports (922,990) |
 | 2026-07-16 | 955,231 | Crypto (606,010) |
 | 2026-07-17 | 1,058,100 | Crypto (643,555) |
 | 2026-07-18 | 1,887,436 | Sports (1,232,718) |
@@ -93,6 +96,7 @@ Unresolved from public documentation. The contract-count reading fits a mixed ma
 | 2026-07-26 | 2,501,903 | Crypto (2,016,993) |
 | 2026-07-27 | 1,400,670 | Crypto (1,177,692) |
 | 2026-07-28 | 1,162,405 | Crypto (818,241) |
+| 2026-07-29 | 1,672,978 | Crypto (1,122,676) |
 
 ## Interpretation Rules
 

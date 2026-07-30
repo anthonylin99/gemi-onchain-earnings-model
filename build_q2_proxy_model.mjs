@@ -336,6 +336,11 @@ function renderMarkdown(model, raw) {
 
   return `# GEMI Q2 2026 Proxy Model
 
+> **CORROBORATING — as of 29 July 2026.** Auto-generated. This is one of three independent Q2
+> estimates and is **not** the published call. Its $45.3M is the least conservative of the
+> three. The call is **$43.78M**, see \`Q2_2026_SCORECARD.md\`; the three are reconciled line by
+> line in \`METHODOLOGY.md\`.
+
 As of: ${new Date().toISOString()}
 
 ## Bottom Line

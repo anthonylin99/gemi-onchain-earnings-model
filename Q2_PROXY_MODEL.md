@@ -1,6 +1,11 @@
 # GEMI Q2 2026 Proxy Model
 
-As of: 2026-07-30T00:11:08.554Z
+> **CORROBORATING — as of 29 July 2026.** Auto-generated. This is one of three independent Q2
+> estimates and is **not** the published call. Its $45.3M is the least conservative of the
+> three. The call is **$43.78M**, see `Q2_2026_SCORECARD.md`; the three are reconciled line by
+> line in `METHODOLOGY.md`.
+
+As of: 2026-07-30T01:28:54.388Z
 
 ## Bottom Line
 
@@ -18,12 +23,12 @@ My base-case Q2 revenue estimate is $45.3M versus Q1 reported revenue of $50.3M,
 
 | Proxy | Q1 2026 | Q2 2026 | QoQ |
 |---|---:|---:|---:|
-| Gemini API exchange volume proxy | $5.6B | $3.4B | -39.5% |
-| Coinbase exchange API volume proxy | $182.7B | $142.0B | -22.3% |
+| Gemini API exchange volume proxy | $5.6B | $3.4B | -38.7% |
+| Coinbase exchange API volume proxy | $184.2B | $143.5B | -22.1% |
 | DeFiLlama DEX/on-chain volume | $913.1B | $622.9B | -31.8% |
 | Robinhood crypto notional (Q2 reported) | $65.8B | $40.0B | -39.2% |
 | Titan prediction contract volume | 59,667,196 | 115,249,040 | 93.2% |
-| BTC average price | $76723 | $71751 | -6.5% |
+| BTC average price | $76696 | $71731 | -6.5% |
 
 Robinhood's Q2 print (July 29, 2026) is the read-across, and it is now actual rather than estimated. Event contracts traded hit 13.6B, up over 10x year over year, and event-contract revenue of $156.0M exceeded crypto revenue of $100.0M for the first time. Crypto revenue fell 38% year over year while crypto notional fell to $40.0B. The pattern that matters for GEMI is the divergence: prediction-market KPIs can inflect hard while crypto spot revenue keeps deteriorating, and the market rewarded the former.
 
@@ -31,21 +36,21 @@ Gemini Titan published volume series (CFTC DCM Core Principle 8 / Titan Rule 2.1
 publication, surfaced via the public per-date volume endpoint):
 - Q1 2026 contract volume: 59,667,196
 - Q2 2026 contract volume: 115,249,040 (93.2% QoQ)
-- Q3 2026 partial contract volume: 45,646,530
+- Q3 2026 partial contract volume: 47,319,508
 - Implied take rate from Q1 reported revenue: $0.00744 per contract
 - Q2 implied prediction revenue: $0.9M
 - Q3 annualized run rate at observed July pace: $4.4M
 
 Live active-event snapshot, retained as a cross-check only:
 - Active events: 470
-- Active contracts: 3279
-- Active-event lifetime volume: $4.2M
+- Active contracts: 3311
+- Active-event lifetime volume: $4.3M
 
 ## Q2 Scenario Estimate
 
 | Scenario | Total revenue | Exchange | OTC | Prediction | Services + interest | Net loss before crypto marks |
 |---|---:|---:|---:|---:|---:|---:|
-| Bear | $37.0M | $8.7M | $3.5M | $0.6M | $22.5M | $-103.0M |
+| Bear | $37.1M | $8.8M | $3.5M | $0.6M | $22.5M | $-102.9M |
 | Base | $45.3M | $13.7M | $5.0M | $0.9M | $24.0M | $-87.7M |
 | Bull | $54.6M | $18.0M | $7.5M | $1.4M | $26.0M | $-73.4M |
 

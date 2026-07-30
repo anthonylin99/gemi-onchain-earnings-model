@@ -1,6 +1,8 @@
 # GEMI Q2 2026 Earnings Estimate
 
-As of: July 13/14, 2026
+> **CORROBORATING — as of 29 July 2026.** This is one of three independent Q2 estimates and is **not** the published call. Its $45.0M sits above the call of **$43.78M** in `Q2_2026_SCORECARD.md`. The three are reconciled line by line in `METHODOLOGY.md`.
+
+Originally 13/14 July 2026. Prediction-revenue line and Robinhood read-across refreshed 29 July 2026.
 
 ## Bottom Line
 

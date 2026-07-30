@@ -1,5 +1,7 @@
 # GEMI On-Chain Address Findings For Manager
 
+> **STALE — as of 14 July 2026.** EVM address flows not refreshed since this date. Read alongside `Q2_2026_SCORECARD.md` for the current forecast.
+
 As of: July 13/14, 2026
 
 ## Executive Takeaway

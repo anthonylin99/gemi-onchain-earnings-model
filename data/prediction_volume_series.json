@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-07-30T00:11:06.108Z",
+  "asOf": "2026-07-30T01:28:52.679Z",
   "window": {
     "start": "2025-12-01",
     "end": "2026-07-29"
@@ -20,8 +20,8 @@
   },
   "fetchStatus": {
     "daysRequested": 241,
-    "daysWithData": 226,
-    "daysMissing": 15,
+    "daysWithData": 227,
+    "daysMissing": 14,
     "daysFailed": 0,
     "failures": []
   },
@@ -253,14 +253,12 @@
     "q3_2026_partial": {
       "start": "2026-07-01",
       "end": "2026-09-30",
-      "daysWithData": 28,
+      "daysWithData": 29,
       "daysInRange": 29,
-      "missingDays": [
-        "2026-07-29"
-      ],
-      "coverage": 0.9655172413793104,
-      "totalVolume": 45646530,
-      "avgDailyVolume": 1630233.2142857143,
+      "missingDays": [],
+      "coverage": 1,
+      "totalVolume": 47319508,
+      "avgDailyVolume": 1631707.1724137932,
       "peakDay": {
         "date": "2026-07-19",
         "status": "ok",
@@ -310,43 +308,43 @@
       "topCategories": [
         {
           "name": "Crypto",
-          "volume": 25513907,
-          "share": 0.5589451596868371
+          "volume": 26636583,
+          "share": 0.5629091283028556
         },
         {
           "name": "Sports",
-          "volume": 19448489,
-          "share": 0.42606719503103524
+          "volume": 19947340,
+          "share": 0.4215458030544189
         },
         {
           "name": "Politics",
-          "volume": 278658,
-          "share": 0.006104691857190459
+          "volume": 308720,
+          "share": 0.006524159126929215
         },
         {
           "name": "Weather",
-          "volume": 200516,
-          "share": 0.004392798313475307
+          "volume": 203758,
+          "share": 0.004306004195986146
         },
         {
           "name": "Economics",
-          "volume": 158503,
-          "share": 0.00347239976401273
+          "volume": 172814,
+          "share": 0.003652066712105291
         },
         {
           "name": "Commodities",
-          "volume": 28344,
-          "share": 0.0006209453380136453
+          "volume": 29095,
+          "share": 0.0006148626904573902
         },
         {
           "name": "Midterms",
           "volume": 14574,
-          "share": 0.0003192794720650179
+          "share": 0.0003079913679575874
         },
         {
           "name": "Culture",
-          "volume": 1521,
-          "share": 0.00003332126231720133
+          "volume": 3477,
+          "share": 0.00007347920861730008
         }
       ]
     }
@@ -390,10 +388,10 @@
         "annualizedRunRateM": 3.4398232663281627
       },
       "q3_2026_partial": {
-        "volume": 45646530,
-        "coverage": 0.9655172413793104,
-        "impliedRevenueM": 0.3396683718805891,
-        "annualizedRunRateM": 4.427819847729109
+        "volume": 47319508,
+        "coverage": 1,
+        "impliedRevenueM": 0.3521174608573864,
+        "annualizedRunRateM": 4.431823214239518
       }
     },
     "caveats": [
@@ -8933,12 +8931,61 @@
     },
     {
       "date": "2026-07-29",
-      "status": "missing",
-      "totalVolume": 0,
-      "topCategoryCount": 0,
-      "rowCount": 0,
-      "byCategory": {},
-      "bySubcategory": {}
+      "status": "ok",
+      "totalVolume": 1672978,
+      "topCategoryCount": 9,
+      "rowCount": 47,
+      "byCategory": {
+        "Sports": 498851,
+        "Crypto": 1122676,
+        "Commodities": 751,
+        "Economics": 14311,
+        "Politics": 30062,
+        "Tech": 172,
+        "Business": 957,
+        "Weather": 3242,
+        "Culture": 1956
+      },
+      "bySubcategory": {
+        "Sports / Soccer": 1343,
+        "Sports / Soccer / EPL": 272,
+        "Sports / Soccer / MLS": 67,
+        "Sports / Pro Baseball": 467304,
+        "Sports / Tennis": 26012,
+        "Sports / Tennis / ATP": 20355,
+        "Sports / Tennis / WTA": 5657,
+        "Sports / Golf": 1628,
+        "Sports / MMA": 21,
+        "Sports / Football": 1163,
+        "Sports / Pro Basketball": 1380,
+        "Crypto / Bitcoin": 1061748,
+        "Crypto / Ether": 36041,
+        "Crypto / XRP": 11512,
+        "Crypto / Solana": 12597,
+        "Crypto / Zcash": 778,
+        "Commodities / Oil (Brent)": 74,
+        "Commodities / Natural Gas": 155,
+        "Commodities / Gold": 48,
+        "Commodities / Silver": 161,
+        "Commodities / Copper": 313,
+        "Economics / Fed": 10995,
+        "Economics / Macro Indicators": 2060,
+        "Politics / Midterms": 21069,
+        "Politics / Midterms / Governor": 6324,
+        "Politics / Midterms / Senate": 11587,
+        "Politics / Midterms / House": 3158,
+        "Politics / Presidential": 3084,
+        "Politics / Congressional": 587,
+        "Politics / Local": 34,
+        "Politics / Courts": 1878,
+        "Politics / International": 3410,
+        "Tech / AI Models": 171,
+        "Tech / Space": 1,
+        "Business / IPOs": 140,
+        "Weather / Daily Temperature": 3242,
+        "Culture / Movies": 1933,
+        "Culture / Television": 23
+      }
     }
   ]
 }

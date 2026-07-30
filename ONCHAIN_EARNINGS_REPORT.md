@@ -1,5 +1,7 @@
 # GEMI On-Chain Earnings Report
 
+> **STALE — as of 14 July 2026.** EVM address flows not refreshed since this date. The Q2 revenue view here predates the locked forecast in `Q2_2026_SCORECARD.md`, which is the current number.
+
 As of: 2026-07-14T01:44:43.301Z
 
 ## Executive Read

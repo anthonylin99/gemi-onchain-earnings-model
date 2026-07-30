@@ -274,6 +274,10 @@ function buildReport({ asOf, daily, quarters, calibration, start, end }) {
 
   return `# Gemini Titan Prediction-Market Volume Series
 
+> **CURRENT — auto-generated.** Source data leg for the prediction-revenue line in the Q2
+> forecast. See \`Q2_2026_SCORECARD.md\` for the call and \`METHODOLOGY.md\` for data lineage
+> and the one-sided versus two-sided volume convention.
+
 Generated ${asOf}. Window ${start} → ${end}.
 
 ## What This Is

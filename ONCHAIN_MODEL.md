@@ -1,5 +1,7 @@
 # GEMI On-Chain Address Model
 
+> **STALE — as of 14 July 2026.** The Ethereum and Base legs, covering 15 of 19 tracked addresses, have not been refreshed since this date and require an `ETHERSCAN_API_KEY` to update. Solana refreshes on public RPC. Figures here are not current.
+
 As of: 2026-07-14T01:44:43.300Z
 
 ## Bottom Line

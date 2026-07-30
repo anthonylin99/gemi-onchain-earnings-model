@@ -1,5 +1,7 @@
 # GEMI Best Trade Vector
 
+> **SUPERSEDED — as of 5 July 2026.** Written when GEMI was **$4.23**, before the July volume tape and the Robinhood Q2 print. Instrument ranking and structure may no longer apply. Current view: `Q2_2026_SCORECARD.md`.
+
 As of: 2026-07-05
 
 This is a trade-structure note, not personal financial advice. Size has to be set from max loss, not conviction.

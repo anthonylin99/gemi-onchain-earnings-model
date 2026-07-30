@@ -1,5 +1,7 @@
 # GEMI Deep Relative-Value And Trade Vector Research
 
+> **STALE — as of 14 July 2026.** Peer multiples have not been refreshed since this date. Note also that GEMI's own EV in the source model is overstated; see correction C2 in `REVIEW_ARTEMIS_MODEL.md` for the corrected multiples.
+
 As of: 2026-07-05
 
 ## Answer First
