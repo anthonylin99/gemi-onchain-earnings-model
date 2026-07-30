@@ -17,9 +17,14 @@ and not a personalised suitability assessment. Nothing here accounts for any rea
 position, cost basis, risk tolerance or horizon. Figures are estimates and will be wrong to
 some degree. See `DISCLAIMER.md`.
 
-**Conflict disclosure.** `[ACTION REQUIRED BEFORE SHARING — state any position in GEMI, and
-in HOOD, which is used as a read-across comparable in this analysis. Delete this bracket and
-write the actual disclosure, or state "no position in GEMI or HOOD."]`
+**Use of comparables.** Robinhood (NASDAQ: HOOD) appears here only as a valuation and
+read-across comparable. Its Q2 2026 print is cited to show how prediction-market economics can
+inflect while crypto spot revenue deteriorates — the same directional setup GEMI has at roughly
+two orders of magnitude less scale. Kalshi and Polymarket appear as venue comparables on volume
+and take rate. No inference about any of those businesses beyond the figures quoted is intended.
+
+**Independence.** This is a personal research project. No compensation was received from any
+company named, and no company named reviewed or had input into it.
 
 ## The Forecast Being Tested
 
