@@ -132,13 +132,13 @@ The current public-only run is most useful for validating address labels and rec
 
 ## Data Files
 
-- `gemi_earnings_model/data/onchain_address_inventory.json`
-- `gemi_earnings_model/data/onchain_flows.json`
-- `gemi_earnings_model/data/onchain_timeseries.json`
-- `gemi_earnings_model/data/onchain_earnings_model.json`
-- `gemi_earnings_model/data/onchain_dashboard_data.json`
-- `gemi_earnings_model/data/q2_proxy_model.json`
-- `gemi_earnings_model/dashboard/index.html`
+- `data/onchain_address_inventory.json`
+- `data/onchain_flows.json`
+- `data/onchain_timeseries.json`
+- `data/onchain_earnings_model.json`
+- `data/onchain_dashboard_data.json`
+- `data/q2_proxy_model.json`
+- `dashboard/index.html`
 
 ## Next Upgrade
 

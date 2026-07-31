@@ -21,10 +21,10 @@ Current setup:
 ## What The Model Now Tracks
 
 Files:
-- `gemi_earnings_model/collect_data.mjs`
-- `gemi_earnings_model/data/gemi_snapshot.json`
-- `gemi_earnings_model/data/prediction_top_events.json`
-- `gemi_earnings_model/data/spot_top_pairs.json`
+- `collect_data.mjs`
+- `data/gemi_snapshot.json`
+- `data/prediction_top_events.json`
+- `data/spot_top_pairs.json`
 
 Run:
 

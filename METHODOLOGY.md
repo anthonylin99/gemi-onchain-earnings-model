@@ -1,6 +1,7 @@
 # Methodology, Data Lineage and Limitations
 
-As of **29 July 2026** (all dates US Eastern unless stated). GEMI last close **$4.065**.
+Updated **30 July 2026** (all dates US Eastern unless stated). GEMI last close **$4.065** on
+29 July.
 
 This document exists so a reader can audit every number in the repo without taking anything
 on trust. It covers what the estimates are, where the inputs come from, how four independent
@@ -40,10 +41,30 @@ company named, and no company named reviewed or had input into it.
 Recorded in `Q2_2026_SCORECARD.md` and `data/q2_2026_prediction.json` with `status: "OPEN"`
 and null `actual` fields, so it cannot be quietly revised after the fact.
 
+**The 30 July update does not change this call.** Robinhood's and Coinbase's Q2 prints and the
+extended July spot tape all post-date the quarter being forecast. They changed the forward view
+and the competitive picture, not a quarter that ended 30 June.
+
+## Which Workbook Governs What
+
+Two workbooks with non-overlapping authority:
+
+| Scope | Governed by |
+|---|---|
+| Every annual and valuation figure, 2025A–2030E | **`GEMI_simple_model_2026-07-30.xlsx`** |
+| The Q2 2026 quarterly call | **`gemi_consolidated_model_2025a_2030e.xlsx`**, sheet `Q2-26 Bridge vs Consensus` |
+
+The consolidated model's *annual* sheet is superseded by the 30 July model and must not be
+quoted. The annual model has no quarterly view, which is why the bridge is retained.
+
+Where the two annual views differ: FY2026 Sales $173.6M (current) against $174.1M
+(superseded); FY2030 Sales $310.8M against $335.0M.
+
 ## Four Independent Q2 Estimates
 
-**The Excel model is the source of truth.** Where any document in this repo disagrees with
-`gemi_consolidated_model_2025a_2030e.xlsx`, the workbook governs and the document is wrong.
+**The Q2 bridge is the source of truth for the quarter.** Where any document disagrees with
+the `Q2-26 Bridge vs Consensus` sheet on a Q2 2026 figure, the bridge governs and the document
+is wrong. (For annual figures, see the governance table above — the 30 July annual model wins.)
 
 The repo contains four Q2 revenue estimates built by different methods. Only the first is the
 published call. The other three are independent checks, and their convergence is the main
@@ -87,7 +108,7 @@ carrying the older figures now says so at the point of use.
   largest single disagreement in the repo and the one with the biggest EPS consequence: $9M is
   roughly $0.07 per share on 126M shares.
 
-**Which to use:** the Excel bridge, **$43.78M**, with **$124.0M** of opex and a
+**Which to use:** the Q2 bridge, **$43.78M**, with **$124.0M** of opex and a
 **$39.4M / $43.8M / $47.7M** band. It is built bottom-up per line from observed Q2 data rather
 than scaled from Q1, it is the only one with a quarterly consensus comparison per line, and it
 is the most conservative on revenue. The other three are corroboration and do not override it.
@@ -106,6 +127,7 @@ Every input, what it feeds, and its coverage.
 | DeFiLlama `overview/dexs` | Third-party market data | Crypto-activity context | Daily |
 | Etherscan v2 / Solana public RPC | Chain explorers | On-chain address flow | See staleness note below |
 | [Robinhood Q2 2026 results](https://investors.robinhood.com/news-releases) | Issuer press release | Read-across on prediction economics | Reported 29 Jul 2026 |
+| [Coinbase Q2 2026 results](https://investor.coinbase.com/news/news-details/2026/Coinbase-Q2-Earnings-Everything-Exchange-Drives-3rd-Consecutive-Quarter-of-Record-Crypto-Trading-Volume-Market-Share-Revenue-Diversification-and-Resilience/default.aspx) | Issuer press release | Market-wide spot context, prediction-market comps, share data | Reported Q2 2026 |
 | Artemis warehouse | Vendor data platform | Consensus, venue comps, CEX tape | 29 Jul 2026; not independently reproducible |
 
 **Reproducibility.** Everything except the Artemis warehouse lines can be regenerated from
@@ -151,22 +173,28 @@ Listed most to least consequential. Full detail in `REVIEW_ARTEMIS_MODEL.md`.
    share net. The forecast is explicitly ex-marks and must be scored that way.
 6. **FY2030 is below consensus on revenue but above it on EPS**, implying better margins on a
    smaller base than the street assumes. This is an unstated call in the model.
-7. **Missing days are never zero-filled.** Where a data feed does not serve a day, it is
+7. **Comparable-company read-across is directional only.** Robinhood and Coinbase operate at
+   vastly different scale and product mix. Their Q2 prints establish that prediction-market
+   economics can inflect while crypto spot deteriorates, and that July spot weakness was
+   market-wide rather than GEMI-specific. They do not establish what GEMI will report.
+8. **Missing days are never zero-filled.** Where a data feed does not serve a day, it is
    recorded as missing and excluded from sums. Check `coverage` before quoting a period total.
 
 ## Document Status
 
 | Document | As of | Status |
 |---|---|---|
-| `Q2_2026_SCORECARD.md` | 29 Jul 2026 | Current — the live forecast |
-| `REVIEW_ARTEMIS_MODEL.md` | 29 Jul 2026 | Current |
+| `Q2_2026_SCORECARD.md` | 29 Jul 2026 | Current — the live forecast, unchanged by the 30 Jul update |
+| `REVIEW_ARTEMIS_MODEL.md` | 30 Jul 2026 | Current |
+| `METHODOLOGY.md` | 30 Jul 2026 | Current |
+| `ANNUAL_MODEL_TABLES.md` | 30 Jul 2026 | Current, auto-generated — the annual model |
+| `CONSOLIDATED_MODEL_TABLES.md` | 29 Jul 2026 | Current **for the Q2 bridge only**; its annual sheet is superseded |
 | `PREDICTION_VOLUME_SERIES.md` | 29 Jul 2026 | Current, auto-generated |
-| `CONSOLIDATED_MODEL_TABLES.md` | 29 Jul 2026 | Current, auto-generated |
-| `Q2_PROXY_MODEL.md` | 29 Jul 2026 | Current, auto-generated. Corroborating estimate |
-| `Q2_2026_EARNINGS_ESTIMATE.md` | 29 Jul 2026 | Current. Corroborating estimate, longer-form |
+| `Q2_PROXY_MODEL.md` | 29 Jul 2026 | Corroborating Q2 estimate, auto-generated. Not the call |
+| `Q2_2026_EARNINGS_ESTIMATE.md` | 29 Jul 2026 | Corroborating Q2 estimate, longer-form. Not the call |
 | `ONCHAIN_MODEL.md`, `ONCHAIN_EARNINGS_REPORT.md`, `MANAGER_ONCHAIN_FINDINGS.md` | 14 Jul 2026 | **Stale** — EVM legs not refreshed |
-| `TRADE_PLAN.md`, `TRADE_VECTOR.md` | 5 Jul 2026 | **Superseded** — written at $4.23 before the July tape and the Robinhood print |
-| `DEEP_RELATIVE_VALUE.md` | 14 Jul 2026 | **Stale** — peer multiples not refreshed |
+| `TRADE_PLAN.md`, `TRADE_VECTOR.md` | 5 Jul 2026 | **Superseded** — written at $4.23 before the July tape and both comparable prints |
+| `DEEP_RELATIVE_VALUE.md` | 14 Jul 2026 | **Stale** — peer multiples not refreshed, and predates the HOOD and COIN Q2 prints |
 
 Stale and superseded documents are retained deliberately: they are the record of what was
 believed and when, which is what makes the forecast auditable rather than retrofitted. Each

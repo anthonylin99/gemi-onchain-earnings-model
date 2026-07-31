@@ -18,6 +18,10 @@ ex-marks figure, or back the marks out of the reported number first.
 Machine-readable version: [`data/q2_2026_prediction.json`](data/q2_2026_prediction.json)
 (`status: "OPEN"`, every `actual` field `null`).
 
+**Unchanged by the 30 July model update.** Robinhood's and Coinbase's Q2 prints and the spot
+tape through 29 July all post-date the quarter being forecast. They cut the forward view and
+sharpened the competitive picture; they do not touch a quarter that ended 30 June.
+
 ---
 
 ## Scoring Table
@@ -67,30 +71,50 @@ A print outside $39.4M–$47.7M means the revenue build was wrong, not just impr
 
 ## The Part That Actually Matters
 
-Q2 is a non-event: in line with consensus, and prediction markets are **1.8% of revenue
-and $0.006 of EPS**. Triple the segment and EPS moves about two cents.
+Q2 is a non-event: in line with consensus, and prediction markets are **1.8% of revenue and
+$0.006 of EPS**. Triple the segment and EPS moves about two cents.
 
-**The risk is Q3, and it is not priced.** Consensus wants **$47.0M** of Q3 revenue
-(+9.7% QoQ) with **$13.7M** of exchange revenue. The July tape says otherwise: Gemini spot
-ran **$27.9M/day** against **$48.4M/day** in Q2, **-42%**, implying roughly **$7.5M** of Q3
-exchange revenue — about half the estimate. Verified independently: a CoinGecko series gives
-**-38.7%** over the same window, different levels but the same direction and magnitude.
+**The risk is Q3, and it is not priced.** Consensus wants **$46.99M**. The annual model implies
+about **$39.8M**, roughly **$7.2M** light, with exchange revenue near **$7.5M** against about
+$13.7M implied by consensus.
 
-FY2026 modelled Sales of **$174.1M** sits ~10% below consensus **$193.2M**, and the entire
-gap is Q3.
+The July weakness is **market-wide, not GEMI-specific**:
 
-So: **the Q2 print is not the trade. The Q3 guide is.** When you come back to score this,
-score the Q3 commentary at least as carefully as the Q2 numbers.
+| Venue | Q2 2026 | July 2026 | Change |
+|---|---:|---:|---:|
+| Gemini spot | $48.4M/day | $28.7M/day | **-40.7%** |
+| Coinbase spot | $1,577M/day | $1,040M/day | **-34.1%** |
+
+Coinbase confirms it from the other side: total market spot volume fell 25% in Q2 while its own
+share rose to an all-time-high 10.3%. GEMI's problem is ~34 points of beta plus about **6.7
+points of idiosyncratic underperformance** — narrower than "GEMI is losing share," and the
+honest version. An independent CoinGecko series puts Gemini's July decline at -38.7% against
+the warehouse tape's -40.7%.
+
+**And GEMI is being lapped in the one business that was supposed to save it:**
+
+| Venue | Q2 2026 prediction / event revenue | Trajectory |
+|---|---:|---|
+| Robinhood | **$156M** | +50% QoQ, 13.6B contracts |
+| Coinbase | **>$100M annualised** | +106% QoQ |
+| Gemini | **~$0.78M** | +92% QoQ on notional |
+
+GEMI's *entire modelled FY2026* prediction revenue of **$2.4M** is about 2.4% of Coinbase's
+annualised run rate. The growth rate is comparable; the scale is not remotely.
+
+So: **the Q2 print is not the trade. The Q3 guide is.** When you come back to score this, score
+the Q3 commentary at least as carefully as the Q2 numbers.
 
 ### Two Claims Not To Carry Forward
 
 Both were in the accompanying note and both fail verification. Detail in
 [`REVIEW_ARTEMIS_MODEL.md`](REVIEW_ARTEMIS_MODEL.md).
 
-1. **"Prediction volume fell 26% in the first half of July."** It rose. The July cell in the
-   comps table is single-counted while every other month in the same column is
-   double-counted. On a like-for-like basis July 1–15 was **+49%** versus June, and the
-   Gemini share of three-venue notional was **18.8 bps**, not 9.29 bps.
+1. **"Prediction volume fell in the first half of July."** It rose. The July figure is counted
+   one-sided while its June comparator is two-sided, which halves July before the comparison is
+   made. Stated as $1.94M/day against June's $3.08M/day, or -37%. Like-for-like it is
+   **$3.67M/day against $3.12M/day, or +17.6%**. This defect survived from the previous model
+   version into the new one, moving from a comps cell to a `Sources` line.
 2. **"$803M of total cash is real asset support."** $483.8M of that is customer custodial
    funds offset by a near-identical liability, plus $103.7M of restricted cash. Unencumbered
    corporate cash is **$215.6M**.

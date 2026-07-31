@@ -4,8 +4,9 @@ Independent research on **Gemini Space Station (NASDAQ: GEMI)**, built to produc
 falsifiable Q2 2026 forecast and to verify an accompanying sell-side-style note against
 primary sources.
 
-**As of 29 July 2026.** GEMI last close **$4.065**. Research and educational material only —
-not investment advice. See [`DISCLAIMER.md`](DISCLAIMER.md).
+**Updated 30 July 2026** with Robinhood's and Coinbase's Q2 prints and the spot tape through
+29 July. GEMI last close **$4.065** (29 Jul). Research and educational material only — not
+investment advice. See [`DISCLAIMER.md`](DISCLAIMER.md).
 
 ---
 
@@ -37,15 +38,33 @@ machine-readable, `status: "OPEN"`, all `actual` fields null
 
 ### The quarter is not the trade — Q3 is
 
-Consensus wants **$47.0M** of Q3 revenue (+9.7% QoQ) on **$13.7M** of exchange revenue. The
-July tape implies roughly **$7.5M**, about half. Gemini spot ran **$27.9M/day** in July
-against **$48.4M/day** in Q2, and an independent CoinGecko series puts the same decline at
-**-38.7%** — different levels, same direction and magnitude. This is the one claim in the
-analysis that survives every check, and after the corrections below it carries the bear case
-on its own.
+Consensus wants **$46.99M** of Q3 revenue. The model implies about **$39.8M**, roughly **$7.2M**
+light, with exchange revenue near **$7.5M** against roughly $13.7M implied by consensus.
 
-Prediction markets will be the headline and are **1.8% of revenue, $0.006 of EPS**. Triple
-the segment and EPS moves about two cents.
+The July collapse is **market-wide, not GEMI-specific** — a distinction the update makes
+possible for the first time:
+
+| Venue | Q2 2026 | July 2026 | Change |
+|---|---:|---:|---:|
+| Gemini spot | $48.4M/day | $28.7M/day | **-40.7%** |
+| Coinbase spot | $1,577M/day | $1,040M/day | **-34.1%** |
+
+Coinbase confirms it from the other side: total market spot volume fell 25% in Q2 while its own
+share hit an all-time-high 10.3%. So GEMI's problem is ~34 points of beta plus about **6.7
+points of idiosyncratic underperformance**. Narrower than "GEMI is losing share," and honest.
+
+### GEMI is being lapped in prediction markets
+
+| Venue | Q2 2026 prediction / event revenue | Trajectory |
+|---|---:|---|
+| Robinhood | **$156M** | +50% QoQ, 13.6B contracts |
+| Coinbase | **>$100M annualised** | +106% QoQ |
+| Gemini | **~$0.78M** | +92% QoQ on notional |
+
+GEMI's *entire modelled FY2026* prediction revenue of **$2.4M** is about 2.4% of Coinbase's
+annualised run rate, and roughly a week and a half of Robinhood's quarterly event revenue. The
+growth rate is comparable; the scale is not remotely. Prediction markets are 1.4% of GEMI's
+FY2026 sales and are not going to rescue the equity story on any horizon this model covers.
 
 ---
 
@@ -56,8 +75,9 @@ the segment and EPS moves about two cents.
 | 1 | [`Q2_2026_SCORECARD.md`](Q2_2026_SCORECARD.md) | The call and how to score it. **Start here.** |
 | 2 | [`REVIEW_ARTEMIS_MODEL.md`](REVIEW_ARTEMIS_MODEL.md) | Independent verification: 7 items confirmed sound, 5 corrections required, corrected valuation multiples |
 | 3 | [`METHODOLOGY.md`](METHODOLOGY.md) | Scope, data lineage, reconciliation of the four Q2 estimates, known limitations, document status |
-| 4 | [`CONSOLIDATED_MODEL_TABLES.md`](CONSOLIDATED_MODEL_TABLES.md) | Every model sheet as plain-text tables — read this if you have no spreadsheet program, or if you are an AI assistant |
-| 5 | `gemi_consolidated_model_2025a_2030e.xlsx` | The model. Sheets: `Model` (2025A–2030E), `Q2-26 Bridge vs Consensus`, `Prediction Market Comps`, `Sources & Notes` |
+| 4 | [`ANNUAL_MODEL_TABLES.md`](ANNUAL_MODEL_TABLES.md) | The current annual model as plain-text tables — read this if you have no spreadsheet program, or if you are an AI assistant |
+| 5 | `GEMI_simple_model_2026-07-30.xlsx` | **The annual model.** Source of truth for every annual and valuation figure, 2025A–2030E |
+| 5b | `gemi_consolidated_model_2025a_2030e.xlsx` + [`CONSOLIDATED_MODEL_TABLES.md`](CONSOLIDATED_MODEL_TABLES.md) | Retained **only** for its `Q2-26 Bridge vs Consensus` sheet, which is the source of the locked Q2 call. Its annual sheet is superseded |
 | 6 | [`PREDICTION_VOLUME_SERIES.md`](PREDICTION_VOLUME_SERIES.md) | Gemini Titan daily volume series and the implied take rate |
 | 7 | [`DISCLAIMER.md`](DISCLAIMER.md) | Scope and limitations of use |
 
@@ -71,46 +91,54 @@ document without checking it against the current ones. Full status table in
 
 ## Verification Summary
 
-Every number in the model was checked against primary sources. Detail in
+Every number was checked against primary sources. Detail in
 [`REVIEW_ARTEMIS_MODEL.md`](REVIEW_ARTEMIS_MODEL.md).
 
-**Confirmed sound (7).** The Q2 bridge is arithmetically airtight — all twelve lines and
-every subtotal recompute from their components. The July spot collapse verifies against an
-independent source. Prediction materiality agrees across two independent calibrations.
-Full-quarter venue share reconciles exactly. The crypto-marks warning, the vendor
-data-quality disclosures, and the structural hygiene all check out.
+**Eight defects fixed in the 30 July update.** Sales, transaction revenue, both take rates,
+prediction % of sales and EV/Sales now all compute where they previously held placeholder text
+or returned errors. Diluted shares are an explicit row. Volume and revenue are on consistent
+units. The prediction-market comps sheet, which held the worst error in the prior version, was
+removed.
 
-**Corrections required (5).** In priority order:
+**Five defects remain.** In priority order:
 
-| # | Correction | Effect |
+| # | Defect | Effect |
 |---|---|---|
-| C1 | One cell in the venue comps table is single-counted while the four months above it are all exactly 2.00x the public endpoint | Inverts July prediction volume from **-26% to +49.2%**; share is **18.80 bps**, not 9.29. The "share loss" conclusion does not hold as written |
-| C2 | `Net Cash / (Debt)` captures only the related-party loans line, omitting $215.6M of cash and three other debt lines | EV is **$644.1M**, not $765.8M. Every `EV / Sales` is ~19% too high — 2026E is **3.70x**, not 4.40x |
-| C3 | The one-sided vs two-sided volume convention is never declared | Makes C1 possible; the 34 bps take rate is half its one-sided equivalent of ~74 bps |
-| C4 | FY2030 is 15% below consensus on revenue but $0.39 better on EPS | An unstated call that margins beat the street on a smaller base |
-| C5 | The note's "$803M of cash" includes $483.8M of customer custodial funds offset by a near-identical liability | Unencumbered corporate cash is **$215.6M**. The asset-support argument does not survive |
+| D1 | The July prediction figure is one-sided while its June comparator is two-sided | Turns a **+17.6%** rise into a stated **-37%** fall. The only item that changes a conclusion |
+| D2 | `Net Cash` captures only the related-party loans line, omitting $215.6M of cash and three other debt lines | EV is **$644.1M**, not $765.8M. Every `EV / Sales` is ~16% too high — 2026E is **3.71x**, not 4.41x |
+| D3 | The 2025 EV cell is empty, so `Ups/Downs` divides by zero | Revenue scenarios show `#DIV/0!`. Computed manually: bull **+200.4%**, base **+44.9%**, bear **-45.7%** on corrected EV |
+| D4 | The EPS/PE table values base and bear at negative EPS × a zero multiple | Prints **$0.00** and **-100%** for a company holding $456.1M of book equity |
+| D5 | 2023 and 2024 ratio rows have no denominator | A wall of visible `#DIV/0!`. Cosmetic, but reads as unfinished |
 
-**None of these affects the Q2 forecast.** C1 and C5 do block the Q3 prediction-market bear
-case as written.
+**None affects the Q2 call**, which comes from a different workbook and a different period.
 
-### Four independent Q2 estimates — the Excel model governs
+### Forward estimates were cut
 
-**Where any document here disagrees with `gemi_consolidated_model_2025a_2030e.xlsx`, the
-workbook is the source of truth and the document is wrong.**
+| | Previous (29 Jul) | Updated (30 Jul) | Change |
+|---|---:|---:|---:|
+| FY2030 Sales | $335.0M | $310.8M | **-7.2%** |
+| FY2030 prediction notional | $2,700M | $2,000M | **-25.9%** |
+| FY2030 EPS | -$1.39 | -$1.47 | -$0.08 |
+| Bull 2030 revenue @ multiple | $470M @ 5.0x | $430M @ 4.5x | both cut |
 
-| Method | Total revenue | GAAP opex | Scenario band | vs consensus |
-|---|---:|---:|---:|---:|
-| **Excel bottom-up bridge (the call)** | **$43.78M** | **$124.0M** | **$39.4 / 43.8 / 47.7M** | +2.2% |
-| On-chain earnings bridge | $44.50M | $133.0M | $36.4 / 44.5 / 54.0M | +3.9% |
-| Longer-form earnings estimate | $45.00M | $133.0M | $37.5 / 45.0 / 54.0M | +5.0% |
-| Volume-proxy model | $45.30M | — | $37.0 / 45.3 / 54.6M | +5.7% |
+The prediction-notional cut is the largest, and follows directly from the competitive picture
+above: the prior path implicitly assumed GEMI would keep pace in a category where Coinbase and
+Robinhood are compounding far faster off a base hundreds of times larger.
 
-Revenue converges tightly: a $1.52M spread, 3.5% of the midpoint, all four above consensus,
-with the published call the most conservative. **Opex and the scenario bands do not converge,
-and the Excel figures win.** The three older builds predate the July volume tape that narrowed
-the plausible range, and they model opex as a share of revenue rather than on fixed and
-semi-fixed assumptions. Quote **$39.4M / $43.8M / $47.7M** and **$124.0M**. Reconciled line by
-line in [`METHODOLOGY.md`](METHODOLOGY.md).
+### Which model governs what
+
+Two workbooks, two scopes, no overlap in authority:
+
+| Figure | Governed by |
+|---|---|
+| Every annual and valuation figure, 2025A–2030E | **`GEMI_simple_model_2026-07-30.xlsx`** |
+| The Q2 2026 quarterly call | **`gemi_consolidated_model_2025a_2030e.xlsx`**, sheet `Q2-26 Bridge vs Consensus` |
+
+The consolidated model's *annual* sheet is superseded and should not be quoted. Four Q2 revenue
+estimates exist across the repo — the bridge's **$43.78M**, plus $44.50M, $45.00M and $45.30M
+from earlier builds. They converge inside a $1.52M spread and the bridge is the most
+conservative; it governs. Every document carrying a divergent figure names the canonical one at
+the point of use. Full reconciliation in [`METHODOLOGY.md`](METHODOLOGY.md).
 
 ---
 
@@ -149,14 +177,18 @@ cross-checked against a public equivalent (see [`METHODOLOGY.md`](METHODOLOGY.md
 ```bash
 node build_prediction_volume_series.mjs      # Titan daily volume -> data/ + report
 node build_q2_proxy_model.mjs                # volume-proxy estimate (reads the series above)
-python3 render_consolidated_model.py         # model -> markdown + data/q2_2026_prediction.json
+python3 render_consolidated_model.py         # both models -> markdown + data/q2_2026_prediction.json
 node build_onchain_model.mjs                 # on-chain flows (see key note below)
 ```
 
 Run the volume series first — `build_q2_proxy_model.mjs` reads
 `data/prediction_volume_series.json` to anchor prediction revenue, and warns and falls back
-to Q1 multiples if it is absent. `render_consolidated_model.py` needs `openpyxl`; it reads
-the workbook only and will never overwrite the model, so it is safe to re-run at any time.
+to Q1 multiples if it is absent.
+
+`render_consolidated_model.py` needs `openpyxl` and renders both workbooks. The annual model
+ships without cached formula results, so the script recalculates it through LibreOffice
+(`soffice` on PATH) — always on a **copy in a temp directory**, never the original. Without
+LibreOffice it warns and computed cells render blank. Neither workbook is ever modified.
 
 **On-chain requires a key.** The Ethereum and Base legs cover 15 of 19 tracked addresses and
 need `ETHERSCAN_API_KEY`. A keyless run **degrades** those files rather than refreshing them
@@ -197,10 +229,11 @@ produced a wrong answer.
 
 | Leg | Status | Through |
 |---|---|---|
+| Annual model (2025A-2030E) | Current | 30 Jul 2026 |
+| Robinhood + Coinbase read-across | Reported actuals | Q2 2026 |
+| Spot tape (Gemini + Coinbase) | Complete | 29 Jul 2026 |
 | Titan prediction volume | Complete, full daily coverage | 28 Jul 2026 |
-| Spot / DEX volume proxies | Complete | 28 Jul 2026 |
-| Robinhood read-across | Reported actuals | Q2 2026 |
-| Consolidated model + Q2 bridge | Current | 29 Jul 2026 |
+| Q2 bridge (consolidated model) | Current, call unchanged | 29 Jul 2026 |
 | Solana address flow | Partial public RPC sample | Current |
 | Ethereum and Base address flow | **Stale — needs `ETHERSCAN_API_KEY`** | 14 Jul 2026 |
 

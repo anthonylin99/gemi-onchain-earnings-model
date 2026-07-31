@@ -99,10 +99,10 @@ The best use of this address watchlist is an alerting and variant-perception edg
 
 ## Files
 
-- `gemi_earnings_model/data/onchain_timeseries.json`
-- `gemi_earnings_model/data/onchain_earnings_model.json`
-- `gemi_earnings_model/data/onchain_dashboard_data.json`
-- `gemi_earnings_model/dashboard/index.html`
+- `data/onchain_timeseries.json`
+- `data/onchain_earnings_model.json`
+- `data/onchain_dashboard_data.json`
+- `dashboard/index.html`
 
 ## Caveats
 

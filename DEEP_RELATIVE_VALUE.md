@@ -219,7 +219,7 @@ I would not use HOOD as the default short because HOOD is the market's winning e
 - Kalshi public markets API: https://api.elections.kalshi.com/trade-api/v2/markets
 - Gemini prediction-market API: https://api.gemini.com/v1/prediction-markets/events
 - Yahoo chart API: https://query1.finance.yahoo.com/v8/finance/chart/GEMI
-- GEMI Q2 proxy model: `gemi_earnings_model/Q2_PROXY_MODEL.md`
+- GEMI Q2 proxy model: `Q2_PROXY_MODEL.md`
 - COIN revenue TTM: https://www.financecharts.com/stocks/COIN/summary/revenue-ttm
 - HOOD revenue TTM: https://www.financecharts.com/stocks/HOOD/summary/revenue-ttm
 - GEMI valuation snapshot: https://simplywall.st/stocks/us/diversified-financials/nasdaq-gemi/gemini-space-station/valuation
